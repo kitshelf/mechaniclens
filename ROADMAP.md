@@ -23,8 +23,19 @@ The repair-estimate workflow, end to end.
 
 ## v0.2.0, planned
 
-- **After-repair branch** — the invoice-versus-estimate comparison as a tested workflow: what was signed, what was billed, what to keep. Channels only; no legal advice.
+- **After-repair branch, tested** — the invoice-versus-estimate comparison as a full workflow: what was signed, what was billed, what to keep. Channels only; no legal advice.
 - **Document-type pack: invoice** — the invoice's own line patterns and question script, promoted from the after-repair branch when its fixtures pass.
+- **Maintenance-schedule decode** — the 30k/60k/90k service menu read against what the owner's manual actually requires; "recommended" vs "required" made visible line by line.
+- **Work-order / authorization decode** — what the signature actually authorizes: teardown fees, authorization limits, "additional work will be billed" clauses.
+- **Warranty / campaign flag** — line-level only: "this line may be covered under a campaign — `[CONFIRM]` with your VIN at the dealer." Flag-only, never a coverage verdict.
+- **Parts decode table** — OEM vs aftermarket vs remanufactured vs salvage, one question each; the tiers the estimate rarely names.
+
+## v0.3.0, planned
+
+- **Second-opinion prep pack** — printable: what to photograph, what to copy, what to ask before leaving shop #1.
+- **Multi-quote comparison** — two estimates diffed line by line: scope vs scope, never price vs price.
+- **"Scary-but-normal" calibration doc** — the things that look alarming but are standard; the mirror of the pattern library, there to keep the kit honest.
+- **Re-verification pass** — a dated "verified as of" sweep over the whole pattern library, the same drift habit ScamCheck keeps.
 
 ## Candidate / deferred
 
