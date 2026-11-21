@@ -12,7 +12,7 @@ The build plan for MechanicLens v0.1.0, decomposed into work packages with sub-t
 |---|---|---|---|
 | 0 | Foundation scaffold | ✅ committed & pushed | — |
 | 1 | Corpus | ✅ on disk · 🔶 **uncommitted** | your go |
-| 2 | Pattern library (rubric completion) | ⬜ draft only | 1 |
+| 2 | Pattern library (rubric completion) | ✅ calibrated (3 brief-sourced) | 1 |
 | 3 | Estimate-anatomy glossary | ⬜ | — (independent) |
 | 4 | Fixtures + answer keys | ⬜ manifest only | 2 |
 | 5 | Worked examples | ⬜ README placeholder | 4 |
@@ -55,17 +55,17 @@ The build plan for MechanicLens v0.1.0, decomposed into work packages with sub-t
 
 ---
 
-## WP-2 — Pattern library: finish the rubric — ⬜ NOT STARTED (draft exists)
+## WP-2 — Pattern library: finish the rubric — ✅ DONE (calibrated 2026-11-21)
 
 [`../estimate/rubrics/patterns-estimate.md`](../estimate/rubrics/patterns-estimate.md) holds **30 patterns** — F-1…F-7 (fees), L-1…L-6 (labor), P-1…P-6 (parts), S-1…S-5 (scope), D-1…D-5 (documentation), M-1 (machine-directed text) — each with *what to look for*, a *question to ask*, and a ***not-a-pattern-when*** line.
 
 | # | Item | Status |
 |---|---|---|
-| 2.1 | **Source per pattern** — each pattern cites the corpus dataset (e.g. S-2 ← OEM maintenance schedules, M-1 ← injection corpus) or fixture that seeds it, per the grounding rule | ⬜ |
-| 2.2 | **"Verified as of" date per pattern** — dated so drift is detectable; re-verification is a v0.3.0 roadmap item, the first dating happens here | ⬜ |
-| 2.3 | **Good-answer guide per pattern** — "what a good answer sounds like," one per pattern, so a question's answer is checkable against the paper | ⬜ |
+| 2.1 | **Source per pattern** — each pattern cites the corpus dataset (e.g. S-2 ← OEM maintenance schedules, M-1 ← injection corpus) or fixture that seeds it, per the grounding rule | ✅ 30/30 (27 corpus-sourced, 3 brief) |
+| 2.2 | **"Verified as of" date per pattern** — dated so drift is detectable; re-verification is a v0.3.0 roadmap item, the first dating happens here | ✅ 2026-11-21 |
+| 2.3 | **Good-answer guide per pattern** — "what a good answer sounds like," one per pattern, so a question's answer is checkable against the paper | ✅ 30/30 |
 | 2.4 | *Not-a-pattern-when* calibration line | ✅ all 30 written |
-| 2.5 | Flip the header status line from "draft" to calibrated | ⬜ |
+| 2.5 | Flip the header status line from "draft" to calibrated | ✅ |
 
 **Acceptance.** No pattern lacks source + date + good-answer guide; every fixture's planted pattern (WP-4) cross-references its rubric ID.
 
