@@ -1,0 +1,2696 @@
+[
+ {
+  "part_id":863,
+  "fix_id":849,
+  "part_name":"Electrical contact cleaner",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Electrical+contact+cleaner+automotive"
+ },
+ {
+  "part_id":864,
+  "fix_id":850,
+  "part_name":"Digital multimeter",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Digital+multimeter+automotive"
+ },
+ {
+  "part_id":865,
+  "fix_id":851,
+  "part_name":"Wheel speed sensor",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Wheel+speed+sensor+automotive"
+ },
+ {
+  "part_id":866,
+  "fix_id":852,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":879,
+  "fix_id":865,
+  "part_name":"Electrical contact cleaner",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Electrical+contact+cleaner+automotive"
+ },
+ {
+  "part_id":880,
+  "fix_id":866,
+  "part_name":"Digital multimeter",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Digital+multimeter+automotive"
+ },
+ {
+  "part_id":881,
+  "fix_id":867,
+  "part_name":"Wheel speed sensor",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Wheel+speed+sensor+automotive"
+ },
+ {
+  "part_id":882,
+  "fix_id":868,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":923,
+  "fix_id":909,
+  "part_name":"Brake pedal switch",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Brake+pedal+switch+automotive"
+ },
+ {
+  "part_id":924,
+  "fix_id":910,
+  "part_name":"Electrical contact cleaner",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Electrical+contact+cleaner+automotive"
+ },
+ {
+  "part_id":925,
+  "fix_id":911,
+  "part_name":"Brake pedal switch",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Brake+pedal+switch+automotive"
+ },
+ {
+  "part_id":926,
+  "fix_id":912,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":2872,
+  "fix_id":2710,
+  "part_name":"Engine oil (OEM-spec viscosity)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Engine+oil+%28OEM-spec+viscosity%29+automotive"
+ },
+ {
+  "part_id":2873,
+  "fix_id":2710,
+  "part_name":"Engine oil filter",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Engine+oil+filter+automotive"
+ },
+ {
+  "part_id":2874,
+  "fix_id":2711,
+  "part_name":"VVT oil control valve (OCV) solenoid",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=VVT+oil+control+valve+%28OCV%29+solenoid+automotive"
+ },
+ {
+  "part_id":2875,
+  "fix_id":2712,
+  "part_name":"Camshaft phaser\/VVT actuator",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Camshaft+phaser%2FVVT+actuator+automotive"
+ },
+ {
+  "part_id":2876,
+  "fix_id":2713,
+  "part_name":"Timing chain\/belt kit (chain or belt, tensioner, guides)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Timing+chain%2Fbelt+kit+%28chain+or+belt%2C+tensioner%2C+guides%29+automotive"
+ },
+ {
+  "part_id":2897,
+  "fix_id":2729,
+  "part_name":"Crankshaft position sensor",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Crankshaft+position+sensor+automotive"
+ },
+ {
+  "part_id":2898,
+  "fix_id":2729,
+  "part_name":"Camshaft position sensor",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Camshaft+position+sensor+automotive"
+ },
+ {
+  "part_id":2899,
+  "fix_id":2730,
+  "part_name":"Timing chain\/belt kit (chain or belt, tensioner, guides)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Timing+chain%2Fbelt+kit+%28chain+or+belt%2C+tensioner%2C+guides%29+automotive"
+ },
+ {
+  "part_id":2900,
+  "fix_id":2731,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":3901,
+  "fix_id":3481,
+  "part_name":"Mass air flow sensor cleaner spray",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Mass+air+flow+sensor+cleaner+spray+automotive"
+ },
+ {
+  "part_id":3902,
+  "fix_id":3482,
+  "part_name":"Mass air flow (MAF) sensor",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Mass+air+flow+%28MAF%29+sensor+automotive"
+ },
+ {
+  "part_id":3903,
+  "fix_id":3482,
+  "part_name":"MAF sensor connector pigtail",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=MAF+sensor+connector+pigtail+automotive"
+ },
+ {
+  "part_id":3904,
+  "fix_id":3483,
+  "part_name":"Engine air intake boot \/ coupler",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Engine+air+intake+boot+%2F+coupler+automotive"
+ },
+ {
+  "part_id":3905,
+  "fix_id":3484,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":3906,
+  "fix_id":3485,
+  "part_name":"Mass air flow sensor cleaner spray",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Mass+air+flow+sensor+cleaner+spray+automotive"
+ },
+ {
+  "part_id":3907,
+  "fix_id":3486,
+  "part_name":"Mass air flow (MAF) sensor",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Mass+air+flow+%28MAF%29+sensor+automotive"
+ },
+ {
+  "part_id":3908,
+  "fix_id":3486,
+  "part_name":"MAF sensor connector pigtail",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=MAF+sensor+connector+pigtail+automotive"
+ },
+ {
+  "part_id":3909,
+  "fix_id":3487,
+  "part_name":"Engine air intake boot \/ coupler",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Engine+air+intake+boot+%2F+coupler+automotive"
+ },
+ {
+  "part_id":3910,
+  "fix_id":3488,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":3925,
+  "fix_id":3500,
+  "part_name":"Throttle body\/MAP sensor cleaner",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Throttle+body%2FMAP+sensor+cleaner+automotive"
+ },
+ {
+  "part_id":3926,
+  "fix_id":3501,
+  "part_name":"Manifold absolute pressure (MAP) sensor",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Manifold+absolute+pressure+%28MAP%29+sensor+automotive"
+ },
+ {
+  "part_id":3927,
+  "fix_id":3501,
+  "part_name":"MAP sensor O-ring seal",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=MAP+sensor+O-ring+seal+automotive"
+ },
+ {
+  "part_id":3928,
+  "fix_id":3502,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":3980,
+  "fix_id":3545,
+  "part_name":"Dielectric grease",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Dielectric+grease+automotive"
+ },
+ {
+  "part_id":3981,
+  "fix_id":3546,
+  "part_name":"Intake air temperature sensor",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Intake+air+temperature+sensor+automotive"
+ },
+ {
+  "part_id":3982,
+  "fix_id":3547,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":3983,
+  "fix_id":3548,
+  "part_name":"Dielectric grease",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Dielectric+grease+automotive"
+ },
+ {
+  "part_id":3984,
+  "fix_id":3549,
+  "part_name":"Intake air temperature sensor",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Intake+air+temperature+sensor+automotive"
+ },
+ {
+  "part_id":3985,
+  "fix_id":3550,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":3998,
+  "fix_id":3560,
+  "part_name":"Coolant (OEM-spec type)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Coolant+%28OEM-spec+type%29+automotive"
+ },
+ {
+  "part_id":3999,
+  "fix_id":3561,
+  "part_name":"Coolant temperature sensor",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Coolant+temperature+sensor+automotive"
+ },
+ {
+  "part_id":4000,
+  "fix_id":3561,
+  "part_name":"Coolant (OEM-spec type)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Coolant+%28OEM-spec+type%29+automotive"
+ },
+ {
+  "part_id":4001,
+  "fix_id":3562,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":4034,
+  "fix_id":3587,
+  "part_name":"Electrical contact cleaner",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Electrical+contact+cleaner+automotive"
+ },
+ {
+  "part_id":4035,
+  "fix_id":3588,
+  "part_name":"Electronic throttle body assembly",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Electronic+throttle+body+assembly+automotive"
+ },
+ {
+  "part_id":4036,
+  "fix_id":3588,
+  "part_name":"Accelerator pedal position sensor assembly",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Accelerator+pedal+position+sensor+assembly+automotive"
+ },
+ {
+  "part_id":4037,
+  "fix_id":3589,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":4063,
+  "fix_id":3608,
+  "part_name":"Coolant (OEM-spec type)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Coolant+%28OEM-spec+type%29+automotive"
+ },
+ {
+  "part_id":4064,
+  "fix_id":3609,
+  "part_name":"Engine thermostat",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Engine+thermostat+automotive"
+ },
+ {
+  "part_id":4065,
+  "fix_id":3609,
+  "part_name":"Thermostat housing gasket\/seal",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Thermostat+housing+gasket%2Fseal+automotive"
+ },
+ {
+  "part_id":4066,
+  "fix_id":3610,
+  "part_name":"Water pump",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Water+pump+automotive"
+ },
+ {
+  "part_id":4067,
+  "fix_id":3610,
+  "part_name":"Water pump gasket",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Water+pump+gasket+automotive"
+ },
+ {
+  "part_id":4100,
+  "fix_id":3635,
+  "part_name":"Exhaust manifold\/pipe gasket",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Exhaust+manifold%2Fpipe+gasket+automotive"
+ },
+ {
+  "part_id":4101,
+  "fix_id":3636,
+  "part_name":"Oxygen sensor (bank\/position-specific)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Oxygen+sensor+%28bank%2Fposition-specific%29+automotive"
+ },
+ {
+  "part_id":4102,
+  "fix_id":3636,
+  "part_name":"Anti-seize compound",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Anti-seize+compound+automotive"
+ },
+ {
+  "part_id":4103,
+  "fix_id":3637,
+  "part_name":"High-temperature wiring repair kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=High-temperature+wiring+repair+kit+automotive"
+ },
+ {
+  "part_id":4108,
+  "fix_id":3641,
+  "part_name":"Silicone-free RTV sealant (for future repairs)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Silicone-free+RTV+sealant+%28for+future+repairs%29+automotive"
+ },
+ {
+  "part_id":4109,
+  "fix_id":3642,
+  "part_name":"Oxygen sensor (bank\/position-specific)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Oxygen+sensor+%28bank%2Fposition-specific%29+automotive"
+ },
+ {
+  "part_id":4110,
+  "fix_id":3642,
+  "part_name":"Anti-seize compound",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Anti-seize+compound+automotive"
+ },
+ {
+  "part_id":4111,
+  "fix_id":3643,
+  "part_name":"Exhaust manifold\/pipe gasket",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Exhaust+manifold%2Fpipe+gasket+automotive"
+ },
+ {
+  "part_id":4116,
+  "fix_id":3647,
+  "part_name":"Automotive fuse assortment",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+fuse+assortment+automotive"
+ },
+ {
+  "part_id":4117,
+  "fix_id":3647,
+  "part_name":"Relay (O2 heater circuit)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Relay+%28O2+heater+circuit%29+automotive"
+ },
+ {
+  "part_id":4118,
+  "fix_id":3648,
+  "part_name":"Oxygen sensor (heated, bank\/position-specific)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Oxygen+sensor+%28heated%2C+bank%2Fposition-specific%29+automotive"
+ },
+ {
+  "part_id":4119,
+  "fix_id":3648,
+  "part_name":"Anti-seize compound",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Anti-seize+compound+automotive"
+ },
+ {
+  "part_id":4120,
+  "fix_id":3649,
+  "part_name":"High-temperature wiring repair kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=High-temperature+wiring+repair+kit+automotive"
+ },
+ {
+  "part_id":4129,
+  "fix_id":3656,
+  "part_name":"Exhaust manifold\/pipe gasket",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Exhaust+manifold%2Fpipe+gasket+automotive"
+ },
+ {
+  "part_id":4130,
+  "fix_id":3657,
+  "part_name":"Oxygen sensor (bank\/position-specific)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Oxygen+sensor+%28bank%2Fposition-specific%29+automotive"
+ },
+ {
+  "part_id":4131,
+  "fix_id":3657,
+  "part_name":"Anti-seize compound",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Anti-seize+compound+automotive"
+ },
+ {
+  "part_id":4132,
+  "fix_id":3658,
+  "part_name":"High-temperature wiring repair kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=High-temperature+wiring+repair+kit+automotive"
+ },
+ {
+  "part_id":4165,
+  "fix_id":3683,
+  "part_name":"Automotive fuse assortment",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+fuse+assortment+automotive"
+ },
+ {
+  "part_id":4166,
+  "fix_id":3683,
+  "part_name":"Relay (O2 heater circuit)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Relay+%28O2+heater+circuit%29+automotive"
+ },
+ {
+  "part_id":4167,
+  "fix_id":3684,
+  "part_name":"Oxygen sensor (heated, bank\/position-specific)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Oxygen+sensor+%28heated%2C+bank%2Fposition-specific%29+automotive"
+ },
+ {
+  "part_id":4168,
+  "fix_id":3684,
+  "part_name":"Anti-seize compound",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Anti-seize+compound+automotive"
+ },
+ {
+  "part_id":4169,
+  "fix_id":3685,
+  "part_name":"High-temperature wiring repair kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=High-temperature+wiring+repair+kit+automotive"
+ },
+ {
+  "part_id":4369,
+  "fix_id":3827,
+  "part_name":"Intake gasket set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Intake+gasket+set+automotive"
+ },
+ {
+  "part_id":4370,
+  "fix_id":3827,
+  "part_name":"PCV hose",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=PCV+hose+automotive"
+ },
+ {
+  "part_id":4371,
+  "fix_id":3828,
+  "part_name":"Fuel filter",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+filter+automotive"
+ },
+ {
+  "part_id":4372,
+  "fix_id":3828,
+  "part_name":"Fuel pump assembly (if weak)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+pump+assembly+%28if+weak%29+automotive"
+ },
+ {
+  "part_id":4373,
+  "fix_id":3829,
+  "part_name":"Exhaust manifold gasket",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Exhaust+manifold+gasket+automotive"
+ },
+ {
+  "part_id":4374,
+  "fix_id":3829,
+  "part_name":"Exhaust manifold stud\/nut set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Exhaust+manifold+stud%2Fnut+set+automotive"
+ },
+ {
+  "part_id":4375,
+  "fix_id":3830,
+  "part_name":"Mass air flow sensor cleaner spray",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Mass+air+flow+sensor+cleaner+spray+automotive"
+ },
+ {
+  "part_id":4376,
+  "fix_id":3831,
+  "part_name":"Fuel injector",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+injector+automotive"
+ },
+ {
+  "part_id":4377,
+  "fix_id":3831,
+  "part_name":"Injector seal\/washer kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Injector+seal%2Fwasher+kit+automotive"
+ },
+ {
+  "part_id":4378,
+  "fix_id":3832,
+  "part_name":"Fuel pressure regulator",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+pressure+regulator+automotive"
+ },
+ {
+  "part_id":4379,
+  "fix_id":3832,
+  "part_name":"Regulator seal kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Regulator+seal+kit+automotive"
+ },
+ {
+  "part_id":4383,
+  "fix_id":3836,
+  "part_name":"Intake gasket set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Intake+gasket+set+automotive"
+ },
+ {
+  "part_id":4384,
+  "fix_id":3836,
+  "part_name":"PCV hose",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=PCV+hose+automotive"
+ },
+ {
+  "part_id":4385,
+  "fix_id":3837,
+  "part_name":"Fuel filter",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+filter+automotive"
+ },
+ {
+  "part_id":4386,
+  "fix_id":3837,
+  "part_name":"Fuel pump assembly (if weak)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+pump+assembly+%28if+weak%29+automotive"
+ },
+ {
+  "part_id":4387,
+  "fix_id":3838,
+  "part_name":"Exhaust manifold gasket",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Exhaust+manifold+gasket+automotive"
+ },
+ {
+  "part_id":4388,
+  "fix_id":3838,
+  "part_name":"Exhaust manifold stud\/nut set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Exhaust+manifold+stud%2Fnut+set+automotive"
+ },
+ {
+  "part_id":4389,
+  "fix_id":3839,
+  "part_name":"Mass air flow sensor cleaner spray",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Mass+air+flow+sensor+cleaner+spray+automotive"
+ },
+ {
+  "part_id":4390,
+  "fix_id":3840,
+  "part_name":"Fuel injector",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+injector+automotive"
+ },
+ {
+  "part_id":4391,
+  "fix_id":3840,
+  "part_name":"Injector seal\/washer kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Injector+seal%2Fwasher+kit+automotive"
+ },
+ {
+  "part_id":4392,
+  "fix_id":3841,
+  "part_name":"Fuel pressure regulator",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+pressure+regulator+automotive"
+ },
+ {
+  "part_id":4393,
+  "fix_id":3841,
+  "part_name":"Regulator seal kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Regulator+seal+kit+automotive"
+ },
+ {
+  "part_id":6093,
+  "fix_id":5039,
+  "part_name":"Spark plug set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Spark+plug+set+automotive"
+ },
+ {
+  "part_id":6094,
+  "fix_id":5039,
+  "part_name":"Ignition coil boot\/seal kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Ignition+coil+boot%2Fseal+kit+automotive"
+ },
+ {
+  "part_id":6095,
+  "fix_id":5040,
+  "part_name":"Engine smoke machine test solution",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Engine+smoke+machine+test+solution+automotive"
+ },
+ {
+  "part_id":6096,
+  "fix_id":5040,
+  "part_name":"Intake gasket set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Intake+gasket+set+automotive"
+ },
+ {
+  "part_id":6097,
+  "fix_id":5041,
+  "part_name":"Fresh fuel (top off tank)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fresh+fuel+%28top+off+tank%29+automotive"
+ },
+ {
+  "part_id":6098,
+  "fix_id":5042,
+  "part_name":"Electric fuel pump assembly",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Electric+fuel+pump+assembly+automotive"
+ },
+ {
+  "part_id":6099,
+  "fix_id":5042,
+  "part_name":"Fuel pressure test gauge",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+pressure+test+gauge+automotive"
+ },
+ {
+  "part_id":6100,
+  "fix_id":5043,
+  "part_name":"Spark plug (single)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Spark+plug+%28single%29+automotive"
+ },
+ {
+  "part_id":6101,
+  "fix_id":5043,
+  "part_name":"Ignition coil-on-plug unit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Ignition+coil-on-plug+unit+automotive"
+ },
+ {
+  "part_id":6102,
+  "fix_id":5044,
+  "part_name":"Fuel injector (single cylinder)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+injector+%28single+cylinder%29+automotive"
+ },
+ {
+  "part_id":6103,
+  "fix_id":5044,
+  "part_name":"Injector O-ring service kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Injector+O-ring+service+kit+automotive"
+ },
+ {
+  "part_id":6104,
+  "fix_id":5045,
+  "part_name":"Compression tester kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Compression+tester+kit+automotive"
+ },
+ {
+  "part_id":6105,
+  "fix_id":5045,
+  "part_name":"Cylinder leak-down tester",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Cylinder+leak-down+tester+automotive"
+ },
+ {
+  "part_id":6106,
+  "fix_id":5046,
+  "part_name":"Cylinder head gasket set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Cylinder+head+gasket+set+automotive"
+ },
+ {
+  "part_id":6107,
+  "fix_id":5046,
+  "part_name":"Valve seat\/guide service kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Valve+seat%2Fguide+service+kit+automotive"
+ },
+ {
+  "part_id":6108,
+  "fix_id":5047,
+  "part_name":"Spark plug (single)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Spark+plug+%28single%29+automotive"
+ },
+ {
+  "part_id":6109,
+  "fix_id":5047,
+  "part_name":"Ignition coil-on-plug unit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Ignition+coil-on-plug+unit+automotive"
+ },
+ {
+  "part_id":6110,
+  "fix_id":5048,
+  "part_name":"Fuel injector (single cylinder)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+injector+%28single+cylinder%29+automotive"
+ },
+ {
+  "part_id":6111,
+  "fix_id":5048,
+  "part_name":"Injector O-ring service kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Injector+O-ring+service+kit+automotive"
+ },
+ {
+  "part_id":6112,
+  "fix_id":5049,
+  "part_name":"Compression tester kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Compression+tester+kit+automotive"
+ },
+ {
+  "part_id":6113,
+  "fix_id":5049,
+  "part_name":"Cylinder leak-down tester",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Cylinder+leak-down+tester+automotive"
+ },
+ {
+  "part_id":6114,
+  "fix_id":5050,
+  "part_name":"Cylinder head gasket set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Cylinder+head+gasket+set+automotive"
+ },
+ {
+  "part_id":6115,
+  "fix_id":5050,
+  "part_name":"Valve seat\/guide service kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Valve+seat%2Fguide+service+kit+automotive"
+ },
+ {
+  "part_id":6116,
+  "fix_id":5051,
+  "part_name":"Spark plug (single)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Spark+plug+%28single%29+automotive"
+ },
+ {
+  "part_id":6117,
+  "fix_id":5051,
+  "part_name":"Ignition coil-on-plug unit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Ignition+coil-on-plug+unit+automotive"
+ },
+ {
+  "part_id":6118,
+  "fix_id":5052,
+  "part_name":"Fuel injector (single cylinder)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+injector+%28single+cylinder%29+automotive"
+ },
+ {
+  "part_id":6119,
+  "fix_id":5052,
+  "part_name":"Injector O-ring service kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Injector+O-ring+service+kit+automotive"
+ },
+ {
+  "part_id":6120,
+  "fix_id":5053,
+  "part_name":"Compression tester kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Compression+tester+kit+automotive"
+ },
+ {
+  "part_id":6121,
+  "fix_id":5053,
+  "part_name":"Cylinder leak-down tester",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Cylinder+leak-down+tester+automotive"
+ },
+ {
+  "part_id":6122,
+  "fix_id":5054,
+  "part_name":"Cylinder head gasket set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Cylinder+head+gasket+set+automotive"
+ },
+ {
+  "part_id":6123,
+  "fix_id":5054,
+  "part_name":"Valve seat\/guide service kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Valve+seat%2Fguide+service+kit+automotive"
+ },
+ {
+  "part_id":6124,
+  "fix_id":5055,
+  "part_name":"Spark plug (single)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Spark+plug+%28single%29+automotive"
+ },
+ {
+  "part_id":6125,
+  "fix_id":5055,
+  "part_name":"Ignition coil-on-plug unit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Ignition+coil-on-plug+unit+automotive"
+ },
+ {
+  "part_id":6126,
+  "fix_id":5056,
+  "part_name":"Fuel injector (single cylinder)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+injector+%28single+cylinder%29+automotive"
+ },
+ {
+  "part_id":6127,
+  "fix_id":5056,
+  "part_name":"Injector O-ring service kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Injector+O-ring+service+kit+automotive"
+ },
+ {
+  "part_id":6128,
+  "fix_id":5057,
+  "part_name":"Compression tester kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Compression+tester+kit+automotive"
+ },
+ {
+  "part_id":6129,
+  "fix_id":5057,
+  "part_name":"Cylinder leak-down tester",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Cylinder+leak-down+tester+automotive"
+ },
+ {
+  "part_id":6130,
+  "fix_id":5058,
+  "part_name":"Cylinder head gasket set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Cylinder+head+gasket+set+automotive"
+ },
+ {
+  "part_id":6131,
+  "fix_id":5058,
+  "part_name":"Valve seat\/guide service kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Valve+seat%2Fguide+service+kit+automotive"
+ },
+ {
+  "part_id":6132,
+  "fix_id":5059,
+  "part_name":"Spark plug (single)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Spark+plug+%28single%29+automotive"
+ },
+ {
+  "part_id":6133,
+  "fix_id":5059,
+  "part_name":"Ignition coil-on-plug unit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Ignition+coil-on-plug+unit+automotive"
+ },
+ {
+  "part_id":6134,
+  "fix_id":5060,
+  "part_name":"Fuel injector (single cylinder)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+injector+%28single+cylinder%29+automotive"
+ },
+ {
+  "part_id":6135,
+  "fix_id":5060,
+  "part_name":"Injector O-ring service kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Injector+O-ring+service+kit+automotive"
+ },
+ {
+  "part_id":6136,
+  "fix_id":5061,
+  "part_name":"Compression tester kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Compression+tester+kit+automotive"
+ },
+ {
+  "part_id":6137,
+  "fix_id":5061,
+  "part_name":"Cylinder leak-down tester",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Cylinder+leak-down+tester+automotive"
+ },
+ {
+  "part_id":6138,
+  "fix_id":5062,
+  "part_name":"Cylinder head gasket set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Cylinder+head+gasket+set+automotive"
+ },
+ {
+  "part_id":6139,
+  "fix_id":5062,
+  "part_name":"Valve seat\/guide service kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Valve+seat%2Fguide+service+kit+automotive"
+ },
+ {
+  "part_id":6140,
+  "fix_id":5063,
+  "part_name":"Spark plug (single)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Spark+plug+%28single%29+automotive"
+ },
+ {
+  "part_id":6141,
+  "fix_id":5063,
+  "part_name":"Ignition coil-on-plug unit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Ignition+coil-on-plug+unit+automotive"
+ },
+ {
+  "part_id":6142,
+  "fix_id":5064,
+  "part_name":"Fuel injector (single cylinder)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+injector+%28single+cylinder%29+automotive"
+ },
+ {
+  "part_id":6143,
+  "fix_id":5064,
+  "part_name":"Injector O-ring service kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Injector+O-ring+service+kit+automotive"
+ },
+ {
+  "part_id":6144,
+  "fix_id":5065,
+  "part_name":"Compression tester kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Compression+tester+kit+automotive"
+ },
+ {
+  "part_id":6145,
+  "fix_id":5065,
+  "part_name":"Cylinder leak-down tester",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Cylinder+leak-down+tester+automotive"
+ },
+ {
+  "part_id":6146,
+  "fix_id":5066,
+  "part_name":"Cylinder head gasket set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Cylinder+head+gasket+set+automotive"
+ },
+ {
+  "part_id":6147,
+  "fix_id":5066,
+  "part_name":"Valve seat\/guide service kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Valve+seat%2Fguide+service+kit+automotive"
+ },
+ {
+  "part_id":6314,
+  "fix_id":5187,
+  "part_name":"Electrical contact cleaner",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Electrical+contact+cleaner+automotive"
+ },
+ {
+  "part_id":6315,
+  "fix_id":5188,
+  "part_name":"Knock (combustion vibration) sensor",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Knock+%28combustion+vibration%29+sensor+automotive"
+ },
+ {
+  "part_id":6316,
+  "fix_id":5189,
+  "part_name":"Shielded automotive wiring repair kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Shielded+automotive+wiring+repair+kit+automotive"
+ },
+ {
+  "part_id":6317,
+  "fix_id":5190,
+  "part_name":"Engine control module (ECM), replacement unit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Engine+control+module+%28ECM%29%2C+replacement+unit+automotive"
+ },
+ {
+  "part_id":6380,
+  "fix_id":5251,
+  "part_name":"Electrical contact cleaner",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Electrical+contact+cleaner+automotive"
+ },
+ {
+  "part_id":6381,
+  "fix_id":5252,
+  "part_name":"Crankshaft position sensor",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Crankshaft+position+sensor+automotive"
+ },
+ {
+  "part_id":6382,
+  "fix_id":5253,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":6383,
+  "fix_id":5254,
+  "part_name":"Crankshaft reluctor wheel\/tone ring",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Crankshaft+reluctor+wheel%2Ftone+ring+automotive"
+ },
+ {
+  "part_id":6424,
+  "fix_id":5294,
+  "part_name":"Electrical contact cleaner",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Electrical+contact+cleaner+automotive"
+ },
+ {
+  "part_id":6425,
+  "fix_id":5295,
+  "part_name":"Camshaft position sensor",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Camshaft+position+sensor+automotive"
+ },
+ {
+  "part_id":6426,
+  "fix_id":5295,
+  "part_name":"Sensor O-ring seal",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Sensor+O-ring+seal+automotive"
+ },
+ {
+  "part_id":6427,
+  "fix_id":5296,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":6428,
+  "fix_id":5297,
+  "part_name":"Timing chain\/belt service kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Timing+chain%2Fbelt+service+kit+automotive"
+ },
+ {
+  "part_id":6429,
+  "fix_id":5298,
+  "part_name":"Electrical contact cleaner",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Electrical+contact+cleaner+automotive"
+ },
+ {
+  "part_id":6430,
+  "fix_id":5299,
+  "part_name":"Camshaft position sensor",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Camshaft+position+sensor+automotive"
+ },
+ {
+  "part_id":6431,
+  "fix_id":5299,
+  "part_name":"Sensor O-ring seal",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Sensor+O-ring+seal+automotive"
+ },
+ {
+  "part_id":6432,
+  "fix_id":5300,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":6433,
+  "fix_id":5301,
+  "part_name":"Timing chain\/belt service kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Timing+chain%2Fbelt+service+kit+automotive"
+ },
+ {
+  "part_id":7427,
+  "fix_id":6037,
+  "part_name":"EGR valve gasket",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=EGR+valve+gasket+automotive"
+ },
+ {
+  "part_id":7428,
+  "fix_id":6037,
+  "part_name":"Carbon-safe solvent cleaner",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Carbon-safe+solvent+cleaner+automotive"
+ },
+ {
+  "part_id":7429,
+  "fix_id":6038,
+  "part_name":"EGR cooler gasket\/clamp set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=EGR+cooler+gasket%2Fclamp+set+automotive"
+ },
+ {
+  "part_id":7430,
+  "fix_id":6039,
+  "part_name":"EGR valve position sensor",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=EGR+valve+position+sensor+automotive"
+ },
+ {
+  "part_id":7431,
+  "fix_id":6040,
+  "part_name":"EGR valve assembly",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=EGR+valve+assembly+automotive"
+ },
+ {
+  "part_id":7432,
+  "fix_id":6041,
+  "part_name":"EGR valve gasket",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=EGR+valve+gasket+automotive"
+ },
+ {
+  "part_id":7433,
+  "fix_id":6041,
+  "part_name":"Carbon-safe solvent cleaner",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Carbon-safe+solvent+cleaner+automotive"
+ },
+ {
+  "part_id":7434,
+  "fix_id":6042,
+  "part_name":"EGR cooler gasket\/clamp set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=EGR+cooler+gasket%2Fclamp+set+automotive"
+ },
+ {
+  "part_id":7435,
+  "fix_id":6043,
+  "part_name":"EGR valve position sensor",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=EGR+valve+position+sensor+automotive"
+ },
+ {
+  "part_id":7436,
+  "fix_id":6044,
+  "part_name":"EGR valve assembly",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=EGR+valve+assembly+automotive"
+ },
+ {
+  "part_id":7437,
+  "fix_id":6045,
+  "part_name":"Electrical contact cleaner",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Electrical+contact+cleaner+automotive"
+ },
+ {
+  "part_id":7438,
+  "fix_id":6046,
+  "part_name":"Carbon-safe solvent cleaner",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Carbon-safe+solvent+cleaner+automotive"
+ },
+ {
+  "part_id":7439,
+  "fix_id":6046,
+  "part_name":"EGR valve gasket",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=EGR+valve+gasket+automotive"
+ },
+ {
+  "part_id":7440,
+  "fix_id":6047,
+  "part_name":"EGR control valve\/throttle assembly",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=EGR+control+valve%2Fthrottle+assembly+automotive"
+ },
+ {
+  "part_id":7441,
+  "fix_id":6048,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":7507,
+  "fix_id":6101,
+  "part_name":"AIR delivery hose",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=AIR+delivery+hose+automotive"
+ },
+ {
+  "part_id":7508,
+  "fix_id":6101,
+  "part_name":"AIR system check valve",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=AIR+system+check+valve+automotive"
+ },
+ {
+  "part_id":7509,
+  "fix_id":6102,
+  "part_name":"AIR switching\/combination valve",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=AIR+switching%2Fcombination+valve+automotive"
+ },
+ {
+  "part_id":7510,
+  "fix_id":6103,
+  "part_name":"Secondary air injection pump",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Secondary+air+injection+pump+automotive"
+ },
+ {
+  "part_id":7511,
+  "fix_id":6104,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":7582,
+  "fix_id":6161,
+  "part_name":"Exhaust manifold\/downpipe gasket",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Exhaust+manifold%2Fdownpipe+gasket+automotive"
+ },
+ {
+  "part_id":7583,
+  "fix_id":6162,
+  "part_name":"Upstream oxygen sensor (Bank 1 Sensor 1)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Upstream+oxygen+sensor+%28Bank+1+Sensor+1%29+automotive"
+ },
+ {
+  "part_id":7584,
+  "fix_id":6163,
+  "part_name":"Catalytic converter (direct-fit)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Catalytic+converter+%28direct-fit%29+automotive"
+ },
+ {
+  "part_id":7585,
+  "fix_id":6164,
+  "part_name":"Valve stem seal set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Valve+stem+seal+set+automotive"
+ },
+ {
+  "part_id":7586,
+  "fix_id":6164,
+  "part_name":"Head gasket set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Head+gasket+set+automotive"
+ },
+ {
+  "part_id":7662,
+  "fix_id":6225,
+  "part_name":"Exhaust manifold\/downpipe gasket",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Exhaust+manifold%2Fdownpipe+gasket+automotive"
+ },
+ {
+  "part_id":7663,
+  "fix_id":6226,
+  "part_name":"Upstream oxygen sensor (Bank 1 Sensor 1)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Upstream+oxygen+sensor+%28Bank+1+Sensor+1%29+automotive"
+ },
+ {
+  "part_id":7664,
+  "fix_id":6227,
+  "part_name":"Catalytic converter (direct-fit)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Catalytic+converter+%28direct-fit%29+automotive"
+ },
+ {
+  "part_id":7665,
+  "fix_id":6228,
+  "part_name":"Valve stem seal set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Valve+stem+seal+set+automotive"
+ },
+ {
+  "part_id":7666,
+  "fix_id":6228,
+  "part_name":"Head gasket set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Head+gasket+set+automotive"
+ },
+ {
+  "part_id":7740,
+  "fix_id":6289,
+  "part_name":"Fuel filler cap (OE-style seal)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+filler+cap+%28OE-style+seal%29+automotive"
+ },
+ {
+  "part_id":7741,
+  "fix_id":6290,
+  "part_name":"EVAP vapor hose assortment",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=EVAP+vapor+hose+assortment+automotive"
+ },
+ {
+  "part_id":7742,
+  "fix_id":6291,
+  "part_name":"EVAP purge solenoid valve",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=EVAP+purge+solenoid+valve+automotive"
+ },
+ {
+  "part_id":7743,
+  "fix_id":6292,
+  "part_name":"EVAP charcoal canister with vent valve",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=EVAP+charcoal+canister+with+vent+valve+automotive"
+ },
+ {
+  "part_id":7744,
+  "fix_id":6293,
+  "part_name":"EVAP vapor hose assortment",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=EVAP+vapor+hose+assortment+automotive"
+ },
+ {
+  "part_id":7745,
+  "fix_id":6294,
+  "part_name":"EVAP purge solenoid valve",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=EVAP+purge+solenoid+valve+automotive"
+ },
+ {
+  "part_id":7746,
+  "fix_id":6295,
+  "part_name":"EVAP charcoal canister with vent valve",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=EVAP+charcoal+canister+with+vent+valve+automotive"
+ },
+ {
+  "part_id":7747,
+  "fix_id":6296,
+  "part_name":"EVAP purge flow sensor",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=EVAP+purge+flow+sensor+automotive"
+ },
+ {
+  "part_id":7748,
+  "fix_id":6297,
+  "part_name":"Fuel filler cap (OE-style seal)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+filler+cap+%28OE-style+seal%29+automotive"
+ },
+ {
+  "part_id":7749,
+  "fix_id":6298,
+  "part_name":"EVAP vapor hose assortment",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=EVAP+vapor+hose+assortment+automotive"
+ },
+ {
+  "part_id":7750,
+  "fix_id":6299,
+  "part_name":"EVAP purge solenoid valve",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=EVAP+purge+solenoid+valve+automotive"
+ },
+ {
+  "part_id":7751,
+  "fix_id":6300,
+  "part_name":"EVAP charcoal canister with vent valve",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=EVAP+charcoal+canister+with+vent+valve+automotive"
+ },
+ {
+  "part_id":7764,
+  "fix_id":6313,
+  "part_name":"Electrical contact cleaner",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Electrical+contact+cleaner+automotive"
+ },
+ {
+  "part_id":7765,
+  "fix_id":6314,
+  "part_name":"EVAP vent control solenoid valve",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=EVAP+vent+control+solenoid+valve+automotive"
+ },
+ {
+  "part_id":7766,
+  "fix_id":6315,
+  "part_name":"Compressed air duster",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Compressed+air+duster+automotive"
+ },
+ {
+  "part_id":7767,
+  "fix_id":6316,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":7835,
+  "fix_id":6373,
+  "part_name":"Fuel filler cap (OE-style seal)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+filler+cap+%28OE-style+seal%29+automotive"
+ },
+ {
+  "part_id":7836,
+  "fix_id":6374,
+  "part_name":"EVAP vapor hose assortment",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=EVAP+vapor+hose+assortment+automotive"
+ },
+ {
+  "part_id":7837,
+  "fix_id":6375,
+  "part_name":"EVAP charcoal canister with vent valve",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=EVAP+charcoal+canister+with+vent+valve+automotive"
+ },
+ {
+  "part_id":7838,
+  "fix_id":6376,
+  "part_name":"Fuel sending unit seal\/gasket",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+sending+unit+seal%2Fgasket+automotive"
+ },
+ {
+  "part_id":7839,
+  "fix_id":6377,
+  "part_name":"Fuel filler cap (OE-style seal)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+filler+cap+%28OE-style+seal%29+automotive"
+ },
+ {
+  "part_id":7840,
+  "fix_id":6378,
+  "part_name":"EVAP vapor hose assortment",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=EVAP+vapor+hose+assortment+automotive"
+ },
+ {
+  "part_id":7841,
+  "fix_id":6379,
+  "part_name":"EVAP purge solenoid valve",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=EVAP+purge+solenoid+valve+automotive"
+ },
+ {
+  "part_id":7842,
+  "fix_id":6380,
+  "part_name":"EVAP charcoal canister with vent valve",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=EVAP+charcoal+canister+with+vent+valve+automotive"
+ },
+ {
+  "part_id":7843,
+  "fix_id":6381,
+  "part_name":"Fuel filler cap (OE-style seal)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+filler+cap+%28OE-style+seal%29+automotive"
+ },
+ {
+  "part_id":7844,
+  "fix_id":6382,
+  "part_name":"EVAP vapor hose assortment",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=EVAP+vapor+hose+assortment+automotive"
+ },
+ {
+  "part_id":7845,
+  "fix_id":6383,
+  "part_name":"EVAP purge solenoid valve",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=EVAP+purge+solenoid+valve+automotive"
+ },
+ {
+  "part_id":7846,
+  "fix_id":6384,
+  "part_name":"EVAP charcoal canister with vent valve",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=EVAP+charcoal+canister+with+vent+valve+automotive"
+ },
+ {
+  "part_id":8615,
+  "fix_id":7054,
+  "part_name":"Brake\/parts cleaner spray",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Brake%2Fparts+cleaner+spray+automotive"
+ },
+ {
+  "part_id":8616,
+  "fix_id":7055,
+  "part_name":"VSS connector pigtail",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=VSS+connector+pigtail+automotive"
+ },
+ {
+  "part_id":8617,
+  "fix_id":7056,
+  "part_name":"Vehicle speed sensor",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Vehicle+speed+sensor+automotive"
+ },
+ {
+  "part_id":8618,
+  "fix_id":7056,
+  "part_name":"Sensor O-ring",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Sensor+O-ring+automotive"
+ },
+ {
+  "part_id":8619,
+  "fix_id":7057,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":8639,
+  "fix_id":7074,
+  "part_name":"Throttle body \/ IAC cleaner spray",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Throttle+body+%2F+IAC+cleaner+spray+automotive"
+ },
+ {
+  "part_id":8640,
+  "fix_id":7075,
+  "part_name":"Intake gasket set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Intake+gasket+set+automotive"
+ },
+ {
+  "part_id":8641,
+  "fix_id":7075,
+  "part_name":"Vacuum hose assortment",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Vacuum+hose+assortment+automotive"
+ },
+ {
+  "part_id":8642,
+  "fix_id":7076,
+  "part_name":"Idle air control valve",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Idle+air+control+valve+automotive"
+ },
+ {
+  "part_id":8643,
+  "fix_id":7076,
+  "part_name":"IAC valve gasket",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=IAC+valve+gasket+automotive"
+ },
+ {
+  "part_id":8644,
+  "fix_id":7077,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":8645,
+  "fix_id":7078,
+  "part_name":"Throttle body \/ IAC cleaner spray",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Throttle+body+%2F+IAC+cleaner+spray+automotive"
+ },
+ {
+  "part_id":8646,
+  "fix_id":7079,
+  "part_name":"Intake gasket set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Intake+gasket+set+automotive"
+ },
+ {
+  "part_id":8647,
+  "fix_id":7079,
+  "part_name":"Vacuum hose assortment",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Vacuum+hose+assortment+automotive"
+ },
+ {
+  "part_id":8648,
+  "fix_id":7080,
+  "part_name":"Idle air control valve",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Idle+air+control+valve+automotive"
+ },
+ {
+  "part_id":8649,
+  "fix_id":7080,
+  "part_name":"IAC valve gasket",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=IAC+valve+gasket+automotive"
+ },
+ {
+  "part_id":8650,
+  "fix_id":7081,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":8651,
+  "fix_id":7082,
+  "part_name":"Throttle body \/ IAC cleaner spray",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Throttle+body+%2F+IAC+cleaner+spray+automotive"
+ },
+ {
+  "part_id":8652,
+  "fix_id":7083,
+  "part_name":"Intake gasket set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Intake+gasket+set+automotive"
+ },
+ {
+  "part_id":8653,
+  "fix_id":7083,
+  "part_name":"Vacuum hose assortment",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Vacuum+hose+assortment+automotive"
+ },
+ {
+  "part_id":8654,
+  "fix_id":7084,
+  "part_name":"Idle air control valve",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Idle+air+control+valve+automotive"
+ },
+ {
+  "part_id":8655,
+  "fix_id":7084,
+  "part_name":"IAC valve gasket",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=IAC+valve+gasket+automotive"
+ },
+ {
+  "part_id":8656,
+  "fix_id":7085,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":9035,
+  "fix_id":7395,
+  "part_name":"Battery terminal cleaner\/brush",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Battery+terminal+cleaner%2Fbrush+automotive"
+ },
+ {
+  "part_id":9036,
+  "fix_id":7396,
+  "part_name":"Digital multimeter",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Digital+multimeter+automotive"
+ },
+ {
+  "part_id":9037,
+  "fix_id":7397,
+  "part_name":"Ground strap",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Ground+strap+automotive"
+ },
+ {
+  "part_id":9038,
+  "fix_id":7398,
+  "part_name":"Alternator\/generator",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Alternator%2Fgenerator+automotive"
+ },
+ {
+  "part_id":9039,
+  "fix_id":7399,
+  "part_name":"Battery terminal cleaner\/brush",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Battery+terminal+cleaner%2Fbrush+automotive"
+ },
+ {
+  "part_id":9040,
+  "fix_id":7400,
+  "part_name":"Digital multimeter",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Digital+multimeter+automotive"
+ },
+ {
+  "part_id":9041,
+  "fix_id":7401,
+  "part_name":"Ground strap",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Ground+strap+automotive"
+ },
+ {
+  "part_id":9042,
+  "fix_id":7402,
+  "part_name":"Alternator\/generator",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Alternator%2Fgenerator+automotive"
+ },
+ {
+  "part_id":9626,
+  "fix_id":7950,
+  "part_name":"Battery charger\/maintainer",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Battery+charger%2Fmaintainer+automotive"
+ },
+ {
+  "part_id":9627,
+  "fix_id":7951,
+  "part_name":"Scan tool with OEM reprogramming access",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Scan+tool+with+OEM+reprogramming+access+automotive"
+ },
+ {
+  "part_id":9628,
+  "fix_id":7952,
+  "part_name":"Replacement ECM\/PCM\/TCM",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Replacement+ECM%2FPCM%2FTCM+automotive"
+ },
+ {
+  "part_id":9641,
+  "fix_id":7965,
+  "part_name":"Battery charger\/maintainer",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Battery+charger%2Fmaintainer+automotive"
+ },
+ {
+  "part_id":9642,
+  "fix_id":7966,
+  "part_name":"Scan tool with OEM reprogramming access",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Scan+tool+with+OEM+reprogramming+access+automotive"
+ },
+ {
+  "part_id":9643,
+  "fix_id":7967,
+  "part_name":"Replacement ECM\/PCM\/TCM",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Replacement+ECM%2FPCM%2FTCM+automotive"
+ },
+ {
+  "part_id":10560,
+  "fix_id":8840,
+  "part_name":"Automatic transmission fluid (manufacturer-spec)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automatic+transmission+fluid+%28manufacturer-spec%29+automotive"
+ },
+ {
+  "part_id":10561,
+  "fix_id":8840,
+  "part_name":"Transmission filter\/pan gasket",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Transmission+filter%2Fpan+gasket+automotive"
+ },
+ {
+  "part_id":10562,
+  "fix_id":8841,
+  "part_name":"TCM connector pigtail",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=TCM+connector+pigtail+automotive"
+ },
+ {
+  "part_id":10563,
+  "fix_id":8842,
+  "part_name":"Scan tool with OEM reprogramming access",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Scan+tool+with+OEM+reprogramming+access+automotive"
+ },
+ {
+  "part_id":10580,
+  "fix_id":8857,
+  "part_name":"Transmission fluid (manufacturer-spec)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Transmission+fluid+%28manufacturer-spec%29+automotive"
+ },
+ {
+  "part_id":10581,
+  "fix_id":8858,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":10582,
+  "fix_id":8859,
+  "part_name":"Transmission range sensor",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Transmission+range+sensor+automotive"
+ },
+ {
+  "part_id":10583,
+  "fix_id":8860,
+  "part_name":"Transmission fluid (manufacturer-spec)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Transmission+fluid+%28manufacturer-spec%29+automotive"
+ },
+ {
+  "part_id":10584,
+  "fix_id":8861,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":10585,
+  "fix_id":8862,
+  "part_name":"Transmission range sensor",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Transmission+range+sensor+automotive"
+ },
+ {
+  "part_id":10643,
+  "fix_id":8910,
+  "part_name":"Dielectric grease",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Dielectric+grease+automotive"
+ },
+ {
+  "part_id":10644,
+  "fix_id":8911,
+  "part_name":"Input\/turbine shaft speed sensor",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Input%2Fturbine+shaft+speed+sensor+automotive"
+ },
+ {
+  "part_id":10645,
+  "fix_id":8911,
+  "part_name":"Sensor O-ring",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Sensor+O-ring+automotive"
+ },
+ {
+  "part_id":10646,
+  "fix_id":8912,
+  "part_name":"Internal transmission wiring harness section",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Internal+transmission+wiring+harness+section+automotive"
+ },
+ {
+  "part_id":10681,
+  "fix_id":8944,
+  "part_name":"Dielectric grease",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Dielectric+grease+automotive"
+ },
+ {
+  "part_id":10682,
+  "fix_id":8945,
+  "part_name":"Output shaft speed sensor",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Output+shaft+speed+sensor+automotive"
+ },
+ {
+  "part_id":10683,
+  "fix_id":8945,
+  "part_name":"Sensor O-ring",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Sensor+O-ring+automotive"
+ },
+ {
+  "part_id":10684,
+  "fix_id":8946,
+  "part_name":"Internal transmission wiring harness section",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Internal+transmission+wiring+harness+section+automotive"
+ },
+ {
+  "part_id":10815,
+  "fix_id":9065,
+  "part_name":"Automatic transmission fluid (manufacturer-spec)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automatic+transmission+fluid+%28manufacturer-spec%29+automotive"
+ },
+ {
+  "part_id":10816,
+  "fix_id":9065,
+  "part_name":"Transmission filter\/pan gasket",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Transmission+filter%2Fpan+gasket+automotive"
+ },
+ {
+  "part_id":10817,
+  "fix_id":9066,
+  "part_name":"Bi-directional OBD-II scan tool (rental)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Bi-directional+OBD-II+scan+tool+%28rental%29+automotive"
+ },
+ {
+  "part_id":10818,
+  "fix_id":9067,
+  "part_name":"Torque converter clutch solenoid",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Torque+converter+clutch+solenoid+automotive"
+ },
+ {
+  "part_id":10819,
+  "fix_id":9068,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":10825,
+  "fix_id":9073,
+  "part_name":"Automatic transmission fluid (manufacturer-spec)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automatic+transmission+fluid+%28manufacturer-spec%29+automotive"
+ },
+ {
+  "part_id":10826,
+  "fix_id":9073,
+  "part_name":"Transmission filter\/pan gasket",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Transmission+filter%2Fpan+gasket+automotive"
+ },
+ {
+  "part_id":10827,
+  "fix_id":9074,
+  "part_name":"Bi-directional OBD-II scan tool (rental)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Bi-directional+OBD-II+scan+tool+%28rental%29+automotive"
+ },
+ {
+  "part_id":10828,
+  "fix_id":9075,
+  "part_name":"Torque converter clutch solenoid",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Torque+converter+clutch+solenoid+automotive"
+ },
+ {
+  "part_id":10829,
+  "fix_id":9076,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":10909,
+  "fix_id":9145,
+  "part_name":"Automatic transmission fluid (manufacturer-spec)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automatic+transmission+fluid+%28manufacturer-spec%29+automotive"
+ },
+ {
+  "part_id":10910,
+  "fix_id":9145,
+  "part_name":"Transmission filter\/pan gasket",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Transmission+filter%2Fpan+gasket+automotive"
+ },
+ {
+  "part_id":10911,
+  "fix_id":9146,
+  "part_name":"Bi-directional OBD-II scan tool (rental)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Bi-directional+OBD-II+scan+tool+%28rental%29+automotive"
+ },
+ {
+  "part_id":10912,
+  "fix_id":9147,
+  "part_name":"Shift solenoid (or solenoid pack)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Shift+solenoid+%28or+solenoid+pack%29+automotive"
+ },
+ {
+  "part_id":10913,
+  "fix_id":9148,
+  "part_name":"Valve body internal connector\/harness",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Valve+body+internal+connector%2Fharness+automotive"
+ },
+ {
+  "part_id":19702,
+  "fix_id":15367,
+  "part_name":"High-temperature silicone vacuum hose",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=High-temperature+silicone+vacuum+hose+automotive"
+ },
+ {
+  "part_id":19703,
+  "fix_id":15367,
+  "part_name":"Hose clamp set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Hose+clamp+set+automotive"
+ },
+ {
+  "part_id":19704,
+  "fix_id":15368,
+  "part_name":"Diesel exhaust fluid (DEF)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Diesel+exhaust+fluid+%28DEF%29+automotive"
+ },
+ {
+  "part_id":19705,
+  "fix_id":15369,
+  "part_name":"Exhaust gasket and clamp set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Exhaust+gasket+and+clamp+set+automotive"
+ },
+ {
+  "part_id":19706,
+  "fix_id":15370,
+  "part_name":"Diesel particulate filter assembly",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Diesel+particulate+filter+assembly+automotive"
+ },
+ {
+  "part_id":19707,
+  "fix_id":15370,
+  "part_name":"Exhaust gasket and clamp set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Exhaust+gasket+and+clamp+set+automotive"
+ },
+ {
+  "part_id":20488,
+  "fix_id":15889,
+  "part_name":"Intake gasket set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Intake+gasket+set+automotive"
+ },
+ {
+  "part_id":20489,
+  "fix_id":15889,
+  "part_name":"PCV hose",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=PCV+hose+automotive"
+ },
+ {
+  "part_id":20490,
+  "fix_id":15890,
+  "part_name":"Fuel filter",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+filter+automotive"
+ },
+ {
+  "part_id":20491,
+  "fix_id":15890,
+  "part_name":"Fuel pump assembly (if weak)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+pump+assembly+%28if+weak%29+automotive"
+ },
+ {
+  "part_id":20492,
+  "fix_id":15891,
+  "part_name":"Exhaust manifold gasket",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Exhaust+manifold+gasket+automotive"
+ },
+ {
+  "part_id":20493,
+  "fix_id":15891,
+  "part_name":"Exhaust manifold stud\/nut set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Exhaust+manifold+stud%2Fnut+set+automotive"
+ },
+ {
+  "part_id":20494,
+  "fix_id":15892,
+  "part_name":"Mass air flow sensor cleaner spray",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Mass+air+flow+sensor+cleaner+spray+automotive"
+ },
+ {
+  "part_id":20495,
+  "fix_id":15893,
+  "part_name":"Fuel injector",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+injector+automotive"
+ },
+ {
+  "part_id":20496,
+  "fix_id":15893,
+  "part_name":"Injector seal\/washer kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Injector+seal%2Fwasher+kit+automotive"
+ },
+ {
+  "part_id":20497,
+  "fix_id":15894,
+  "part_name":"Fuel pressure regulator",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+pressure+regulator+automotive"
+ },
+ {
+  "part_id":20498,
+  "fix_id":15894,
+  "part_name":"Regulator seal kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Regulator+seal+kit+automotive"
+ },
+ {
+  "part_id":21033,
+  "fix_id":16272,
+  "part_name":"Throttle body cleaner spray",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Throttle+body+cleaner+spray+automotive"
+ },
+ {
+  "part_id":21034,
+  "fix_id":16273,
+  "part_name":"Electronic throttle body assembly",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Electronic+throttle+body+assembly+automotive"
+ },
+ {
+  "part_id":21035,
+  "fix_id":16273,
+  "part_name":"Throttle body gasket",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Throttle+body+gasket+automotive"
+ },
+ {
+  "part_id":21036,
+  "fix_id":16274,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":21037,
+  "fix_id":16275,
+  "part_name":"Electrical contact cleaner",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Electrical+contact+cleaner+automotive"
+ },
+ {
+  "part_id":21038,
+  "fix_id":16275,
+  "part_name":"Dielectric grease",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Dielectric+grease+automotive"
+ },
+ {
+  "part_id":21248,
+  "fix_id":16439,
+  "part_name":"Electrical contact cleaner",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Electrical+contact+cleaner+automotive"
+ },
+ {
+  "part_id":21249,
+  "fix_id":16440,
+  "part_name":"Electronic throttle body assembly",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Electronic+throttle+body+assembly+automotive"
+ },
+ {
+  "part_id":21250,
+  "fix_id":16440,
+  "part_name":"Accelerator pedal position sensor assembly",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Accelerator+pedal+position+sensor+assembly+automotive"
+ },
+ {
+  "part_id":21251,
+  "fix_id":16441,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":21260,
+  "fix_id":16448,
+  "part_name":"Electrical contact cleaner",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Electrical+contact+cleaner+automotive"
+ },
+ {
+  "part_id":21261,
+  "fix_id":16449,
+  "part_name":"Electronic throttle body assembly",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Electronic+throttle+body+assembly+automotive"
+ },
+ {
+  "part_id":21262,
+  "fix_id":16449,
+  "part_name":"Accelerator pedal position sensor assembly",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Accelerator+pedal+position+sensor+assembly+automotive"
+ },
+ {
+  "part_id":21263,
+  "fix_id":16450,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":21572,
+  "fix_id":16678,
+  "part_name":"Coolant (OEM-spec type)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Coolant+%28OEM-spec+type%29+automotive"
+ },
+ {
+  "part_id":21573,
+  "fix_id":16679,
+  "part_name":"Engine thermostat",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Engine+thermostat+automotive"
+ },
+ {
+  "part_id":21574,
+  "fix_id":16679,
+  "part_name":"Thermostat housing gasket\/seal",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Thermostat+housing+gasket%2Fseal+automotive"
+ },
+ {
+  "part_id":21575,
+  "fix_id":16680,
+  "part_name":"Water pump",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Water+pump+automotive"
+ },
+ {
+  "part_id":21576,
+  "fix_id":16680,
+  "part_name":"Water pump gasket",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Water+pump+gasket+automotive"
+ },
+ {
+  "part_id":21597,
+  "fix_id":16696,
+  "part_name":"Intake gasket set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Intake+gasket+set+automotive"
+ },
+ {
+  "part_id":21598,
+  "fix_id":16696,
+  "part_name":"PCV hose",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=PCV+hose+automotive"
+ },
+ {
+  "part_id":21599,
+  "fix_id":16697,
+  "part_name":"Fuel filter",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+filter+automotive"
+ },
+ {
+  "part_id":21600,
+  "fix_id":16697,
+  "part_name":"Fuel pump assembly (if weak)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+pump+assembly+%28if+weak%29+automotive"
+ },
+ {
+  "part_id":21601,
+  "fix_id":16698,
+  "part_name":"Exhaust manifold gasket",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Exhaust+manifold+gasket+automotive"
+ },
+ {
+  "part_id":21602,
+  "fix_id":16698,
+  "part_name":"Exhaust manifold stud\/nut set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Exhaust+manifold+stud%2Fnut+set+automotive"
+ },
+ {
+  "part_id":21661,
+  "fix_id":16739,
+  "part_name":"Exhaust manifold\/pipe gasket",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Exhaust+manifold%2Fpipe+gasket+automotive"
+ },
+ {
+  "part_id":21662,
+  "fix_id":16740,
+  "part_name":"Oxygen sensor (bank\/position-specific)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Oxygen+sensor+%28bank%2Fposition-specific%29+automotive"
+ },
+ {
+  "part_id":21663,
+  "fix_id":16740,
+  "part_name":"Anti-seize compound",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Anti-seize+compound+automotive"
+ },
+ {
+  "part_id":21664,
+  "fix_id":16741,
+  "part_name":"High-temperature wiring repair kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=High-temperature+wiring+repair+kit+automotive"
+ },
+ {
+  "part_id":22823,
+  "fix_id":17493,
+  "part_name":"Exhaust manifold\/pipe gasket",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Exhaust+manifold%2Fpipe+gasket+automotive"
+ },
+ {
+  "part_id":22824,
+  "fix_id":17494,
+  "part_name":"Oxygen sensor (bank\/position-specific)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Oxygen+sensor+%28bank%2Fposition-specific%29+automotive"
+ },
+ {
+  "part_id":22825,
+  "fix_id":17494,
+  "part_name":"Anti-seize compound",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Anti-seize+compound+automotive"
+ },
+ {
+  "part_id":22826,
+  "fix_id":17495,
+  "part_name":"High-temperature wiring repair kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=High-temperature+wiring+repair+kit+automotive"
+ },
+ {
+  "part_id":36842,
+  "fix_id":28288,
+  "part_name":"Automotive fuse assortment",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+fuse+assortment+automotive"
+ },
+ {
+  "part_id":36843,
+  "fix_id":28288,
+  "part_name":"Battery terminal cleaning brush",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Battery+terminal+cleaning+brush+automotive"
+ },
+ {
+  "part_id":36844,
+  "fix_id":28289,
+  "part_name":"Electrical contact cleaner",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Electrical+contact+cleaner+automotive"
+ },
+ {
+  "part_id":36845,
+  "fix_id":28289,
+  "part_name":"Dielectric grease pack",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Dielectric+grease+pack+automotive"
+ },
+ {
+  "part_id":36846,
+  "fix_id":28290,
+  "part_name":"High-temperature automotive wire",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=High-temperature+automotive+wire+automotive"
+ },
+ {
+  "part_id":36847,
+  "fix_id":28290,
+  "part_name":"Adhesive-lined heat-shrink splice kit (high-temp)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Adhesive-lined+heat-shrink+splice+kit+%28high-temp%29+automotive"
+ },
+ {
+  "part_id":36848,
+  "fix_id":28291,
+  "part_name":"Replacement module or sensor (OEM specific)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Replacement+module+or+sensor+%28OEM+specific%29+automotive"
+ },
+ {
+  "part_id":36849,
+  "fix_id":28291,
+  "part_name":"Programming\/subscription session",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Programming%2Fsubscription+session+automotive"
+ },
+ {
+  "part_id":36850,
+  "fix_id":28292,
+  "part_name":"Automotive fuse assortment",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+fuse+assortment+automotive"
+ },
+ {
+  "part_id":36851,
+  "fix_id":28292,
+  "part_name":"Battery terminal cleaning brush",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Battery+terminal+cleaning+brush+automotive"
+ },
+ {
+  "part_id":36852,
+  "fix_id":28293,
+  "part_name":"Electrical contact cleaner",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Electrical+contact+cleaner+automotive"
+ },
+ {
+  "part_id":36853,
+  "fix_id":28293,
+  "part_name":"Dielectric grease pack",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Dielectric+grease+pack+automotive"
+ },
+ {
+  "part_id":36854,
+  "fix_id":28294,
+  "part_name":"High-temperature automotive wire",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=High-temperature+automotive+wire+automotive"
+ },
+ {
+  "part_id":36855,
+  "fix_id":28294,
+  "part_name":"Adhesive-lined heat-shrink splice kit (high-temp)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Adhesive-lined+heat-shrink+splice+kit+%28high-temp%29+automotive"
+ },
+ {
+  "part_id":36856,
+  "fix_id":28295,
+  "part_name":"Replacement module or sensor (OEM specific)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Replacement+module+or+sensor+%28OEM+specific%29+automotive"
+ },
+ {
+  "part_id":36857,
+  "fix_id":28295,
+  "part_name":"Programming\/subscription session",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Programming%2Fsubscription+session+automotive"
+ },
+ {
+  "part_id":37103,
+  "fix_id":28420,
+  "part_name":"Electrical contact cleaner",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Electrical+contact+cleaner+automotive"
+ },
+ {
+  "part_id":37104,
+  "fix_id":28420,
+  "part_name":"Dielectric grease pack",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Dielectric+grease+pack+automotive"
+ },
+ {
+  "part_id":37105,
+  "fix_id":28421,
+  "part_name":"Digital multimeter",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Digital+multimeter+automotive"
+ },
+ {
+  "part_id":37106,
+  "fix_id":28421,
+  "part_name":"Anti-corrosion terminal compound",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Anti-corrosion+terminal+compound+automotive"
+ },
+ {
+  "part_id":37107,
+  "fix_id":28422,
+  "part_name":"Automotive wire (under-body rated)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wire+%28under-body+rated%29+automotive"
+ },
+ {
+  "part_id":37108,
+  "fix_id":28422,
+  "part_name":"Adhesive-lined heat-shrink splice kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Adhesive-lined+heat-shrink+splice+kit+automotive"
+ },
+ {
+  "part_id":37109,
+  "fix_id":28422,
+  "part_name":"Harness routing clips",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Harness+routing+clips+automotive"
+ },
+ {
+  "part_id":37110,
+  "fix_id":28423,
+  "part_name":"Replacement control module",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Replacement+control+module+automotive"
+ },
+ {
+  "part_id":37111,
+  "fix_id":28423,
+  "part_name":"Programming\/subscription session",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Programming%2Fsubscription+session+automotive"
+ },
+ {
+  "part_id":45037,
+  "fix_id":33105,
+  "part_name":"HV contactor terminal kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=HV+contactor+terminal+kit+automotive"
+ },
+ {
+  "part_id":45038,
+  "fix_id":33106,
+  "part_name":"Insulated HV service gloves",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Insulated+HV+service+gloves+automotive"
+ },
+ {
+  "part_id":45039,
+  "fix_id":33107,
+  "part_name":"Rated HV multimeter",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Rated+HV+multimeter+automotive"
+ },
+ {
+  "part_id":45044,
+  "fix_id":33111,
+  "part_name":"Intake gasket set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Intake+gasket+set+automotive"
+ },
+ {
+  "part_id":45045,
+  "fix_id":33111,
+  "part_name":"PCV hose",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=PCV+hose+automotive"
+ },
+ {
+  "part_id":45046,
+  "fix_id":33112,
+  "part_name":"Fuel filter",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+filter+automotive"
+ },
+ {
+  "part_id":45047,
+  "fix_id":33112,
+  "part_name":"Fuel pump assembly (if weak)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+pump+assembly+%28if+weak%29+automotive"
+ },
+ {
+  "part_id":45048,
+  "fix_id":33113,
+  "part_name":"Exhaust manifold gasket",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Exhaust+manifold+gasket+automotive"
+ },
+ {
+  "part_id":45049,
+  "fix_id":33113,
+  "part_name":"Exhaust manifold stud\/nut set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Exhaust+manifold+stud%2Fnut+set+automotive"
+ },
+ {
+  "part_id":45061,
+  "fix_id":33120,
+  "part_name":"Mass air flow sensor cleaner spray",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Mass+air+flow+sensor+cleaner+spray+automotive"
+ },
+ {
+  "part_id":45062,
+  "fix_id":33121,
+  "part_name":"Fuel injector",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+injector+automotive"
+ },
+ {
+  "part_id":45063,
+  "fix_id":33121,
+  "part_name":"Injector seal\/washer kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Injector+seal%2Fwasher+kit+automotive"
+ },
+ {
+  "part_id":45064,
+  "fix_id":33122,
+  "part_name":"Fuel pressure regulator",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+pressure+regulator+automotive"
+ },
+ {
+  "part_id":45065,
+  "fix_id":33122,
+  "part_name":"Regulator seal kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Regulator+seal+kit+automotive"
+ },
+ {
+  "part_id":50448,
+  "fix_id":37252,
+  "part_name":"Crankshaft position sensor",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Crankshaft+position+sensor+automotive"
+ },
+ {
+  "part_id":50449,
+  "fix_id":37252,
+  "part_name":"Camshaft position sensor",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Camshaft+position+sensor+automotive"
+ },
+ {
+  "part_id":50450,
+  "fix_id":37253,
+  "part_name":"Timing chain\/belt kit (chain or belt, tensioner, guides)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Timing+chain%2Fbelt+kit+%28chain+or+belt%2C+tensioner%2C+guides%29+automotive"
+ },
+ {
+  "part_id":50451,
+  "fix_id":37254,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":51162,
+  "fix_id":37860,
+  "part_name":"OBD-II scan tool",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=OBD-II+scan+tool+automotive"
+ },
+ {
+  "part_id":51163,
+  "fix_id":37861,
+  "part_name":"Ohmmeter",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Ohmmeter+automotive"
+ },
+ {
+  "part_id":51164,
+  "fix_id":37861,
+  "part_name":"VATS-coded replacement key blank",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=VATS-coded+replacement+key+blank+automotive"
+ },
+ {
+  "part_id":51165,
+  "fix_id":37861,
+  "part_name":"Electrical contact cleaner",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Electrical+contact+cleaner+automotive"
+ },
+ {
+  "part_id":51166,
+  "fix_id":37862,
+  "part_name":"Digital multimeter",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Digital+multimeter+automotive"
+ },
+ {
+  "part_id":51167,
+  "fix_id":37862,
+  "part_name":"Passlock lock-cylinder sensor",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Passlock+lock-cylinder+sensor+automotive"
+ },
+ {
+  "part_id":51168,
+  "fix_id":37863,
+  "part_name":"Wiring pigtail connector",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Wiring+pigtail+connector+automotive"
+ },
+ {
+  "part_id":51169,
+  "fix_id":37863,
+  "part_name":"Body control module",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Body+control+module+automotive"
+ },
+ {
+  "part_id":51170,
+  "fix_id":37863,
+  "part_name":"OBD-II scan tool with security access",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=OBD-II+scan+tool+with+security+access+automotive"
+ },
+ {
+  "part_id":53429,
+  "fix_id":39642,
+  "part_name":"Automotive fuse assortment",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+fuse+assortment+automotive"
+ },
+ {
+  "part_id":53430,
+  "fix_id":39642,
+  "part_name":"Battery terminal cleaning brush",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Battery+terminal+cleaning+brush+automotive"
+ },
+ {
+  "part_id":53431,
+  "fix_id":39643,
+  "part_name":"Electrical contact cleaner",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Electrical+contact+cleaner+automotive"
+ },
+ {
+  "part_id":53432,
+  "fix_id":39643,
+  "part_name":"Dielectric grease pack",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Dielectric+grease+pack+automotive"
+ },
+ {
+  "part_id":53433,
+  "fix_id":39644,
+  "part_name":"High-temperature automotive wire",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=High-temperature+automotive+wire+automotive"
+ },
+ {
+  "part_id":53434,
+  "fix_id":39644,
+  "part_name":"Adhesive-lined heat-shrink splice kit (high-temp)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Adhesive-lined+heat-shrink+splice+kit+%28high-temp%29+automotive"
+ },
+ {
+  "part_id":53435,
+  "fix_id":39645,
+  "part_name":"Replacement module or sensor (OEM specific)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Replacement+module+or+sensor+%28OEM+specific%29+automotive"
+ },
+ {
+  "part_id":53436,
+  "fix_id":39645,
+  "part_name":"Programming\/subscription session",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Programming%2Fsubscription+session+automotive"
+ },
+ {
+  "part_id":53484,
+  "fix_id":39683,
+  "part_name":"OBD-II scan tool",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=OBD-II+scan+tool+automotive"
+ },
+ {
+  "part_id":53485,
+  "fix_id":39684,
+  "part_name":"Automotive battery tester",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+battery+tester+automotive"
+ },
+ {
+  "part_id":53486,
+  "fix_id":39685,
+  "part_name":"Professional bi-directional scan tool",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Professional+bi-directional+scan+tool+automotive"
+ },
+ {
+  "part_id":53602,
+  "fix_id":39778,
+  "part_name":"Silicone-free RTV sealant (for future repairs)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Silicone-free+RTV+sealant+%28for+future+repairs%29+automotive"
+ },
+ {
+  "part_id":53603,
+  "fix_id":39779,
+  "part_name":"Oxygen sensor (bank\/position-specific)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Oxygen+sensor+%28bank%2Fposition-specific%29+automotive"
+ },
+ {
+  "part_id":53604,
+  "fix_id":39779,
+  "part_name":"Anti-seize compound",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Anti-seize+compound+automotive"
+ },
+ {
+  "part_id":53605,
+  "fix_id":39780,
+  "part_name":"Exhaust manifold\/pipe gasket",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Exhaust+manifold%2Fpipe+gasket+automotive"
+ },
+ {
+  "part_id":57715,
+  "fix_id":42988,
+  "part_name":"Electrical contact cleaner",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Electrical+contact+cleaner+automotive"
+ },
+ {
+  "part_id":57716,
+  "fix_id":42989,
+  "part_name":"Ignition coil-on-plug unit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Ignition+coil-on-plug+unit+automotive"
+ },
+ {
+  "part_id":57717,
+  "fix_id":42989,
+  "part_name":"Coil boot\/seal kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Coil+boot%2Fseal+kit+automotive"
+ },
+ {
+  "part_id":57718,
+  "fix_id":42990,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":57719,
+  "fix_id":42991,
+  "part_name":"Ignition control module",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Ignition+control+module+automotive"
+ },
+ {
+  "part_id":59300,
+  "fix_id":44256,
+  "part_name":"Engine oil (specified viscosity)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Engine+oil+%28specified+viscosity%29+automotive"
+ },
+ {
+  "part_id":59301,
+  "fix_id":44256,
+  "part_name":"Oil filter",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Oil+filter+automotive"
+ },
+ {
+  "part_id":59302,
+  "fix_id":44257,
+  "part_name":"VTEC oil pressure switch",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=VTEC+oil+pressure+switch+automotive"
+ },
+ {
+  "part_id":59303,
+  "fix_id":44258,
+  "part_name":"VTEC oil strainer screen",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=VTEC+oil+strainer+screen+automotive"
+ },
+ {
+  "part_id":59304,
+  "fix_id":44258,
+  "part_name":"Digital multimeter",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Digital+multimeter+automotive"
+ },
+ {
+  "part_id":59305,
+  "fix_id":44258,
+  "part_name":"Bi-directional scan tool",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Bi-directional+scan+tool+automotive"
+ },
+ {
+  "part_id":59306,
+  "fix_id":44259,
+  "part_name":"Wiring repair kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Wiring+repair+kit+automotive"
+ },
+ {
+  "part_id":59307,
+  "fix_id":44259,
+  "part_name":"Digital multimeter",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Digital+multimeter+automotive"
+ },
+ {
+  "part_id":61813,
+  "fix_id":46192,
+  "part_name":"OBD-II scan tool",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=OBD-II+scan+tool+automotive"
+ },
+ {
+  "part_id":61814,
+  "fix_id":46193,
+  "part_name":"Automotive battery tester",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+battery+tester+automotive"
+ },
+ {
+  "part_id":61815,
+  "fix_id":46194,
+  "part_name":"Professional bi-directional scan tool",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Professional+bi-directional+scan+tool+automotive"
+ },
+ {
+  "part_id":67035,
+  "fix_id":50273,
+  "part_name":"Electrical contact cleaner",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Electrical+contact+cleaner+automotive"
+ },
+ {
+  "part_id":67036,
+  "fix_id":50274,
+  "part_name":"Ignition coil-on-plug unit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Ignition+coil-on-plug+unit+automotive"
+ },
+ {
+  "part_id":67037,
+  "fix_id":50274,
+  "part_name":"Coil boot\/seal kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Coil+boot%2Fseal+kit+automotive"
+ },
+ {
+  "part_id":67038,
+  "fix_id":50275,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":67039,
+  "fix_id":50276,
+  "part_name":"Ignition control module",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Ignition+control+module+automotive"
+ },
+ {
+  "part_id":72411,
+  "fix_id":54547,
+  "part_name":"Electrical contact cleaner",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Electrical+contact+cleaner+automotive"
+ },
+ {
+  "part_id":72412,
+  "fix_id":54548,
+  "part_name":"Barometric pressure sensor",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Barometric+pressure+sensor+automotive"
+ },
+ {
+  "part_id":72413,
+  "fix_id":54549,
+  "part_name":"Automotive wiring repair kit (solder + heat-shrink)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+wiring+repair+kit+%28solder+%2B+heat-shrink%29+automotive"
+ },
+ {
+  "part_id":72414,
+  "fix_id":54550,
+  "part_name":"Engine control module (ECM)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Engine+control+module+%28ECM%29+automotive"
+ },
+ {
+  "part_id":72464,
+  "fix_id":54589,
+  "part_name":"Automotive fuse assortment",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Automotive+fuse+assortment+automotive"
+ },
+ {
+  "part_id":72465,
+  "fix_id":54589,
+  "part_name":"Relay (O2 heater circuit)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Relay+%28O2+heater+circuit%29+automotive"
+ },
+ {
+  "part_id":72466,
+  "fix_id":54590,
+  "part_name":"Oxygen sensor (heated, bank\/position-specific)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Oxygen+sensor+%28heated%2C+bank%2Fposition-specific%29+automotive"
+ },
+ {
+  "part_id":72467,
+  "fix_id":54590,
+  "part_name":"Anti-seize compound",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Anti-seize+compound+automotive"
+ },
+ {
+  "part_id":72468,
+  "fix_id":54591,
+  "part_name":"High-temperature wiring repair kit",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=High-temperature+wiring+repair+kit+automotive"
+ },
+ {
+  "part_id":72741,
+  "fix_id":54784,
+  "part_name":"Intake gasket set",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Intake+gasket+set+automotive"
+ },
+ {
+  "part_id":72742,
+  "fix_id":54785,
+  "part_name":"Throttle body cleaner spray",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Throttle+body+cleaner+spray+automotive"
+ },
+ {
+  "part_id":72743,
+  "fix_id":54786,
+  "part_name":"Fuel injector (as needed by bank)",
+  "amazon_search_query":"https:\/\/www.amazon.com\/s?k=Fuel+injector+%28as+needed+by+bank%29+automotive"
+ }
+]

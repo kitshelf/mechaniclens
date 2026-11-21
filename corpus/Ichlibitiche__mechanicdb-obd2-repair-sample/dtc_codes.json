@@ -1,0 +1,902 @@
+[
+ {
+  "code_id":213,
+  "dtc_code":"C0031",
+  "system_category":"Chassis",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"wheel_speed_sensor_circuit",
+  "short_description":"Left Front Wheel Speed Sensor",
+  "detailed_technical_explanation":"Code C0031 (Left Front Wheel Speed Sensor) sets when the ABS module loses a valid electrical signal from a wheel speed sensor -- the circuit reads open, shorted low or high, drops out intermittently, fails to correlate with the other three wheels, or reports an incorrect component installed. The diagnosis and repair are identical at every corner: a corroded or unplugged connector, a chafed harness conductor rubbing on the strut or subframe, or a failed Hall-effect\/variable-reluctance sensor element. This is distinct from a tone-ring or mechanical fault, where the wiring and sensor test fine but the signal is noisy or absent because of physical damage at the reluctor wheel."
+ },
+ {
+  "code_id":217,
+  "dtc_code":"C0035",
+  "system_category":"Chassis",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"wheel_speed_sensor_circuit",
+  "short_description":"Right Front Wheel Speed Sensor Supply",
+  "detailed_technical_explanation":"Code C0035 (Right Front Wheel Speed Sensor Supply) sets when the ABS module loses a valid electrical signal from a wheel speed sensor -- the circuit reads open, shorted low or high, drops out intermittently, fails to correlate with the other three wheels, or reports an incorrect component installed. The diagnosis and repair are identical at every corner: a corroded or unplugged connector, a chafed harness conductor rubbing on the strut or subframe, or a failed Hall-effect\/variable-reluctance sensor element. This is distinct from a tone-ring or mechanical fault, where the wiring and sensor test fine but the signal is noisy or absent because of physical damage at the reluctor wheel."
+ },
+ {
+  "code_id":228,
+  "dtc_code":"C0040",
+  "system_category":"Chassis",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"brake_pedal_switch_stop_lamp_circuit",
+  "short_description":"Brake Pedal Switch A",
+  "detailed_technical_explanation":"Code C0040 (Brake Pedal Switch A) sets when the module sees an implausible state from the brake pedal switch(es) that both illuminate the stop lamps and tell the ABS\/cruise\/shift-interlock systems the brake pedal is applied -- the switch stays closed, stays open, or the two redundant switch channels disagree with each other. A misadjusted switch plunger, a worn switch contact, or corrosion at the switch connector near the pedal bracket are the common causes. Because this switch also feeds the stop lamps and brake-transmission shift interlock, a fault here can cause symptoms well beyond ABS, from stuck-on brake lights to a shifter that will not release from Park."
+ },
+ {
+  "code_id":684,
+  "dtc_code":"P0011",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"vvt_timing_performance",
+  "short_description":"A Camshaft Position - Timing Over-Advanced or System Performance Bank 1",
+  "detailed_technical_explanation":"Code P0011 (A Camshaft Position - Timing Over-Advanced or System Performance Bank 1) sets when a camshaft phaser reaches a timing position beyond commanded limits or becomes stuck rather than responding to duty-cycle commands. Root causes are sludge or low oil pressure starving the phaser, a worn phaser with excessive internal slack, a stuck oil control valve, or a mis-timed chain\/belt from prior service."
+ },
+ {
+  "code_id":689,
+  "dtc_code":"P0016",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"crank_cam_correlation",
+  "short_description":"Crankshaft Position - Camshaft Position Correlation Bank 1 Sensor A",
+  "detailed_technical_explanation":"Code P0016 (Crankshaft Position - Camshaft Position Correlation Bank 1 Sensor A) sets when the ECM compares crankshaft and camshaft position signals and finds their relative timing outside the expected window, or cannot establish a stable engine position sync. This is most often caused by timing chain\/belt stretch or a jumped tooth, a failing crankshaft or camshaft position sensor, worn tensioner\/guides, or reluctor-wheel damage."
+ },
+ {
+  "code_id":924,
+  "dtc_code":"P0101",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"maf_circuit",
+  "short_description":"Mass or Volume Air Flow Sensor A Circuit Range\/Performance",
+  "detailed_technical_explanation":"Code P0101 (Mass or Volume Air Flow Sensor A Circuit Range\/Performance) sets when the ECM detects an implausible signal from the mass air flow sensor — reported airflow disagrees with throttle position and engine speed, or the signal voltage leaves its calibrated window. The most common physical causes are a contaminated MAF sensing element, unmetered air entering the intake downstream of the sensor, and chafed or corroded wiring in the sensor's 5V reference \/ signal-return circuit."
+ },
+ {
+  "code_id":925,
+  "dtc_code":"P0102",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"maf_circuit",
+  "short_description":"Mass or Volume Air Flow Sensor A Circuit Low",
+  "detailed_technical_explanation":"Code P0102 (Mass or Volume Air Flow Sensor A Circuit Low) sets when the ECM detects an implausible signal from the mass air flow sensor — reported airflow disagrees with throttle position and engine speed, or the signal voltage leaves its calibrated window. The most common physical causes are a contaminated MAF sensing element, unmetered air entering the intake downstream of the sensor, and chafed or corroded wiring in the sensor's 5V reference \/ signal-return circuit."
+ },
+ {
+  "code_id":929,
+  "dtc_code":"P0106",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"map_sensor_circuit",
+  "short_description":"Manifold Absolute Pressure\/Barometric Pressure Sensor Circuit Range\/Performance",
+  "detailed_technical_explanation":"Code P0106 (Manifold Absolute Pressure\/Barometric Pressure Sensor Circuit Range\/Performance) sets when the ECM sees an open, shorted, or implausible voltage from the MAP\/barometric pressure sensor circuit, or the reading is simply too low for the current altitude. Causes are a cracked or oil-fouled vacuum port, a failed sensor element, or damaged sensor wiring."
+ },
+ {
+  "code_id":942,
+  "dtc_code":"P0113",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"iat_sensor_circuit",
+  "short_description":"Intake Air Temperature Sensor 1 Circuit High Bank 1",
+  "detailed_technical_explanation":"Code P0113 (Intake Air Temperature Sensor 1 Circuit High Bank 1) sets when the ECM sees an open, shorted, or implausible resistance from an intake air temperature sensor (any position\/bank), or a correlation mismatch against a related ambient or fuel temperature signal. Causes are a corroded connector, a failed thermistor element, or chafed harness wiring near the intake tract."
+ },
+ {
+  "code_id":943,
+  "dtc_code":"P0114",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"iat_sensor_circuit",
+  "short_description":"Intake Air Temperature Sensor 1 Circuit Intermittent Bank 1",
+  "detailed_technical_explanation":"Code P0114 (Intake Air Temperature Sensor 1 Circuit Intermittent Bank 1) sets when the ECM sees an open, shorted, or implausible resistance from an intake air temperature sensor (any position\/bank), or a correlation mismatch against a related ambient or fuel temperature signal. Causes are a corroded connector, a failed thermistor element, or chafed harness wiring near the intake tract."
+ },
+ {
+  "code_id":947,
+  "dtc_code":"P0118",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"ect_sensor_circuit",
+  "short_description":"Engine Coolant Temperature Sensor 1 Circuit High",
+  "detailed_technical_explanation":"Code P0118 (Engine Coolant Temperature Sensor 1 Circuit High) sets when the ECM sees an open, shorted, or implausible resistance from an engine or radiator coolant temperature sensor, or a correlation mismatch between redundant coolant\/oil\/ambient temperature signals. Causes are a corroded connector, a failed thermistor element, low coolant exposing the sensor tip, or chafed wiring."
+ },
+ {
+  "code_id":956,
+  "dtc_code":"P0121",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"throttle_position_sensor_circuit",
+  "short_description":"Throttle\/Pedal Position Sensor\/Switch A Circuit Range\/Performance",
+  "detailed_technical_explanation":"Code P0121 (Throttle\/Pedal Position Sensor\/Switch A Circuit Range\/Performance) sets when the ECM detects an open, shorted, or out-of-range voltage, or an implausible rate of change, from a throttle body or accelerator pedal position sensor channel. Causes are a worn sensor track, a corroded connector, or chafed wiring between the sensor and the ECM."
+ },
+ {
+  "code_id":963,
+  "dtc_code":"P0128",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"coolant_thermostat_performance",
+  "short_description":"Coolant Thermostat (Coolant Temperature Below Thermostat Regulating Temperature)",
+  "detailed_technical_explanation":"Code P0128 (Coolant Thermostat (Coolant Temperature Below Thermostat Regulating Temperature)) sets when engine coolant fails to reach or maintain its regulating temperature within the expected time, or coolant flow\/circulation is judged insufficient. Causes are a thermostat stuck open, a low coolant level, a failing water pump, or a chronically cold operating condition combined with a stuck-open thermostat."
+ },
+ {
+  "code_id":972,
+  "dtc_code":"P0131",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"o2_sensor_circuit",
+  "short_description":"O2 Sensor Circuit Low Voltage Bank 1 Sensor 1",
+  "detailed_technical_explanation":"Code P0131 (O2 Sensor Circuit Low Voltage Bank 1 Sensor 1) sets when the ECM sees an open circuit, a stuck\/biased voltage, or no signal activity from an oxygen sensor's signal circuit. Causes are a contaminated or worn-out sensor element, an exhaust leak near the sensor bung skewing readings, or damaged sensor wiring."
+ },
+ {
+  "code_id":974,
+  "dtc_code":"P0133",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"o2_sensor_slow_response",
+  "short_description":"O2 Sensor Circuit Slow Response Bank 1 Sensor 1",
+  "detailed_technical_explanation":"Code P0133 (O2 Sensor Circuit Slow Response Bank 1 Sensor 1) sets when an oxygen sensor takes longer than the calibrated time to transition between rich and lean voltage states. This is typically a sensor element that has aged or been contaminated by silicone, oil ash, or coolant, though an exhaust leak that dilutes the sample can also slow the switching response."
+ },
+ {
+  "code_id":976,
+  "dtc_code":"P0135",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"o2_heater_circuit",
+  "short_description":"O2 Sensor Heater Circuit Bank 1 Sensor 1",
+  "detailed_technical_explanation":"Code P0135 (O2 Sensor Heater Circuit Bank 1 Sensor 1) sets when the ECM detects an open, shorted, or out-of-spec resistance in the internal heater element of an oxygen sensor, or the heater fails to bring the sensor to operating temperature within the expected time. This is almost always a degraded heater element inside the O2 sensor itself, though a blown fuse, relay, or chafed heater wiring can also be responsible."
+ },
+ {
+  "code_id":979,
+  "dtc_code":"P0138",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"o2_sensor_circuit",
+  "short_description":"O2 Sensor Circuit High Voltage Bank 1 Sensor 2",
+  "detailed_technical_explanation":"Code P0138 (O2 Sensor Circuit High Voltage Bank 1 Sensor 2) sets when the ECM sees an open circuit, a stuck\/biased voltage, or no signal activity from an oxygen sensor's signal circuit. Causes are a contaminated or worn-out sensor element, an exhaust leak near the sensor bung skewing readings, or damaged sensor wiring."
+ },
+ {
+  "code_id":988,
+  "dtc_code":"P0141",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"o2_heater_circuit",
+  "short_description":"O2 Sensor Heater Circuit Bank 1 Sensor 2",
+  "detailed_technical_explanation":"Code P0141 (O2 Sensor Heater Circuit Bank 1 Sensor 2) sets when the ECM detects an open, shorted, or out-of-spec resistance in the internal heater element of an oxygen sensor, or the heater fails to bring the sensor to operating temperature within the expected time. This is almost always a degraded heater element inside the O2 sensor itself, though a blown fuse, relay, or chafed heater wiring can also be responsible."
+ },
+ {
+  "code_id":1036,
+  "dtc_code":"P0171",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"fuel_trim_lean",
+  "short_description":"System Too Lean Bank 1",
+  "detailed_technical_explanation":"Code P0171 (System Too Lean Bank 1) sets when the ECM must add more fuel than the calibrated limit allows to correct a lean condition on the indicated bank. The leading causes are a vacuum or intake air leak downstream of the MAF, a weak fuel pump or clogged filter, or a leaking exhaust manifold gasket confusing the upstream O2 sensor."
+ },
+ {
+  "code_id":1037,
+  "dtc_code":"P0172",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"fuel_trim_rich",
+  "short_description":"System Too Rich Bank 1",
+  "detailed_technical_explanation":"Code P0172 (System Too Rich Bank 1) sets when the ECM must remove more fuel than the calibrated limit allows to correct a rich condition on the indicated bank. Leading causes are a leaking fuel injector, a stuck-open fuel pressure regulator, a fouled MAF sensor overreporting airflow, or a failing fuel pressure sensor."
+ },
+ {
+  "code_id":1039,
+  "dtc_code":"P0174",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"fuel_trim_lean",
+  "short_description":"System Too Lean Bank 2",
+  "detailed_technical_explanation":"Code P0174 (System Too Lean Bank 2) sets when the ECM must add more fuel than the calibrated limit allows to correct a lean condition on the indicated bank. The leading causes are a vacuum or intake air leak downstream of the MAF, a weak fuel pump or clogged filter, or a leaking exhaust manifold gasket confusing the upstream O2 sensor."
+ },
+ {
+  "code_id":1040,
+  "dtc_code":"P0175",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"fuel_trim_rich",
+  "short_description":"System Too Rich Bank 2",
+  "detailed_technical_explanation":"Code P0175 (System Too Rich Bank 2) sets when the ECM must remove more fuel than the calibrated limit allows to correct a rich condition on the indicated bank. Leading causes are a leaking fuel injector, a stuck-open fuel pressure regulator, a fouled MAF sensor overreporting airflow, or a failing fuel pressure sensor."
+ },
+ {
+  "code_id":1435,
+  "dtc_code":"P0300",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"misfire_random_multiple",
+  "short_description":"Random\/Multiple Cylinder Misfire Detected",
+  "detailed_technical_explanation":"Code P0300 (Random\/Multiple Cylinder Misfire Detected) sets when the ECM's crankshaft-acceleration misfire monitor counts combustion events across multiple cylinders (or an undifferentiated pattern) beyond the calibrated threshold, including variants triggered by a low fuel level, a cold-start window, or a commanded fuel cutoff. Because no single cylinder is isolated, the cause is almost always something that affects the whole engine at once: a vacuum leak, worn spark plugs across the set, a weak fuel pump\/low fuel level, or a base ignition timing\/reluctor fault."
+ },
+ {
+  "code_id":1436,
+  "dtc_code":"P0301",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"misfire_single_cylinder",
+  "short_description":"Cylinder 1 Misfire Detected",
+  "detailed_technical_explanation":"Code P0301 (Cylinder 1 Misfire Detected) sets when the ECM's misfire monitor isolates repeated combustion events lost on one specific cylinder (or, for the unspecified variant, a single cylinder it cannot pin down). The diagnosis path is identical regardless of which cylinder number is reported: the fault lives in that cylinder's ignition, fuel delivery, or mechanical sealing, most commonly a fouled spark plug or failing coil, a clogged or leaking injector, or low compression from a burnt valve or worn rings."
+ },
+ {
+  "code_id":1437,
+  "dtc_code":"P0302",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"misfire_single_cylinder",
+  "short_description":"Cylinder 2 Misfire Detected",
+  "detailed_technical_explanation":"Code P0302 (Cylinder 2 Misfire Detected) sets when the ECM's misfire monitor isolates repeated combustion events lost on one specific cylinder (or, for the unspecified variant, a single cylinder it cannot pin down). The diagnosis path is identical regardless of which cylinder number is reported: the fault lives in that cylinder's ignition, fuel delivery, or mechanical sealing, most commonly a fouled spark plug or failing coil, a clogged or leaking injector, or low compression from a burnt valve or worn rings."
+ },
+ {
+  "code_id":1438,
+  "dtc_code":"P0303",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"misfire_single_cylinder",
+  "short_description":"Cylinder 3 Misfire Detected",
+  "detailed_technical_explanation":"Code P0303 (Cylinder 3 Misfire Detected) sets when the ECM's misfire monitor isolates repeated combustion events lost on one specific cylinder (or, for the unspecified variant, a single cylinder it cannot pin down). The diagnosis path is identical regardless of which cylinder number is reported: the fault lives in that cylinder's ignition, fuel delivery, or mechanical sealing, most commonly a fouled spark plug or failing coil, a clogged or leaking injector, or low compression from a burnt valve or worn rings."
+ },
+ {
+  "code_id":1439,
+  "dtc_code":"P0304",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"misfire_single_cylinder",
+  "short_description":"Cylinder 4 Misfire Detected",
+  "detailed_technical_explanation":"Code P0304 (Cylinder 4 Misfire Detected) sets when the ECM's misfire monitor isolates repeated combustion events lost on one specific cylinder (or, for the unspecified variant, a single cylinder it cannot pin down). The diagnosis path is identical regardless of which cylinder number is reported: the fault lives in that cylinder's ignition, fuel delivery, or mechanical sealing, most commonly a fouled spark plug or failing coil, a clogged or leaking injector, or low compression from a burnt valve or worn rings."
+ },
+ {
+  "code_id":1440,
+  "dtc_code":"P0305",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"misfire_single_cylinder",
+  "short_description":"Cylinder 5 Misfire Detected",
+  "detailed_technical_explanation":"Code P0305 (Cylinder 5 Misfire Detected) sets when the ECM's misfire monitor isolates repeated combustion events lost on one specific cylinder (or, for the unspecified variant, a single cylinder it cannot pin down). The diagnosis path is identical regardless of which cylinder number is reported: the fault lives in that cylinder's ignition, fuel delivery, or mechanical sealing, most commonly a fouled spark plug or failing coil, a clogged or leaking injector, or low compression from a burnt valve or worn rings."
+ },
+ {
+  "code_id":1441,
+  "dtc_code":"P0306",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"misfire_single_cylinder",
+  "short_description":"Cylinder 6 Misfire Detected",
+  "detailed_technical_explanation":"Code P0306 (Cylinder 6 Misfire Detected) sets when the ECM's misfire monitor isolates repeated combustion events lost on one specific cylinder (or, for the unspecified variant, a single cylinder it cannot pin down). The diagnosis path is identical regardless of which cylinder number is reported: the fault lives in that cylinder's ignition, fuel delivery, or mechanical sealing, most commonly a fouled spark plug or failing coil, a clogged or leaking injector, or low compression from a burnt valve or worn rings."
+ },
+ {
+  "code_id":1472,
+  "dtc_code":"P0325",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"knock_sensor_circuit",
+  "short_description":"Knock\/Combustion Vibration Sensor A Circuit",
+  "detailed_technical_explanation":"Code P0325 (Knock\/Combustion Vibration Sensor A Circuit) sets when the ECM detects an open circuit, out-of-range voltage, or a total loss of signal from a knock (combustion vibration) sensor used to retard timing and protect the engine from detonation, or when the overall knock control system itself reports an internal error. Physical causes are a failed piezoelectric sensor element, an improperly torqued sensor (knock sensors are torque-sensitive and read incorrectly if over- or under-tightened), or chafed\/corroded wiring between the sensor and the ECM."
+ },
+ {
+  "code_id":1488,
+  "dtc_code":"P0335",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"crank_position_sensor_circuit",
+  "short_description":"Crankshaft Position Sensor A Circuit",
+  "detailed_technical_explanation":"Code P0335 (Crankshaft Position Sensor A Circuit) sets when the ECM sees an open circuit, out-of-range voltage, no signal, or an erratic pulse pattern from a crankshaft position sensor (or, on older distributor-based ignition systems, the distributor's engine-speed pickup that serves the same function). Common causes are a sensor with too large an air gap to the reluctor wheel, metal debris bridging the sensor tip, a corroded connector, or chafed wiring between the sensor and the ECM."
+ },
+ {
+  "code_id":1499,
+  "dtc_code":"P0340",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"cam_position_sensor_circuit",
+  "short_description":"Camshaft Position Sensor A Circuit Bank 1 or Single Sensor",
+  "detailed_technical_explanation":"Code P0340 (Camshaft Position Sensor A Circuit Bank 1 or Single Sensor) sets when the ECM sees an open circuit, out-of-range voltage, or an erratic signal from the primary camshaft position sensor used for cylinder identification and cam-to-crank correlation — distinct from a VVT phaser's own actuator-position feedback sensor. Common causes are a corroded connector, a worn or contaminated reluctor\/trigger wheel on the camshaft, an incorrect air gap, or chafed wiring between the sensor and the ECM."
+ },
+ {
+  "code_id":1500,
+  "dtc_code":"P0341",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"cam_position_sensor_circuit",
+  "short_description":"Camshaft Position Sensor A Circuit Range\/Performance Bank 1 or Single Sensor",
+  "detailed_technical_explanation":"Code P0341 (Camshaft Position Sensor A Circuit Range\/Performance Bank 1 or Single Sensor) sets when the ECM sees an open circuit, out-of-range voltage, or an erratic signal from the primary camshaft position sensor used for cylinder identification and cam-to-crank correlation — distinct from a VVT phaser's own actuator-position feedback sensor. Common causes are a corroded connector, a worn or contaminated reluctor\/trigger wheel on the camshaft, an incorrect air gap, or chafed wiring between the sensor and the ECM."
+ },
+ {
+  "code_id":1689,
+  "dtc_code":"P0401",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"egr_flow_performance",
+  "short_description":"EGR A Flow Insufficient Detected",
+  "detailed_technical_explanation":"Code P0401 (EGR A Flow Insufficient Detected) sets when the ECM commands a specific EGR flow rate (valve A or valve B on dual-EGR platforms) and the measured intake or exhaust response indicates the actual flow is significantly less or more than commanded. Insufficient flow is most often a carbon-clogged EGR passage, valve, or cooler; excessive flow points to a valve stuck partially open or a failed position sensor causing the ECM to over-command it."
+ },
+ {
+  "code_id":1690,
+  "dtc_code":"P0402",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"egr_flow_performance",
+  "short_description":"EGR A Flow Excessive Detected",
+  "detailed_technical_explanation":"Code P0402 (EGR A Flow Excessive Detected) sets when the ECM commands a specific EGR flow rate (valve A or valve B on dual-EGR platforms) and the measured intake or exhaust response indicates the actual flow is significantly less or more than commanded. Insufficient flow is most often a carbon-clogged EGR passage, valve, or cooler; excessive flow points to a valve stuck partially open or a failed position sensor causing the ECM to over-command it."
+ },
+ {
+  "code_id":1691,
+  "dtc_code":"P0403",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"egr_control_circuit",
+  "short_description":"EGR A Control Circuit\/Open",
+  "detailed_technical_explanation":"Code P0403 (EGR A Control Circuit\/Open) sets when the ECM detects an open circuit, out-of-range voltage, a learning-limit exceeded condition, or a mechanically stuck-open\/stuck-closed report while driving an EGR control valve, an EGR throttle valve used to assist EGR flow, or the associated control processor. Causes are a failed EGR valve\/throttle solenoid or motor, a corroded connector, carbon buildup mechanically jamming the valve, or damaged control wiring back to the ECM."
+ },
+ {
+  "code_id":1705,
+  "dtc_code":"P0411",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"secondary_air_injection_system",
+  "short_description":"AIR System A Incorrect Flow Detected",
+  "detailed_technical_explanation":"Code P0411 (AIR System A Incorrect Flow Detected) sets when the ECM commands the secondary air injection system (used to inject fresh air into the exhaust during cold start to speed catalyst light-off and reduce emissions) and detects incorrect flow, an open\/shorted switching valve circuit, or a control circuit fault. Causes are a seized or failed AIR pump, a stuck or corroded switching\/check valve, a collapsed or leaking air delivery hose, or damaged wiring to the pump\/valve."
+ },
+ {
+  "code_id":1720,
+  "dtc_code":"P0420",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"catalyst_efficiency_below_threshold",
+  "short_description":"Catalyst System Efficiency Below Threshold Bank 1",
+  "detailed_technical_explanation":"Code P0420 (Catalyst System Efficiency Below Threshold Bank 1) sets when the ECM compares pre- and post-catalyst oxygen sensor switching activity and finds the catalyst (or a specific catalyst brick on multi-brick systems) is no longer storing\/releasing oxygen efficiently enough to meet emissions thresholds. The dominant cause is a catalyst that has aged out or been chemically poisoned (oil consumption, coolant leak into the exhaust, or leaded\/high-sulfur fuel), though a persistent rich\/lean fuel condition or an exhaust leak feeding false switching data can also trigger it."
+ },
+ {
+  "code_id":1736,
+  "dtc_code":"P0430",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"catalyst_efficiency_below_threshold",
+  "short_description":"Catalyst System Efficiency Below Threshold Bank 2",
+  "detailed_technical_explanation":"Code P0430 (Catalyst System Efficiency Below Threshold Bank 2) sets when the ECM compares pre- and post-catalyst oxygen sensor switching activity and finds the catalyst (or a specific catalyst brick on multi-brick systems) is no longer storing\/releasing oxygen efficiently enough to meet emissions thresholds. The dominant cause is a catalyst that has aged out or been chemically poisoned (oil consumption, coolant leak into the exhaust, or leaded\/high-sulfur fuel), though a persistent rich\/lean fuel condition or an exhaust leak feeding false switching data can also trigger it."
+ },
+ {
+  "code_id":1752,
+  "dtc_code":"P0440",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"evap_small_leak",
+  "short_description":"EVAP System",
+  "detailed_technical_explanation":"Code P0440 (EVAP System) sets when the EVAP leak-detection monitor cannot hold vacuum or pressure in the fuel vapor system within its small-leak threshold (typically a 0.020 in. equivalent orifice), including the tighter very-small-leak threshold and the fuel-tank-side\/fresh-air-side variants used on natural-vacuum leak detection systems, or when the general EVAP system monitor itself fails. The dominant causes are a loose or worn fuel filler cap, a cracked EVAP hose, or a purge\/vent solenoid that no longer seals."
+ },
+ {
+  "code_id":1753,
+  "dtc_code":"P0441",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"evap_purge_flow_performance",
+  "short_description":"EVAP System Incorrect Purge Flow",
+  "detailed_technical_explanation":"Code P0441 (EVAP System Incorrect Purge Flow) sets when the ECM commands EVAP purge and the resulting flow through the purge line — measured by fuel trim shift, a purge flow sensor, or line pressure — is significantly higher or lower than expected for the commanded duty cycle, including the high-load purge line performance variant used on turbocharged\/boosted platforms. Causes are a partially clogged purge line or canister restricting flow, a purge solenoid that leaks or does not open fully, or a collapsed\/pinched purge hose under vacuum."
+ },
+ {
+  "code_id":1754,
+  "dtc_code":"P0442",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"evap_small_leak",
+  "short_description":"EVAP System Leak Detected (small leak)",
+  "detailed_technical_explanation":"Code P0442 (EVAP System Leak Detected (small leak)) sets when the EVAP leak-detection monitor cannot hold vacuum or pressure in the fuel vapor system within its small-leak threshold (typically a 0.020 in. equivalent orifice), including the tighter very-small-leak threshold and the fuel-tank-side\/fresh-air-side variants used on natural-vacuum leak detection systems, or when the general EVAP system monitor itself fails. The dominant causes are a loose or worn fuel filler cap, a cracked EVAP hose, or a purge\/vent solenoid that no longer seals."
+ },
+ {
+  "code_id":1758,
+  "dtc_code":"P0446",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"evap_vent_solenoid_circuit",
+  "short_description":"EVAP System Vent Control Circuit",
+  "detailed_technical_explanation":"Code P0446 (EVAP System Vent Control Circuit) sets when the ECM detects an open, shorted, or out-of-range condition while driving the EVAP canister vent solenoid, the normally-open valve that must seal the system to atmosphere during a leak test. Causes are a failed solenoid coil, a corroded or unseated connector, debris\/ice jamming the valve, or damaged wiring between the ECM and the solenoid."
+ },
+ {
+  "code_id":1773,
+  "dtc_code":"P0455",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"evap_large_leak",
+  "short_description":"EVAP System Leak Detected - Large Leak",
+  "detailed_technical_explanation":"Code P0455 (EVAP System Leak Detected - Large Leak) sets when the EVAP leak-detection monitor detects a leak far larger than the small-leak threshold (roughly equivalent to a 0.040 in. orifice or bigger), including the fuel-tank-side and fresh-air-side variants on natural-vacuum leak detection systems. This points to a substantially open path to atmosphere: a fuel cap left off or badly damaged, a disconnected or split EVAP hose, or a canister\/valve that has failed open."
+ },
+ {
+  "code_id":1774,
+  "dtc_code":"P0456",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"evap_small_leak",
+  "short_description":"EVAP System Leak Detected (very small leak)",
+  "detailed_technical_explanation":"Code P0456 (EVAP System Leak Detected (very small leak)) sets when the EVAP leak-detection monitor cannot hold vacuum or pressure in the fuel vapor system within its small-leak threshold (typically a 0.020 in. equivalent orifice), including the tighter very-small-leak threshold and the fuel-tank-side\/fresh-air-side variants used on natural-vacuum leak detection systems, or when the general EVAP system monitor itself fails. The dominant causes are a loose or worn fuel filler cap, a cracked EVAP hose, or a purge\/vent solenoid that no longer seals."
+ },
+ {
+  "code_id":1775,
+  "dtc_code":"P0457",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"evap_small_leak",
+  "short_description":"EVAP System Leak Detected (fuel cap loose\/off)",
+  "detailed_technical_explanation":"Code P0457 (EVAP System Leak Detected (fuel cap loose\/off)) sets when the EVAP leak-detection monitor cannot hold vacuum or pressure in the fuel vapor system within its small-leak threshold (typically a 0.020 in. equivalent orifice), including the tighter very-small-leak threshold and the fuel-tank-side\/fresh-air-side variants used on natural-vacuum leak detection systems, or when the general EVAP system monitor itself fails. The dominant causes are a loose or worn fuel filler cap, a cracked EVAP hose, or a purge\/vent solenoid that no longer seals."
+ },
+ {
+  "code_id":1944,
+  "dtc_code":"P0500",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"vehicle_speed_sensor_circuit",
+  "short_description":"Vehicle Speed Sensor A Circuit",
+  "detailed_technical_explanation":"Code P0500 (Vehicle Speed Sensor A Circuit) sets when the ECM loses, or receives an implausible, vehicle speed signal from the primary VSS\/output-shaft speed source used for speedometer, cruise control, ABS coordination, and shift scheduling. The signal is usually a toothed-wheel\/magnetic or Hall-effect pickup, so the common causes are a damaged tone ring, an air-gap or debris problem at the sensor tip, a corroded connector, or chafed sensor wiring shorted to power\/ground."
+ },
+ {
+  "code_id":1949,
+  "dtc_code":"P0505",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"idle_air_control_system",
+  "short_description":"Idle Control System",
+  "detailed_technical_explanation":"Code P0505 (Idle Control System) sets when commanded idle RPM (or, on diesel platforms, idle fuel quantity) does not match the ECM's target, or the idle air control actuator's circuit reports an open\/out-of-range condition. Root causes are a carbon-fouled IAC valve or throttle bore restricting airflow, an unmetered vacuum\/intake air leak that pushes idle high, a sticking throttle plate, or a failed IAC motor\/solenoid and its wiring."
+ },
+ {
+  "code_id":1950,
+  "dtc_code":"P0506",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"idle_air_control_system",
+  "short_description":"Idle Control System RPM - Lower Than Expected",
+  "detailed_technical_explanation":"Code P0506 (Idle Control System RPM - Lower Than Expected) sets when commanded idle RPM (or, on diesel platforms, idle fuel quantity) does not match the ECM's target, or the idle air control actuator's circuit reports an open\/out-of-range condition. Root causes are a carbon-fouled IAC valve or throttle bore restricting airflow, an unmetered vacuum\/intake air leak that pushes idle high, a sticking throttle plate, or a failed IAC motor\/solenoid and its wiring."
+ },
+ {
+  "code_id":1951,
+  "dtc_code":"P0507",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"idle_air_control_system",
+  "short_description":"Idle Control System RPM - Higher Than Expected",
+  "detailed_technical_explanation":"Code P0507 (Idle Control System RPM - Higher Than Expected) sets when commanded idle RPM (or, on diesel platforms, idle fuel quantity) does not match the ECM's target, or the idle air control actuator's circuit reports an open\/out-of-range condition. Root causes are a carbon-fouled IAC valve or throttle bore restricting airflow, an unmetered vacuum\/intake air leak that pushes idle high, a sticking throttle plate, or a failed IAC motor\/solenoid and its wiring."
+ },
+ {
+  "code_id":2042,
+  "dtc_code":"P0562",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"system_voltage_charging_circuit",
+  "short_description":"System Voltage Low",
+  "detailed_technical_explanation":"Code P0562 (System Voltage Low) sets when the ECM's own B+ sense circuit measures system voltage outside its normal window or fluctuating erratically, pointing at the vehicle's overall charging\/electrical system rather than a single sensor. Causes are a weak or failing battery, a charging system undercharging or overcharging, corroded main power\/ground straps, or a parasitic draw combined with marginal alternator output."
+ },
+ {
+  "code_id":2043,
+  "dtc_code":"P0563",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"system_voltage_charging_circuit",
+  "short_description":"System Voltage High",
+  "detailed_technical_explanation":"Code P0563 (System Voltage High) sets when the ECM's own B+ sense circuit measures system voltage outside its normal window or fluctuating erratically, pointing at the vehicle's overall charging\/electrical system rather than a single sensor. Causes are a weak or failing battery, a charging system undercharging or overcharging, corroded main power\/ground straps, or a parasitic draw combined with marginal alternator output."
+ },
+ {
+  "code_id":2201,
+  "dtc_code":"P0601",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"pcm_internal_processor_fault",
+  "short_description":"Internal Control Module Memory Checksum Error",
+  "detailed_technical_explanation":"Code P0601 (Internal Control Module Memory Checksum Error) sets when a control module's (ECM, PCM, or TCM) internal self-test finds its memory (RAM\/ROM\/EEPROM\/NVRAM\/checksum), processor, or an internal signal-processing channel is not functioning correctly. Unlike a sensor circuit fault, this points at the module's own hardware, so the fix path is reflashing the module's software first and, if the fault returns, replacing the module rather than chasing external wiring."
+ },
+ {
+  "code_id":2206,
+  "dtc_code":"P0606",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"pcm_internal_processor_fault",
+  "short_description":"Control Module Processor",
+  "detailed_technical_explanation":"Code P0606 (Control Module Processor) sets when a control module's (ECM, PCM, or TCM) internal self-test finds its memory (RAM\/ROM\/EEPROM\/NVRAM\/checksum), processor, or an internal signal-processing channel is not functioning correctly. Unlike a sensor circuit fault, this points at the module's own hardware, so the fix path is reflashing the module's software first and, if the fault returns, replacing the module rather than chasing external wiring."
+ },
+ {
+  "code_id":2456,
+  "dtc_code":"P0700",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"transmission_control_system_circuit",
+  "short_description":"Transmission Control System (MIL Request)",
+  "detailed_technical_explanation":"Code P0700 (Transmission Control System (MIL Request)) sets when the TCM's overall self-check strategy — as opposed to any single sensor — requests the MIL, finds an electrical fault on its main harness, or judges its adaptive shift strategy is out of range. Causes are low or contaminated transmission fluid, a TCM software issue, an aftermarket electrical accessory disrupting the TCM's power\/ground, or a wiring fault on the main TCM harness connector."
+ },
+ {
+  "code_id":2461,
+  "dtc_code":"P0705",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"transmission_range_sensor_circuit",
+  "short_description":"Transmission Range Sensor A Circuit (PRNDL Input)",
+  "detailed_technical_explanation":"Code P0705 (Transmission Range Sensor A Circuit (PRNDL Input)) sets when the TCM sees an open, shorted, or implausible signal from the transmission range sensor that reports gear-selector position (Park\/Reverse\/Neutral\/Drive\/Low) to the ECM\/TCM. Causes are a maladjusted or worn range sensor at the shift shaft, transmission fluid contamination fouling the sensor, or chafed wiring at the connector on the transmission case."
+ },
+ {
+  "code_id":2462,
+  "dtc_code":"P0706",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"transmission_range_sensor_circuit",
+  "short_description":"Transmission Range Sensor A Circuit Range\/Performance",
+  "detailed_technical_explanation":"Code P0706 (Transmission Range Sensor A Circuit Range\/Performance) sets when the TCM sees an open, shorted, or implausible signal from the transmission range sensor that reports gear-selector position (Park\/Reverse\/Neutral\/Drive\/Low) to the ECM\/TCM. Causes are a maladjusted or worn range sensor at the shift shaft, transmission fluid contamination fouling the sensor, or chafed wiring at the connector on the transmission case."
+ },
+ {
+  "code_id":2477,
+  "dtc_code":"P0715",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"input_turbine_shaft_speed_sensor_circuit",
+  "short_description":"Input\/Turbine Shaft Speed Sensor A Circuit",
+  "detailed_technical_explanation":"Code P0715 (Input\/Turbine Shaft Speed Sensor A Circuit) sets when the TCM loses, or receives an implausible, input\/turbine shaft speed signal used for shift scheduling and torque converter clutch control. Causes are a damaged reluctor wheel, debris or metal shavings at the sensor tip, a corroded connector, or chafed wiring inside the transmission harness."
+ },
+ {
+  "code_id":2488,
+  "dtc_code":"P0720",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"output_shaft_speed_sensor_circuit",
+  "short_description":"Output Shaft Speed Sensor Circuit",
+  "detailed_technical_explanation":"Code P0720 (Output Shaft Speed Sensor Circuit) sets when the TCM loses, receives an implausible, or loses direction information from the transmission output shaft speed sensor used for shift scheduling and vehicle speed cross-check. Causes are a damaged reluctor wheel, debris at the sensor tip, a corroded connector, or chafed internal transmission wiring."
+ },
+ {
+  "code_id":2521,
+  "dtc_code":"P0741",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"torque_converter_clutch_circuit",
+  "short_description":"Torque Converter Clutch Circuit Performance\/Stuck Off",
+  "detailed_technical_explanation":"Code P0741 (Torque Converter Clutch Circuit Performance\/Stuck Off) sets when the TCM detects an open circuit, out-of-range current, or a stuck-on\/stuck-off performance fault while driving the torque converter clutch solenoid that locks the converter for fuel economy at cruise. Causes are a failed TCC solenoid, contaminated fluid causing the solenoid or clutch plate to stick, or damaged control wiring."
+ },
+ {
+  "code_id":2523,
+  "dtc_code":"P0743",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"torque_converter_clutch_circuit",
+  "short_description":"Torque Converter Clutch Circuit Electrical",
+  "detailed_technical_explanation":"Code P0743 (Torque Converter Clutch Circuit Electrical) sets when the TCM detects an open circuit, out-of-range current, or a stuck-on\/stuck-off performance fault while driving the torque converter clutch solenoid that locks the converter for fuel economy at cruise. Causes are a failed TCC solenoid, contaminated fluid causing the solenoid or clutch plate to stick, or damaged control wiring."
+ },
+ {
+  "code_id":2541,
+  "dtc_code":"P0755",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"shift_solenoid_circuit",
+  "short_description":"Shift Solenoid B",
+  "detailed_technical_explanation":"Code P0755 (Shift Solenoid B) sets when the TCM detects an open circuit, out-of-range current, or a stuck-on\/stuck-off performance fault while driving one of the transmission's shift solenoids, which route hydraulic pressure to select the current gear. Every solenoid letter shares the same diagnosis path: causes are a failed solenoid coil, sludge\/debris jamming the solenoid's spool, or damaged control wiring at the internal valve-body connector."
+ },
+ {
+  "code_id":4374,
+  "dtc_code":"P2002",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"dpf_efficiency_performance",
+  "short_description":"Particulate Filter Efficiency Below Threshold Bank 1",
+  "detailed_technical_explanation":"P2002 (Particulate Filter Efficiency Below Threshold Bank 1) sets when the differential-pressure or soot-model calculation shows the diesel particulate filter is passing more particulate matter than its efficiency threshold allows, or when an abnormal pressure-drop signature indicates a cracked or missing filter substrate. A substrate cracked or melted by an uncontrolled regeneration event, a swapped-in filter that lacks the correct catalytic coating, and a leaking or misrouted differential-pressure sensor hose are the most common causes."
+ },
+ {
+  "code_id":4522,
+  "dtc_code":"P2096",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"fuel_trim_lean",
+  "short_description":"Post Catalyst Fuel Trim System Too Lean Bank 1",
+  "detailed_technical_explanation":"Code P2096 (Post Catalyst Fuel Trim System Too Lean Bank 1) sets when the ECM must add more fuel than the calibrated limit allows to correct a lean condition on the indicated bank. The leading causes are a vacuum or intake air leak downstream of the MAF, a weak fuel pump or clogged filter, or a leaking exhaust manifold gasket confusing the upstream O2 sensor."
+ },
+ {
+  "code_id":4523,
+  "dtc_code":"P2097",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"fuel_trim_rich",
+  "short_description":"Post Catalyst Fuel Trim System Too Rich Bank 1",
+  "detailed_technical_explanation":"Code P2097 (Post Catalyst Fuel Trim System Too Rich Bank 1) sets when the ECM must remove more fuel than the calibrated limit allows to correct a rich condition on the indicated bank. Leading causes are a leaking fuel injector, a stuck-open fuel pressure regulator, a fouled MAF sensor overreporting airflow, or a failing fuel pressure sensor."
+ },
+ {
+  "code_id":4629,
+  "dtc_code":"P2101",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"throttle_actuator_motor_circuit",
+  "short_description":"Throttle Actuator A Control Motor Circuit Range\/Performance",
+  "detailed_technical_explanation":"P2101 (Throttle Actuator A Control Motor Circuit Range\/Performance) is set when the drive-by-wire throttle actuator motor's control circuit reports an open winding, a short, an out-of-range current draw, or the throttle plate's measured position that does not track the commanded motor current. Carbon and oil-vapor buildup on the throttle bore increasing motor load, a worn brush-type motor drawing excess current, and a corroded connector at the throttle body are the leading physical causes."
+ },
+ {
+  "code_id":4681,
+  "dtc_code":"P2135",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"throttle_position_sensor_circuit",
+  "short_description":"Throttle\/Pedal Position Sensor\/Switch A\/B Voltage Correlation",
+  "detailed_technical_explanation":"Code P2135 (Throttle\/Pedal Position Sensor\/Switch A\/B Voltage Correlation) sets when the ECM detects an open, shorted, or out-of-range voltage, or an implausible rate of change, from a throttle body or accelerator pedal position sensor channel. Causes are a worn sensor track, a corroded connector, or chafed wiring between the sensor and the ECM."
+ },
+ {
+  "code_id":4684,
+  "dtc_code":"P2138",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"throttle_position_sensor_circuit",
+  "short_description":"Throttle\/Pedal Position Sensor\/Switch D\/E Voltage Correlation",
+  "detailed_technical_explanation":"Code P2138 (Throttle\/Pedal Position Sensor\/Switch D\/E Voltage Correlation) sets when the ECM detects an open, shorted, or out-of-range voltage, or an implausible rate of change, from a throttle body or accelerator pedal position sensor channel. Causes are a worn sensor track, a corroded connector, or chafed wiring between the sensor and the ECM."
+ },
+ {
+  "code_id":4757,
+  "dtc_code":"P2181",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"coolant_thermostat_performance",
+  "short_description":"Cooling System Performance",
+  "detailed_technical_explanation":"Code P2181 (Cooling System Performance) sets when engine coolant fails to reach or maintain its regulating temperature within the expected time, or coolant flow\/circulation is judged insufficient. Causes are a thermostat stuck open, a low coolant level, a failing water pump, or a chronically cold operating condition combined with a stuck-open thermostat."
+ },
+ {
+  "code_id":4763,
+  "dtc_code":"P2187",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"fuel_trim_lean",
+  "short_description":"System Too Lean at Idle Bank 1",
+  "detailed_technical_explanation":"Code P2187 (System Too Lean at Idle Bank 1) sets when the ECM must add more fuel than the calibrated limit allows to correct a lean condition on the indicated bank. The leading causes are a vacuum or intake air leak downstream of the MAF, a weak fuel pump or clogged filter, or a leaking exhaust manifold gasket confusing the upstream O2 sensor."
+ },
+ {
+  "code_id":4777,
+  "dtc_code":"P2195",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"o2_sensor_circuit",
+  "short_description":"O2 Sensor Signal Biased\/Stuck Lean Bank 1 Sensor 1",
+  "detailed_technical_explanation":"Code P2195 (O2 Sensor Signal Biased\/Stuck Lean Bank 1 Sensor 1) sets when the ECM sees an open circuit, a stuck\/biased voltage, or no signal activity from an oxygen sensor's signal circuit. Causes are a contaminated or worn-out sensor element, an exhaust leak near the sensor bung skewing readings, or damaged sensor wiring."
+ },
+ {
+  "code_id":4996,
+  "dtc_code":"P2270",
+  "system_category":"Powertrain",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"o2_sensor_circuit",
+  "short_description":"O2 Sensor Signal Biased\/Stuck Lean Bank 1 Sensor 2",
+  "detailed_technical_explanation":"Code P2270 (O2 Sensor Signal Biased\/Stuck Lean Bank 1 Sensor 2) sets when the ECM sees an open circuit, a stuck\/biased voltage, or no signal activity from an oxygen sensor's signal circuit. Causes are a contaminated or worn-out sensor element, an exhaust leak near the sensor bung skewing readings, or damaged sensor wiring."
+ },
+ {
+  "code_id":8138,
+  "dtc_code":"U0100",
+  "system_category":"Network",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"lost_comm_powertrain_module",
+  "short_description":"Lost Communication With ECM\/PCM A",
+  "detailed_technical_explanation":"U0100 sets when the gateway or another control module stops receiving any messages from a powertrain-side module or smart sensor -- the ECM\/PCM, TCM, or one of the engine-bay LIN-networked sensors (MAP, MAF, EGR, turbo boost, fuel pressure, and similar) that report over a low-speed sub-bus feeding into the high-speed backbone. These nodes live in the engine compartment where connectors see more heat-cycling, vibration, and oil\/coolant contamination than any other module class, so a burned or corroded engine-harness connector is the leading cause, followed by a blown fuse for that module's dedicated power circuit."
+ },
+ {
+  "code_id":8139,
+  "dtc_code":"U0101",
+  "system_category":"Network",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"lost_comm_powertrain_module",
+  "short_description":"Lost Communication With TCM",
+  "detailed_technical_explanation":"U0101 sets when the gateway or another control module stops receiving any messages from a powertrain-side module or smart sensor -- the ECM\/PCM, TCM, or one of the engine-bay LIN-networked sensors (MAP, MAF, EGR, turbo boost, fuel pressure, and similar) that report over a low-speed sub-bus feeding into the high-speed backbone. These nodes live in the engine compartment where connectors see more heat-cycling, vibration, and oil\/coolant contamination than any other module class, so a burned or corroded engine-harness connector is the leading cause, followed by a blown fuse for that module's dedicated power circuit."
+ },
+ {
+  "code_id":8171,
+  "dtc_code":"U0121",
+  "system_category":"Network",
+  "is_oem_specific":0,
+  "oem_make":"",
+  "fault_family":"lost_comm_chassis_abs_module",
+  "short_description":"Lost Communication With Anti-Lock Brake System (ABS) Control Module A",
+  "detailed_technical_explanation":"U0121 indicates loss of contact with a chassis-dynamics module -- ABS\/stability control, steering angle sensor, ride-height\/suspension control, power steering, or a differential\/brake-blending actuator -- all mounted low near the subframe, wheel wells, or under-floor tunnel where connectors take the worst exposure to road salt, water spray, and vibration of any module class. Unlike cabin electronics, these connectors are often sealed but still fail at the seal itself after years of thermal cycling, so a corroded or water-intruded low-mount connector is the dominant cause ahead of any harness break."
+ },
+ {
+  "code_id":9344,
+  "dtc_code":"P3000",
+  "system_category":"Powertrain",
+  "is_oem_specific":1,
+  "oem_make":"Audi",
+  "fault_family":"hv_system_voltage_performance",
+  "short_description":"Fuel level is too low, High voltage battery assembly failure, High voltage battery is not sufficiently charged",
+  "detailed_technical_explanation":"Code P3000 (Fuel level is too low, High voltage battery assembly failure, High voltage battery is not sufficiently charged) sets when the overall HV bus voltage - measured system-wide rather than at any single battery pack or contactor - reads outside its expected window or fails an ECM performance check. Because this is a system-level measurement, causes span a genuinely low\/high pack state of charge, a contactor not fully seating, or a fault in the HV bus voltage-sense circuit itself rather than any single named component."
+ },
+ {
+  "code_id":9346,
+  "dtc_code":"P1083",
+  "system_category":"Powertrain",
+  "is_oem_specific":1,
+  "oem_make":"BMW",
+  "fault_family":"fuel_trim_lean",
+  "short_description":"Fuel Control Mixture Lean Bank 1 Sensor 1",
+  "detailed_technical_explanation":"Code P1083 (Fuel Control Mixture Lean Bank 1 Sensor 1) sets when the ECM must add more fuel than the calibrated limit allows to correct a lean condition on the indicated bank. The leading causes are a vacuum or intake air leak downstream of the MAF, a weak fuel pump or clogged filter, or a leaking exhaust manifold gasket confusing the upstream O2 sensor."
+ },
+ {
+  "code_id":9349,
+  "dtc_code":"P1086",
+  "system_category":"Powertrain",
+  "is_oem_specific":1,
+  "oem_make":"BMW",
+  "fault_family":"fuel_trim_rich",
+  "short_description":"Fuel Control Mixture Rich Bank 2 Sensor 1",
+  "detailed_technical_explanation":"Code P1086 (Fuel Control Mixture Rich Bank 2 Sensor 1) sets when the ECM must remove more fuel than the calibrated limit allows to correct a rich condition on the indicated bank. Leading causes are a leaking fuel injector, a stuck-open fuel pressure regulator, a fouled MAF sensor overreporting airflow, or a failing fuel pressure sensor."
+ },
+ {
+  "code_id":10510,
+  "dtc_code":"P1345",
+  "system_category":"Powertrain",
+  "is_oem_specific":1,
+  "oem_make":"Chevrolet",
+  "fault_family":"crank_cam_correlation",
+  "short_description":"CKP\/CMP Correlation",
+  "detailed_technical_explanation":"Code P1345 (CKP\/CMP Correlation) sets when the ECM compares crankshaft and camshaft position signals and finds their relative timing outside the expected window, or cannot establish a stable engine position sync. This is most often caused by timing chain\/belt stretch or a jumped tooth, a failing crankshaft or camshaft position sensor, worn tensioner\/guides, or reluctor-wheel damage."
+ },
+ {
+  "code_id":10676,
+  "dtc_code":"P1626",
+  "system_category":"Powertrain",
+  "is_oem_specific":1,
+  "oem_make":"Chevrolet",
+  "fault_family":"gm_passkey_vats_theft_deterrent",
+  "short_description":"Theft Deterrent Fuel Enable Signal Lost",
+  "detailed_technical_explanation":"Code P1626 (Theft Deterrent Fuel Enable Signal Lost) sets when GM's theft-deterrent system fails to validate the key or drops the fuel-enable signal after a valid start, but the hardware behind that failure differs by generation: VATS\/PASS-Key (roughly 1986-1996) reads a resistor pellet embedded in the key blade through contacts inside the ignition lock cylinder, while Passlock\/PASS-Key III (roughly 1996 onward, the larger share of affected vehicles) uses a Hall-effect or inductive sensor in the lock cylinder that reads an ordinary or transponder key with no pellet at all. Because both generations share the same fault codes, the first diagnostic step is identifying which system the vehicle has from its model year and RPO code before choosing a repair path. Causes range from a worn or incorrect-resistance key pellet and corroded decoder-ring contacts on VATS vehicles to a failed lock-cylinder sensor or a chafed wire to the BCM on Passlock vehicles."
+ },
+ {
+  "code_id":11169,
+  "dtc_code":"P1698",
+  "system_category":"Powertrain",
+  "is_oem_specific":1,
+  "oem_make":"Dodge",
+  "fault_family":"lost_comm_powertrain_module",
+  "short_description":"No CCD Messages Received From PCM",
+  "detailed_technical_explanation":"P1698 sets when the gateway or another control module stops receiving any messages from a powertrain-side module or smart sensor -- the ECM\/PCM, TCM, or one of the engine-bay LIN-networked sensors (MAP, MAF, EGR, turbo boost, fuel pressure, and similar) that report over a low-speed sub-bus feeding into the high-speed backbone. These nodes live in the engine compartment where connectors see more heat-cycling, vibration, and oil\/coolant contamination than any other module class, so a burned or corroded engine-harness connector is the leading cause, followed by a blown fuse for that module's dedicated power circuit."
+ },
+ {
+  "code_id":11181,
+  "dtc_code":"P1000",
+  "system_category":"Powertrain",
+  "is_oem_specific":1,
+  "oem_make":"Ford",
+  "fault_family":"obd_readiness_incomplete",
+  "short_description":"OBD System Readiness Test Not Complete",
+  "detailed_technical_explanation":"Code P1000 (OBD System Readiness Test Not Complete) is a status indicator, not a fault: the powertrain module sets it after battery disconnection or code clearing until every OBD readiness monitor has completed its drive-cycle self-test. It clears itself once the drive cycle finishes; it stores no failure and triggers no repair by itself, but the vehicle will fail an emissions inspection while monitors remain incomplete."
+ },
+ {
+  "code_id":11210,
+  "dtc_code":"P1131",
+  "system_category":"Powertrain",
+  "is_oem_specific":1,
+  "oem_make":"Ford",
+  "fault_family":"o2_sensor_slow_response",
+  "short_description":"Lack of Upstream Heated Oxygen Sensor Switch Sensor Indicates Lean Bank 1",
+  "detailed_technical_explanation":"Code P1131 (Lack of Upstream Heated Oxygen Sensor Switch Sensor Indicates Lean Bank 1) sets when an oxygen sensor takes longer than the calibrated time to transition between rich and lean voltage states. This is typically a sensor element that has aged or been contaminated by silicone, oil ash, or coolant, though an exhaust leak that dilutes the sample can also slow the switching response."
+ },
+ {
+  "code_id":12109,
+  "dtc_code":"P1351",
+  "system_category":"Powertrain",
+  "is_oem_specific":1,
+  "oem_make":"GMC",
+  "fault_family":"ignition_coil_control_circuit",
+  "short_description":"IC Circuit High Voltage",
+  "detailed_technical_explanation":"Code P1351 (IC Circuit High Voltage) sets when the ECM (or, on coil-on-plug systems with many cylinders, a dedicated ignition driver) detects an open circuit or out-of-range voltage while commanding a specific coil's primary winding, covering both the classic per-letter Ignition Coil Primary Control Circuit\/Open codes and the newer Ignition [Letter] Control Signal Circuit Open\/Low\/High variants used on high-cylinder-count and coil-per-plug platforms. In every variant the physical fault sits in the same place: a failed coil primary winding, a corroded or unseated coil connector, or chafed wiring between the ECM\/driver and that specific coil."
+ },
+ {
+  "code_id":12446,
+  "dtc_code":"P1259",
+  "system_category":"Powertrain",
+  "is_oem_specific":1,
+  "oem_make":"Honda",
+  "fault_family":"honda_vtec_system_circuit",
+  "short_description":"VTEC System Malfunction Rear Bank 1",
+  "detailed_technical_explanation":"Code P1259 (VTEC System Malfunction Rear Bank 1) sets when the ECM does not see the VTEC oil pressure switch confirm a cam-profile shift after commanding the VTEC spool valve solenoid, or detects an open\/shorted condition on either component's circuit. VTEC (Variable valve Timing and lift Electronic Control) uses oil pressure routed through the spool valve to lock a pin between rocker arms for the high-lift cam lobe; the pressure switch confirms that pressure actually built before the ECM trusts the engagement. Low or degraded engine oil that cannot build switching pressure, a clogged VTEC oil strainer screen starving the spool valve, a failed pressure switch, or a spool valve solenoid with a sticking or shorted coil are the common causes."
+ },
+ {
+  "code_id":12990,
+  "dtc_code":"P1000",
+  "system_category":"Powertrain",
+  "is_oem_specific":1,
+  "oem_make":"Lincoln",
+  "fault_family":"obd_readiness_incomplete",
+  "short_description":"OBD System Readiness Test Not Complete",
+  "detailed_technical_explanation":"Code P1000 (OBD System Readiness Test Not Complete) is a status indicator, not a fault: the powertrain module sets it after battery disconnection or code clearing until every OBD readiness monitor has completed its drive-cycle self-test. It clears itself once the drive cycle finishes; it stores no failure and triggers no repair by itself, but the vehicle will fail an emissions inspection while monitors remain incomplete."
+ },
+ {
+  "code_id":14131,
+  "dtc_code":"P1320",
+  "system_category":"Powertrain",
+  "is_oem_specific":1,
+  "oem_make":"Nissan",
+  "fault_family":"ignition_coil_control_circuit",
+  "short_description":"Ignition Signal",
+  "detailed_technical_explanation":"Code P1320 (Ignition Signal) sets when the ECM (or, on coil-on-plug systems with many cylinders, a dedicated ignition driver) detects an open circuit or out-of-range voltage while commanding a specific coil's primary winding, covering both the classic per-letter Ignition Coil Primary Control Circuit\/Open codes and the newer Ignition [Letter] Control Signal Circuit Open\/Low\/High variants used on high-cylinder-count and coil-per-plug platforms. In every variant the physical fault sits in the same place: a failed coil primary winding, a corroded or unseated coil connector, or chafed wiring between the ECM\/driver and that specific coil."
+ },
+ {
+  "code_id":15314,
+  "dtc_code":"P1100",
+  "system_category":"Powertrain",
+  "is_oem_specific":1,
+  "oem_make":"Toyota",
+  "fault_family":"baro_pressure_sensor_circuit",
+  "short_description":"BARO Sensor Circuit",
+  "detailed_technical_explanation":"P1100 (BARO Sensor Circuit) points to the barometric pressure sensor (position A, B, or C on engines carrying more than one), whose ambient-pressure reading the ECM uses to correct fueling and boost targets for altitude. Many BARO sensors live inside the ECM itself, in which case the module is replaced rather than a discrete part; where the sensor is external, a blocked or contaminated sampling port, a corroded connector, and a drifted sensing element are the common causes of a signal that is out of range or frozen at one value."
+ },
+ {
+  "code_id":15327,
+  "dtc_code":"P1155",
+  "system_category":"Powertrain",
+  "is_oem_specific":1,
+  "oem_make":"Toyota",
+  "fault_family":"o2_heater_circuit",
+  "short_description":"Air\/Fuel Sensor Heater Circuit Bank 1 Sensor 2",
+  "detailed_technical_explanation":"Code P1155 (Air\/Fuel Sensor Heater Circuit Bank 1 Sensor 2) sets when the ECM detects an open, shorted, or out-of-spec resistance in the internal heater element of an oxygen sensor, or the heater fails to bring the sensor to operating temperature within the expected time. This is almost always a degraded heater element inside the O2 sensor itself, though a blown fuse, relay, or chafed heater wiring can also be responsible."
+ },
+ {
+  "code_id":15386,
+  "dtc_code":"P1128",
+  "system_category":"Powertrain",
+  "is_oem_specific":1,
+  "oem_make":"Volkswagen",
+  "fault_family":"fuel_trim_general",
+  "short_description":"Long Term Fuel Trim Bank 1 System Too Lean",
+  "detailed_technical_explanation":"Code P1128 (Long Term Fuel Trim Bank 1 System Too Lean) sets when overall short- or long-term fuel trim for a bank moves outside its normal operating window without a specific lean or rich bias being isolated. Causes span vacuum leaks, a fuel delivery imbalance, or a fuel\/air metering sensor reading incorrectly for that bank."
+ }
+]

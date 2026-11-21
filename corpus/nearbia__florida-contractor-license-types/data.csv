@@ -1,0 +1,28 @@
+prefix,license_type,certified_or_registered,board,scope_summary,geographic_scope
+CGC,Certified General Contractor,certified,Construction Industry Licensing Board,"Can contract for any type of construction work requiring licensure, with no limit on building type or height.",statewide
+CBC,Certified Building Contractor,certified,Construction Industry Licensing Board,"Builds commercial buildings and residential buildings of up to three stories, plus related remodeling and repair.",statewide
+CRC,Certified Residential Contractor,certified,Construction Industry Licensing Board,"Builds, remodels, and repairs one- to three-family homes of up to two habitable stories.",statewide
+CCC,Certified Roofing Contractor,certified,Construction Industry Licensing Board,"Installs, repairs, and replaces roofs and roof coverings.",statewide
+CFC,Certified Plumbing Contractor,certified,Construction Industry Licensing Board,"Installs and repairs plumbing systems such as water supply, drainage, and water heaters.",statewide
+CAC,Certified Air Conditioning Contractor,certified,Construction Industry Licensing Board,"Installs, repairs, and services air-conditioning, heating, and refrigeration systems, within limits set by license class.",statewide
+CMC,Certified Mechanical Contractor,certified,Construction Industry Licensing Board,"Installs and repairs air-conditioning, heating, refrigeration, and related mechanical systems without the tonnage limits of lower air-conditioning classes.",statewide
+CPC,Certified Pool/Spa Contractor,certified,Construction Industry Licensing Board,"Builds, repairs, and services swimming pools, spas, and their equipment.",statewide
+CSC,Certified Sheet Metal Contractor,certified,Construction Industry Licensing Board,Fabricates and installs sheet metal work such as ductwork.,statewide
+CUC,Certified Underground Utility and Excavation Contractor,certified,Construction Industry Licensing Board,"Builds and repairs underground water, sewer, and similar utility lines, including related excavation.",statewide
+CVC,Certified Solar Contractor,certified,Construction Industry Licensing Board,"Installs, repairs, and maintains solar energy equipment such as solar water heating and solar panels.",statewide
+RG,Registered General Contractor,registered,Construction Industry Licensing Board,"Can contract for any type of construction work requiring licensure, with no limit on building type or height.",local jurisdiction(s) where registered
+RB,Registered Building Contractor,registered,Construction Industry Licensing Board,"Builds commercial buildings and residential buildings of up to three stories, plus related remodeling and repair.",local jurisdiction(s) where registered
+RR,Registered Residential Contractor,registered,Construction Industry Licensing Board,"Builds, remodels, and repairs one- to three-family homes of up to two habitable stories.",local jurisdiction(s) where registered
+RC,Registered Roofing Contractor,registered,Construction Industry Licensing Board,"Installs, repairs, and replaces roofs and roof coverings.",local jurisdiction(s) where registered
+RF,Registered Plumbing Contractor,registered,Construction Industry Licensing Board,"Installs and repairs plumbing systems such as water supply, drainage, and water heaters.",local jurisdiction(s) where registered
+RA,Registered Air Conditioning Contractor,registered,Construction Industry Licensing Board,"Installs, repairs, and services air-conditioning, heating, and refrigeration systems, within limits set by license class.",local jurisdiction(s) where registered
+RM,Registered Mechanical Contractor,registered,Construction Industry Licensing Board,"Installs and repairs air-conditioning, heating, refrigeration, and related mechanical systems without the tonnage limits of lower air-conditioning classes.",local jurisdiction(s) where registered
+RP,Registered Pool/Spa Contractor,registered,Construction Industry Licensing Board,"Builds, repairs, and services swimming pools, spas, and their equipment.",local jurisdiction(s) where registered
+RS,Registered Sheet Metal Contractor,registered,Construction Industry Licensing Board,Fabricates and installs sheet metal work such as ductwork.,local jurisdiction(s) where registered
+RU,Registered Underground Utility and Excavation Contractor,registered,Construction Industry Licensing Board,"Builds and repairs underground water, sewer, and similar utility lines, including related excavation.",local jurisdiction(s) where registered
+RV,Registered Solar Contractor,registered,Construction Industry Licensing Board,"Installs, repairs, and maintains solar energy equipment such as solar water heating and solar panels.",local jurisdiction(s) where registered
+SCC,Certified Specialty Contractor,certified,Construction Industry Licensing Board,Performs a specific phase of construction within a specialty category defined by board rule.,statewide
+RX,Registered Specialty Contractor,registered,Construction Industry Licensing Board,Performs a specific phase of construction within a specialty category defined by board rule.,local jurisdiction(s) where registered
+PCC,Certified Pollutant Storage Contractor,certified,Construction Industry Licensing Board,"Installs, repairs, and removes pollutant storage tanks and related systems.",statewide
+EC,Certified Electrical Contractor,certified,Electrical Contractors' Licensing Board,Performs electrical contracting work without limitation to a specialty.,statewide
+ER,Registered Electrical Contractor,registered,Electrical Contractors' Licensing Board,Performs electrical contracting work without limitation to a specialty.,local jurisdiction(s) where registered

@@ -1,0 +1,936 @@
+cbsa_code,metro,primary_state,census_region,population,owner_occupied_homes,siding_demand_usd,siding_replacement_usd,siding_new_construction_usd,siding_annual_jobs,siding_firms_naics_238170,siding_demand_per_firm_usd,siding_saturation_band,siding_opportunity_score,total_demand_usd,share_of_us_demand,market_page
+35620,"New York-Newark-Jersey City, NY-NJ",NY,Northeast,19756722,3789974,1717806074,1604096324,113709750,109748.0,334,5143132,Wide Open,67.96,1717806074,0.040422,https://nextterritory.com/markets/new-york/siding
+16980,"Chicago-Naperville-Elgin, IL-IN",IL,Midwest,9359555,2360889,1508582463,1422288288,86294175,95708.3,305,4946172,Wide Open,75.12,1508582463,0.035499,https://nextterritory.com/markets/chicago/siding
+19100,"Dallas-Fort Worth-Arlington, TX",TX,South,7807555,1696056,1349433830,927990830,421443000,102681.9,291,4637230,Wide Open,72.08,1349433830,0.031754,https://nextterritory.com/markets/dallas/siding
+26420,"Houston-Pasadena-The Woodlands, TX",TX,South,7274714,1592707,1047596876,569317151,478279725,87207.1,145,7224806,Land Grab,66.95,1047596876,0.024651,https://nextterritory.com/markets/houston/siding
+31080,"Los Angeles-Long Beach-Anaheim, CA",CA,West,13012469,2168812,885313795,778437520,106876275,58955.0,81,10929800,Land Grab,57.68,885313795,0.020832,https://nextterritory.com/markets/los-angeles/siding
+12060,"Atlanta-Sandy Springs-Roswell, GA",GA,South,6176937,1500707,807321582,573431607,233889975,60526.4,206,3919037,Wide Open,65.03,807321582,0.018997,https://nextterritory.com/markets/atlanta/siding
+37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",PA,Northeast,6241882,1638472,785522938,709982638,75540300,51353.3,134,5862111,Wide Open,72.31,785522938,0.018484,https://nextterritory.com/markets/philadelphia/siding
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",DC,South,6263796,1493423,727681975,621114250,106567725,49386.3,303,2401591,Balanced,73.15,727681975,0.017123,https://nextterritory.com/markets/washington/siding
+33460,"Minneapolis-St. Paul-Bloomington, MN-WI",MN,Midwest,3693351,1034946,688552915,604155415,84397500,45915.5,206,3342490,Balanced,80.66,688552915,0.016202,https://nextterritory.com/markets/minneapolis/siding
+41180,"St. Louis, MO-IL",MO,Midwest,2809414,809401,588591453,546365478,42225975,37766.1,113,5208774,Wide Open,72.1,588591453,0.01385,https://nextterritory.com/markets/st-louis/siding
+19820,"Detroit-Warren-Dearborn, MI",MI,Midwest,4367620,1245226,587135831,542867981,44267850,37779.1,69,8509215,Land Grab,70.92,587135831,0.013816,https://nextterritory.com/markets/detroit/siding
+38060,"Phoenix-Mesa-Chandler, AZ",AZ,West,4941206,1230071,585623620,310859845,274763775,49117.0,15,39041575,Land Grab,59.81,585623620,0.01378,https://nextterritory.com/markets/phoenix/siding
+38300,"Pittsburgh, PA",PA,Northeast,2443921,746600,585523123,553488373,32034750,37074.7,77,7604196,Wide Open,74.82,585523123,0.013778,https://nextterritory.com/markets/pittsburgh/siding
+19740,"Denver-Aurora-Centennial, CO",CO,West,2977085,772021,508649145,426865245,81783900,34882.6,133,3824430,Wide Open,73.27,508649145,0.011969,https://nextterritory.com/markets/denver/siding
+14460,"Boston-Cambridge-Newton, MA-NH",MA,Northeast,4917661,1189120,499919423,466033373,33886050,31978.4,125,3999355,Wide Open,67.56,499919423,0.011764,https://nextterritory.com/markets/boston/siding
+42660,"Seattle-Tacoma-Bellevue, WA",WA,West,4021467,958295,434138761,375251086,58887675,29231.5,292,1486777,Balanced,66.7,434138761,0.010216,https://nextterritory.com/markets/seattle/siding
+16740,"Charlotte-Concord-Gastonia, NC-SC",NC,South,2712818,690953,425893907,253886357,172007550,34341.1,128,3327296,Wide Open,64.25,425893907,0.010022,https://nextterritory.com/markets/charlotte/siding
+28140,"Kansas City, MO-KS",MO,Midwest,2202006,578663,420637282,376396657,44240625,27686.9,116,3626183,Balanced,72.66,420637282,0.009898,https://nextterritory.com/markets/kansas-city/siding
+33100,"Miami-Fort Lauderdale-West Palm Beach, FL",FL,South,6138876,1394735,414461238,361599363,52861875,27740.1,65,6376327,Land Grab,49.59,414461238,0.009753,https://nextterritory.com/markets/miami/siding
+41700,"San Antonio-New Braunfels, TX",TX,South,2612802,602739,413459555,313643630,99815925,30007.7,102,4053525,Wide Open,67.59,413459555,0.009729,https://nextterritory.com/markets/san-antonio/siding
+12420,"Austin-Round Rock-San Marcos, TX",TX,South,2357497,558660,408838091,259690466,149147625,32173.8,58,7048933,Land Grab,69.06,408838091,0.00962,https://nextterritory.com/markets/austin/siding
+26900,"Indianapolis-Carmel-Greenwood, IN",IN,Midwest,2106327,552222,397431922,314232322,83199600,28212.4,67,5931820,Wide Open,75.79,397431922,0.009352,https://nextterritory.com/markets/indianapolis/siding
+17410,"Cleveland, OH",OH,Midwest,2171978,613085,388017695,360974195,27043500,24857.2,52,7461879,Land Grab,69.86,388017695,0.009131,https://nextterritory.com/markets/cleveland/siding
+34980,"Nashville-Davidson--Murfreesboro--Franklin, TN",TN,South,2043713,528545,386619714,255349839,131269875,29940.7,87,4443905,Wide Open,70.09,386619714,0.009098,https://nextterritory.com/markets/nashville/siding
+36740,"Orlando-Kissimmee-Sanford, FL",FL,South,2721022,623087,382187517,242759217,139428300,30076.7,75,5095834,Wide Open,60.45,382187517,0.008993,https://nextterritory.com/markets/orlando/siding
+17140,"Cincinnati, OH-KY-IN",OH,Midwest,2255257,612007,372623897,336097022,36526875,24394.5,102,3653175,Wide Open,70.18,372623897,0.008768,https://nextterritory.com/markets/cincinnati/siding
+40140,"Riverside-San Bernardino-Ontario, CA",CA,West,4637725,935953,369710697,264141222,105569475,27641.6,22,16805032,Land Grab,56.23,369710697,0.0087,https://nextterritory.com/markets/riverside/siding
+41860,"San Francisco-Oakland-Fremont, CA",CA,West,4653593,961002,361206245,336014045,25192200,23140.5,26,13892548,Land Grab,54.4,361206245,0.0085,https://nextterritory.com/markets/san-francisco/siding
+12580,"Baltimore-Columbia-Towson, MD",MD,South,2839409,740925,357537241,322607566,34929675,23401.0,46,7772549,Land Grab,71.42,357537241,0.008413,https://nextterritory.com/markets/baltimore/siding
+45300,"Tampa-St. Petersburg-Clearwater, FL",FL,South,3240469,881420,357006717,237171342,119835375,27579.0,106,3367988,Wide Open,53.87,357006717,0.008401,https://nextterritory.com/markets/tampa/siding
+18140,"Columbus, OH",OH,Midwest,2151847,524079,314059879,258756829,55303050,21776.2,66,4758483,Wide Open,73.01,314059879,0.00739,https://nextterritory.com/markets/columbus/siding
+33340,"Milwaukee-Waukesha, WI",WI,Midwest,1566361,392835,301951782,286415382,15536400,19070.5,78,3871177,Balanced,75.79,301951782,0.007105,https://nextterritory.com/markets/milwaukee/siding
+39580,"Raleigh-Cary, NC",NC,South,1449594,371995,281576548,160488823,121087725,23069.6,84,3352102,Wide Open,68.61,281576548,0.006626,https://nextterritory.com/markets/raleigh/siding
+36420,"Oklahoma City, OK",OK,South,1445122,359717,277238454,222661404,54577050,19508.6,71,3904767,Balanced,67.86,277238454,0.006524,https://nextterritory.com/markets/oklahoma-city/siding
+27260,"Jacksonville, FL",FL,South,1645707,426007,273414574,156020374,117394200,22391.8,91,3004556,Wide Open,60.1,273414574,0.006434,https://nextterritory.com/markets/jacksonville/siding
+31140,"Louisville/Jefferson County, KY-IN",KY,South,1361847,377669,259967076,226480326,33486750,17416.1,113,2300594,Balanced,69.03,259967076,0.006117,https://nextterritory.com/markets/louisville-jefferson-county/siding
+38900,"Portland-Vancouver-Hillsboro, OR-WA",OR,West,2510529,620392,246330821,188749946,57580875,17784.4,150,1642205,Balanced,60.19,246330821,0.005796,https://nextterritory.com/markets/portland/siding
+47260,"Virginia Beach-Chesapeake-Norfolk, VA-NC",VA,South,1782590,442292,243960427,211798627,32161800,16380.3,54,4517786,Wide Open,65.82,243960427,0.005741,https://nextterritory.com/markets/virginia-beach/siding
+40900,"Sacramento-Roseville-Folsom, CA",CA,West,2406563,547473,240245468,162391043,77854425,18420.9,101,2378668,Balanced,60.11,240245468,0.005653,https://nextterritory.com/markets/sacramento/siding
+41980,"San Juan-Bayamón-Caguas, PR",PR,South,2063795,540419,224696416,224696416,0,13618.0,,,,67.69,224696416,0.005287,https://nextterritory.com/markets/san-juan/siding
+29820,"Las Vegas-Henderson-North Las Vegas, NV",NV,West,2293764,483415,223982553,112568778,111413775,19099.4,4,55995638,Land Grab,59.31,223982553,0.005271,https://nextterritory.com/markets/las-vegas/siding
+41740,"San Diego-Chula Vista-Carlsbad, CA",CA,West,3282782,632194,222831379,192185104,30646275,15024.6,27,8253014,Land Grab,51.99,222831379,0.005243,https://nextterritory.com/markets/san-diego/siding
+40060,"Richmond, VA",VA,South,1327321,351543,213914803,168331078,45583725,15224.9,79,2707782,Balanced,68.42,213914803,0.005034,https://nextterritory.com/markets/richmond/siding
+36540,"Omaha, NE-IA",NE,Midwest,972840,254941,201317547,169509672,31807875,13778.3,103,1954539,Crowded,75.22,201317547,0.004737,https://nextterritory.com/markets/omaha/siding
+24860,"Greenville-Anderson-Greer, SC",SC,South,945301,265150,190394447,119373497,71020950,15060.8,24,7933102,Land Grab,65.91,190394447,0.00448,https://nextterritory.com/markets/greenville/siding
+46140,"Tulsa, OK",OK,South,1026209,261641,187427705,154739555,32688150,12980.2,61,3072585,Balanced,65.69,187427705,0.00441,https://nextterritory.com/markets/tulsa/siding
+39300,"Providence-Warwick, RI-MA",RI,Northeast,1673807,420887,183810544,171659119,12151425,11742.6,57,3224746,Wide Open,62.39,183810544,0.004325,https://nextterritory.com/markets/providence/siding
+15380,"Buffalo-Cheektowaga, NY",NY,Northeast,1161385,332389,182561472,175764297,6797175,11401.4,37,4934094,Wide Open,65.97,182561472,0.004296,https://nextterritory.com/markets/buffalo/siding
+32820,"Memphis, TN-MS-AR",TN,South,1341606,313655,176867340,151702365,25164975,11967.1,40,4421684,Balanced,64.57,176867340,0.004162,https://nextterritory.com/markets/memphis/siding
+35840,"North Port-Bradenton-Sarasota, FL",FL,South,865031,282729,169133899,70316224,98817675,15150.6,37,4571186,Land Grab,55.38,169133899,0.00398,https://nextterritory.com/markets/north-port/siding
+28940,"Knoxville, TN",TN,South,919553,260373,165705139,121736764,43968375,12223.0,37,4478517,Wide Open,68.34,165705139,0.003899,https://nextterritory.com/markets/knoxville/siding
+13820,"Birmingham, AL",AL,South,1181432,325240,160719271,131996896,28722375,11164.8,63,2551100,Balanced,61.18,160719271,0.003782,https://nextterritory.com/markets/birmingham/siding
+19780,"Des Moines-West Des Moines, IA",IA,Midwest,720331,201187,157563941,123832166,33731775,11222.0,52,3030076,Balanced,76.7,157563941,0.003708,https://nextterritory.com/markets/des-moines/siding
+19430,"Dayton-Kettering-Beavercreek, OH",OH,Midwest,813608,221750,157379150,145599800,11779350,10122.2,55,2861439,Crowded,72.09,157379150,0.003703,https://nextterritory.com/markets/dayton/siding
+15980,"Cape Coral-Fort Myers, FL",FL,South,792692,236433,152338572,56561022,95777550,13981.9,48,3173720,Wide Open,54.93,152338572,0.003585,https://nextterritory.com/markets/cape-coral/siding
+16700,"Charleston-North Charleston, SC",SC,South,817756,224818,151749704,89885429,61864275,12264.6,24,6322904,Land Grab,63.76,151749704,0.003571,https://nextterritory.com/markets/charleston/siding
+25540,"Hartford-West Hartford-East Hartford, CT",CT,Northeast,1144012,309811,149058334,143232184,5826150,9322.7,34,4384069,Wide Open,67.29,149058334,0.003508,https://nextterritory.com/markets/hartford/siding
+10580,"Albany-Schenectady-Troy, NY",NY,Northeast,902372,241774,140415526,129516451,10899075,9050.5,44,3191262,Balanced,71.21,140415526,0.003304,https://nextterritory.com/markets/albany/siding
+19660,"Deltona-Daytona Beach-Ormond Beach, FL",FL,South,689939,213832,140027352,93871902,46155450,10775.2,26,5385667,Land Grab,59.61,140027352,0.003295,https://nextterritory.com/markets/deltona/siding
+17820,"Colorado Springs, CO",CO,West,760782,197227,139948833,113830983,26117850,9776.8,22,6361311,Land Grab,73.33,139948833,0.003293,https://nextterritory.com/markets/colorado-springs/siding
+41940,"San Jose-Sunnyvale-Santa Clara, CA",CA,West,1969353,375523,138867579,118839054,20028525,9409.4,48,2893075,Land Grab,52.12,138867579,0.003268,https://nextterritory.com/markets/san-jose/siding
+37340,"Palm Bay-Melbourne-Titusville, FL",FL,South,620533,193755,131223745,95931070,35292675,9703.0,18,7290208,Land Grab,62.6,131223745,0.003088,https://nextterritory.com/markets/palm-bay/siding
+10900,"Allentown-Bethlehem-Easton, PA-NJ",PA,Northeast,866764,234260,130730913,118316313,12414600,8538.7,20,6536546,Land Grab,71.75,130730913,0.003076,https://nextterritory.com/markets/allentown/siding
+10420,"Akron, OH",OH,Midwest,699508,199715,129647958,122741883,6906075,8199.9,17,7626350,Wide Open,69.18,129647958,0.003051,https://nextterritory.com/markets/akron/siding
+14260,"Boise City, ID",ID,West,790640,214359,129454476,54567576,74886900,11559.1,168,770562,Balanced,60.85,129454476,0.003046,https://nextterritory.com/markets/boise-city/siding
+49180,"Winston-Salem, NC",NC,South,683637,188742,129392201,93001451,36390750,9646.5,32,4043506,Wide Open,65.71,129392201,0.003045,https://nextterritory.com/markets/winston/siding
+29460,"Lakeland-Winter Haven, FL",FL,South,760961,193698,128334876,51070326,77264550,11609.2,26,4935957,Wide Open,54.62,128334876,0.00302,https://nextterritory.com/markets/lakeland/siding
+24340,"Grand Rapids-Wyoming-Kentwood, MI",MI,Midwest,1154320,324303,126058041,104141916,21916125,8726.6,48,2626209,Wide Open,67.05,126058041,0.002966,https://nextterritory.com/markets/grand-rapids/siding
+48620,"Wichita, KS",KS,Midwest,648935,163311,124887084,111465159,13421925,8234.5,34,3673150,Balanced,68.34,124887084,0.002939,https://nextterritory.com/markets/wichita/siding
+17900,"Columbia, SC",SC,South,839868,231413,120639505,80083330,40556175,9322.5,23,5245196,Land Grab,59.81,120639505,0.002839,https://nextterritory.com/markets/columbia/siding
+40380,"Rochester, NY",NY,Northeast,1058875,297579,120597212,112275437,8321775,7721.6,43,2804586,Balanced,62.73,120597212,0.002838,https://nextterritory.com/markets/rochester/siding
+24660,"Greensboro-High Point, NC",NC,South,779894,199029,120469769,99261494,21208275,8352.8,20,6023488,Wide Open,61.67,120469769,0.002835,https://nextterritory.com/markets/greensboro/siding
+30780,"Little Rock-North Little Rock-Conway, AR",AR,South,753605,195060,118605578,99956453,18649125,8113.0,25,4744223,Wide Open,60.89,118605578,0.002791,https://nextterritory.com/markets/little-rock/siding
+31540,"Madison, WI",WI,Midwest,683967,179737,118270667,103033742,15236925,7923.5,60,1971178,Crowded,76.77,118270667,0.002783,https://nextterritory.com/markets/madison/siding
+12940,"Baton Rouge, LA",LA,South,871379,225509,116948029,87454279,29493750,8550.3,39,2998667,Balanced,56.55,116948029,0.002752,https://nextterritory.com/markets/baton-rouge/siding
+46060,"Tucson, AZ",AZ,West,1049947,279304,116497684,78836434,37661250,8928.0,4,29124421,Land Grab,59.65,116497684,0.002741,https://nextterritory.com/markets/tucson/siding
+41620,"Salt Lake City-Murray, UT",UT,West,1261337,298149,114907283,82917908,31989375,8550.3,133,863965,Balanced,59.61,114907283,0.002704,https://nextterritory.com/markets/salt-lake-city/siding
+26620,"Huntsville, AL",AL,South,504712,142756,111969972,75924072,36045900,8573.5,14,7997855,Land Grab,72.16,111969972,0.002635,https://nextterritory.com/markets/huntsville/siding
+22220,"Fayetteville-Springdale-Rogers, AR",AR,South,563436,130443,111789862,61015237,50774625,9292.9,25,4471594,Wide Open,67.81,111789862,0.002631,https://nextterritory.com/markets/fayetteville/siding
+34820,"Myrtle Beach-Conway-North Myrtle Beach, SC",SC,South,368937,114026,108605006,42638831,65966175,9853.2,15,7240334,Land Grab,61.64,108605006,0.002556,https://nextterritory.com/markets/myrtle-beach/siding
+14860,"Bridgeport-Stamford-Danbury, CT",CT,Northeast,947528,231122,106951509,102404934,4546575,6707.4,15,7130101,Land Grab,68.43,106951509,0.002517,https://nextterritory.com/markets/bridgeport/siding
+48900,"Wilmington, NC",NC,South,440578,135927,106080638,40168913,65911725,9697.5,18,5893369,Land Grab,60.16,106080638,0.002496,https://nextterritory.com/markets/wilmington/siding
+38940,"Port St. Lucie, FL",FL,South,506701,156553,106033333,59796208,46237125,8719.0,15,7068889,Land Grab,58.73,106033333,0.002495,https://nextterritory.com/markets/port-st-lucie/siding
+32580,"McAllen-Edinburg-Mission, TX",TX,South,880921,178475,105552660,66203460,39349200,8348.3,1,105552660,Land Grab,58.04,105552660,0.002484,https://nextterritory.com/markets/mcallen/siding
+35380,"New Orleans-Metairie, LA",LA,South,988763,239444,100830992,91692467,9138525,6564.1,49,2057775,Crowded,50.12,100830992,0.002373,https://nextterritory.com/markets/new-orleans/siding
+16860,"Chattanooga, TN-GA",TN,South,569333,155387,97356164,73697639,23658525,7073.5,21,4636008,Wide Open,67.97,97356164,0.002291,https://nextterritory.com/markets/chattanooga/siding
+23420,"Fresno, CA",CA,West,1170942,207701,94004247,62550297,31453950,7256.9,9,10444916,Land Grab,56.62,94004247,0.002212,https://nextterritory.com/markets/fresno/siding
+49340,"Worcester, MA",MA,Northeast,861664,218849,93461420,84713120,8748300,6098.1,44,2124123,Balanced,65.98,93461420,0.002199,https://nextterritory.com/markets/worcester/siding
+10740,"Albuquerque, NM",NM,West,918567,255568,92957030,74226230,18730800,6562.6,12,7746419,Land Grab,59.29,92957030,0.002187,https://nextterritory.com/markets/albuquerque/siding
+44180,"Springfield, MO",MO,Midwest,481671,125013,90980714,74981489,15999225,6307.3,29,3137266,Balanced,65.39,90980714,0.002141,https://nextterritory.com/markets/springfield/siding
+45060,"Syracuse, NY",NY,Northeast,657128,182897,89602182,84574632,5027550,5679.7,19,4715904,Wide Open,66.81,89602182,0.002108,https://nextterritory.com/markets/syracuse/siding
+45780,"Toledo, OH",OH,Midwest,602977,161000,87963197,82245947,5717250,5614.6,17,5174306,Wide Open,64.76,87963197,0.00207,https://nextterritory.com/markets/toledo/siding
+27140,"Jackson, MS",MS,South,615908,159535,87746485,75250210,12496275,5937.6,20,4387324,Balanced,56.78,87746485,0.002065,https://nextterritory.com/markets/jackson/siding
+19340,"Davenport-Moline-Rock Island, IA-IL",IA,Midwest,381864,114171,87100703,83461628,3639075,5459.3,22,3959123,Balanced,69.79,87100703,0.00205,https://nextterritory.com/markets/davenport/siding
+36100,"Ocala, FL",FL,South,387697,122533,86179111,31121086,55058025,7953.1,22,3917232,Wide Open,50.39,86179111,0.002028,https://nextterritory.com/markets/ocala/siding
+23060,"Fort Wayne, IN",IN,Midwest,451440,126410,85162159,72375484,12786675,5795.4,27,3154154,Balanced,70.14,85162159,0.002004,https://nextterritory.com/markets/fort-wayne/siding
+12260,"Augusta-Richmond County, GA-SC",GA,South,618022,154034,83982451,51375976,32606475,6706.7,23,3651411,Wide Open,59.94,83982451,0.001976,https://nextterritory.com/markets/augusta/siding
+44140,"Springfield, MA",MA,Northeast,462853,114621,80913957,78291282,2622675,5033.9,5,16182791,Wide Open,71.21,80913957,0.001904,https://nextterritory.com/markets/springfield-ma/siding
+25860,"Hickory-Lenoir-Morganton, NC",NC,South,366972,109836,80235837,59272587,20963250,5902.3,28,2865566,Balanced,66.7,80235837,0.001888,https://nextterritory.com/markets/hickory/siding
+37900,"Peoria, IL",IL,Midwest,365773,111366,80133465,78409215,1724250,4942.1,37,2165769,Crowded,68.03,80133465,0.001886,https://nextterritory.com/markets/peoria/siding
+39340,"Provo-Orem-Lehi, UT",UT,West,695895,136310,80017531,32410081,47607450,7210.2,46,1739512,Wide Open,63.28,80017531,0.001883,https://nextterritory.com/markets/provo/siding
+44700,"Stockton-Lodi, CA",CA,West,787416,148522,79055223,44815248,34239975,6489.1,5,15811045,Land Grab,60.09,79055223,0.00186,https://nextterritory.com/markets/stockton/siding
+42540,"Scranton--Wilkes-Barre, PA",PA,Northeast,567887,156471,78866703,74165853,4700850,5012.9,9,8762967,Land Grab,62.28,78866703,0.001856,https://nextterritory.com/markets/scranton/siding
+20500,"Durham-Chapel Hill, NC",NC,South,594291,150713,76914733,51368608,25546125,5928.2,79,973604,Crowded,62.95,76914733,0.00181,https://nextterritory.com/markets/durham/siding
+28660,"Killeen-Temple, TX",TX,South,485850,99845,76869851,49971551,26898300,5992.6,17,4521756,Wide Open,73.3,76869851,0.001809,https://nextterritory.com/markets/killeen/siding
+38860,"Portland-South Portland, ME",ME,Northeast,557764,172778,76726794,59175744,17551050,5520.4,36,2131300,Balanced,67.89,76726794,0.001805,https://nextterritory.com/markets/portland-south-portland/siding
+37860,"Pensacola-Ferry Pass-Brent, FL",FL,South,516994,139092,75501457,45581182,29920275,6059.5,27,2796350,Wide Open,56.44,75501457,0.001777,https://nextterritory.com/markets/pensacola/siding
+49660,"Youngstown-Warren, OH",OH,Midwest,428430,130599,75395387,72990512,2404875,4688.7,8,9424423,Wide Open,59.52,75395387,0.001774,https://nextterritory.com/markets/youngstown/siding
+12540,"Bakersfield-Delano, CA",CA,West,910433,168321,75359176,49840276,25518900,5832.6,7,10765597,Land Grab,62.84,75359176,0.001773,https://nextterritory.com/markets/bakersfield/siding
+43900,"Spartanburg, SC",SC,South,365086,101926,73944167,44994917,28949250,5917.0,6,12324028,Land Grab,64.1,73944167,0.00174,https://nextterritory.com/markets/spartanburg/siding
+24540,"Greeley, CO",CO,West,340711,90674,72211409,46202459,26008950,5666.1,14,5157958,Wide Open,73.36,72211409,0.001699,https://nextterritory.com/markets/greeley/siding
+25060,"Gulfport-Biloxi, MS",MS,South,418452,111223,72164607,45665607,26499000,5687.6,32,2255144,Crowded,60.25,72164607,0.001698,https://nextterritory.com/markets/gulfport/siding
+21340,"El Paso, TX",TX,South,869606,189323,71735479,52886704,18848775,5282.3,1,71735479,Land Grab,52.26,71735479,0.001688,https://nextterritory.com/markets/el-paso/siding
+28880,"Kiryas Joel-Poughkeepsie-Newburgh, NY",NY,Northeast,700984,173243,69444809,62729309,6715500,4541.8,30,2314827,Wide Open,60.89,69444809,0.001634,https://nextterritory.com/markets/kiryas-joel/siding
+42340,"Savannah, GA",GA,South,412089,97577,68929705,42285505,26644200,5498.8,21,3282367,Balanced,62.72,68929705,0.001622,https://nextterritory.com/markets/savannah/siding
+35300,"New Haven, CT",CT,Northeast,566803,137908,68461408,66728083,1733325,4235.1,7,9780201,Land Grab,64.31,68461408,0.001611,https://nextterritory.com/markets/new-haven/siding
+40420,"Rockford, IL",IL,Midwest,336605,91226,67894960,65245060,2649900,4246.2,17,3993821,Balanced,67.16,67894960,0.001598,https://nextterritory.com/markets/rockford/siding
+43340,"Shreveport-Bossier City, LA",LA,South,389004,98121,67430140,57284290,10145850,4589.8,8,8428768,Wide Open,58.59,67430140,0.001587,https://nextterritory.com/markets/shreveport/siding
+39740,"Reading, PA",PA,Northeast,429989,114882,67132796,65190746,1942050,4165.0,8,8391599,Land Grab,64.62,67132796,0.00158,https://nextterritory.com/markets/reading/siding
+29540,"Lancaster, PA",PA,Northeast,555151,147259,66488738,59637113,6851625,4369.4,40,1662218,Crowded,60.76,66488738,0.001565,https://nextterritory.com/markets/lancaster/siding
+44060,"Spokane-Spokane Valley, WA",WA,West,591793,152961,66451623,49372473,17079150,4874.3,34,1954460,Balanced,64.68,66451623,0.001564,https://nextterritory.com/markets/spokane/siding
+25180,"Hagerstown-Martinsburg, MD-WV",MD,South,298525,82373,64523507,48660407,15863100,4697.1,35,1843529,Crowded,74.46,64523507,0.001518,https://nextterritory.com/markets/hagerstown/siding
+11700,"Asheville, NC",NC,South,410817,110126,64265344,41414494,22850850,5028.0,23,2794145,Balanced,61.86,64265344,0.001512,https://nextterritory.com/markets/asheville/siding
+36260,"Ogden, UT",UT,West,645510,160863,64070675,45049475,19021200,4826.3,38,1686070,Balanced,60.69,64070675,0.001508,https://nextterritory.com/markets/ogden/siding
+31700,"Manchester-Nashua, NH",NH,Northeast,424732,113275,63327170,59452145,3875025,4030.2,23,2753355,Balanced,65.11,63327170,0.00149,https://nextterritory.com/markets/manchester/siding
+30700,"Lincoln, NE",NE,Midwest,341309,82557,63055614,53281839,9773775,4306.2,26,2425216,Balanced,69.92,63055614,0.001484,https://nextterritory.com/markets/lincoln/siding
+25420,"Harrisburg-Carlisle, PA",PA,Northeast,597894,165626,62640142,52448917,10191225,4301.7,17,3684714,Wide Open,64.94,62640142,0.001474,https://nextterritory.com/markets/harrisburg/siding
+49620,"York-Hanover, PA",PA,Northeast,459312,136655,62559336,53919936,8639400,4219.9,9,6951037,Land Grab,66.74,62559336,0.001472,https://nextterritory.com/markets/york/siding
+15940,"Canton-Massillon, OH",OH,Midwest,400495,115482,62453610,59086785,3366825,3952.0,19,3287032,Balanced,58.62,62453610,0.00147,https://nextterritory.com/markets/canton/siding
+30460,"Lexington-Fayette, KY",KY,South,517378,127078,61308836,48676436,12632400,4342.1,40,1532721,Crowded,59.53,61308836,0.001443,https://nextterritory.com/markets/lexington/siding
+37100,"Oxnard-Thousand Oaks-Ventura, CA",CA,West,838259,178388,61122995,56594570,4528425,3929.0,7,8731856,Land Grab,46.07,61122995,0.001438,https://nextterritory.com/markets/oxnard/siding
+22420,"Flint, MI",MI,Midwest,404087,117865,59909798,56833373,3076425,3783.4,11,5446345,Wide Open,63.96,59909798,0.00141,https://nextterritory.com/markets/flint/siding
+46520,"Urban Honolulu, HI",HI,West,1003666,200686,59778450,53371500,6406950,3940.6,,,,48.65,59778450,0.001407,https://nextterritory.com/markets/urban-honolulu/siding
+16300,"Cedar Rapids, IA",IA,Midwest,275960,84748,59386965,54903915,4483050,3821.5,25,2375479,Crowded,70.75,59386965,0.001397,https://nextterritory.com/markets/cedar-rapids/siding
+39900,"Reno, NV",NV,West,556539,136169,58677076,36225526,22451550,4669.5,13,4513621,Land Grab,58.03,58677076,0.001381,https://nextterritory.com/markets/reno/siding
+31180,"Lubbock, TX",TX,South,354782,79044,58212194,40742819,17469375,4394.3,12,4851016,Balanced,60.43,58212194,0.00137,https://nextterritory.com/markets/lubbock/siding
+47930,"Waterbury-Shelton, CT",CT,Northeast,452303,120630,57350271,54954471,2395800,3594.6,11,5213661,Land Grab,60.55,57350271,0.00135,https://nextterritory.com/markets/waterbury/siding
+11460,"Ann Arbor, MI",MI,Midwest,368394,91988,57334543,52279768,5054775,3725.5,7,8190649,Land Grab,74.66,57334543,0.001349,https://nextterritory.com/markets/ann-arbor/siding
+22660,"Fort Collins-Loveland, CO",CO,West,363561,97491,57312085,44879335,12432750,4090.0,6,9552014,Land Grab,70.74,57312085,0.001349,https://nextterritory.com/markets/fort-collins/siding
+45940,"Trenton-Princeton, NJ",NJ,Northeast,383286,87554,57014651,49509626,7505025,3827.6,6,9502442,Land Grab,79.08,57014651,0.001342,https://nextterritory.com/markets/trenton/siding
+26580,"Huntington-Ashland, WV-KY-OH",WV,South,372801,109626,56849054,54707354,2141700,3551.6,37,1536461,Crowded,54.29,56849054,0.001338,https://nextterritory.com/markets/huntington/siding
+43780,"South Bend-Mishawaka, IN-MI",IN,Midwest,324180,90635,56094703,52373953,3720750,3584.2,9,6232745,Wide Open,66.62,56094703,0.00132,https://nextterritory.com/markets/south-bend/siding
+42580,"Seaford, DE",DE,South,247799,83879,56005149,21374949,34630200,5111.5,18,3111397,Wide Open,60.52,56005149,0.001318,https://nextterritory.com/markets/seaford/siding
+18580,"Corpus Christi, TX",TX,South,446797,103672,54356617,34409767,19946850,4283.4,12,4529718,Wide Open,56.83,54356617,0.001279,https://nextterritory.com/markets/corpus-christi/siding
+29180,"Lafayette, LA",LA,South,410883,112323,54083629,35924554,18159075,4178.2,21,2575411,Balanced,51.28,54083629,0.001273,https://nextterritory.com/markets/lafayette/siding
+33660,"Mobile, AL",AL,South,413162,104128,54075833,41579558,12496275,3897.0,11,4915985,Wide Open,55.09,54075833,0.001272,https://nextterritory.com/markets/mobile/siding
+43620,"Sioux Falls, SD-MN",SD,Midwest,293107,79118,53790577,42265327,11525250,3831.5,43,1250944,Crowded,69.93,53790577,0.001266,https://nextterritory.com/markets/sioux-falls/siding
+19300,"Daphne-Fairhope-Foley, AL",AL,South,239945,73381,53701897,22901347,30800550,4782.0,9,5966877,Land Grab,57.61,53701897,0.001264,https://nextterritory.com/markets/daphne/siding
+14500,"Boulder, CO",CO,West,328317,84461,53456517,49454442,4002075,3438.2,4,13364129,Land Grab,70.07,53456517,0.001258,https://nextterritory.com/markets/boulder/siding
+46700,"Vallejo, CA",CA,West,450824,98510,51001266,39466941,11534325,3662.9,1,51001266,Land Grab,65.14,51001266,0.0012,https://nextterritory.com/markets/vallejo/siding
+39460,"Punta Gorda, FL",FL,South,195083,72670,50941517,18425792,32515725,4699.7,6,8490253,Land Grab,50.16,50941517,0.001199,https://nextterritory.com/markets/punta-gorda/siding
+13140,"Beaumont-Port Arthur, TX",TX,South,396058,99748,50829662,43388162,7441500,3449.6,24,2117903,Crowded,53.52,50829662,0.001196,https://nextterritory.com/markets/beaumont/siding
+15180,"Brownsville-Harlingen, TX",TX,South,423192,88354,50788476,35651376,15137100,3828.7,2,25394238,Land Grab,54.85,50788476,0.001195,https://nextterritory.com/markets/brownsville/siding
+45820,"Topeka, KS",KS,Midwest,232724,67374,50360109,47483334,2876775,3194.8,17,2962359,Balanced,62.3,50360109,0.001185,https://nextterritory.com/markets/topeka/siding
+20260,"Duluth, MN-WI",MN,Midwest,280710,86841,49539151,45146851,4392300,3220.2,16,3096197,Balanced,69.55,49539151,0.001166,https://nextterritory.com/markets/duluth/siding
+40220,"Roanoke, VA",VA,South,314661,89434,49023568,44113993,4909575,3214.6,15,3268238,Balanced,61.04,49023568,0.001154,https://nextterritory.com/markets/roanoke/siding
+29620,"Lansing-East Lansing, MI",MI,Midwest,470434,128831,48492109,44471884,4020225,3138.3,14,3463722,Balanced,63.29,48492109,0.001141,https://nextterritory.com/markets/lansing/siding
+11100,"Amarillo, TX",TX,South,270207,65087,48411107,42612182,5798925,3221.6,12,4034259,Balanced,63.01,48411107,0.001139,https://nextterritory.com/markets/amarillo/siding
+11540,"Appleton, WI",WI,Midwest,244163,72333,48049819,42740944,5308875,3175.4,14,3432130,Balanced,71.53,48049819,0.001131,https://nextterritory.com/markets/appleton/siding
+47380,"Waco, TX",TX,South,299217,69084,46441761,39535686,6906075,3157.1,9,5160196,Balanced,59.13,46441761,0.001093,https://nextterritory.com/markets/waco/siding
+28700,"Kingsport-Bristol, TN-VA",TN,South,309580,96647,46387082,40025507,6361575,3126.8,16,2899193,Balanced,58.01,46387082,0.001092,https://nextterritory.com/markets/kingsport/siding
+13780,"Binghamton, NY",NY,Northeast,245844,68621,45953674,44601499,1352175,2852.1,3,15317891,Land Grab,65.37,45953674,0.001081,https://nextterritory.com/markets/binghamton/siding
+34940,"Naples-Marco Island, FL",FL,South,387681,122225,45568228,23189278,22378950,3871.4,11,4142566,Land Grab,49.77,45568228,0.001072,https://nextterritory.com/markets/naples/siding
+44100,"Springfield, IL",IL,Midwest,207386,63647,45428153,44230253,1197900,2812.6,13,3494473,Wide Open,63.68,45428153,0.001069,https://nextterritory.com/markets/springfield-il/siding
+42220,"Santa Rosa-Petaluma, CA",CA,West,485642,118489,45406086,37855686,7550400,3126.3,13,3492776,Land Grab,50.34,45406086,0.001068,https://nextterritory.com/markets/santa-rosa/siding
+12100,"Atlantic City-Hammonton, NJ",NJ,Northeast,369940,108926,45391670,35926445,9465225,3220.4,16,2836979,Wide Open,61.41,45391670,0.001068,https://nextterritory.com/markets/atlantic-city/siding
+48680,"Wildwood-The Villages, FL",FL,South,137536,58978,44178149,12079874,32098275,4269.1,2,22089074,Land Grab,58.48,44178149,0.00104,https://nextterritory.com/markets/wildwood/siding
+18880,"Crestview-Fort Walton Beach-Destin, FL",FL,South,294127,82195,43811307,20198157,23613150,3826.1,12,3650942,Land Grab,52.64,43811307,0.001031,https://nextterritory.com/markets/crestview/siding
+40340,"Rochester, MN",MN,Midwest,227252,68699,43333202,38877377,4455825,2847.2,18,2407400,Balanced,69.89,43333202,0.00102,https://nextterritory.com/markets/rochester-mn/siding
+30980,"Longview, TX",TX,South,288921,73893,42927242,40495142,2432100,2722.3,35,1226493,Crowded,50.48,42927242,0.00101,https://nextterritory.com/markets/longview/siding
+31340,"Lynchburg, VA",VA,South,262716,73340,42745930,33970405,8775525,3025.8,22,1942997,Crowded,63.92,42745930,0.001006,https://nextterritory.com/markets/lynchburg/siding
+17300,"Clarksville, TN-KY",TN,South,328626,75252,42461647,24538522,17923125,3462.2,19,2234824,Crowded,60.77,42461647,0.000999,https://nextterritory.com/markets/clarksville/siding
+24580,"Green Bay, WI",WI,Midwest,329375,92367,41499354,34992579,6506775,2837.8,26,1596129,Balanced,65.91,41499354,0.000977,https://nextterritory.com/markets/green-bay/siding
+22180,"Fayetteville, NC",NC,South,389851,82192,41412915,25885590,15527325,3279.8,15,2760861,Balanced,56.6,41412915,0.000974,https://nextterritory.com/markets/fayetteville-nc/siding
+33700,"Modesto, CA",CA,West,552250,107644,40911341,33351866,7559475,2854.3,1,40911341,Land Grab,52.35,40911341,0.000963,https://nextterritory.com/markets/modesto/siding
+21500,"Erie, PA",PA,Northeast,269544,75241,40716360,39364186,1352175,2534.7,7,5816623,Wide Open,59.73,40716360,0.000958,https://nextterritory.com/markets/erie/siding
+39540,"Racine-Mount Pleasant, WI",WI,Midwest,196888,56283,40375439,38896214,1479225,2520.3,8,5046930,Wide Open,68.69,40375439,0.00095,https://nextterritory.com/markets/racine/siding
+29420,"Lake Havasu City-Kingman, AZ",AZ,West,217420,71347,39686221,17370796,22315425,3511.8,3,13228740,Land Grab,53.89,39686221,0.000934,https://nextterritory.com/markets/lake-havasu-city/siding
+27900,"Joplin, MO-KS",MO,Midwest,202258,53144,39135473,34280348,4855125,2612.6,8,4891934,Balanced,63.97,39135473,0.000921,https://nextterritory.com/markets/joplin/siding
+41420,"Salem, OR",OR,West,435085,99101,39131471,30110921,9020550,2818.9,58,674681,Crowded,54.62,39131471,0.000921,https://nextterritory.com/markets/salem/siding
+21780,"Evansville, IN",IN,Midwest,269721,78583,39103694,33268469,5835225,2659.3,22,1777441,Crowded,59.07,39103694,0.00092,https://nextterritory.com/markets/evansville/siding
+25940,"Hilton Head Island-Bluffton-Port Royal, SC",SC,South,222781,69109,38986430,17079380,21907050,3449.1,9,4331826,Land Grab,54.5,38986430,0.000917,https://nextterritory.com/markets/hilton-head-island/siding
+35980,"Norwich-New London-Willimantic, CT",CT,Northeast,279025,74923,38602304,36233729,2368575,2457.0,2,19301152,Land Grab,68.18,38602304,0.000908,https://nextterritory.com/markets/norwich/siding
+33260,"Midland, TX",TX,South,176726,47096,38588772,24930897,13657875,3016.0,1,38588772,Land Grab,66.09,38588772,0.000908,https://nextterritory.com/markets/midland/siding
+14740,"Bremerton-Silverdale-Port Orchard, WA",WA,West,276581,75245,37912208,29055008,8857200,2736.9,12,3159351,Wide Open,65.44,37912208,0.000892,https://nextterritory.com/markets/bremerton/siding
+15500,"Burlington, NC",NC,South,174286,44903,37688050,19547125,18140925,3183.7,8,4711006,Wide Open,60.15,37688050,0.000887,https://nextterritory.com/markets/burlington-nc/siding
+17780,"College Station-Bryan, TX",TX,South,273280,52388,37674053,24224903,13449150,2950.2,5,7534811,Wide Open,58.53,37674053,0.000887,https://nextterritory.com/markets/college-station/siding
+11260,"Anchorage, AK",AK,West,399746,99162,37304019,35507169,1796850,2349.9,,,,58.74,37304019,0.000878,https://nextterritory.com/markets/anchorage/siding
+21660,"Eugene-Springfield, OR",OR,West,382628,94723,37268714,30017789,7250925,2618.3,16,2329295,Balanced,55.27,37268714,0.000877,https://nextterritory.com/markets/eugene/siding
+37460,"Panama City-Panama City Beach, FL",FL,South,206627,59383,37106950,18022225,19084725,3195.3,36,1030749,Crowded,52.0,37106950,0.000873,https://nextterritory.com/markets/panama-city/siding
+26140,"Homosassa Springs, FL",FL,South,158693,59129,36977554,15061428,21916125,3327.8,2,18488777,Land Grab,49.4,36977554,0.00087,https://nextterritory.com/markets/homosassa-springs/siding
+45220,"Tallahassee, FL",FL,South,388298,89074,36878801,24418826,12459975,2852.9,16,2304925,Balanced,48.14,36878801,0.000868,https://nextterritory.com/markets/tallahassee/siding
+46340,"Tyler, TX",TX,South,238014,56616,36857851,32647051,4210800,2442.6,3,12285950,Land Grab,54.66,36857851,0.000867,https://nextterritory.com/markets/tyler/siding
+39150,"Prescott Valley-Prescott, AZ",AZ,West,241656,80054,36680773,20019073,16661700,3049.3,6,6113462,Land Grab,55.64,36680773,0.000863,https://nextterritory.com/markets/prescott-valley/siding
+22900,"Fort Smith, AR-OK",AR,South,228916,59653,36665946,33471546,3194400,2380.6,10,3666595,Balanced,53.16,36665946,0.000863,https://nextterritory.com/markets/fort-smith/siding
+43640,"Slidell-Mandeville-Covington, LA",LA,South,269331,81413,36641735,27004085,9637650,2698.6,7,5234534,Land Grab,52.18,36641735,0.000862,https://nextterritory.com/markets/slidell/siding
+27500,"Janesville-Beloit, WI",WI,Midwest,163944,47086,35698022,32966447,2731575,2299.0,9,3966447,Balanced,72.41,35698022,0.00084,https://nextterritory.com/markets/janesville/siding
+46540,"Utica-Rome, NY",NY,Northeast,289577,83262,35237049,33648924,1588125,2214.3,18,1957614,Crowded,60.71,35237049,0.000829,https://nextterritory.com/markets/utica/siding
+33860,"Montgomery, AL",AL,South,385159,97479,35236310,28420985,6815325,2473.5,36,978786,Crowded,49.68,35236310,0.000829,https://nextterritory.com/markets/montgomery/siding
+13740,"Billings, MT",MT,West,187269,54632,35085028,26953828,8131200,2529.6,43,815931,Crowded,68.09,35085028,0.000826,https://nextterritory.com/markets/billings/siding
+47300,"Visalia, CA",CA,West,475774,83253,34849338,24757938,10091400,2612.5,120,290411,Knife Fight,57.74,34849338,0.00082,https://nextterritory.com/markets/visalia/siding
+43300,"Sherman-Denison, TX",TX,South,139988,35904,34784371,22369771,12414600,2723.7,2,17392186,Land Grab,66.62,34784371,0.000819,https://nextterritory.com/markets/sherman/siding
+16820,"Charlottesville, VA",VA,South,222937,58817,34783707,25844832,8938875,2551.4,15,2318914,Balanced,64.97,34783707,0.000819,https://nextterritory.com/markets/charlottesville/siding
+21140,"Elkhart-Goshen, IN",IN,Midwest,206868,51126,34692191,31588541,3103650,2256.5,16,2168262,Crowded,63.69,34692191,0.000816,https://nextterritory.com/markets/elkhart/siding
+47940,"Waterloo-Cedar Falls, IA",IA,Midwest,168163,47204,34491312,32576487,1914825,2185.3,7,4927330,Wide Open,68.58,34491312,0.000812,https://nextterritory.com/markets/waterloo/siding
+28420,"Kennewick-Richland, WA",WA,West,307900,72938,34032645,20383845,13648800,2739.4,32,1063520,Balanced,55.97,34032645,0.000801,https://nextterritory.com/markets/kennewick/siding
+36220,"Odessa, TX",TX,South,163206,40217,33974362,24863062,9111300,2510.9,44,772145,Knife Fight,64.77,33974362,0.000799,https://nextterritory.com/markets/odessa/siding
+22020,"Fargo, ND-MN",ND,Midwest,254914,59750,33938587,26388187,7550400,2431.3,31,1094793,Knife Fight,66.14,33938587,0.000799,https://nextterritory.com/markets/fargo/siding
+30500,"Lexington Park, MD",MD,South,208163,59509,33918278,30624053,3294225,2219.0,5,6783656,Land Grab,60.39,33918278,0.000798,https://nextterritory.com/markets/lexington-park/siding
+39660,"Rapid City, SD",SD,Midwest,151064,43600,33856285,26723335,7132950,2405.6,35,967322,Crowded,69.18,33856285,0.000797,https://nextterritory.com/markets/rapid-city/siding
+11360,"Anderson Creek, NC",NC,South,136503,33801,33356575,13219150,20137425,3020.2,8,4169572,Wide Open,58.43,33356575,0.000785,https://nextterritory.com/markets/anderson-creek/siding
+27740,"Johnson City, TN",TN,South,208934,59835,33012603,25017528,7995075,2397.2,8,4126575,Wide Open,63.76,33012603,0.000777,https://nextterritory.com/markets/johnson-city/siding
+16620,"Charleston, WV",WV,South,207456,62475,32970855,32008905,961950,2045.9,7,4710122,Wide Open,51.57,32970855,0.000776,https://nextterritory.com/markets/charleston-wv/siding
+41100,"St. George, UT",UT,West,189827,48574,32656384,10268359,22388025,3089.3,10,3265638,Land Grab,54.39,32656384,0.000768,https://nextterritory.com/markets/st-george/siding
+41060,"St. Cloud, MN",MN,Midwest,200816,52516,32283242,28371917,3911325,2150.5,12,2690270,Crowded,66.45,32283242,0.00076,https://nextterritory.com/markets/st-cloud/siding
+12700,"Barnstable Town, MA",MA,Northeast,230073,82954,31929046,28026796,3902250,2128.6,13,2456080,Wide Open,55.29,31929046,0.000751,https://nextterritory.com/markets/barnstable-town/siding
+10180,"Abilene, TX",TX,South,178244,41670,31517189,27605864,3911325,2104.1,14,2251228,Crowded,59.44,31517189,0.000742,https://nextterritory.com/markets/abilene/siding
+39380,"Pueblo, CO",CO,West,168726,46329,31364670,28923495,2441175,2021.9,2,15682335,Land Grab,59.81,31364670,0.000738,https://nextterritory.com/markets/pueblo/siding
+29340,"Lake Charles, LA",LA,South,245973,66529,31339490,22945115,8394375,2315.6,11,2849045,Balanced,50.67,31339490,0.000737,https://nextterritory.com/markets/lake-charles/siding
+23540,"Gainesville, FL",FL,South,344521,81114,31330468,21211843,10118625,2400.6,11,2848224,Wide Open,46.16,31330468,0.000737,https://nextterritory.com/markets/gainesville/siding
+23580,"Gainesville, GA",GA,South,208395,49081,31283401,16336876,14946525,2637.1,4,7820850,Land Grab,58.31,31283401,0.000736,https://nextterritory.com/markets/gainesville-ga/siding
+33740,"Monroe, LA",LA,South,224705,53827,31129551,27417876,3711675,2070.7,17,1831150,Knife Fight,47.98,31129551,0.000733,https://nextterritory.com/markets/monroe/siding
+42200,"Santa Maria-Santa Barbara, CA",CA,West,443975,78754,30752403,26387328,4365075,2080.2,4,7688101,Land Grab,50.19,30752403,0.000724,https://nextterritory.com/markets/santa-maria/siding
+35660,"Niles, MI",MI,Midwest,153411,46311,30705829,27629404,3076425,2013.5,1,30705829,Land Grab,70.18,30705829,0.000723,https://nextterritory.com/markets/niles/siding
+29100,"La Crosse-Onalaska, WI-MN",WI,Midwest,169945,48254,30644568,27486468,3158100,2013.8,7,4377795,Wide Open,67.73,30644568,0.000721,https://nextterritory.com/markets/la-crosse/siding
+13460,"Bend, OR",OR,West,253650,73093,30536968,17968093,12568875,2474.0,35,872485,Crowded,56.79,30536968,0.000719,https://nextterritory.com/markets/bend/siding
+12220,"Auburn-Opelika, AL",AL,South,196614,49293,30472523,14845373,15627150,2621.7,4,7618131,Wide Open,57.0,30472523,0.000717,https://nextterritory.com/markets/auburn/siding
+47580,"Warner Robins, GA",GA,South,195171,48961,30219622,18458422,11761200,2414.7,4,7554906,Land Grab,61.7,30219622,0.000711,https://nextterritory.com/markets/warner-robins/siding
+30150,"Lebanon-Claremont, NH-VT",NH,Northeast,222850,66693,29934084,24870234,5063850,2065.3,67,446777,Crowded,63.92,29934084,0.000704,https://nextterritory.com/markets/lebanon/siding
+38660,"Ponce, PR",PR,South,273739,73356,29891609,29891609,0,1811.6,,,,57.67,29891609,0.000703,https://nextterritory.com/markets/ponce/siding
+36837,"Ottawa, IL",IL,Midwest,147676,45997,29789937,28882437,907500,1850.5,5,5957987,Wide Open,62.43,29789937,0.000701,https://nextterritory.com/markets/ottawa/siding
+27180,"Jackson, TN",TN,South,180844,46764,29733319,25749394,3983925,1999.6,10,2973332,Crowded,57.34,29733319,0.0007,https://nextterritory.com/markets/jackson-tn/siding
+13380,"Bellingham, WA",WA,West,228432,58708,29339880,22324905,7014975,2126.0,13,2256914,Crowded,63.95,29339880,0.00069,https://nextterritory.com/markets/bellingham/siding
+48540,"Wheeling, WV-OH",WV,South,138015,41645,28065290,28001765,63525,1704.1,19,1477121,Knife Fight,56.88,28065290,0.00066,https://nextterritory.com/markets/wheeling/siding
+16580,"Champaign-Urbana, IL",IL,Midwest,236196,54874,28028713,25832563,2196150,1807.6,26,1078027,Knife Fight,55.61,28028713,0.00066,https://nextterritory.com/markets/champaign/siding
+45460,"Terre Haute, IN",IN,Midwest,168850,45836,27977171,26225696,1751475,1782.4,25,1119087,Knife Fight,59.75,27977171,0.000658,https://nextterritory.com/markets/terre-haute/siding
+17980,"Columbus, GA-AL",GA,South,326136,72158,27927565,22137715,5789850,1979.7,25,1117103,Crowded,49.58,27927565,0.000657,https://nextterritory.com/markets/columbus-ga/siding
+28450,"Kenosha, WI",WI,Midwest,168413,45743,27846779,25886579,1960200,1784.9,18,1547043,Crowded,67.15,27846779,0.000655,https://nextterritory.com/markets/kenosha/siding
+41500,"Salinas, CA",CA,West,435834,69033,27649069,23002669,4646400,1906.1,4,6912267,Land Grab,48.87,27649069,0.000651,https://nextterritory.com/markets/salinas/siding
+36500,"Olympia-Lacey-Tumwater, WA",WA,West,296640,79392,27591074,21492674,6098400,1974.6,22,1254140,Balanced,51.87,27591074,0.000649,https://nextterritory.com/markets/olympia/siding
+42020,"San Luis Obispo-Paso Robles, CA",CA,West,281486,67403,27575665,20125090,7450575,2040.7,1,27575665,Land Grab,50.1,27575665,0.000649,https://nextterritory.com/markets/san-luis-obispo/siding
+28020,"Kalamazoo-Portage, MI",MI,Midwest,261437,67948,27547433,24970133,2577300,1797.3,5,5509487,Wide Open,59.64,27547433,0.000648,https://nextterritory.com/markets/kalamazoo/siding
+48660,"Wichita Falls, TX",TX,South,148978,36419,27186387,25307862,1878525,1740.8,7,3883770,Balanced,58.97,27186387,0.00064,https://nextterritory.com/markets/wichita-falls/siding
+26980,"Iowa City, IA",IA,Midwest,177420,43136,26817325,22025725,4791600,1862.9,11,2437939,Balanced,66.46,26817325,0.000631,https://nextterritory.com/markets/iowa-city/siding
+24780,"Greenville, NC",NC,South,172279,37384,26646031,17035606,9610425,2091.5,4,6661508,Wide Open,55.89,26646031,0.000627,https://nextterritory.com/markets/greenville-nc/siding
+14540,"Bowling Green, KY",KY,South,183194,44208,26613617,19262867,7350750,1977.4,15,1774241,Crowded,56.37,26613617,0.000626,https://nextterritory.com/markets/bowling-green/siding
+27600,"Jefferson, GA",GA,South,80640,21524,26227759,7442509,18785250,2521.1,2,13113879,Land Grab,59.08,26227759,0.000617,
+43580,"Sioux City, IA-NE-SD",IA,Midwest,144007,37507,25735834,24392734,1343100,1626.3,10,2573583,Crowded,59.41,25735834,0.000606,https://nextterritory.com/markets/sioux-city/siding
+48260,"Weirton-Steubenville, WV-OH",WV,South,115566,36024,25645764,25482414,163350,1562.4,17,1508574,Knife Fight,57.59,25645764,0.000603,https://nextterritory.com/markets/weirton/siding
+15540,"Burlington-South Burlington, VT",VT,Northeast,226603,62857,25607686,21542086,4065600,1753.6,10,2560769,Wide Open,63.3,25607686,0.000603,https://nextterritory.com/markets/burlington/siding
+14010,"Bloomington, IL",IL,Midwest,170882,45046,25176103,23669653,1506450,1600.5,4,6294026,Land Grab,58.45,25176103,0.000592,https://nextterritory.com/markets/bloomington/siding
+17660,"Coeur d'Alene, ID",ID,West,177736,49901,25139094,12697269,12441825,2140.5,40,628477,Crowded,58.33,25139094,0.000592,https://nextterritory.com/markets/coeur-d-alene/siding
+11200,"Amherst Town-Northampton, MA",MA,Northeast,156595,42489,24767304,23406054,1361250,1568.5,6,4127884,Wide Open,67.47,24767304,0.000583,https://nextterritory.com/markets/amherst-town/siding
+27340,"Jacksonville, NC",NC,South,208537,44208,24660246,13652271,11007975,2040.4,7,3522892,Wide Open,55.08,24660246,0.00058,https://nextterritory.com/markets/jacksonville-nc/siding
+26820,"Idaho Falls, ID",ID,West,161944,40003,24623107,11673082,12950025,2134.5,36,683975,Crowded,61.88,24623107,0.000579,https://nextterritory.com/markets/idaho-falls/siding
+28740,"Kingston, NY",NY,Northeast,182109,51163,24373767,21923517,2450250,1598.7,5,4874753,Land Grab,64.28,24373767,0.000574,https://nextterritory.com/markets/kingston/siding
+20740,"Eau Claire, WI",WI,Midwest,172886,47006,24336071,20932946,3403125,1643.7,8,3042009,Balanced,65.2,24336071,0.000573,https://nextterritory.com/markets/eau-claire/siding
+22500,"Florence, SC",SC,South,199675,51607,24268671,17362596,6906075,1813.3,3,8089557,Land Grab,52.04,24268671,0.000571,https://nextterritory.com/markets/florence/siding
+29700,"Laredo, TX",TX,South,267731,50841,24258396,13785846,10472550,1989.5,28,866371,Crowded,52.55,24258396,0.000571,https://nextterritory.com/markets/laredo/siding
+19460,"Decatur, AL",AL,South,156924,46050,24180420,22056870,2123550,1570.8,13,1860032,Crowded,49.11,24180420,0.000569,https://nextterritory.com/markets/decatur/siding
+18180,"Concord, NH",NH,Northeast,155018,44426,24056216,21442616,2613600,1587.6,9,2672913,Balanced,64.71,24056216,0.000566,https://nextterritory.com/markets/concord/siding
+26380,"Houma-Bayou Cane-Thibodaux, LA",LA,South,204032,60091,23872744,18291619,5581125,1723.6,8,2984093,Balanced,48.27,23872744,0.000562,https://nextterritory.com/markets/houma/siding
+49020,"Winchester, VA-WV",VA,South,144676,38378,23872308,14515983,9356325,1910.8,11,2170210,Balanced,63.46,23872308,0.000562,https://nextterritory.com/markets/winchester/siding
+14660,"Brainerd, MN",MN,Midwest,97801,33106,23826068,17428193,6397875,1761.3,6,3971011,Balanced,67.96,23826068,0.000561,
+12020,"Athens-Clarke County, GA",GA,South,218190,46861,23821135,15989410,7831725,1832.1,11,2165558,Crowded,55.39,23821135,0.000561,https://nextterritory.com/markets/athens/siding
+33780,"Monroe, MI",MI,Midwest,155001,50732,23794958,21807533,1987425,1540.7,3,7931653,Land Grab,64.18,23794958,0.00056,https://nextterritory.com/markets/monroe-mi/siding
+49740,"Yuma, AZ",AZ,West,207685,53850,23559345,12823620,10735725,1960.2,61,386219,Crowded,45.51,23559345,0.000554,https://nextterritory.com/markets/yuma/siding
+25900,"Hilo-Kailua, HI",HI,West,203684,53333,23530570,14691520,8839050,1864.4,,,,58.57,23530570,0.000554,https://nextterritory.com/markets/hilo/siding
+10380,"Aguadilla, PR",PR,South,252430,60272,23516588,23516588,0,1425.2,,,,53.46,23516588,0.000553,https://nextterritory.com/markets/aguadilla/siding
+32780,"Medford, OR",OR,West,222563,58922,23312342,17586017,5726325,1696.8,10,2331234,Balanced,53.45,23312342,0.000549,https://nextterritory.com/markets/medford/siding
+45900,"Traverse City, MI",MI,Midwest,154657,52155,23252173,16881523,6370650,1725.1,40,581304,Crowded,62.55,23252173,0.000547,https://nextterritory.com/markets/traverse-city/siding
+25850,"Hermitage, PA",PA,Northeast,109852,33450,23075801,22495001,580800,1427.3,2,11537900,Land Grab,60.34,23075801,0.000543,https://nextterritory.com/markets/hermitage/siding
+14020,"Bloomington, IN",IN,Midwest,161256,38900,23025392,20293817,2731575,1530.9,4,5756348,Wide Open,60.79,23025392,0.000542,https://nextterritory.com/markets/bloomington-in/siding
+46220,"Tuscaloosa, AL",AL,South,275217,65882,22933074,18141474,4791600,1627.5,7,3276153,Balanced,45.42,22933074,0.00054,https://nextterritory.com/markets/tuscaloosa/siding
+19500,"Decatur, IL",IL,Midwest,102591,30267,22924437,22570512,353925,1406.9,2,11462219,Wide Open,62.26,22924437,0.000539,https://nextterritory.com/markets/decatur-il/siding
+20100,"Dover, DE",DE,South,185043,49719,22780200,13197000,9583200,1855.8,8,2847525,Balanced,56.29,22780200,0.000536,https://nextterritory.com/markets/dover/siding
+48580,"Whitewater-Elkhorn, WI",WI,Midwest,105447,29942,22741940,19311590,3430350,1548.4,7,3248849,Balanced,70.85,22741940,0.000535,https://nextterritory.com/markets/whitewater/siding
+17860,"Columbia, MO",MO,Midwest,212850,51245,22664590,15740365,6924225,1717.0,21,1079266,Balanced,55.49,22664590,0.000533,https://nextterritory.com/markets/columbia-mo/siding
+18260,"Cookeville, TN",TN,South,143819,39494,22602766,15179416,7423350,1738.0,12,1883564,Crowded,55.28,22602766,0.000532,https://nextterritory.com/markets/cookeville/siding
+11180,"Ames, IA",IA,Midwest,125261,30531,22569385,20709010,1860375,1460.1,31,728045,Knife Fight,66.58,22569385,0.000531,https://nextterritory.com/markets/ames/siding
+29200,"Lafayette-West Lafayette, IN",IN,Midwest,225019,52104,22556061,17873361,4682700,1599.2,15,1503737,Crowded,57.84,22556061,0.000531,https://nextterritory.com/markets/lafayette-west-lafayette/siding
+33140,"Michigan City-La Porte, IN",IN,Midwest,112141,32570,22457530,20451955,2005575,1460.5,3,7485843,Wide Open,69.3,22457530,0.000528,https://nextterritory.com/markets/michigan-city/siding
+16940,"Cheyenne, WY",WY,West,100661,30093,22270147,19257247,3012900,1499.1,8,2783768,Balanced,67.44,22270147,0.000524,https://nextterritory.com/markets/cheyenne/siding
+31420,"Macon-Bibb County, GA",GA,South,234040,54868,22156482,16938357,5218125,1601.6,27,820610,Knife Fight,48.85,22156482,0.000521,https://nextterritory.com/markets/macon/siding
+40980,"Saginaw, MI",MI,Midwest,189210,57042,22154877,21056802,1098075,1397.2,5,4430975,Wide Open,52.58,22154877,0.000521,https://nextterritory.com/markets/saginaw/siding
+29740,"Las Cruces, NM",NM,West,221665,54542,22091803,14523253,7568550,1714.2,60,368197,Knife Fight,46.41,22091803,0.00052,https://nextterritory.com/markets/las-cruces/siding
+42100,"Santa Cruz-Watsonville, CA",CA,West,266021,58102,22014785,20299610,1715175,1419.3,4,5503696,Land Grab,42.39,22014785,0.000518,https://nextterritory.com/markets/santa-cruz/siding
+49420,"Yakima, WA",WA,West,256605,54112,21921627,18128277,3793350,1516.7,10,2192163,Wide Open,51.29,21921627,0.000516,https://nextterritory.com/markets/yakima/siding
+32420,"Mayagüez, PR",PR,South,211487,52416,21913626,21913626,0,1328.1,,,,55.96,21913626,0.000516,https://nextterritory.com/markets/mayagüez/siding
+41660,"San Angelo, TX",TX,South,120830,31344,21892645,19796320,2096325,1430.8,46,475927,Knife Fight,53.36,21892645,0.000515,https://nextterritory.com/markets/san-angelo/siding
+13980,"Blacksburg-Christiansburg-Radford, VA",VA,South,181605,43753,21847248,17482173,4365075,1540.5,17,1285132,Crowded,60.34,21847248,0.000514,https://nextterritory.com/markets/blacksburg/siding
+41780,"Sandusky, OH",OH,Midwest,115099,37961,21836473,19758298,2078175,1426.5,20,1091824,Crowded,63.0,21836473,0.000514,https://nextterritory.com/markets/sandusky/siding
+34740,"Muskegon-Norton Shores, MI",MI,Midwest,175378,52525,21760840,18965740,2795100,1457.4,4,5440210,Wide Open,60.64,21760840,0.000512,https://nextterritory.com/markets/muskegon/siding
+27860,"Jonesboro, AR",AR,South,134837,31418,21721937,15723362,5998575,1613.9,5,4344387,Balanced,54.65,21721937,0.000511,https://nextterritory.com/markets/jonesboro/siding
+22520,"Florence-Muscle Shoals, AL",AL,South,152685,43450,21397615,19682440,1715175,1381.9,20,1069881,Knife Fight,48.82,21397615,0.000504,https://nextterritory.com/markets/florence-muscle-shoals/siding
+44420,"Staunton-Stuarts Draft, VA",VA,South,126052,36679,21314281,16949206,4365075,1508.2,8,2664285,Balanced,63.34,21314281,0.000502,https://nextterritory.com/markets/staunton/siding
+36780,"Oshkosh-Neenah, WI",WI,Midwest,171357,47341,21022331,18363356,2658975,1405.9,12,1751861,Crowded,61.88,21022331,0.000495,https://nextterritory.com/markets/oshkosh/siding
+46180,"Tupelo, MS",MS,South,132079,37053,20968916,19970666,998250,1320.3,6,3494819,Wide Open,49.38,20968916,0.000493,https://nextterritory.com/markets/tupelo/siding
+17020,"Chico, CA",CA,West,209470,47987,20880541,14918266,5962275,1561.1,3,6960180,Land Grab,50.88,20880541,0.000491,https://nextterritory.com/markets/chico/siding
+13900,"Bismarck, ND",ND,Midwest,134286,39719,20594746,18035596,2559150,1375.1,17,1211456,Crowded,60.41,20594746,0.000485,https://nextterritory.com/markets/bismarck/siding
+43100,"Sheboygan, WI",WI,Midwest,117783,35225,20526313,18420913,2105400,1348.4,8,2565789,Balanced,67.75,20526313,0.000483,https://nextterritory.com/markets/sheboygan/siding
+48140,"Wausau, WI",WI,Midwest,138067,41754,20432040,18471840,1960200,1335.5,8,2554005,Balanced,61.75,20432040,0.000481,https://nextterritory.com/markets/wausau/siding
+40580,"Rocky Mount, NC",NC,South,144228,35886,20324431,15378556,4945875,1477.0,4,5081108,Wide Open,54.24,20324431,0.000478,https://nextterritory.com/markets/rocky-mount/siding
+16540,"Chambersburg, PA",PA,Northeast,156626,46146,20242557,15904707,4337850,1441.9,2,10121278,Land Grab,63.86,20242557,0.000476,https://nextterritory.com/markets/chambersburg/siding
+20220,"Dubuque, IA",IA,Midwest,98948,29695,20222240,18879140,1343100,1292.2,4,5055560,Wide Open,64.0,20222240,0.000476,
+24300,"Grand Junction, CO",CO,West,157316,46413,19865453,13385903,6479550,1525.3,11,1805950,Balanced,53.63,19865453,0.000467,https://nextterritory.com/markets/grand-junction/siding
+17420,"Cleveland, TN",TN,South,127445,34311,19737399,11343024,8394375,1612.5,7,2819628,Balanced,57.5,19737399,0.000464,https://nextterritory.com/markets/cleveland-tn/siding
+27460,"Jamestown-Dunkirk, NY",NY,Northeast,126329,37020,19713641,18597416,1116225,1250.1,6,3285607,Balanced,55.57,19713641,0.000464,https://nextterritory.com/markets/jamestown/siding
+34060,"Morgantown, WV",WV,South,140724,35857,19712876,19567676,145200,1201.9,25,788515,Knife Fight,51.1,19712876,0.000464,https://nextterritory.com/markets/morgantown/siding
+42140,"Santa Fe, NM",NM,West,155175,48973,19657975,17443675,2214300,1301.2,59,333186,Knife Fight,56.42,19657975,0.000463,https://nextterritory.com/markets/santa-fe/siding
+30140,"Lebanon, PA",PA,Northeast,143592,39792,19620323,17079323,2541000,1315.1,3,6540108,Land Grab,64.14,19620323,0.000462,https://nextterritory.com/markets/lebanon-pa/siding
+27100,"Jackson, MI",MI,Midwest,160187,46556,19400680,17304355,2096325,1279.7,2,9700340,Land Grab,60.51,19400680,0.000457,https://nextterritory.com/markets/jackson-mi/siding
+41140,"St. Joseph, MO-KS",MO,Midwest,120609,31943,19319761,18584686,735075,1207.3,12,1609980,Crowded,54.2,19319761,0.000455,https://nextterritory.com/markets/st-joseph/siding
+45860,"Torrington, CT",CT,Northeast,112848,35683,18992221,17866921,1125300,1206.8,1,18992221,Land Grab,63.37,18992221,0.000447,https://nextterritory.com/markets/torrington/siding
+30340,"Lewiston-Auburn, ME",ME,Northeast,112323,31410,18930765,16544040,2386725,1265.7,11,1720979,Crowded,63.42,18930765,0.000445,https://nextterritory.com/markets/lewiston/siding
+42940,"Sevierville, TN",TN,South,98802,28230,18918072,10913922,8004150,1543.4,25,756723,Knife Fight,59.24,18918072,0.000445,
+12620,"Bangor, ME",ME,Northeast,153571,45520,18908493,15577968,3330525,1311.1,3,6302831,Land Grab,56.94,18908493,0.000445,https://nextterritory.com/markets/bangor/siding
+38240,"Pinehurst-Southern Pines, NC",NC,South,102840,32681,18781991,10233341,8548650,1562.2,4,4695498,Land Grab,58.35,18781991,0.000442,https://nextterritory.com/markets/pinehurst/siding
+35420,"New Philadelphia-Dover, OH",OH,Midwest,92585,26185,18706627,18216577,490050,1158.0,13,1438971,Crowded,54.5,18706627,0.00044,
+36980,"Owensboro, KY",KY,South,112322,30408,18644436,16847586,1796850,1219.1,4,4661109,Wide Open,52.85,18644436,0.000439,https://nextterritory.com/markets/owensboro/siding
+43140,"Shelby-Kings Mountain, NC",NC,South,100170,26296,18641913,14984688,3657225,1311.2,29,642825,Knife Fight,57.26,18641913,0.000439,https://nextterritory.com/markets/shelby/siding
+30020,"Lawton, OK",OK,South,127174,26214,18566634,17395959,1170675,1183.3,2,9283317,Land Grab,55.82,18566634,0.000437,https://nextterritory.com/markets/lawton/siding
+49700,"Yuba City, CA",CA,West,182050,37441,18543263,11201588,7341675,1487.9,8,2317908,Balanced,53.14,18543263,0.000436,https://nextterritory.com/markets/yuba-city/siding
+44220,"Springfield, OH",OH,Midwest,135445,38262,18537307,17611657,925650,1169.4,2,9268653,Land Grab,54.77,18537307,0.000436,https://nextterritory.com/markets/springfield-oh/siding
+11500,"Anniston-Oxford, AL",AL,South,116141,31762,18533203,17389753,1143450,1179.9,2,9266601,Wide Open,53.03,18533203,0.000436,https://nextterritory.com/markets/anniston/siding
+27620,"Jefferson City, MO",MO,Midwest,150147,41774,18449750,16625675,1824075,1208.6,15,1229983,Crowded,50.47,18449750,0.000434,https://nextterritory.com/markets/jefferson-city/siding
+23460,"Gadsden, AL",AL,South,103208,28881,18422814,17361039,1061775,1169.2,10,1842281,Crowded,49.42,18422814,0.000434,https://nextterritory.com/markets/gadsden/siding
+40080,"Richmond-Berea, KY",KY,South,124287,32095,18177399,13304124,4873275,1343.3,46,395161,Knife Fight,52.04,18177399,0.000428,https://nextterritory.com/markets/richmond-berea/siding
+31740,"Manhattan, KS",KS,Midwest,133413,25565,18151123,15619198,2531925,1225.6,8,2268890,Crowded,59.68,18151123,0.000427,https://nextterritory.com/markets/manhattan/siding
+26300,"Hot Springs, AR",AR,South,100062,30297,18101799,17312274,789525,1136.2,10,1810180,Crowded,44.78,18101799,0.000426,https://nextterritory.com/markets/hot-springs/siding
+10780,"Alexandria, LA",LA,South,150593,37678,18068836,16081411,1987425,1193.6,5,3613767,Balanced,42.82,18068836,0.000425,https://nextterritory.com/markets/alexandria/siding
+39060,"Pottsville, PA",PA,Northeast,143259,43821,18044660,16529135,1515525,1168.8,1,18044660,Land Grab,58.58,18044660,0.000425,https://nextterritory.com/markets/pottsville/siding
+34100,"Morristown, TN",TN,South,120765,33409,18027556,13862131,4165425,1299.1,27,667687,Knife Fight,55.1,18027556,0.000424,https://nextterritory.com/markets/morristown/siding
+32900,"Merced, CA",CA,West,285597,45097,18023431,13331656,4691775,1325.0,66,273082,Knife Fight,49.09,18023431,0.000424,https://nextterritory.com/markets/merced/siding
+48020,"Watertown-Fort Atkinson, WI",WI,Midwest,85867,25124,17948418,16750518,1197900,1147.2,7,2564060,Crowded,62.74,17948418,0.000422,
+27780,"Johnstown, PA",PA,Northeast,132355,42220,17912679,17386329,526350,1111.7,2,8956340,Land Grab,51.74,17912679,0.000422,https://nextterritory.com/markets/johnstown/siding
+37620,"Parkersburg-Vienna, WV",WV,South,88960,28359,17804831,16851956,952875,1126.3,2,8902416,Land Grab,58.34,17804831,0.000419,
+13180,"Beaver Dam, WI",WI,Midwest,88818,25456,17783226,16104351,1678875,1161.0,5,3556645,Balanced,68.65,17783226,0.000418,
+12300,"Augusta-Waterville, ME",ME,Northeast,125614,39242,17776708,13720183,4056525,1278.5,3,5925569,Land Grab,58.39,17776708,0.000418,https://nextterritory.com/markets/augusta-waterville/siding
+42700,"Sebring, FL",FL,South,103808,36257,17608303,9930853,7677450,1447.9,1,17608303,Land Grab,43.23,17608303,0.000414,https://nextterritory.com/markets/sebring/siding
+46660,"Valdosta, GA",GA,South,149139,32821,17596320,8829870,8766450,1501.1,5,3519264,Wide Open,44.75,17596320,0.000414,https://nextterritory.com/markets/valdosta/siding
+21060,"Elizabethtown, KY",KY,South,126480,31614,17548590,13501140,4047450,1264.3,3,5849530,Wide Open,55.81,17548590,0.000413,https://nextterritory.com/markets/elizabethtown/siding
+25220,"Hammond, LA",LA,South,135218,35896,17527422,11183997,6343425,1376.8,3,5842474,Wide Open,46.14,17527422,0.000412,https://nextterritory.com/markets/hammond/siding
+30860,"Logan, UT-ID",UT,West,151746,31093,17499348,8914398,8584950,1486.3,21,833302,Balanced,58.62,17499348,0.000412,https://nextterritory.com/markets/logan/siding
+42680,"Sebastian-Vero Beach-West Vero Corridor, FL",FL,South,163856,54497,17456581,14924656,2531925,1183.5,8,2182073,Balanced,34.76,17456581,0.000411,https://nextterritory.com/markets/sebastian/siding
+31900,"Mansfield, OH",OH,Midwest,125138,34280,17416279,16309129,1107150,1110.4,1,17416279,Land Grab,52.43,17416279,0.00041,https://nextterritory.com/markets/mansfield/siding
+11640,"Arecibo, PR",PR,South,181380,44643,17380732,17380732,0,1053.4,,,,49.67,17380732,0.000409,https://nextterritory.com/markets/arecibo/siding
+19260,"Danville, VA",VA,South,102387,28534,17316892,16536442,780450,1088.2,3,5772297,Wide Open,49.53,17316892,0.000407,https://nextterritory.com/markets/danville/siding
+38340,"Pittsfield, MA",MA,Northeast,128047,39542,17292523,16312423,980100,1096.6,6,2882087,Balanced,53.96,17292523,0.000407,https://nextterritory.com/markets/pittsfield/siding
+18340,"Corbin, KY",KY,South,149625,39088,17190928,16918678,272250,1055.4,15,1146062,Knife Fight,44.8,17190928,0.000405,https://nextterritory.com/markets/corbin/siding
+34620,"Muncie, IN",IN,Midwest,112109,30682,17149371,16160196,989175,1088.4,3,5716457,Wide Open,51.32,17149371,0.000404,https://nextterritory.com/markets/muncie/siding
+24020,"Glens Falls, NY",NY,Northeast,126443,40038,17001930,14796705,2205225,1139.8,3,5667310,Land Grab,60.45,17001930,0.0004,https://nextterritory.com/markets/glens-falls/siding
+14580,"Bozeman, MT",MT,West,122194,30780,16989288,7859838,9129450,1482.4,21,809014,Crowded,59.63,16989288,0.0004,https://nextterritory.com/markets/bozeman/siding
+34580,"Mount Vernon-Anacortes, WA",WA,West,130407,36394,16960764,14555889,2404875,1147.2,13,1304674,Crowded,56.27,16960764,0.000399,https://nextterritory.com/markets/mount-vernon/siding
+35100,"New Bern, NC",NC,South,122634,36325,16958899,11404999,5553900,1303.2,4,4239725,Land Grab,51.2,16958899,0.000399,https://nextterritory.com/markets/new-bern/siding
+42860,"Seneca, SC",SC,South,79566,25380,16903049,11385449,5517600,1298.0,6,2817175,Balanced,52.78,16903049,0.000398,
+20700,"East Stroudsburg, PA",PA,Northeast,167784,48164,16694442,14643492,2050950,1113.5,4,4173610,Land Grab,53.56,16694442,0.000393,https://nextterritory.com/markets/east-stroudsburg/siding
+45500,"Texarkana, TX-AR",TX,South,146868,36307,16693064,15994289,698775,1046.4,2,8346532,Land Grab,38.93,16693064,0.000393,https://nextterritory.com/markets/texarkana/siding
+10700,"Albertville, AL",AL,South,98712,27144,16611323,15150248,1461075,1079.2,1,16611323,Land Grab,50.63,16611323,0.000391,
+25500,"Harrisonburg, VA",VA,South,136231,31015,16593476,10885301,5708175,1288.7,6,2765579,Balanced,55.76,16593476,0.00039,https://nextterritory.com/markets/harrisonburg/siding
+24140,"Goldsboro, NC",NC,South,117606,28846,16520653,11229928,5290725,1263.6,19,869508,Knife Fight,51.92,16520653,0.000389,https://nextterritory.com/markets/goldsboro/siding
+28300,"Keene, NH",NH,Northeast,76945,21452,16437901,15022201,1415700,1066.4,6,2739650,Balanced,65.7,16437901,0.000387,
+39820,"Redding, CA",CA,West,181554,46711,16401910,14169460,2232450,1104.8,1,16401910,Land Grab,43.41,16401910,0.000386,https://nextterritory.com/markets/redding/siding
+31860,"Mankato, MN",MN,Midwest,103736,26168,16340578,15224353,1116225,1045.7,5,3268116,Balanced,57.67,16340578,0.000385,https://nextterritory.com/markets/mankato/siding
+37140,"Paducah, KY-IL",KY,South,102924,29573,16322145,15605220,716925,1024.8,9,1813572,Crowded,48.13,16322145,0.000384,https://nextterritory.com/markets/paducah/siding
+26090,"Holland, MI",MI,Midwest,120913,38711,16282629,12443904,3838725,1177.2,9,1809181,Balanced,57.62,16282629,0.000383,https://nextterritory.com/markets/holland/siding
+31820,"Manitowoc, WI",WI,Midwest,81314,26730,16265916,15394716,871200,1029.0,5,3253183,Balanced,60.35,16265916,0.000383,
+20020,"Dothan, AL",AL,South,151804,40881,16159259,12066434,4092825,1182.3,5,3231852,Balanced,43.99,16159259,0.00038,https://nextterritory.com/markets/dothan/siding
+13020,"Bay City, MI",MI,Midwest,103235,34299,16095960,15778335,317625,991.3,3,5365320,Wide Open,53.32,16095960,0.000379,https://nextterritory.com/markets/bay-city/siding
+19060,"Cumberland, MD-WV",MD,South,94684,27808,16089426,15318051,771375,1013.4,12,1340786,Crowded,58.26,16089426,0.000379,
+27980,"Kahului-Wailuku, HI",HI,West,164675,36062,15990668,10336943,5653725,1249.5,,,,52.02,15990668,0.000376,https://nextterritory.com/markets/kahului/siding
+23900,"Gettysburg, PA",PA,Northeast,105183,31948,15827253,12170028,3657225,1140.6,29,545767,Knife Fight,62.97,15827253,0.000372,https://nextterritory.com/markets/gettysburg/siding
+19180,"Danville, IL",IL,Midwest,73179,20899,15811382,15775082,36300,960.1,8,1976423,Knife Fight,57.38,15811382,0.000372,
+12980,"Battle Creek, MI",MI,Midwest,133846,38691,15782501,15011126,771375,994.8,2,7891250,Land Grab,52.34,15782501,0.000371,https://nextterritory.com/markets/battle-creek/siding
+30620,"Lima, OH",OH,Midwest,101685,27960,15748184,14895134,853050,996.7,3,5249395,Wide Open,53.56,15748184,0.000371,https://nextterritory.com/markets/lima/siding
+25720,"Heber, UT",UT,West,78517,21092,15653084,5017184,10635900,1476.1,11,1423008,Balanced,52.66,15653084,0.000368,
+39500,"Quincy, IL-MO",IL,Midwest,75111,22608,15507732,15171957,335775,956.5,3,5169244,Wide Open,50.38,15507732,0.000365,
+29940,"Lawrence, KS",KS,Midwest,119547,24725,15463219,13684519,1778700,1025.4,4,3865805,Balanced,56.85,15463219,0.000364,https://nextterritory.com/markets/lawrence/siding
+11020,"Altoona, PA",PA,Northeast,121854,36621,15436343,14810168,626175,966.6,2,7718171,Land Grab,49.73,15436343,0.000363,https://nextterritory.com/markets/altoona/siding
+24220,"Grand Forks, ND-MN",ND,Midwest,103669,25139,15399145,13965295,1433850,1004.4,5,3079829,Crowded,59.16,15399145,0.000362,https://nextterritory.com/markets/grand-forks/siding
+25620,"Hattiesburg, MS",MS,South,154567,37676,15324706,14126806,1197900,988.2,4,3831177,Wide Open,40.4,15324706,0.000361,https://nextterritory.com/markets/hattiesburg/siding
+29300,"LaGrange, GA-AL",GA,South,104271,24717,15324301,11349451,3974850,1125.8,15,1021620,Knife Fight,51.56,15324301,0.000361,https://nextterritory.com/markets/lagrange/siding
+39480,"Putnam, CT",CT,Northeast,95829,29835,15301665,13976715,1324950,993.1,3,5100555,Land Grab,62.01,15301665,0.00036,
+49220,"Wisconsin Rapids-Marshfield, WI",WI,Midwest,74039,23441,15210669,14030919,1179750,980.4,4,3802667,Balanced,64.88,15210669,0.000358,
+15260,"Brunswick-St. Simons, GA",GA,South,114345,32331,14979340,9044290,5935050,1202.1,5,2995868,Wide Open,44.75,14979340,0.000352,https://nextterritory.com/markets/brunswick/siding
+19140,"Dalton, GA",GA,South,143400,35739,14964440,11543165,3421275,1076.6,10,1496444,Balanced,49.31,14964440,0.000352,https://nextterritory.com/markets/dalton/siding
+46300,"Twin Falls, ID",ID,West,116909,29787,14961761,9180986,5780775,1193.4,11,1360160,Balanced,54.27,14961761,0.000352,https://nextterritory.com/markets/twin-falls/siding
+11980,"Athens, TX",TX,South,83658,24939,14949925,12608575,2341350,1022.2,2,7474962,Land Grab,51.87,14949925,0.000352,
+22540,"Fond du Lac, WI",WI,Midwest,104053,30260,14945130,13375155,1569975,983.6,8,1868141,Crowded,60.5,14945130,0.000352,https://nextterritory.com/markets/fond-du-lac/siding
+13220,"Beckley, WV",WV,South,113653,33888,14769069,14142894,626175,926.1,3,4923023,Wide Open,44.36,14769069,0.000348,https://nextterritory.com/markets/beckley/siding
+28100,"Kankakee, IL",IL,Midwest,106833,28124,14751912,13889787,862125,936.8,6,2458652,Crowded,54.39,14751912,0.000347,https://nextterritory.com/markets/kankakee/siding
+26860,"Indiana, PA",PA,Northeast,83213,22964,14721420,14349345,372075,910.7,2,7360710,Land Grab,54.86,14721420,0.000346,
+18980,"Cullman, AL",AL,South,89463,26376,14694856,13197481,1497375,964.8,3,4898285,Wide Open,43.08,14694856,0.000346,
+49300,"Wooster, OH",OH,Midwest,116618,33612,14626770,12557670,2069100,989.1,16,914173,Crowded,54.49,14626770,0.000344,https://nextterritory.com/markets/wooster/siding
+48300,"Wenatchee-East Wenatchee, WA",WA,West,123251,30267,14435109,9371259,5063850,1126.0,10,1443511,Balanced,55.11,14435109,0.00034,https://nextterritory.com/markets/wenatchee/siding
+34340,"Mount Airy, NC",NC,South,71407,21534,14397230,12210155,2187075,981.0,4,3599308,Balanced,53.7,14397230,0.000339,
+44300,"State College, PA",PA,Northeast,158041,36440,14357371,11725621,2631750,1000.6,3,4785790,Land Grab,60.34,14357371,0.000338,https://nextterritory.com/markets/state-college/siding
+44340,"Statesboro, GA",GA,South,92112,18609,14269918,7381993,6887925,1206.4,5,2853984,Crowded,48.11,14269918,0.000336,
+45180,"Talladega-Sylacauga, AL",AL,South,91493,27281,14268242,12625667,1642575,946.2,1,14268242,Land Grab,49.87,14268242,0.000336,
+43420,"Sierra Vista-Douglas, AZ",AZ,West,125458,35586,14264506,10316881,3947625,1060.3,27,528315,Crowded,46.05,14264506,0.000336,https://nextterritory.com/markets/sierra-vista/siding
+23180,"Frankfort, KY",KY,South,75661,21916,14134407,12392007,1742400,943.0,2,7067204,Land Grab,54.74,14134407,0.000333,
+41460,"Salina, KS",KS,Midwest,59583,16749,13809327,12856452,952875,884.2,2,6904663,Land Grab,60.9,13809327,0.000325,
+49780,"Zanesville, OH",OH,Midwest,86382,23537,13808587,13490962,317625,852.6,1,13808587,Land Grab,50.32,13808587,0.000325,
+47220,"Vineland, NJ",NJ,Northeast,152915,34966,13800255,12711255,1089000,890.4,2,6900127,Wide Open,49.1,13800255,0.000325,https://nextterritory.com/markets/vineland/siding
+24260,"Grand Island, NE",NE,Midwest,76619,19869,13767398,12342623,1424775,905.0,17,809847,Knife Fight,56.6,13767398,0.000324,
+44980,"Sunbury, PA",PA,Northeast,109004,33286,13672223,12982523,689700,862.8,1,13672223,Land Grab,51.13,13672223,0.000322,https://nextterritory.com/markets/sunbury/siding
+24500,"Great Falls, MT",MT,West,84601,24490,13488707,12000407,1488300,891.3,4,3372177,Balanced,56.81,13488707,0.000317,
+38210,"Pikeville, KY",KY,South,92808,28801,13456418,13392893,63525,818.7,8,1682052,Knife Fight,42.11,13456418,0.000317,
+48980,"Wilson, NC",NC,South,78648,19417,13277610,9665760,3611850,983.8,1,13277610,Wide Open,48.74,13277610,0.000312,
+32390,"Massena-Ogdensburg, NY",NY,Northeast,107796,29840,13255155,11403855,1851300,895.1,1,13255155,Land Grab,57.97,13255155,0.000312,https://nextterritory.com/markets/massena/siding
+33540,"Missoula, MT",MT,West,124435,32520,13200815,9716015,3484800,972.8,12,1100068,Balanced,55.1,13200815,0.000311,https://nextterritory.com/markets/missoula/siding
+14140,"Bluefield, WV-VA",WV,South,98995,28677,13199724,13127124,72600,803.6,13,1015363,Knife Fight,45.9,13199724,0.000311,
+17220,"Clarksburg, WV",WV,South,89717,26792,13120308,12448758,671550,828.5,6,2186718,Crowded,48.31,13120308,0.000309,
+10500,"Albany, GA",GA,South,146768,32361,12977669,11235269,1742400,872.9,9,1441963,Crowded,41.3,12977669,0.000305,https://nextterritory.com/markets/albany-ga/siding
+48700,"Williamsport, PA",PA,Northeast,113570,31970,12962445,12390720,571725,814.0,2,6481223,Land Grab,48.75,12962445,0.000305,https://nextterritory.com/markets/williamsport/siding
+32060,"Marion-Herrin, IL",IL,Midwest,66902,20467,12920147,12194147,726000,819.0,2,6460073,Wide Open,52.68,12920147,0.000304,
+33910,"Monticello, NY",NY,Northeast,79147,20934,12919188,7673838,5245350,1043.1,25,516768,Knife Fight,63.63,12919188,0.000304,
+33980,"Morehead City, NC",NC,South,68652,22932,12828979,7756054,5072925,1029.1,2,6414490,Land Grab,49.27,12828979,0.000302,
+34900,"Napa, CA",CA,West,136070,31985,12812476,10543726,2268750,889.0,50,256250,Crowded,47.1,12812476,0.000301,https://nextterritory.com/markets/napa/siding
+10300,"Adrian, MI",MI,Midwest,98823,30517,12772855,11320855,1452000,846.1,2,6386427,Land Grab,59.21,12772855,0.000301,
+24620,"Greeneville, TN",TN,South,70919,21325,12693680,10288805,2404875,888.6,2,6346840,Wide Open,54.49,12693680,0.000299,
+32740,"Meadville, PA",PA,Northeast,83189,24765,12684224,11967299,716925,804.3,2,6342112,Land Grab,54.06,12684224,0.000298,
+26740,"Hutchinson, KS",KS,Midwest,61693,17540,12652560,12289560,363000,784.8,5,2530512,Balanced,49.48,12652560,0.000298,
+43060,"Shawnee, OK",OK,South,73011,18578,12581015,11446640,1134375,818.7,1,12581015,Land Grab,53.83,12581015,0.000296,
+33220,"Midland, MI",MI,Midwest,83641,27079,12566468,11622668,943800,808.4,2,6283234,Land Grab,57.92,12566468,0.000296,
+32380,"Mason City, IA",IA,Midwest,50165,16510,12554276,12263876,290400,775.3,5,2510855,Crowded,56.46,12554276,0.000295,
+10540,"Albany, OR",OR,West,129794,33881,12494375,10670300,1824075,847.7,5,2498875,Balanced,45.62,12494375,0.000294,https://nextterritory.com/markets/albany-or/siding
+40700,"Roseburg, OR",OR,West,111807,33496,12491677,10985227,1506450,831.8,38,328728,Knife Fight,42.51,12491677,0.000294,https://nextterritory.com/markets/roseburg/siding
+31300,"Lumberton, NC",NC,South,116858,28049,12426479,9386354,3040125,903.9,1,12426479,Land Grab,46.01,12426479,0.000292,https://nextterritory.com/markets/lumberton/siding
+36020,"Oak Harbor, WA",WA,West,86747,26521,12380998,9685723,2695275,884.0,6,2063500,Balanced,53.86,12380998,0.000291,
+31020,"Longview-Kelso, WA",WA,West,111539,28716,12365294,9670019,2695275,883.1,6,2060882,Balanced,50.24,12365294,0.000291,https://nextterritory.com/markets/longview-kelso/siding
+32300,"Martinsville, VA",VA,South,63949,18785,12348872,12022172,326700,764.6,2,6174436,Wide Open,50.15,12348872,0.000291,
+10140,"Aberdeen, WA",WA,West,76397,21770,12342472,10064647,2277825,861.0,2,6171236,Wide Open,60.53,12342472,0.00029,
+22060,"Faribault-Northfield, MN",MN,Midwest,67389,17714,12269135,11470535,798600,783.2,4,3067284,Balanced,60.36,12269135,0.000289,
+46100,"Tullahoma-Manchester, TN",TN,South,65551,18183,12154805,9005780,3149025,892.8,5,2430961,Crowded,57.83,12154805,0.000286,
+18500,"Corning, NY",NY,Northeast,93034,28614,12123737,11034737,1089000,788.8,1,12123737,Land Grab,53.95,12123737,0.000285,
+21700,"Eureka-Arcata, CA",CA,West,135418,30879,12122360,10779260,1343100,801.3,1,12122360,Land Grab,45.11,12122360,0.000285,https://nextterritory.com/markets/eureka/siding
+22260,"Fergus Falls, MN",MN,Midwest,60281,19934,12078392,11434067,644325,764.0,2,6039196,Land Grab,55.21,12078392,0.000284,
+16500,"Centralia, WA",WA,West,83925,23965,12044874,10266174,1778700,818.2,8,1505609,Crowded,53.01,12044874,0.000283,
+41820,"Sanford, NC",NC,South,64565,16263,12034276,6571126,5463150,1000.3,5,2406855,Balanced,50.55,12034276,0.000283,
+44580,"Sterling, IL",IL,Midwest,55192,17519,11939636,11749061,190575,733.1,2,5969818,Wide Open,56.23,11939636,0.000281,
+41400,"Salem, OH",OH,Midwest,101203,30255,11924789,11643464,281325,736.7,1,11924789,Land Grab,45.3,11924789,0.000281,https://nextterritory.com/markets/salem-oh/siding
+43320,"Show Low, AZ",AZ,West,107744,28494,11873929,7781104,4092825,922.6,26,456690,Knife Fight,45.56,11873929,0.000279,https://nextterritory.com/markets/show-low/siding
+41540,"Salisbury, MD",MD,South,128802,30004,11871343,9330343,2541000,845.5,7,1695906,Balanced,48.62,11871343,0.000279,https://nextterritory.com/markets/salisbury/siding
+16020,"Cape Girardeau, MO-IL",MO,Midwest,97813,25994,11569259,10870484,698775,735.8,8,1446157,Crowded,44.82,11569259,0.000272,
+24940,"Greenwood, SC",SC,South,93681,25708,11427731,8360381,3067350,844.7,3,3809244,Wide Open,46.97,11427731,0.000269,
+29020,"Kokomo, IN",IN,Midwest,83610,25247,11415895,9764245,1651650,773.8,2,5707947,Wide Open,57.67,11415895,0.000269,
+38820,"Port Angeles, WA",WA,West,77593,25013,11321417,10032767,1288650,750.0,2,5660708,Land Grab,47.0,11321417,0.000266,
+22380,"Flagstaff, AZ",AZ,West,144643,31565,11290416,8286591,3003825,833.2,2,5645208,Land Grab,47.49,11290416,0.000266,https://nextterritory.com/markets/flagstaff/siding
+21420,"Enid, OK",OK,South,62322,15440,11225532,11143857,81675,684.4,2,5612766,Wide Open,46.44,11225532,0.000264,
+46020,"Truckee-Grass Valley, CA",CA,West,102452,31170,11213856,9262731,1951125,776.4,2,5606928,Land Grab,43.97,11213856,0.000264,https://nextterritory.com/markets/truckee/siding
+25980,"Hinesville, GA",GA,South,84338,15382,11201511,4304511,6897000,1020.9,7,1600216,Crowded,49.17,11201511,0.000264,
+24180,"Granbury, TX",TX,South,64198,20320,11133193,9853618,1279575,738.2,3,3711064,Wide Open,51.94,11133193,0.000262,
+31980,"Marion, IN",IN,Midwest,66377,19203,11104735,10705435,399300,692.8,3,3701578,Balanced,50.02,11104735,0.000261,
+38540,"Pocatello, ID",ID,West,88457,22882,11059805,8546030,2513775,794.9,15,737320,Crowded,55.24,11059805,0.00026,
+44660,"Stillwater, OK",OK,South,82290,16466,10997293,9808468,1188825,725.5,3,3665764,Crowded,46.05,10997293,0.000259,
+12660,"Baraboo, WI",WI,Midwest,65759,20054,10927681,9158056,1769625,750.0,7,1561097,Crowded,58.68,10927681,0.000257,
+15660,"Calhoun, GA",GA,South,58336,15128,10896091,7656316,3239775,821.0,4,2724023,Balanced,60.23,10896091,0.000256,
+44940,"Sumter, SC",SC,South,104853,27489,10891752,7769952,3121800,814.9,2,5445876,Wide Open,43.95,10891752,0.000256,https://nextterritory.com/markets/sumter/siding
+31930,"Marietta, OH",OH,Midwest,59318,18619,10852616,10807241,45375,660.0,2,5426308,Wide Open,47.35,10852616,0.000255,
+28260,"Kearney, NE",NE,Midwest,57020,14952,10842690,9681090,1161600,714.7,3,3614230,Wide Open,59.49,10842690,0.000255,
+48060,"Watertown-Fort Drum, NY",NY,Northeast,116130,25278,10841387,9108062,1733325,743.0,3,3613796,Wide Open,54.29,10841387,0.000255,https://nextterritory.com/markets/watertown/siding
+28060,"Kalispell, MT",MT,West,108445,32259,10814111,9017261,1796850,744.5,13,831855,Crowded,47.23,10814111,0.000254,https://nextterritory.com/markets/kalispell/siding
+34180,"Moses Lake, WA",WA,West,100428,22649,10787056,6585331,4201725,862.1,3,3595685,Wide Open,49.23,10787056,0.000254,https://nextterritory.com/markets/moses-lake/siding
+49100,"Winona, MN",MN,Midwest,49705,13948,10787002,10496602,290400,668.2,2,5393501,Wide Open,57.34,10787002,0.000254,
+26460,"Hudson, NY",NY,Northeast,61245,19668,10771731,9528456,1243275,714.5,21,512940,Crowded,60.55,10771731,0.000253,
+29860,"Laurel, MS",MS,South,83050,23466,10737466,10710241,27225,652.1,12,894789,Knife Fight,34.85,10737466,0.000253,
+18620,"Corsicana, TX",TX,South,53735,12575,10685465,5948315,4737150,882.5,10,1068546,Knife Fight,53.67,10685465,0.000251,
+12180,"Auburn, NY",NY,Northeast,75464,22533,10663633,9828733,834900,687.7,6,1777272,Crowded,53.88,10663633,0.000251,
+12780,"Bartlesville, OK",OK,South,52895,14793,10656558,10284483,372075,664.3,1,10656558,Land Grab,48.34,10656558,0.000251,
+21300,"Elmira, NY",NY,Northeast,82805,24384,10632056,10396106,235950,656.1,2,5316028,Wide Open,50.08,10632056,0.00025,
+40660,"Rome, GA",GA,South,98985,22773,10578074,7356449,3221625,800.8,12,881506,Crowded,51.0,10578074,0.000249,
+22100,"Farmington, MO",MO,Midwest,66864,16670,10568701,9797326,771375,678.8,1,10568701,Wide Open,48.08,10568701,0.000249,
+25260,"Hanford-Corcoran, CA",CA,West,152830,23976,10534505,7004330,3530175,813.5,1,10534505,Land Grab,49.47,10534505,0.000248,https://nextterritory.com/markets/hanford/siding
+32100,"Marquette, MI",MI,Midwest,66430,19863,10515329,9707654,807675,677.3,14,751095,Crowded,58.79,10515329,0.000247,
+24640,"Greenfield, MA",MA,Northeast,70922,21650,10505749,9924949,580800,665.5,16,656609,Knife Fight,54.85,10505749,0.000247,
+43180,"Shelbyville, TN",TN,South,51291,13301,10485712,4831987,5653725,915.8,2,5242856,Wide Open,50.88,10485712,0.000247,
+43220,"Shelton, WA",WA,West,66968,20582,10408963,7695538,2713425,765.4,6,1734827,Balanced,57.55,10408963,0.000245,
+22580,"Forest City, NC",NC,South,64850,19699,10388221,8654896,1733325,715.5,3,3462740,Balanced,47.75,10388221,0.000244,
+44620,"Stevens Point-Plover, WI",WI,Midwest,70375,20543,10344537,9309987,1034550,678.2,4,2586134,Balanced,58.82,10344537,0.000243,
+27060,"Ithaca, NY",NY,Northeast,102879,23291,10344109,9028234,1315875,692.2,1,10344109,Land Grab,58.23,10344109,0.000243,https://nextterritory.com/markets/ithaca/siding
+35900,"North Wilkesboro, NC",NC,South,65983,19941,10338449,9122399,1216050,686.9,4,2584612,Crowded,45.4,10338449,0.000243,
+47700,"Warsaw, IN",IN,Midwest,80357,24438,10337034,8077359,2259675,738.5,5,2067407,Balanced,55.0,10337034,0.000243,
+14700,"Branson, MO",MO,Midwest,56382,14816,10243674,7766199,2477475,743.7,1,10243674,Land Grab,50.58,10243674,0.000241,
+15460,"Burlington, IA-IL",IA,Midwest,44881,14772,10238945,10057445,181500,629.5,12,853245,Crowded,53.61,10238945,0.000241,
+36460,"Olean, NY",NY,Northeast,76479,23732,10201234,9330034,871200,661.5,1,10201234,Land Grab,51.32,10201234,0.00024,
+32940,"Meridian, MS",MS,South,87408,23303,10195622,9950597,245025,630.1,1,10195622,Land Grab,39.83,10195622,0.00024,
+33500,"Minot, ND",ND,Midwest,76773,20088,10179577,9081502,1098075,671.4,5,2035915,Balanced,55.31,10179577,0.00024,
+25580,"Hastings, NE",NE,Midwest,40503,12077,10178685,9606960,571725,645.2,9,1130965,Crowded,57.22,10178685,0.00024,
+20180,"DuBois, PA",PA,Northeast,78902,25135,10135046,9463496,671550,647.5,4,2533761,Balanced,47.65,10135046,0.000238,
+29060,"Laconia, NH",NH,Northeast,64300,20553,10083513,7887363,2196150,720.0,1,10083513,Land Grab,58.36,10083513,0.000237,
+22300,"Findlay, OH",OH,Midwest,74885,21877,10069523,9343523,726000,646.3,1,10069523,Land Grab,50.74,10069523,0.000237,
+39860,"Red Wing, MN",MN,Midwest,47844,15312,10026926,9319076,707850,642.8,5,2005385,Crowded,60.87,10026926,0.000236,
+37060,"Oxford, MS",MS,South,69359,15245,10014592,5713042,4301550,820.2,3,3338197,Balanced,52.7,10014592,0.000236,
+34700,"Muscatine, IA",IA,Midwest,42735,12854,9944830,9672580,272250,616.2,3,3314943,Balanced,62.52,9944830,0.000234,
+44780,"Sturgis, MI",MI,Midwest,60870,17743,9928588,9002938,925650,647.6,11,902599,Knife Fight,57.29,9928588,0.000234,
+17540,"Clinton, IA",IA,Midwest,46383,14212,9895243,9613918,281325,613.7,2,4947622,Wide Open,56.34,9895243,0.000233,
+35740,"Norfolk, NE",NE,Midwest,48682,13573,9752460,9180735,571725,619.4,9,1083607,Crowded,53.16,9752460,0.000229,
+16220,"Casper, WY",WY,West,79735,24487,9743861,7874411,1869450,683.2,6,1623977,Crowded,52.66,9743861,0.000229,
+18100,"Columbus, NE",NE,Midwest,44899,12482,9737025,8802300,934725,636.5,6,1622838,Crowded,61.06,9737025,0.000229,
+43740,"Somerset, PA",PA,Northeast,73255,23335,9704328,9050928,653400,620.5,1,9704328,Land Grab,39.14,9704328,0.000228,
+12140,"Auburn, IN",IN,Midwest,43584,13994,9694043,8641343,1052700,639.7,24,403918,Knife Fight,57.86,9694043,0.000228,
+23500,"Gaffney, SC",SC,South,56299,16025,9653287,7811062,1842225,676.4,6,1608881,Knife Fight,50.22,9653287,0.000227,
+31940,"Marinette, WI-MI",WI,Midwest,65202,23036,9609973,8039998,1569975,660.3,6,1601662,Balanced,54.74,9609973,0.000226,
+31260,"Lufkin, TX",TX,South,86791,20695,9601875,8712525,889350,626.0,1,9601875,Land Grab,34.75,9601875,0.000226,
+28500,"Kerrville, TX",TX,South,53166,15673,9582517,8702242,880275,624.4,17,563677,Knife Fight,47.08,9582517,0.000225,
+18700,"Corvallis, OR",OR,West,96359,21452,9569348,8743523,825825,620.9,13,736104,Knife Fight,49.91,9569348,0.000225,
+40780,"Russellville, AR",AR,South,84025,22585,9566895,9058695,508200,605.0,30,318896,Knife Fight,33.44,9566895,0.000225,
+23380,"Fremont, OH",OH,Midwest,58770,18167,9562721,9326771,235950,591.3,1,9562721,Land Grab,47.18,9562721,0.000225,
+48200,"Waynesville, NC",NC,South,62432,20083,9555188,6170213,3384975,747.0,3,3185063,Wide Open,49.82,9555188,0.000225,
+24420,"Grants Pass, OR",OR,West,88069,26049,9473578,7894528,1579050,652.5,2,4736789,Land Grab,39.82,9473578,0.000223,
+26540,"Huntington, IN",IN,Midwest,36757,11599,9469755,8752830,716925,609.5,9,1052195,Knife Fight,57.34,9469755,0.000223,
+42620,"Searcy, AR",AR,South,77395,19751,9466116,7950591,1515525,648.9,3,3155372,Balanced,40.88,9466116,0.000223,
+25740,"Helena, MT",MT,West,92391,27801,9464614,8348389,1116225,629.0,25,378585,Crowded,47.46,9464614,0.000223,
+10620,"Albemarle, NC",NC,South,63557,17997,9397668,6067143,3330525,734.7,3,3132556,Balanced,45.53,9397668,0.000221,
+25840,"Hermiston-Pendleton, OR",OR,West,92336,21995,9387290,7136690,2250600,680.5,4,2346822,Crowded,47.96,9387290,0.000221,
+45660,"Tiffin, OH",OH,Midwest,54861,16225,9312633,8958708,353925,582.0,9,1034737,Knife Fight,52.82,9312633,0.000219,
+46380,"Ukiah, CA",CA,West,90709,21044,9312242,9230567,81675,568.4,2,4656121,Wide Open,44.63,9312242,0.000219,
+34780,"Muskogee, OK",OK,South,66471,17123,9307694,8754119,553575,591.6,11,846154,Knife Fight,45.22,9307694,0.000219,
+32000,"Marion, NC",NC,South,44679,13657,9294005,7705880,1588125,642.0,11,844910,Knife Fight,49.55,9294005,0.000219,
+20940,"El Centro, CA",CA,West,179319,27732,9249818,7861343,1388475,629.4,18,513879,Knife Fight,31.93,9249818,0.000218,https://nextterritory.com/markets/el-centro/siding
+26660,"Huntsville, TX",TX,South,78292,14387,9224260,4532485,4691775,791.7,1,9224260,Land Grab,43.07,9224260,0.000217,
+34680,"Murrells Inlet, SC",SC,South,64200,22099,9212267,6244742,2967525,705.5,3,3070756,Wide Open,43.11,9212267,0.000217,
+16260,"Cedar City, UT",UT,West,60201,13255,9205021,3260896,5944125,852.6,10,920502,Balanced,47.19,9205021,0.000217,
+38460,"Plattsburgh, NY",NY,Northeast,78961,22911,9120510,8058735,1061775,605.4,2,4560255,Land Grab,54.25,9120510,0.000215,
+43700,"Somerset, KY",KY,South,65503,18627,9095679,8651004,444675,573.3,2,4547839,Wide Open,39.5,9095679,0.000214,
+20340,"Duncan, OK",OK,South,43314,12834,9066596,8921396,145200,556.7,8,1133324,Knife Fight,44.33,9066596,0.000213,
+14940,"Brigham City, UT-ID",UT,West,64406,16184,9058873,5093098,3965775,745.7,4,2264718,Wide Open,54.68,9058873,0.000213,
+11740,"Ashland, OH",OH,Midwest,52296,16291,9056480,8539205,517275,574.5,20,452824,Knife Fight,50.39,9056480,0.000213,
+38620,"Ponca City, OK",OK,South,43731,11322,9056085,8919960,136125,555.6,2,4528042,Balanced,44.86,9056085,0.000213,
+11620,"Ardmore, OK",OK,South,48255,12779,8987512,8452087,535425,571.2,1,8987512,Land Grab,47.53,8987512,0.000211,
+18060,"Columbus, MS",MS,South,68323,17093,8966490,7786740,1179750,601.9,4,2241623,Crowded,41.32,8966490,0.000211,
+18020,"Columbus, IN",IN,Midwest,82881,23063,8920317,7259592,1660725,623.0,1,8920317,Land Grab,51.29,8920317,0.00021,
+29470,"Lake of the Woods, VA",VA,South,37208,11411,8889099,5168349,3720750,723.2,10,888910,Crowded,58.11,8889099,0.000209,
+28580,"Key West-Key Largo, FL",FL,South,81840,21952,8874373,6650998,2223375,648.1,2,4437186,Land Grab,38.61,8874373,0.000209,
+23660,"Galesburg, IL",IL,Midwest,49294,14490,8859299,8841149,18150,537.8,2,4429650,Balanced,48.04,8859299,0.000208,
+23300,"Freeport, IL",IL,Midwest,44042,13824,8780269,8734894,45375,534.4,4,2195067,Crowded,49.11,8780269,0.000207,
+45620,"Thomasville, GA",GA,South,71752,17826,8768940,6963015,1805925,621.0,17,515820,Knife Fight,38.62,8768940,0.000206,
+34420,"Mount Pleasant, TX",TX,South,55950,14980,8765548,8166598,598950,560.9,4,2191387,Knife Fight,45.5,8765548,0.000206,
+37020,"Owosso, MI",MI,Midwest,68061,21905,8722296,8132421,589875,557.9,4,2180574,Balanced,47.34,8722296,0.000205,
+24330,"Grand Rapids, MN",MN,Midwest,45141,15168,8669287,7543987,1125300,581.2,15,577952,Knife Fight,57.32,8669287,0.000204,
+22700,"Fort Dodge, IA",IA,Midwest,36848,10962,8637735,8383635,254100,536.1,1,8637735,Wide Open,55.59,8637735,0.000203,
+16100,"Carlsbad-Artesia, NM",NM,West,61114,17354,8612712,7197012,1415700,592.2,26,331258,Knife Fight,48.68,8612712,0.000203,
+26020,"Hobbs, NM",NM,West,73154,17072,8601458,7040558,1560900,598.7,2,4300729,Wide Open,46.13,8601458,0.000202,
+32260,"Marshalltown, IA",IA,Midwest,39971,11400,8585297,8340272,245025,532.5,4,2146324,Balanced,55.29,8585297,0.000202,
+39960,"Rice Lake, WI",WI,Midwest,46741,15058,8571101,7255226,1315875,584.7,3,2857034,Balanced,58.08,8571101,0.000202,
+34260,"Mountain Home, AR",AR,South,42150,14459,8549115,8195190,353925,535.7,16,534320,Knife Fight,38.82,8549115,0.000201,
+15900,"Canton, IL",IL,Midwest,33259,10831,8534922,8416947,117975,523.1,1,8534922,Land Grab,51.62,8534922,0.000201,
+35940,"Norwalk, OH",OH,Midwest,58412,17242,8506097,8106797,399300,535.3,2,4253048,Balanced,51.43,8506097,0.0002,
+22800,"Fort Madison, IA",IA,Midwest,33175,10800,8474898,8365998,108900,519.0,13,651915,Knife Fight,51.88,8474898,0.000199,
+37580,"Paris, TX",TX,South,62042,16717,8438125,8056975,381150,530.3,23,366875,Knife Fight,32.66,8438125,0.000199,
+42420,"Scottsbluff, NE",NE,Midwest,36594,10509,8427085,8027785,399300,530.5,4,2106771,Knife Fight,54.21,8427085,0.000198,
+38100,"Picayune, MS",MS,South,56781,17804,8417352,5495202,2922150,655.0,1,8417352,Land Grab,43.79,8417352,0.000198,
+22840,"Fort Payne, AL",AL,South,71946,19916,8386661,8032736,353925,525.8,1,8386661,Wide Open,34.83,8386661,0.000197,
+36180,"Ocean Pines, MD",MD,South,53279,18286,8351710,5284360,3067350,658.3,2,4175855,Land Grab,48.47,8351710,0.000197,
+42980,"Seymour, IN",IN,Midwest,46319,13038,8341613,6944063,1397550,574.9,1,8341613,Land Grab,56.87,8341613,0.000196,
+11940,"Athens, TN",TN,South,67211,20108,8299378,7228528,1070850,556.1,2,4149689,Wide Open,41.28,8299378,0.000195,
+21900,"Fairmont, WV",WV,South,56042,17411,8297701,8243251,54450,505.6,15,553180,Knife Fight,44.67,8297701,0.000195,
+21820,"Fairbanks-College, AK",AK,West,95555,22318,8273185,8218735,54450,504.1,,,,42.95,8273185,0.000195,
+23620,"Gainesville, TX",TX,South,42473,11727,8242109,6944384,1297725,563.9,13,634008,Knife Fight,51.88,8242109,0.000194,
+17340,"Clearlake, CA",CA,West,68139,18701,8224856,7571456,653400,530.9,2,4112428,Wide Open,40.85,8224856,0.000194,
+21260,"Ellensburg, WA",WA,West,44736,12221,8214589,4593664,3620925,677.4,1,8214589,Land Grab,56.36,8214589,0.000193,
+36700,"Orangeburg, SC",SC,South,83531,21670,8188571,7271996,916575,541.7,11,744416,Knife Fight,36.64,8188571,0.000193,
+37800,"Pella, IA",IA,Midwest,33551,10425,8182699,7266124,916575,541.4,16,511419,Knife Fight,62.71,8182699,0.000193,
+17500,"Clewiston, FL",FL,South,53122,13725,8166856,2966881,5199975,752.8,5,1633371,Crowded,32.89,8166856,0.000192,
+17580,"Clovis, NM",NM,West,66934,15784,8151608,7498208,653400,526.4,2,4075804,Wide Open,36.69,8151608,0.000192,
+12740,"Barre, VT",VT,Northeast,59958,18611,8146317,6794142,1352175,560.8,28,290940,Crowded,52.12,8146317,0.000192,
+39980,"Richmond, IN",IN,Midwest,66377,18696,8124940,7752865,372075,510.9,3,2708313,Balanced,46.28,8124940,0.000191,
+28340,"Kendallville, IN",IN,Midwest,47417,13700,8104064,6942464,1161600,548.8,1,8104064,Land Grab,58.54,8104064,0.000191,
+23340,"Fremont, NE",NE,Midwest,37146,9924,8089199,7708049,381150,509.2,3,2696400,Crowded,47.63,8089199,0.00019,
+11420,"Angola, IN",IN,Midwest,34648,11037,8088306,6863181,1225125,551.0,14,577736,Knife Fight,61.89,8088306,0.00019,
+28900,"Klamath Falls, OR",OR,West,69812,19822,8082493,6793843,1288650,553.7,1,8082493,Land Grab,46.96,8082493,0.00019,
+22140,"Farmington, NM",NM,West,121178,28811,8076992,7441742,635250,521.0,2,4038496,Wide Open,28.4,8076992,0.00019,https://nextterritory.com/markets/farmington/siding
+36660,"Opelousas, LA",LA,South,82128,22159,8068301,6806876,1261425,551.5,22,366741,Knife Fight,30.03,8068301,0.00019,
+10100,"Aberdeen, SD",SD,Midwest,42112,12039,8050811,7415561,635250,519.4,6,1341802,Crowded,54.92,8050811,0.000189,
+47020,"Victoria, TX",TX,South,98377,25393,8039124,7739649,299475,502.1,3,2679708,Balanced,31.38,8039124,0.000189,
+45380,"Taylorville, IL",IL,Midwest,33684,10052,8029053,7457328,571725,515.0,5,1605811,Crowded,55.62,8029053,0.000189,
+15220,"Brownwood, TX",TX,South,38294,10209,8026644,6719844,1306800,551.3,1,8026644,Land Grab,49.75,8026644,0.000189,
+27540,"Jasper, IN",IN,Midwest,43563,13366,7985891,6397766,1588125,562.7,1,7985891,Land Grab,52.83,7985891,0.000188,
+34540,"Mount Vernon, OH",OH,Midwest,62888,17588,7981771,6311971,1669800,566.5,3,2660590,Balanced,54.48,7981771,0.000188,
+49010,"Winchester, TN",TN,South,43478,13059,7946052,4434027,3512025,655.7,2,3973026,Wide Open,51.4,7946052,0.000187,
+48820,"Willmar, MN",MN,Midwest,43757,12590,7942069,7306819,635250,512.8,26,305464,Knife Fight,53.75,7942069,0.000187,
+36580,"Oneonta, NY",NY,Northeast,59738,16807,7900627,6784402,1116225,534.2,10,790063,Crowded,58.08,7900627,0.000186,
+26780,"Hutchinson, MN",MN,Midwest,36771,11645,7884467,7430717,453750,500.3,2,3942233,Wide Open,56.15,7884467,0.000186,
+45700,"Tifton, GA",GA,South,50237,11592,7874857,6785857,1089000,531.3,4,1968714,Knife Fight,45.73,7874857,0.000185,
+30300,"Lewiston, ID-WA",ID,West,64901,19397,7866526,6695850,1170675,534.8,3,2622175,Balanced,44.59,7866526,0.000185,
+40860,"Rutland, VT",VT,Northeast,60484,18496,7843224,7035549,807675,515.4,2,3921612,Wide Open,49.67,7843224,0.000185,
+25770,"Hemlock Farms, PA",PA,Northeast,59691,20685,7836777,6112527,1724250,560.5,1,7836777,Land Grab,50.44,7836777,0.000184,
+24100,"Gloversville, NY",NY,Northeast,52787,15645,7809810,7265310,544500,500.3,1,7809810,Land Grab,53.92,7809810,0.000184,
+18300,"Coos Bay-North Bend, OR",OR,West,64832,20093,7807149,6926874,880275,516.8,18,433730,Knife Fight,46.52,7807149,0.000184,
+30280,"Lewisburg, TN",TN,South,35276,10275,7797192,4902267,2894925,616.1,1,7797192,Land Grab,53.97,7797192,0.000183,
+12860,"Batavia, NY",NY,Northeast,57943,18381,7792226,7392926,399300,492.1,4,1948057,Balanced,51.34,7792226,0.000183,
+48940,"Wilmington, OH",OH,Midwest,42014,11662,7791990,6748365,1043625,524.0,11,708363,Knife Fight,57.76,7791990,0.000183,
+35340,"New Iberia, LA",LA,South,69194,18267,7748787,6850362,898425,514.2,2,3874394,Balanced,36.12,7748787,0.000182,
+25020,"Guayama, PR",PR,South,67171,19803,7742478,7742478,0,469.2,,,,37.85,7742478,0.000182,
+47820,"Washington, NC",NC,South,44597,13391,7642328,5682128,1960200,560.4,9,849148,Knife Fight,46.4,7642328,0.00018,
+18460,"Cornelia, GA",GA,South,46948,11985,7640318,5534918,2105400,567.4,1,7640318,Land Grab,49.02,7640318,0.00018,
+11680,"Arkansas City-Winfield, KS",KS,Midwest,34487,9400,7626785,7309160,317625,478.0,6,1271131,Knife Fight,51.09,7626785,0.000179,
+47660,"Warrensburg, MO",MO,Midwest,54331,13207,7575937,7222012,353925,476.7,3,2525312,Balanced,44.01,7575937,0.000178,
+17060,"Chillicothe, OH",OH,Midwest,76748,20779,7554552,7354902,199650,467.8,14,539611,Knife Fight,41.96,7554552,0.000178,
+16660,"Charleston-Mattoon, IL",IL,Midwest,46689,12279,7510131,7410306,99825,460.1,1,7510131,Wide Open,44.95,7510131,0.000177,
+19810,"Detroit Lakes, MN",MN,Midwest,35260,11207,7506156,6135831,1370325,522.9,3,2502052,Crowded,58.56,7506156,0.000177,
+10820,"Alexandria, MN",MN,Midwest,39354,13312,7505840,5772515,1733325,540.8,3,2501947,Balanced,56.1,7505840,0.000177,
+38220,"Pine Bluff, AR",AR,South,73271,17594,7494655,7013680,480975,478.1,10,749466,Knife Fight,37.95,7494655,0.000176,
+35820,"North Platte, NE",NE,Midwest,34934,9601,7487533,7079158,408375,474.0,2,3743766,Balanced,52.4,7487533,0.000176,
+36340,"Oil City, PA",PA,Northeast,50096,16144,7464416,7101416,363000,470.4,2,3732208,Land Grab,46.93,7464416,0.000176,
+12380,"Austin, MN",MN,Midwest,40069,11840,7461975,6962850,499125,477.0,4,1865494,Crowded,56.3,7461975,0.000176,
+14100,"Bloomsburg-Berwick, PA",PA,Northeast,65055,18222,7445742,6828642,617100,481.9,1,7445742,Land Grab,45.73,7445742,0.000175,
+42380,"Sayre, PA",PA,Northeast,59971,17696,7415196,6716421,698775,484.1,10,741520,Crowded,48.98,7415196,0.000174,
+23820,"Gardnerville Ranchos, NV-CA",NV,West,51319,16915,7364605,4487830,2876775,589.0,1,7364605,Land Grab,45.95,7364605,0.000173,
+18820,"Crawfordsville, IN",IN,Midwest,38155,12079,7360682,6888782,471900,469.5,1,7360682,Wide Open,51.98,7360682,0.000173,
+39020,"Portsmouth, OH",OH,Midwest,73118,19764,7360178,7287578,72600,449.7,2,3680089,Balanced,38.64,7360178,0.000173,
+32540,"McAlester, OK",OK,South,43629,12608,7340364,6877539,462825,467.8,5,1468073,Knife Fight,46.36,7340364,0.000173,
+38420,"Platteville, WI",WI,Midwest,51678,13757,7328046,6357021,971025,492.3,1,7328046,Land Grab,52.52,7328046,0.000172,
+34860,"Nacogdoches, TX",TX,South,64897,14573,7325325,7007700,317625,459.7,2,3662662,Balanced,34.71,7325325,0.000172,
+15740,"Cambridge, OH",OH,Midwest,38283,11639,7307326,6989701,317625,458.6,9,811925,Knife Fight,48.4,7307326,0.000172,
+40300,"Rochelle, IL",IL,Midwest,51536,15420,7294818,6841068,453750,464.6,2,3647409,Wide Open,53.21,7294818,0.000172,
+11900,"Athens, OH",OH,Midwest,61573,14071,7286582,7250282,36300,443.4,1,7286582,Wide Open,42.11,7286582,0.000171,
+25775,"Henderson, KY",KY,South,57366,15464,7270231,6580531,689700,474.8,7,1038604,Knife Fight,42.11,7270231,0.000171,
+36940,"Owatonna, MN",MN,Midwest,37413,11986,7249491,7031691,217800,450.2,5,1449898,Crowded,51.66,7249491,0.000171,
+18900,"Crossville, TN",TN,South,62529,22023,7236183,6201633,1034550,489.9,2,3618092,Wide Open,34.31,7236183,0.00017,
+38500,"Plymouth, IN",IN,Midwest,46225,13302,7214585,5880560,1334025,503.4,2,3607293,Wide Open,54.08,7214585,0.00017,
+10760,"Alexander City, AL",AL,South,41070,12511,7201083,5240883,1960200,533.6,12,600090,Knife Fight,45.12,7201083,0.000169,
+19940,"Dixon, IL",IL,Midwest,34058,9804,7162302,6917277,245025,446.2,1,7162302,Land Grab,57.49,7162302,0.000169,
+42740,"Sedalia, MO",MO,Midwest,43205,11876,7137384,6919584,217800,443.4,2,3568692,Balanced,44.22,7137384,0.000168,
+32700,"McPherson, KS",KS,Midwest,30130,9211,7096126,6297526,798600,469.7,9,788458,Knife Fight,58.24,7096126,0.000167,
+37500,"Paragould, AR",AR,South,46182,11678,7031401,6078526,952875,473.4,2,3515700,Balanced,44.51,7031401,0.000165,
+19220,"Danville, KY",KY,South,55123,15730,7027744,5503144,1524600,501.5,11,638886,Knife Fight,45.29,7027744,0.000165,
+27300,"Jacksonville, IL",IL,Midwest,37468,11011,7013436,6977136,36300,426.9,2,3506718,Balanced,49.72,7013436,0.000165,
+35220,"New Castle, IN",IN,Midwest,48896,14018,6993705,6603480,390225,443.2,1,6993705,Land Grab,47.19,6993705,0.000165,
+47540,"Wapakoneta, OH",OH,Midwest,46209,14380,6982747,6211372,771375,461.4,2,3491374,Wide Open,51.75,6982747,0.000164,
+13340,"Bellefontaine, OH",OH,Midwest,46140,15193,6931757,5706632,1225125,480.9,2,3465878,Wide Open,55.71,6931757,0.000163,
+39780,"Red Bluff, CA",CA,West,65520,16574,6931027,5243077,1687950,503.8,20,346551,Knife Fight,43.75,6931027,0.000163,
+40260,"Roanoke Rapids, NC",NC,South,65431,18428,6888899,6235499,653400,449.9,7,984128,Knife Fight,33.89,6888899,0.000162,
+28620,"Kill Devil Hills, NC",NC,South,37534,12821,6818181,3451356,3366825,580.2,2,3409090,Land Grab,41.17,6818181,0.00016,
+40090,"Rifle, CO",CO,West,79153,22180,6817900,5420350,1397550,482.5,12,568158,Crowded,39.0,6817900,0.00016,
+48460,"West Plains, MO",MO,Midwest,40168,10982,6816084,6561984,254100,425.7,3,2272028,Balanced,41.21,6816084,0.00016,
+32020,"Marion, OH",OH,Midwest,65145,16630,6807207,6462357,344850,429.7,12,567267,Knife Fight,44.46,6807207,0.00016,
+43940,"Spearfish, SD",SD,Midwest,26574,7545,6759727,4917502,1842225,501.0,4,1689932,Crowded,60.25,6759727,0.000159,
+38260,"Pittsburg, KS",KS,Midwest,38963,9560,6756611,6212111,544500,436.5,20,337831,Knife Fight,42.87,6756611,0.000159,
+36620,"Ontario, OR-ID",OR,West,57891,13428,6713223,4526148,2187075,515.3,2,3356612,Wide Open,47.84,6713223,0.000158,
+40620,"Rolla, MO",MO,Midwest,44948,10923,6708057,6335982,372075,425.0,3,2236019,Crowded,45.78,6708057,0.000158,
+16060,"Carbondale, IL",IL,Midwest,52706,11388,6702369,6666069,36300,408.0,11,609306,Knife Fight,36.29,6702369,0.000158,
+13260,"Bedford, IN",IN,Midwest,45077,15321,6674916,6584166,90750,409.0,14,476780,Knife Fight,41.08,6674916,0.000157,
+10660,"Albert Lea, MN",MN,Midwest,30752,10221,6672938,6527738,145200,411.6,2,3336469,Balanced,51.68,6672938,0.000157,
+47460,"Walla Walla, WA",WA,West,62102,15424,6671688,5373963,1297725,468.7,2,3335844,Wide Open,46.53,6671688,0.000157,
+25460,"Harrison, AR",AR,South,45071,12915,6645940,6464440,181500,411.8,2,3322970,Wide Open,36.85,6645940,0.000156,
+19580,"Defiance, OH",OH,Midwest,38258,12084,6636546,6300771,335775,418.9,12,553046,Crowded,53.25,6636546,0.000156,
+14710,"Brattleboro, VT",VT,Northeast,45913,14306,6616672,5164672,1452000,473.0,24,275695,Knife Fight,45.19,6616672,0.000156,
+33380,"Minden, LA",LA,South,36189,10067,6604775,6287150,317625,416.0,2,3302388,Crowded,35.76,6604775,0.000155,
+44020,"Spirit Lake, IA",IA,Midwest,17844,6631,6595490,4226915,2368575,517.2,16,412218,Knife Fight,62.02,6595490,0.000155,
+10220,"Ada, OK",OK,South,38158,9949,6588931,6570781,18150,400.2,11,598994,Knife Fight,39.17,6588931,0.000155,
+21380,"Emporia, KS",KS,Midwest,34724,8572,6572408,6263858,308550,413.6,5,1314482,Crowded,45.62,6572408,0.000155,
+37740,"Payson, AZ",AZ,West,53610,17944,6554561,5202386,1352175,464.3,1,6554561,Land Grab,37.2,6554561,0.000154,
+13700,"Big Spring, TX",TX,South,33127,8186,6544341,5927241,617100,427.2,7,934906,Knife Fight,53.77,6544341,0.000154,
+47180,"Vincennes, IN",IN,Midwest,36108,9955,6538731,6212031,326700,412.5,11,594430,Knife Fight,46.47,6538731,0.000154,
+27380,"Jacksonville, TX",TX,South,51143,13155,6535979,6345404,190575,405.6,1,6535979,Wide Open,34.13,6535979,0.000154,
+28680,"Kingsland, GA",GA,South,56036,13410,6487583,3628958,2858625,534.9,2,3243792,Wide Open,42.11,6487583,0.000153,
+36900,"Ottumwa, IA",IA,Midwest,35265,9501,6483558,6129633,353925,410.5,13,498735,Knife Fight,52.4,6483558,0.000153,
+47340,"Wabash, IN",IN,Midwest,30901,10094,6446935,6029485,417450,411.4,2,3223468,Wide Open,53.22,6446935,0.000152,
+20820,"Effingham, IL",IL,Midwest,44883,14443,6446228,6173978,272250,404.2,27,238749,Knife Fight,38.79,6446228,0.000152,
+35440,"Newport, OR",OR,West,50632,16292,6420697,5086672,1334025,455.3,2,3210349,Wide Open,42.79,6420697,0.000151,
+40740,"Roswell, NM",NM,West,64446,16214,6409209,5610609,798600,428.0,20,320460,Knife Fight,35.96,6409209,0.000151,
+13940,"Blackfoot, ID",ID,West,48993,12909,6402072,4160547,2241525,499.2,4,1600518,Balanced,48.94,6402072,0.000151,
+43460,"Sikeston, MO",MO,Midwest,50046,13201,6400973,5602373,798600,427.5,2,3200487,Balanced,42.88,6400973,0.000151,
+19980,"Dodge City, KS",KS,Midwest,34133,7588,6390538,5655463,735075,423.8,11,580958,Knife Fight,53.99,6390538,0.00015,
+14300,"Bonham, TX",TX,South,36525,9658,6388724,5526599,862125,429.9,10,638872,Knife Fight,48.86,6388724,0.00015,
+24820,"Greenville, OH",OH,Midwest,51655,15359,6366606,6048981,317625,401.6,3,2122202,Balanced,38.95,6366606,0.00015,
+37260,"Palatka, FL",FL,South,74235,22256,6365338,5367088,998250,435.3,1,6365338,Land Grab,21.13,6365338,0.00015,
+43890,"Sparta, WI",WI,Midwest,46169,13233,6287367,5416167,871200,424.3,2,3143684,Balanced,50.93,6287367,0.000148,
+29980,"Lawrenceburg, TN",TN,South,44901,12718,6260407,6097057,163350,387.5,13,481570,Knife Fight,36.87,6260407,0.000147,
+39040,"Port Townsend, WA",WA,West,33313,12875,6240266,4906241,1334025,444.3,20,312013,Knife Fight,48.58,6240266,0.000147,
+14380,"Boone, NC",NC,South,54607,12962,6235566,3803466,2432100,498.5,1,6235566,Land Grab,43.29,6235566,0.000147,
+32860,"Menomonie, WI",WI,Midwest,45349,11554,6230692,4987417,1243275,439.3,1,6230692,Wide Open,55.7,6230692,0.000147,
+32660,"McMinnville, TN",TN,South,41587,11433,6208620,3858195,2350425,492.8,2,3104310,Balanced,44.72,6208620,0.000146,
+35700,"Nogales, AZ",AZ,West,48209,11498,6191377,3142177,3049200,526.4,4,1547844,Crowded,42.2,6191377,0.000146,
+16380,"Celina, OH",OH,Midwest,42438,12965,6181226,5455226,726000,410.6,2,3090613,Wide Open,47.9,6181226,0.000145,
+24600,"Greencastle, IN",IN,Midwest,37091,10283,6171276,5127651,1043625,425.8,2,3085638,Wide Open,52.24,6171276,0.000145,
+13420,"Bemidji, MN",MN,Midwest,46421,12441,6109181,5537456,571725,398.6,5,1221836,Knife Fight,43.83,6109181,0.000144,
+31580,"Madisonville, KY",KY,South,45143,13037,6083593,5067193,1016400,419.1,2,3041796,Balanced,41.35,6083593,0.000143,
+20460,"Durant, OK",OK,South,47237,11590,6080751,5391051,689700,402.7,9,675639,Knife Fight,35.38,6080751,0.000143,
+20420,"Durango, CO",CO,West,56088,16462,6078847,4508872,1569975,446.3,2,3039424,Wide Open,41.81,6078847,0.000143,
+15820,"Campbellsville, KY",KY,South,37483,10151,6076551,5949501,127050,374.6,2,3038276,Balanced,37.21,6076551,0.000143,
+16180,"Carson City, NV",NV,West,58364,14950,6052863,4392138,1660725,449.2,31,195254,Knife Fight,41.78,6052863,0.000142,
+15420,"Burley, ID",ID,West,47087,11455,6033583,3801133,2232450,476.4,3,2011194,Balanced,48.17,6033583,0.000142,
+48220,"Weatherford, OK",OK,South,39189,9992,6032185,5796235,235950,377.3,11,548380,Knife Fight,37.77,6032185,0.000142,
+47980,"Watertown, SD",SD,Midwest,28556,8332,6015894,5289894,726000,400.6,1,6015894,Wide Open,52.33,6015894,0.000142,
+23980,"Glasgow, KY",KY,South,55042,14906,6015081,4463256,1551825,441.5,1,6015081,Wide Open,38.19,6015081,0.000142,
+11220,"Amsterdam, NY",NY,Northeast,49461,13336,6001361,5602061,399300,383.5,19,315861,Knife Fight,38.49,6001361,0.000141,
+25300,"Hannibal, MO",MO,Midwest,38887,11264,5978771,5552246,426525,383.5,3,1992924,Crowded,48.79,5978771,0.000141,
+15620,"Cadillac, MI",MI,Midwest,49024,15738,5975138,5122088,853050,404.4,8,746892,Crowded,48.31,5975138,0.000141,
+43760,"Sonora, CA",CA,West,54873,16912,5959708,5397058,562650,389.1,2,2979854,Balanced,35.78,5959708,0.00014,
+17620,"Coamo, PR",PR,South,54358,15651,5956205,5956205,0,361.0,,,,31.78,5956205,0.00014,
+28180,"Kapaa, HI",HI,West,73610,15788,5947619,4668044,1279575,423.9,,,,32.55,5947619,0.00014,
+38700,"Pontiac, IL",IL,Midwest,35659,10801,5942654,5516129,426525,381.3,14,424475,Knife Fight,50.71,5942654,0.00014,
+28820,"Kinston, NC",NC,South,54917,13588,5921708,4578608,1343100,425.5,16,370107,Knife Fight,34.17,5921708,0.000139,
+25880,"Hillsdale, MI",MI,Midwest,45658,14468,5921409,5340609,580800,387.7,8,740176,Crowded,47.78,5921409,0.000139,
+37300,"Palestine, TX",TX,South,57825,12006,5905181,5741831,163350,366.0,1,5905181,Wide Open,28.39,5905181,0.000139,
+43380,"Sidney, OH",OH,Midwest,48007,13854,5893945,4868470,1025475,408.1,17,346703,Knife Fight,49.15,5893945,0.000139,
+21460,"Enterprise, AL",AL,South,54231,14442,5828832,4621857,1206975,413.1,1,5828832,Land Grab,37.9,5828832,0.000137,
+30060,"Lebanon, MO",MO,Midwest,36245,10132,5819112,5447037,372075,371.1,1,5819112,Wide Open,43.05,5819112,0.000137,
+30380,"Lewistown, PA",PA,Northeast,46074,13221,5797603,5225878,571725,379.7,3,1932534,Crowded,38.58,5797603,0.000136,
+27220,"Jackson, WY-ID",WY,West,35459,9422,5769926,2448476,3321450,514.4,30,192331,Crowded,48.9,5769926,0.000136,
+25700,"Hays, KS",KS,Midwest,28870,7608,5768320,5496070,272250,363.1,2,2884160,Crowded,41.07,5768320,0.000136,
+33940,"Montrose, CO",CO,West,43272,13085,5761016,3583016,2178000,457.2,3,1920339,Balanced,42.95,5761016,0.000136,
+35020,"Natchez, MS-LA",MS,South,54550,14188,5745939,5464614,281325,362.2,9,638438,Knife Fight,31.97,5745939,0.000135,
+36840,"Ottawa, KS",KS,Midwest,25994,7558,5742250,5052550,689700,382.2,2,2871125,Crowded,50.87,5742250,0.000135,
+29380,"Lake City, FL",FL,South,70755,18938,5737779,4158729,1579050,426.0,4,1434445,Balanced,25.53,5737779,0.000135,
+42780,"Selinsgrove, PA",PA,Northeast,39711,10806,5707902,5272302,435600,367.5,2,2853951,Balanced,47.66,5707902,0.000134,
+46780,"Van Wert, OH",OH,Midwest,28824,9392,5704590,5359740,344850,362.8,1,5704590,Land Grab,49.13,5704590,0.000134,
+33060,"Miami, OK",OK,South,30360,7907,5675650,5530450,145200,351.2,2,2837825,Crowded,41.82,5675650,0.000134,
+15860,"Cañon City, CO",CO,West,49394,13475,5673703,4457653,1216050,404.2,1,5673703,Land Grab,44.66,5673703,0.000134,
+43020,"Shawano, WI",WI,Midwest,45183,14252,5667428,4868828,798600,383.1,2,2833714,Balanced,48.91,5667428,0.000133,
+45140,"Tahlequah, OK",OK,South,47621,12110,5663595,5373195,290400,357.6,1,5663595,Land Grab,34.56,5663595,0.000133,
+24460,"Great Bend, KS",KS,Midwest,25275,6768,5617915,5509015,108900,345.9,1,5617915,Balanced,41.44,5617915,0.000132,
+18660,"Cortland, NY",NY,Northeast,46401,12460,5616346,5398546,217800,351.2,8,702043,Knife Fight,46.55,5616346,0.000132,
+14620,"Bradford, PA",PA,Northeast,40149,12753,5604919,5359894,245025,351.8,2,2802459,Balanced,40.77,5604919,0.000132,
+42460,"Scottsboro, AL",AL,South,52839,15898,5588218,5107243,480975,362.5,2,2794109,Balanced,30.43,5588218,0.000131,
+31380,"Macomb, IL",IL,Midwest,27102,7304,5570294,5561219,9075,338.0,1,5570294,Balanced,46.34,5570294,0.000131,
+26340,"Houghton, MI",MI,Midwest,39534,11147,5554202,4392602,1161600,394.2,13,427246,Knife Fight,49.39,5554202,0.000131,
+31500,"Madison, IN",IN,Midwest,33074,8816,5544325,5017975,526350,362.1,10,554433,Knife Fight,47.73,5544325,0.00013,
+20980,"El Dorado, AR",AR,South,38368,11031,5541354,5359854,181500,344.8,9,615706,Knife Fight,33.13,5541354,0.00013,
+35140,"Newberry, SC",SC,South,38121,11172,5533230,4126605,1406625,405.1,7,790461,Knife Fight,39.35,5533230,0.00013,
+22780,"Fort Leonard Wood, MO",MO,Midwest,53850,9763,5523145,4978645,544500,361.7,1,5523145,Land Grab,45.2,5523145,0.00013,
+15340,"Bucyrus, OH",OH,Midwest,41767,12864,5446401,5401026,45375,332.3,2,2723200,Balanced,36.84,5446401,0.000128,
+43260,"Sheridan, WY",WY,West,31585,9442,5421118,3669644,1751475,415.4,6,903520,Crowded,52.24,5421118,0.000128,
+40820,"Ruston, LA",LA,South,48160,9814,5411452,4032052,1379400,396.4,9,601272,Knife Fight,34.27,5411452,0.000127,
+34380,"Mount Pleasant, MI",MI,Midwest,64475,15283,5384064,4739739,644325,358.3,3,1794688,Crowded,36.84,5384064,0.000127,
+23140,"Frankfort, IN",IN,Midwest,32967,9144,5372438,4837013,535425,352.2,1,5372438,Wide Open,47.4,5372438,0.000126,
+44860,"Sulphur Springs, TX",TX,South,37351,9704,5357600,4767725,589875,354.0,17,315153,Knife Fight,41.73,5357600,0.000126,
+37540,"Paris, TN",TN,South,32345,9982,5351682,5179257,172425,332.9,1,5351682,Wide Open,34.29,5351682,0.000126,
+41760,"Sandpoint, ID",ID,West,49456,15218,5345640,4302015,1043625,375.7,2,2672820,Wide Open,40.08,5345640,0.000126,
+30660,"Lincoln, IL",IL,Midwest,27870,7707,5341684,5287234,54450,326.4,1,5341684,Land Grab,44.73,5341684,0.000126,
+16340,"Cedartown, GA",GA,South,43365,10053,5304022,4124272,1179750,380.0,2,2652011,Crowded,38.97,5304022,0.000125,
+30180,"Le Mars, IA",IA,Midwest,25699,7587,5301370,5047270,254100,333.9,1,5301370,Land Grab,50.85,5301370,0.000125,
+47620,"Warren, PA",PA,Northeast,38174,12684,5277307,5041357,235950,331.5,8,659663,Crowded,42.67,5277307,0.000124,
+48180,"Waycross, GA",GA,South,55954,13764,5273779,4212004,1061775,372.3,4,1318445,Crowded,28.59,5273779,0.000124,
+23780,"Garden City, KS",KS,Midwest,38001,8449,5242818,4925193,317625,333.5,21,249658,Knife Fight,40.39,5242818,0.000123,
+37120,"Ozark, AL",AL,South,49516,12127,5218190,4864265,353925,333.8,2,2609095,Crowded,31.89,5218190,0.000123,
+39940,"Rexburg, ID",ID,West,67279,8934,5195825,2328125,2867700,457.1,23,225905,Crowded,45.27,5195825,0.000122,
+17740,"Coldwater, MI",MI,Midwest,44914,13113,5194578,4804353,390225,334.2,7,742083,Crowded,42.35,5194578,0.000122,
+22190,"Fayetteville, TN",TN,South,35617,11238,5189482,3655807,1533675,390.6,1,5189482,Wide Open,44.33,5189482,0.000122,
+26500,"Huntingdon, PA",PA,Northeast,43844,12601,5185668,4586718,598950,344.0,6,864278,Crowded,42.18,5185668,0.000122,
+15700,"Cambridge, MD",MD,South,32612,8837,5161690,4444765,716925,348.4,1,5161690,Land Grab,45.27,5161690,0.000121,
+15100,"Brookings, SD",SD,Midwest,34968,7941,5156228,3849428,1306800,377.3,1,5156228,Wide Open,52.35,5156228,0.000121,
+22820,"Fort Morgan, CO",CO,West,29186,7183,5155816,4747441,408375,332.7,1,5155816,Wide Open,47.96,5155816,0.000121,
+38740,"Poplar Bluff, MO",MO,Midwest,42166,10717,5154941,5091416,63525,315.6,6,859157,Knife Fight,35.74,5154941,0.000121,
+15020,"Brookhaven, MS",MS,South,34830,9614,5144215,5053465,90750,316.3,8,643027,Knife Fight,29.53,5144215,0.000121,
+15580,"Butte-Silver Bow, MT",MT,West,35589,10818,5125572,4535697,589875,339.9,1,5125572,Wide Open,47.48,5125572,0.000121,
+30900,"Logansport, IN",IN,Midwest,37703,11245,5108616,4763766,344850,326.7,8,638577,Knife Fight,45.86,5108616,0.00012,
+19540,"Decatur, IN",IN,Midwest,35995,10147,5106088,4371013,735075,345.9,2,2553044,Balanced,46.34,5106088,0.00012,
+44500,"Stephenville, TX",TX,South,43244,10450,5101587,4856562,245025,321.3,1,5101587,Wide Open,29.17,5101587,0.00012,
+23940,"Gillette, WY",WY,West,47018,14019,5070423,4789098,281325,321.2,3,1690141,Balanced,38.2,5070423,0.000119,
+24700,"Greensburg, IN",IN,Midwest,26411,7909,5066043,4521543,544500,334.0,1,5066043,Land Grab,47.7,5066043,0.000119,
+34220,"Moultrie, GA",GA,South,45907,10660,5044634,4472909,571725,334.1,3,1681545,Crowded,27.1,5044634,0.000119,
+32460,"Mayfield, KY",KY,South,36612,10810,5041558,4959883,81675,309.6,1,5041558,Wide Open,26.45,5041558,0.000119,
+44460,"Steamboat Springs, CO",CO,West,38248,11882,5022658,3361933,1660725,386.8,44,114151,Crowded,44.81,5022658,0.000118,
+21540,"Escanaba, MI",MI,Midwest,36829,12502,5013637,4686937,326700,320.1,15,334242,Knife Fight,39.6,5013637,0.000118,
+46980,"Vicksburg, MS",MS,South,43623,11974,5006087,4897187,108900,308.8,7,715155,Knife Fight,32.58,5006087,0.000118,
+13660,"Big Rapids, MI",MI,Midwest,40321,12383,4992583,3939883,1052700,354.8,10,499258,Knife Fight,47.94,4992583,0.000117,
+34660,"Murray, KY",KY,South,37882,9608,4987899,4851774,136125,309.0,19,262521,Knife Fight,26.41,4987899,0.000117,
+32140,"Marshall, MN",MN,Midwest,25498,7057,4965805,4784305,181500,310.0,1,4965805,Wide Open,46.56,4965805,0.000117,
+37950,"Petoskey, MI",MI,Midwest,34159,11214,4937429,3494504,1442925,370.8,1,4937429,Land Grab,45.72,4937429,0.000116,
+14820,"Brevard, NC",NC,South,33243,10961,4925767,3301342,1624425,379.1,1,4925767,Land Grab,40.65,4925767,0.000116,
+38380,"Plainview, TX",TX,South,37541,8087,4923508,4859983,63525,301.5,9,547056,Knife Fight,32.62,4923508,0.000116,
+13100,"Beatrice, NE",NE,Midwest,21646,6622,4921468,4676443,245025,310.4,2,2460734,Balanced,43.07,4921468,0.000116,
+19860,"Dickinson, ND",ND,Midwest,38107,9973,4917332,4427282,490050,322.3,9,546370,Knife Fight,41.86,4917332,0.000116,
+14720,"Breckenridge, CO",CO,West,38268,10796,4891521,2976696,1914825,391.4,3,1630507,Wide Open,45.03,4891521,0.000115,
+49460,"Yankton, SD",SD,Midwest,23379,7076,4877069,4504994,372075,314.0,4,1219267,Crowded,47.65,4877069,0.000115,
+46500,"Urbana, OH",OH,Midwest,38772,11891,4857377,4476227,381150,313.3,1,4857377,Land Grab,45.26,4857377,0.000114,
+20900,"El Campo, TX",TX,South,41651,10885,4846879,3485629,1361250,361.3,17,285111,Crowded,36.56,4846879,0.000114,
+30420,"Lexington, NE",NE,Midwest,25949,6446,4831253,4486403,344850,309.9,1,4831253,Wide Open,45.65,4831253,0.000114,
+28380,"Kennett, MO",MO,Midwest,27795,6899,4806681,4534431,272250,304.8,1,4806681,Balanced,42.26,4806681,0.000113,
+37420,"Pampa, TX",TX,South,21916,6083,4793151,4765926,27225,291.8,9,532572,Knife Fight,40.71,4793151,0.000113,
+19620,"Del Rio, TX",TX,South,47647,11168,4785104,4013729,771375,328.3,1,4785104,Land Grab,33.23,4785104,0.000113,
+23240,"Fredericksburg, TX",TX,South,27202,8004,4771545,4299645,471900,312.6,1,4771545,Wide Open,40.39,4771545,0.000112,
+20660,"Easton, MD",MD,South,37707,11784,4757942,3814142,943800,335.2,12,396495,Crowded,38.86,4757942,0.000112,
+27020,"Iron Mountain, MI-WI",MI,Midwest,30557,11579,4757509,4158559,598950,318.0,1,4757509,Wide Open,47.23,4757509,0.000112,
+24740,"Greenville, MS",MS,South,43674,9777,4753463,4689938,63525,291.2,5,950693,Knife Fight,29.11,4753463,0.000112,
+11820,"Astoria, OR",OR,West,41343,11160,4724483,3925883,798600,325.9,1,4724483,Land Grab,39.27,4724483,0.000111,
+16460,"Centralia, IL",IL,Midwest,37294,11514,4724230,4678855,45375,288.6,9,524914,Knife Fight,33.67,4724230,0.000111,
+14180,"Blytheville, AR",AR,South,39749,9140,4686783,4124133,562650,311.9,3,1562261,Knife Fight,40.2,4686783,0.00011,
+45340,"Taos, NM",NM,West,34516,11399,4667651,3533276,1134375,339.1,6,777942,Crowded,44.78,4667651,0.00011,
+10940,"Alma, MI",MI,Midwest,41478,11442,4665160,4329385,335775,299.4,6,777527,Crowded,42.06,4665160,0.00011,
+31680,"Malvern, AR",AR,South,33142,9363,4635264,4598964,36300,282.7,7,662181,Crowded,28.63,4635264,0.000109,
+10460,"Alamogordo, NM",NM,West,68235,15794,4632977,4578527,54450,283.5,16,289561,Knife Fight,21.68,4632977,0.000109,
+35460,"Newport, TN",TN,South,36503,10762,4630804,4621729,9075,281.1,4,1157701,Knife Fight,29.47,4630804,0.000109,
+21220,"Elko, NV",NV,West,55512,14308,4614720,3507570,1107150,334.6,10,461472,Crowded,44.65,4614720,0.000109,
+33580,"Mitchell, SD",SD,Midwest,25779,7219,4593690,4067340,526350,304.5,4,1148422,Crowded,46.8,4593690,0.000108,
+21020,"Elizabeth City, NC",NC,South,40830,10018,4570534,3182059,1388475,345.9,4,1142634,Crowded,39.15,4570534,0.000108,
+17650,"Cody, WY",WY,West,30109,9842,4562846,2965646,1597200,355.7,3,1520949,Balanced,44.24,4562846,0.000107,
+20540,"Dyersburg, TN",TN,South,36681,9285,4556849,3939749,617100,306.8,8,569606,Knife Fight,36.89,4556849,0.000107,
+13060,"Bay City, TX",TX,South,36274,10191,4539108,3150633,1388475,343.9,5,907822,Knife Fight,34.64,4539108,0.000107,
+41260,"St. Marys, PA",PA,Northeast,30703,10631,4533706,4134406,399300,294.6,2,2266853,Balanced,41.95,4533706,0.000107,
+13540,"Bennington, VT",VT,Northeast,37312,11074,4530013,4076263,453750,297.0,14,323572,Crowded,41.4,4530013,0.000107,
+37940,"Peru, IN",IN,Midwest,35772,9957,4513892,4196267,317625,289.3,2,2256946,Crowded,43.46,4513892,0.000106,
+34020,"Morgan City, LA",LA,South,48455,13064,4499651,4254626,245025,284.9,11,409059,Knife Fight,26.36,4499651,0.000106,
+45740,"Toccoa, GA",GA,South,26842,7411,4483652,3993602,490050,296.0,10,448365,Knife Fight,40.07,4483652,0.000106,
+44540,"Sterling, CO",CO,West,21067,5565,4451349,4342449,108900,275.2,1,4451349,Balanced,44.86,4451349,0.000105,
+33420,"Mineral Wells, TX",TX,South,28920,7575,4397525,4197875,199650,276.4,9,488614,Knife Fight,31.36,4397525,0.000103,
+32620,"McComb, MS",MS,South,53794,14465,4396024,4359724,36300,268.2,6,732671,Knife Fight,23.42,4396024,0.000103,
+20140,"Dublin, GA",GA,South,58811,14268,4393538,4130363,263175,279.3,3,1464513,Balanced,22.11,4393538,0.000103,
+21860,"Fairmont, MN",MN,Midwest,19864,6399,4393451,4184726,208725,276.6,9,488161,Knife Fight,49.85,4393451,0.000103,
+20780,"Edwards, CO",CO,West,55374,14130,4390899,3102249,1288650,330.0,2,2195450,Wide Open,32.95,4390899,0.000103,
+30820,"Lock Haven, PA",PA,Northeast,37707,10931,4387027,4078477,308550,281.2,1,4387027,Wide Open,37.97,4387027,0.000103,
+42900,"Seneca Falls, NY",NY,Northeast,33125,9848,4357092,3921492,435600,285.7,3,1452364,Crowded,40.88,4357092,0.000103,
+23700,"Gallup, NM",NM,West,71172,14509,4356110,4283510,72600,267.6,8,544514,Knife Fight,23.52,4356110,0.000103,
+20060,"Douglas, GA",GA,South,51422,11727,4337147,3338897,998250,312.4,7,619592,Knife Fight,29.9,4337147,0.000102,
+32280,"Martin, TN",TN,South,32959,8816,4324642,3716617,608025,292.2,1,4324642,Land Grab,38.49,4324642,0.000102,
+11060,"Altus, OK",OK,South,24730,5992,4289744,4226219,63525,263.1,5,857949,Crowded,37.48,4289744,0.000101,
+44260,"Starkville, MS",MS,South,61415,13324,4269552,3725052,544500,285.8,1,4269552,Wide Open,28.14,4269552,0.0001,
+25780,"Henderson, NC",NC,South,42361,9224,4263889,3601414,662475,291.3,1,4263889,Balanced,32.92,4263889,0.0001,
+35060,"Natchitoches, LA",LA,South,37047,8785,4225665,3862665,363000,274.1,1,4225665,Balanced,24.63,4225665,9.9e-05,
+35580,"New Ulm, MN",MN,Midwest,25826,8695,4213766,3968741,245025,267.5,2,2106883,Crowded,44.87,4213766,9.9e-05,
+14420,"Borger, TX",TX,South,20413,5618,4206128,4206128,0,254.9,5,841226,Knife Fight,39.58,4206128,9.9e-05,
+34140,"Moscow, ID",ID,West,40315,9737,4188634,3099634,1089000,307.9,4,1047158,Balanced,42.86,4188634,9.9e-05,
+47780,"Washington, IN",IN,Midwest,33442,8274,4162311,3808386,353925,269.8,1,4162311,Wide Open,35.58,4162311,9.8e-05,
+48780,"Williston, ND",ND,Midwest,39368,8762,4156358,3357758,798600,291.5,2,2078179,Crowded,46.41,4156358,9.8e-05,
+44740,"Storm Lake, IA",IA,Midwest,20684,5465,4138968,3313143,825825,291.8,7,591281,Knife Fight,55.8,4138968,9.7e-05,
+34460,"Mount Sterling, KY",KY,South,47286,12445,4133295,3616020,517275,276.2,9,459255,Knife Fight,27.98,4133295,9.7e-05,
+10480,"Alamosa, CO",CO,West,27622,7260,4127818,2294668,1833150,341.1,6,687970,Knife Fight,40.71,4127818,9.7e-05,
+40460,"Rockingham, NC",NC,South,42818,10909,4103359,3595159,508200,273.9,7,586194,Knife Fight,31.82,4103359,9.7e-05,
+30260,"Lewisburg, PA",PA,Northeast,42570,10218,4102332,3666732,435600,270.2,2,2051166,Balanced,38.46,4102332,9.7e-05,
+10980,"Alpena, MI",MI,Midwest,28908,10114,4070128,3752503,317625,262.4,1,4070128,Wide Open,39.14,4070128,9.6e-05,
+33620,"Moberly, MO",MO,Midwest,24524,6510,4050571,3859996,190575,254.9,13,311582,Knife Fight,35.88,4050571,9.5e-05,
+18740,"Coshocton, OH",OH,Midwest,36679,10776,4044748,4008448,36300,246.9,1,4044748,Wide Open,33.71,4044748,9.5e-05,
+14780,"Brenham, TX",TX,South,36156,11171,4033807,3062782,971025,292.6,12,336151,Crowded,29.42,4033807,9.5e-05,
+31220,"Ludington, MI",MI,Midwest,29177,9699,4024561,3298561,726000,279.9,4,1006140,Crowded,43.23,4024561,9.5e-05,
+40540,"Rock Springs, WY",WY,West,41786,12476,4012449,3604074,408375,263.4,2,2006225,Balanced,38.15,4012449,9.4e-05,
+40100,"Rio Grande City-Roma, TX",TX,South,65809,13383,3965475,3965475,0,240.3,2,1982738,Crowded,19.4,3965475,9.3e-05,
+42300,"Sault Ste. Marie, MI",MI,Midwest,36448,10223,3957255,3458130,499125,264.6,13,304404,Knife Fight,40.25,3957255,9.3e-05,
+40770,"Russellville, AL",AL,South,31978,8319,3934879,3816904,117975,244.3,10,393488,Knife Fight,26.44,3934879,9.3e-05,
+29780,"Las Vegas, NM",NM,West,31212,10510,3921179,3921179,0,237.6,3,1307060,Crowded,32.79,3921179,9.2e-05,
+19760,"DeRidder, LA",LA,South,36646,11387,3912918,3332118,580800,265.9,9,434769,Knife Fight,25.49,3912918,9.2e-05,
+33300,"Milledgeville, GA",GA,South,43669,10324,3900283,2992783,907500,281.4,7,557183,Knife Fight,31.14,3900283,9.2e-05,
+43980,"Spencer, IA",IA,Midwest,16446,5270,3872346,3790671,81675,238.7,3,1290782,Crowded,41.61,3872346,9.1e-05,
+34500,"Mount Vernon, IL",IL,Midwest,36808,10638,3862042,3807592,54450,236.8,1,3862042,Wide Open,31.25,3862042,9.1e-05,
+47420,"Wahpeton, ND-MN",ND,Midwest,22963,6817,3834805,3444580,390225,251.8,6,639134,Crowded,45.82,3834805,9e-05,
+40940,"Safford, AZ",AZ,West,38860,9163,3815433,2608458,1206975,291.1,11,346858,Crowded,34.57,3815433,9e-05,
+12900,"Batesville, AR",AR,South,38120,9816,3809159,3754709,54450,233.6,3,1269720,Crowded,24.49,3809159,9e-05,
+18420,"Corinth, MS",MS,South,34500,9340,3758110,3694585,63525,230.9,1,3758110,Balanced,26.59,3758110,8.8e-05,
+14220,"Bogalusa, LA",LA,South,45238,12247,3753993,3753993,0,227.5,8,469249,Knife Fight,19.76,3753993,8.8e-05,
+49380,"Worthington, MN",MN,Midwest,22067,5530,3745972,3600772,145200,234.2,2,1872986,Crowded,45.78,3745972,8.8e-05,
+23680,"Gallipolis, OH",OH,Midwest,29162,8632,3739415,3703115,36300,228.4,4,934854,Crowded,27.77,3739415,8.8e-05,
+25200,"Hailey, ID",ID,West,31010,9083,3695066,2587916,1107150,278.8,13,284236,Crowded,40.24,3695066,8.7e-05,
+45580,"Thomaston, GA",GA,South,27856,6507,3682624,2511949,1170675,281.2,2,1841312,Crowded,40.42,3682624,8.7e-05,
+20580,"Eagle Pass, TX",TX,South,57770,12588,3663884,3110309,553575,249.5,1,3663884,Wide Open,21.39,3663884,8.6e-05,
+49260,"Woodward, OK",OK,South,20260,5834,3548234,3539159,9075,215.5,3,1182745,Knife Fight,33.64,3548234,8.3e-05,
+38180,"Pierre, SD",SD,Midwest,20744,6509,3510902,3229577,281325,226.7,5,702180,Crowded,43.44,3510902,8.3e-05,
+43660,"Snyder, TX",TX,South,16633,4571,3501586,3211186,290400,226.6,4,875397,Knife Fight,43.87,3501586,8.2e-05,
+40180,"Riverton, WY",WY,West,39472,10469,3458149,3331099,127050,215.9,19,182008,Crowded,31.83,3458149,8.1e-05,
+29660,"Laramie, WY",WY,West,37713,8198,3454848,2665323,789525,248.5,24,143952,Knife Fight,42.13,3454848,8.1e-05,
+33020,"Mexico, MO",MO,Midwest,24688,6540,3444784,3236059,208725,219.1,2,1722392,Crowded,33.78,3444784,8.1e-05,
+24980,"Grenada, MS",MS,South,31050,8102,3428213,3292088,136125,214.5,8,428527,Knife Fight,26.38,3428213,8.1e-05,
+47920,"Washington Court House, OH",OH,Midwest,28880,7335,3423044,2951144,471900,230.9,1,3423044,Balanced,40.91,3423044,8.1e-05,
+21580,"Española, NM",NM,West,40165,11697,3387935,3387935,0,205.3,6,564656,Knife Fight,37.25,3387935,8e-05,
+46460,"Union City, TN",TN,South,30570,8402,3374751,3184176,190575,214.0,1,3374751,Balanced,29.47,3374751,7.9e-05,
+27700,"Jesup, GA",GA,South,30519,7280,3367206,2160231,1206975,263.9,1,3367206,Balanced,26.45,3367206,7.9e-05,
+21120,"Elk City, OK",OK,South,22202,5437,3344606,3308306,36300,204.5,1,3344606,Crowded,32.47,3344606,7.9e-05,
+16140,"Carroll, IA",IA,Midwest,20677,6563,3341580,3078405,263175,215.6,3,1113860,Crowded,39.74,3341580,7.9e-05,
+37220,"Pahrump, NV",NV,West,53207,16508,3324553,3324553,0,201.5,13,255735,Knife Fight,28.89,3324553,7.8e-05,
+10860,"Alice, TX",TX,South,45850,10504,3309209,3272909,36300,202.4,8,413651,Knife Fight,18.17,3309209,7.8e-05,
+32340,"Maryville, MO",MO,Midwest,20959,5224,3305122,2896747,408375,220.6,1,3305122,Wide Open,39.89,3305122,7.8e-05,
+33900,"Monticello, IN",IN,Midwest,24709,7826,3281261,2854736,426525,220.0,6,546877,Crowded,36.69,3281261,7.7e-05,
+34300,"Mountain Home, ID",ID,West,29046,7087,3240412,2051587,1188825,255.3,3,1080137,Balanced,33.73,3240412,7.6e-05,
+34880,"Nantucket, MA",MA,Northeast,14299,3861,3212102,1233752,1978350,292.8,1,3212102,Land Grab,43.64,3212102,7.6e-05,
+30580,"Liberal, KS",KS,Midwest,21640,4414,3204313,3050038,154275,201.9,8,400539,Knife Fight,37.44,3204313,7.5e-05,
+15780,"Camden, AR",AR,South,27034,7485,3190125,3190125,0,193.3,3,1063375,Crowded,24.09,3190125,7.5e-05,
+20300,"Dumas, TX",TX,South,21234,4507,3186519,2968719,217800,203.9,6,531086,Knife Fight,38.36,3186519,7.5e-05,
+42820,"Selma, AL",AL,South,37536,9406,3171212,3116762,54450,194.9,6,528535,Knife Fight,21.45,3171212,7.5e-05,
+39420,"Pullman, WA",WA,West,47042,8365,3110845,2747845,363000,206.5,3,1036948,Crowded,31.06,3110845,7.3e-05,
+24900,"Greenwood, MS",MS,South,37260,8748,3109129,3009304,99825,193.4,5,621826,Knife Fight,23.17,3109129,7.3e-05,
+25100,"Guymon, OK",OK,South,20880,4769,3090673,2945473,145200,194.5,7,441525,Knife Fight,38.61,3090673,7.3e-05,
+17640,"Coco, PR",PR,South,25397,7701,3082984,3082984,0,186.8,,,,25.71,3082984,7.3e-05,
+11860,"Atchison, KS",KS,Midwest,16211,4315,3065465,2883965,181500,194.8,1,3065465,Balanced,44.01,3065465,7.2e-05,
+26700,"Huron, SD",SD,Midwest,19279,5257,3065397,2847597,217800,196.6,1,3065397,Balanced,41.54,3065397,7.2e-05,
+23190,"Franklin, KY",KY,South,19786,5097,3058235,1615310,1442925,256.9,1,3058235,Balanced,34.79,3058235,7.2e-05,
+18220,"Connersville, IN",IN,Midwest,23390,6688,3044162,2862662,181500,193.5,1,3044162,Wide Open,38.58,3044162,7.2e-05,
+15060,"Brookings, OR",OR,West,23463,8443,3028912,2557012,471900,207.0,8,378614,Crowded,30.55,3028912,7.1e-05,
+29900,"Laurinburg, NC",NC,South,34353,7288,3009710,2374460,635250,213.9,1,3009710,Balanced,33.56,3009710,7.1e-05,
+33180,"Middlesborough, KY",KY,South,23878,5817,3008706,2609406,399300,202.1,1,3008706,Crowded,36.95,3008706,7.1e-05,
+18860,"Crescent City, CA",CA,West,27293,6851,2994774,2786049,208725,191.9,8,374347,Knife Fight,35.69,2994774,7e-05,
+17380,"Cleveland, MS",MS,South,30163,7258,2988511,2852386,136125,187.9,4,747128,Knife Fight,26.74,2988511,7e-05,
+46860,"Vernal, UT",UT,West,36458,8602,2979591,2308041,671550,213.9,30,99320,Knife Fight,32.77,2979591,7e-05,
+40760,"Ruidoso, NM",NM,West,20227,7455,2938803,2140203,798600,217.7,1,2938803,Wide Open,30.89,2938803,6.9e-05,
+26220,"Hood River, OR",OR,West,23958,6142,2910381,2601831,308550,191.7,1,2910381,Wide Open,41.32,2910381,6.8e-05,
+47080,"Vidalia, GA",GA,South,35618,8949,2899830,2627580,272250,189.2,3,966610,Knife Fight,23.77,2899830,6.8e-05,
+29260,"La Grande, OR",OR,West,26192,7011,2890658,2563958,326700,191.4,1,2890658,Wide Open,35.53,2890658,6.8e-05,
+27940,"Juneau, AK",AK,West,31969,8462,2869925,2670275,199650,183.8,,,,37.75,2869925,6.8e-05,
+27420,"Jamestown, ND",ND,Midwest,21525,5915,2868842,2678267,190575,183.3,2,1434421,Knife Fight,40.31,2868842,6.8e-05,
+45020,"Sweetwater, TX",TX,South,14565,3859,2859963,2687538,172425,181.9,1,2859963,Crowded,40.75,2859963,6.7e-05,
+28860,"Kirksville, MO",MO,Midwest,29268,6387,2852315,2616365,235950,184.6,4,713079,Knife Fight,39.93,2852315,6.7e-05,
+21740,"Evanston, WY-UT",WY,West,23193,6381,2849131,1914406,934725,219.0,2,1424565,Balanced,43.27,2849131,6.7e-05,
+36820,"Oskaloosa, IA",IA,Midwest,22045,6031,2840997,2732097,108900,177.6,8,355125,Knife Fight,40.66,2840997,6.7e-05,
+21180,"Elkins, WV",WV,South,27782,8009,2835279,2808054,27225,173.2,6,472546,Crowded,27.63,2835279,6.7e-05,
+38920,"Port Lavaca, TX",TX,South,19921,6415,2834497,1981447,853050,214.1,6,472416,Knife Fight,29.04,2834497,6.7e-05,
+25820,"Hereford, TX",TX,South,18487,3938,2828395,2674120,154275,179.1,4,707099,Knife Fight,33.04,2828395,6.7e-05,
+45520,"The Dalles, OR",OR,West,26603,6894,2811553,2430403,381150,189.3,7,401650,Knife Fight,32.05,2811553,6.6e-05,
+36380,"Okeechobee, FL",FL,South,40249,11323,2715934,2552584,163350,172.7,2,1357967,Crowded,9.08,2715934,6.4e-05,
+47240,"Vineyard Haven, MA",MA,Northeast,20751,5495,2712698,1832423,880275,208.1,1,2712698,Wide Open,40.85,2712698,6.4e-05,
+31060,"Los Alamos, NM",NM,West,19374,6121,2704350,2595450,108900,169.3,1,2704350,Balanced,44.35,2704350,6.4e-05,
+43500,"Silver City, NM",NM,West,27856,8107,2689149,2689149,0,163.0,5,537830,Knife Fight,22.45,2689149,6.3e-05,
+11140,"Americus, GA",GA,South,33713,7249,2687594,2306444,381150,181.8,11,244327,Knife Fight,26.18,2687594,6.3e-05,
+12460,"Bainbridge, GA",GA,South,29118,6478,2680700,1936550,744150,199.4,1,2680700,Balanced,23.82,2680700,6.3e-05,
+11580,"Arcadia, FL",FL,South,34719,9025,2664596,2020271,644325,193.4,3,888199,Crowded,12.46,2664596,6.3e-05,
+29720,"Lares, PR",PR,South,27944,6881,2651658,2651658,0,160.7,,,,21.96,2651658,6.2e-05,
+45980,"Troy, AL",AL,South,32953,7925,2610695,2220470,390225,177.6,3,870232,Crowded,22.76,2610695,6.1e-05,
+46580,"Utuado, PR",PR,South,27896,6490,2589282,2589282,0,156.9,,,,23.76,2589282,6.1e-05,
+32180,"Marshall, MO",MO,Midwest,23177,5670,2526659,2463134,63525,156.3,2,1263329,Crowded,36.37,2526659,5.9e-05,
+46620,"Uvalde, TX",TX,South,24810,5601,2452349,2316224,136125,155.4,5,490470,Knife Fight,23.03,2452349,5.8e-05,
+13300,"Beeville, TX",TX,South,31000,6188,2434500,2307450,127050,153.8,3,811500,Knife Fight,25.13,2434500,5.7e-05,
+21640,"Eufaula, AL-GA",AL,South,26849,6864,2409768,2110293,299475,160.9,6,401628,Knife Fight,25.48,2409768,5.7e-05,
+11380,"Andrews, TX",TX,South,18518,5173,2369208,2151408,217800,154.4,2,1184604,Knife Fight,35.56,2369208,5.6e-05,
+21980,"Fallon, NV",NV,West,25614,6620,2315610,1907235,408375,160.6,7,330801,Knife Fight,31.64,2315610,5.4e-05,
+44900,"Summerville, GA",GA,South,24975,6161,2294655,2276505,18150,140.0,1,2294655,Crowded,23.31,2294655,5.4e-05,
+39220,"Price, UT",UT,West,20446,5465,2284609,2030509,254100,151.1,6,380768,Knife Fight,30.78,2284609,5.4e-05,
+12520,"Baker City, OR",OR,West,16796,5286,2240663,2004713,235950,147.5,7,320095,Crowded,32.33,2240663,5.3e-05,
+31620,"Magnolia, AR",AR,South,22527,5781,2213306,2086256,127050,140.4,2,1106653,Crowded,28.61,2213306,5.2e-05,
+18380,"Cordele, GA",GA,South,19995,4279,2140289,1940639,199650,139.6,3,713430,Knife Fight,25.92,2140289,5e-05,
+45000,"Susanville, CA",CA,West,31177,6180,2137726,2083276,54450,132.3,11,194339,Crowded,26.29,2137726,5e-05,
+28780,"Kingsville, TX",TX,South,30629,6360,2093341,1993516,99825,131.8,3,697780,Crowded,20.97,2093341,4.9e-05,
+19700,"Deming, NM",NM,West,25420,6282,2056208,1992683,63525,127.8,2,1028104,Crowded,18.86,2056208,4.8e-05,
+13860,"Bishop, CA",CA,West,18803,5316,1953115,1835140,117975,124.2,10,195312,Knife Fight,29.45,1953115,4.6e-05,
+46820,"Vermillion, SD",SD,Midwest,15133,2878,1913457,1750107,163350,124.1,2,956729,Knife Fight,39.95,1913457,4.5e-05,
+28540,"Ketchikan, AK",AK,West,13870,3785,1874432,1629407,245025,125.8,,,,42.75,1874432,4.4e-05,
+11660,"Arkadelphia, AR",AR,South,21378,5014,1847343,1738443,108900,117.4,3,615781,Knife Fight,28.07,1847343,4.3e-05,
+46900,"Vernon, TX",TX,South,12712,2967,1802254,1775029,27225,110.6,6,300376,Knife Fight,27.84,1802254,4.2e-05,
+17260,"Clarksdale, MS",MS,South,20808,4399,1779114,1552239,226875,119.1,1,1779114,Crowded,29.71,1779114,4.2e-05,
+36830,"Othello, WA",WA,West,20690,4351,1669883,1370408,299475,116.1,6,278314,Crowded,36.3,1669883,3.9e-05,
+39700,"Raymondville, TX",TX,South,20218,4104,1552083,1225383,326700,110.3,1,1552083,Crowded,23.38,1552083,3.7e-05,
+22620,"Forrest City, AR",AR,South,22740,4353,1539143,1511918,27225,94.6,2,769572,Knife Fight,23.32,1539143,3.6e-05,
+49080,"Winnemucca, NV",NV,West,17299,5147,1483458,1147683,335775,106.6,3,494486,Crowded,34.61,1483458,3.5e-05,
+22340,"Fitzgerald, GA",GA,South,17138,4283,1431554,1377104,54450,89.5,2,715777,Knife Fight,20.5,1431554,3.4e-05,
+45880,"Town of Pecos, TX",TX,South,13219,3276,1416032,1143782,272250,99.3,2,708016,Knife Fight,28.53,1416032,3.3e-05,
+49820,"Zapata, TX",TX,South,13855,3442,921545,921545,0,55.9,1,921545,Knife Fight,16.72,921545,2.2e-05,

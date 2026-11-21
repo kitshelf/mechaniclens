@@ -1,0 +1,15 @@
+{
+ "built": "2026-11-21 12:34 UTC",
+ "source": "https://static.nhtsa.gov/odi/ffdd/rcl/FLAT_RCL_POST_2010.zip",
+ "days": 365,
+ "since": "2025-11-21",
+ "campaigns": 938,
+ "vehicle_rows": 5770,
+ "campaigns_30d": 64,
+ "units_affected": 39793784,
+ "do_not_drive": 22,
+ "park_outside": 25,
+ "latest_received": "2026-11-19",
+ "advisories_5y": 180,
+ "model_index_years": "1983-2027"
+}

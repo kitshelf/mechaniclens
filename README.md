@@ -80,6 +80,10 @@ an expected answer key per fixture. The fixtures are not written yet, and no run
 manifest marks each planned fixture as `planned` until its key exists. A prompt system without fixtures is a
 guess; this kit does not claim otherwise.
 
+## The corpus
+
+[`corpus/`](corpus/README.md) is the research library: **54 public US/Canada datasets, ~1.45 million records**, text-only and license-clean. It covers auto repair (NHTSA complaints and recalls, OBD-II codes, maintenance schedules, body-shop directories) and home repair (building permits, contractor and licensing data, appliance/HVAC/plumbing references, repair cost registers). It is calibration material — the kit reads it to learn fee and document vocabulary; it never trains on it and never reads it during a screen. The geography rule is strict: **US/Canada only**, because other countries' fee structures and document formats pollute the calibration.
+
 ## The rules that make it different
 
 - **No prices, ever.** The charter bans quoting, estimating, or comparing market prices. The estimate's own
@@ -128,6 +132,8 @@ The kit is its docs. Everything ships in the repo:
 | [`SECURITY.md`](SECURITY.md) | Injection integrity as a security property |
 | [`SUPPORT.md`](SUPPORT.md) · [`CONTRIBUTING.md`](CONTRIBUTING.md) | Help and pattern submissions |
 | [`docs/prd/`](docs/prd/README.md) | Why, what, and the critical user journeys |
+| [`docs/WBS.md`](docs/WBS.md) | The v0.1.0 work breakdown — packages, sub-tasks, what is done |
+| [`docs/HOW-BUILT.md`](docs/HOW-BUILT.md) · [`docs/HOW-IT-WORKS.md`](docs/HOW-IT-WORKS.md) | How the corpus was built; how the kit works end to end |
 | [`docs/learnings/`](docs/learnings/README.md) | The grounded record of what development and testing teach |
 | [`estimate/`](estimate/README.md) | The workflow; [`SPINE.md`](estimate/SPINE.md) is the one-paste kit |
 | [`shared/`](shared/README.md) | Labels, document types, redaction, local models, after-repair |
