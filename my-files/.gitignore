@@ -1,0 +1,4 @@
+# Everything in this folder is private. Never commit it.
+*
+!.gitignore
+!README.md

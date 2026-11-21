@@ -1,0 +1,12 @@
+# Private material. Never commit.
+my-files/*
+!my-files/README.md
+!my-files/.gitignore
+
+# OS noise
+.DS_Store
+
+# Local model / editor noise
+.obsidian/
+.idea/
+.vscode/
