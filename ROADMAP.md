@@ -10,7 +10,7 @@ The repair-estimate workflow, end to end.
 
 - **Foundation** — charter, conventions, shared DNA, PRD (`docs/prd/`), agent and harness pointers. *(structure in place)*
 - **The estimate workflow** — `estimate/`: redact → anatomy → symptom check → label → question script → decision → after-repair. `SPINE.md` compiles the whole kit into one paste. *(skeleton in place)*
-- **The pattern library** — `estimate/rubrics/estimate-patterns.md`: the estimate-pattern library, one file for the repair estimate. Every pattern carries a *not-a-pattern-when* calibration line and a source. *(draft; sources and verification pending)*
+- **The pattern library** — `estimate/rubrics/patterns-estimate.md`: the estimate-pattern library, one file for the repair estimate. Every pattern carries a *not-a-pattern-when* calibration line and a source. *(draft; sources and verification pending)*
 - **Shared material** — the three labels, the document types, the redaction pass, the local-model guidance, and the after-repair branch. *(skeleton in place)*
 - **Tests** — 8 synthetic estimates with expected keys, written before the runs: scope mismatch, folded diagnostic fee, fee stacking, duplicate parts, "while we're in there" add-ons, invoice-versus-estimate, a near-miss clean estimate, and an injection document. *(planned; none written yet)*
 - **Worked examples** — the catch and the not-catch: one estimate with a planted pattern, one clean estimate that must not be over-labeled. *(planned)*
@@ -43,7 +43,6 @@ The repair-estimate workflow, end to end.
 |---|---|
 | Body-shop and insurance estimates | A different document type with insurer-written language and supplement rules; needs its own pattern library and fixtures. Build only when a real document appears. |
 | Dealership vs. independent comparison | A price comparison in disguise; the charter bans prices. Parked unless the framing stays purely documentary. |
-| Parts-tier decoder | Useful, but the line-level data is often absent from the estimate; build only if fixtures show the pattern is decodable. |
 | Repair-shop review layer | The charter refuses accusations and ratings. Permanently out of scope. |
 
 ## Non-goals (not planned, ever)

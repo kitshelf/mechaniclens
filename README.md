@@ -69,7 +69,7 @@ Per line, one label only:
 | **Check** | The line is common but worth confirming: the amount, the scope, or the assumption is not visible. |
 | **Question this** | The line's wording or placement is worth a specific question before approval. |
 
-The reading counts lines, not risk: **Estimate read: N lines · Check: N · Question this: N**. There is no
+The reading counts lines, not risk: **Reading: Standard N · Check N · Question this N**. There is no
 probability, no percentage, no confidence score. A "Standard" label is not a price judgment and not an
 approval recommendation.
 

@@ -18,7 +18,7 @@ MechanicLens reads a repair estimate back to you before you approve the work. It
 | **Check** | The line is common but worth confirming: the amount, the scope, or the assumption is not visible. |
 | **Question this** | The wording or placement is worth a specific question before you approve. |
 
-The report counts lines, not risk: **Estimate read: N lines · Check: N · Question this: N**. It never gives a score or a percentage.
+The report counts lines, not risk: **Reading: Standard N · Check N · Question this N**. It never gives a score or a percentage.
 
 ## The questions are for understanding, not haggling
 
