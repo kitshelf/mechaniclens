@@ -18,10 +18,10 @@ Every learning here cites its artifact — a file, a fixture, a recorded run, a 
 
 | Doc | What it captures |
 |---|---|
-| [`01-corpus.md`](01-corpus.md) | The learn-from library: what 54 US/Canada datasets taught — the geography rule, the estimate gap, the text-only doctrine, the home/auto asymmetry |
+| [`01-corpus.md`](01-corpus.md) | The grounded record in five sections of work — **scoping** the corpus (geography, the estimate gap, the home/auto asymmetry), **building** it (text-only, row-level inspection), **learning** from it (safe-side vocabulary, prices as context, the search that turns "no source" into a source), **shaping the kit** (anatomy axis, vocabulary ownership), and **keeping the record honest** (drift, counts, status rows, ratio targets) |
 
 Companion documents in [`../`](../README.md): [`../HOW-BUILT.md`](../HOW-BUILT.md) (the corpus build, step by step) and [`../HOW-IT-WORKS.md`](../HOW-IT-WORKS.md) (the kit, end to end).
 
 ## Status
 
-Living record. New learnings append with the next number in their file; each file's entries are numbered (L#, D#) so other documents can cite them.
+Living record. New learnings append with the next number in their file, filed under the section of work they belong to; each file's entries are numbered (L#, D#) so other documents can cite them. The `L` numbers are the append order and never renumber — the sections group them by subject, so the file reads both as an index and as a history.
