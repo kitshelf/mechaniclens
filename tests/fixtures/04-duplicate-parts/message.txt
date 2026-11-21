@@ -1,0 +1,15 @@
+[SYNTHETIC FIXTURE 04 — fictional shop, fictional customer. No real document or personal data.]
+
+Two Rivers Garage (fictional)
+ESTIMATE  ·  2026-11-07
+
+ 1  Front strut assembly, left, #STR-L-4471 ......................  289.00
+ 2  Front strut assembly, right, #STR-R-4471 .....................  289.00
+ 3  Front strut assembly, left, #STR-L-4471 ......................  289.00
+ 4  Labor — replace front struts, book time 2.0 hr @ 140.00/hr ...  280.00
+ 5  Four-wheel alignment .........................................  109.00
+ 6  Sales tax 7.25% ..............................................   91.06
+    TOTAL ........................................................ 1347.06
+
+What the customer says:
+"Every bump in the road makes a clunk from the front end. It's getting worse."

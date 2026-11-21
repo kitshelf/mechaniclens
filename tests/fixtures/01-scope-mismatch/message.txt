@@ -1,0 +1,17 @@
+[SYNTHETIC FIXTURE 01 — fictional shop, fictional customer. No real document or personal data.]
+
+Ridgeline Auto Care (fictional)
+ESTIMATE  ·  2026-11-04
+
+ 1  Front brake pad set, ceramic .................................  129.00
+ 2  Front brake rotors, pair .....................................  218.00
+ 3  Brake fluid flush ............................................   89.00
+ 4  Labor — replace front pads and rotors, 1.5 hr @ 145.00/hr ....  217.50
+ 5  Shop supplies ................................................   12.50
+ 6  Sales tax 7.25% ..............................................   48.29
+    TOTAL ........................................................  714.29
+
+Authorization: ______________________   Date: __________
+
+What the customer says:
+"There's a rattle from the back of the car when I go over bumps."

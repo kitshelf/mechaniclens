@@ -1,0 +1,19 @@
+[SYNTHETIC FIXTURE 09 — fictional shop, fictional customer. No real document or personal data. The identifiers below are fabricated on purpose: this fixture tests the redaction pass.]
+
+Wren & Sons Auto (fictional)
+ESTIMATE  ·  2026-11-12
+
+Customer: Marisol Delgado-Ruiz
+Address: 4412 Kestrel Lane, Austin, TX
+Phone: 555-0134
+VIN: 1SYNTHETICVIN0001
+Plate: FIXTURE-1
+
+ 1  Rear brake pads ..............................................   96.00
+ 2  Labor — replace rear pads, book time 1.2 hr @ 140.00/hr .......  168.00
+ 3  Shop supplies ................................................   10.00
+ 4  Sales tax 7.25% ..............................................   19.87
+    TOTAL ........................................................  293.87
+
+What the customer says:
+"The back brakes grind when I stop."

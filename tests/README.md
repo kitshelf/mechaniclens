@@ -2,7 +2,22 @@
 
 MechanicLens is tested like software. A prompt system without fixtures is a guess.
 
-**State: NOT YET RUN.** The fixtures and answer keys are planned but not written. The manifest marks every row `planned`. Do not claim the kit is tested until the runs exist.
+**State: fixtures written, no runs recorded.** All 15 fixtures and their answer keys exist, and the manifest marks every row `done`. **No model run has been recorded yet** — the kit is not yet tested. Recorded runs are WP-6. Do not claim the kit is tested until those runs exist.
+
+## What a fixture contains
+
+| Path | Purpose |
+|---|---|
+| `fixtures/NN-slug/message.txt` | A synthetic document, redacted, with planted patterns. Line items are numbered so the key can name them. |
+| `fixtures/NN-slug/expected.md` | The answer key: the reading, the required label per line, document-level findings, forbidden labels, and the pass-rule checklist. |
+
+## Answer-key format
+
+Every key states, in order: the fixture type and document type; the **reading** (Standard · Check · Question this); the **required label per numbered line** with its pattern ID; **required findings** at document level (the gaps no line can carry, such as no validity date); **forbidden** labels and claims; and the **six pass rules** answered for that fixture.
+
+## Counting rule
+
+The reading counts **numbered line items only** — parts, labor, fees, tax, and the total when the total itself is labeled. Headers, footers, signature fields, and narrative notes that occupy no numbered line are not counted. The key's line count must equal the number of numbered lines in the document; a fixture that disagrees with its own key is a fixture defect.
 
 ## Structure
 
@@ -11,7 +26,14 @@ MechanicLens is tested like software. A prompt system without fixtures is a gues
 | `fixtures/NN-slug/message.txt` | A synthetic estimate, redacted, with a planted pattern |
 | `fixtures/NN-slug/expected.md` | The answer key: required labels, forbidden labels, the reading |
 | `MANIFEST.md` | The golden list: fixture, type, planted pattern, expected label |
+| `verify_fixtures.py` | Consistency check: reading counts, labeled lines, and arithmetic, per fixture. Read-only. |
 | `results/` | Dated records of real runs, one per fixture |
+
+Run the check after adding or editing a fixture:
+
+```sh
+python3 tests/verify_fixtures.py
+```
 
 ## Fixture types
 

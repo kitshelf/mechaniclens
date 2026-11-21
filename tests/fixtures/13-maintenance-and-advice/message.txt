@@ -1,0 +1,19 @@
+[SYNTHETIC FIXTURE 13 — fictional shop, fictional customer. No real document or personal data.]
+
+Alder Creek Automotive (fictional)
+ESTIMATE  ·  2026-11-16
+
+ 1  30,000-mile service — required ...............................  189.00
+ 2  Engine oil and filter change .................................   79.00
+ 3  Cabin air filter .............................................   48.00
+ 4  Safety inspection — recommended ..............................   65.00
+ 5  Per TSB 21-045, reprogram transmission control module ........  145.00
+ 6  Water pump ...................................................  165.00
+ 7  Core charge ..................................................   45.00
+ 8  Labor — 2.0 hr @ 120.00/hr ...................................  240.00
+ 9  Note: work in item 5 authorized verbally by phone
+10  Sales tax 7% .................................................   68.32
+    TOTAL ........................................................ 1044.32
+
+What the customer says:
+"The car shifts hard between second and third. The service advisor said the 30,000-mile service is required."

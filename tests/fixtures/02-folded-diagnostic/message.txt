@@ -1,0 +1,15 @@
+[SYNTHETIC FIXTURE 02 — fictional shop, fictional customer. No real document or personal data.]
+
+Northgate Service Center (fictional)
+ESTIMATE  ·  2026-11-05
+
+ 1  Diagnostic scan and pin-test, ABS system .....................  145.00
+ 2  Diagnosis labor — verify wiring harness, 1.0 hr @ 145.00/hr ..  145.00
+ 3  ABS wheel speed sensor, front left, #WSS-2214 ................   96.00
+ 4  Labor — replace front wheel speed sensor, book time 0.8 hr @ 145.00/hr ..  116.00
+ 5  Shop supplies ................................................    8.00
+ 6  Sales tax 7.25% ..............................................   36.98
+    TOTAL ........................................................  546.98
+
+What the customer says:
+"The ABS light came on yesterday and the speedometer drops to zero for a second now and then."

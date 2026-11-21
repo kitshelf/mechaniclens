@@ -1,0 +1,23 @@
+[SYNTHETIC FIXTURE 06 — fictional shop, fictional customer. No real document or personal data.]
+
+Meridian Motors (fictional)
+
+=== ESTIMATE — approved and signed 2026-11-02 ===
+ 1  Front brake pads, ceramic ....................................  129.00
+ 2  Labor — replace front brake pads, book time 1.5 hr @ 145.00/hr ..  217.50
+ 3  Shop supplies ................................................   12.50
+ 4  Sales tax 7.25% ..............................................   26.03
+    ESTIMATE TOTAL ...............................................  385.03
+    Signed: [customer] — 2026-11-02
+
+=== FINAL INVOICE — 2026-11-09 ===
+ 5  Front brake pads, ceramic ....................................  129.00
+ 6  Front brake rotors, pair .....................................  218.00
+ 7  Brake fluid flush ............................................   89.00
+ 8  Labor — replace front pads and rotors, 2.4 hr @ 145.00/hr ....  348.00
+ 9  Storage fee, 2 days @ 35.00/day ..............................   70.00
+10  Sales tax 7.25% on parts and labor ...........................   56.84
+    INVOICE TOTAL ................................................  910.84
+
+What the customer says:
+"The work is done. I compared the invoice to what I signed and some lines don't match."

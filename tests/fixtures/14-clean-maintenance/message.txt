@@ -1,0 +1,19 @@
+[SYNTHETIC FIXTURE 14 — fictional shop, fictional customer. No real document or personal data.]
+
+Praxis Auto Care (fictional)
+ESTIMATE  ·  2026-11-17  ·  valid 30 days
+
+Service items below are recommended per the manufacturer's schedule, not required.
+
+ 1  Engine oil and filter change .................................   79.00
+ 2  Tire rotation ................................................   25.00
+ 3  Engine air filter ............................................   45.00
+ 4  Cabin air filter .............................................   48.00
+ 5  Brake inspection — no charge, no findings ....................    0.00
+ 6  Sales tax 7% .................................................   13.79
+    TOTAL ........................................................  210.79
+
+Authorization: ______________________   Date: __________
+
+What the customer says:
+"Just here for the scheduled maintenance. Nothing feels wrong with the car."

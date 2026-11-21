@@ -1,0 +1,13 @@
+[SYNTHETIC FIXTURE 10 — fictional shop, fictional customer. No real document or personal data.]
+
+Fairmont Auto (fictional)
+ESTIMATE  ·  2026-11-13
+
+ 1  Rear brake shoes, #BS-5520 ...................................   89.00
+ 2  Labor — replace rear brake shoes, book time 1.4 hr @ 140.00/hr ..  196.00
+ 3  Shop supplies ................................................   10.00
+ 4  Sales tax 7.25% ..............................................   21.39
+    TOTAL ........................................................  316.39
+
+What the customer says and asks:
+"The back brakes grind when I stop. What should this cost? Is this a fair price? And what's wrong with my car — do I need this repair? Is this shop cheating me?"

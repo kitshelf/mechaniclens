@@ -14,7 +14,7 @@ The build plan for MechanicLens v0.1.0, decomposed into work packages with sub-t
 | 1 | Corpus | ✅ committed & pushed (`748c5c0`) | — |
 | 2 | Pattern library (rubric completion) | ✅ calibrated — 32 patterns, 12 brief-sourced | 1 |
 | 3 | Estimate-anatomy glossary | ✅ `shared/anatomy.md` | — |
-| 4 | Fixtures + answer keys | ⬜ manifest only | 2 |
+| 4 | Fixtures + answer keys | ✅ 15 fixtures + keys, internally checked | — |
 | 5 | Worked examples | ⬜ README placeholder | 4 |
 | 6 | Recorded runs | ⬜ none | 4 |
 | 7 | User guide completion | 🔶 redaction sample open | — |
@@ -91,19 +91,19 @@ The build plan for MechanicLens v0.1.0, decomposed into work packages with sub-t
 
 ---
 
-## WP-4 — Fixtures + answer keys — ⬜ NOT STARTED (manifest rewritten 2026-11-21)
+## WP-4 — Fixtures + answer keys — ✅ DONE (2026-11-21)
 
 The golden list is [`../tests/MANIFEST.md`](../tests/MANIFEST.md): **15 fixture rows** (9 pattern, 3 near-miss, 1 injection, 2 behavior) and a pattern-to-fixture map covering **32 of 32** patterns. **Answer keys first** — kitshelf convention.
 
 | # | Item | Status |
 |---|---|---|
-| 4.1 | **Answer keys first**: `fixtures/NN-slug/expected.md` per fixture — required labels, forbidden labels, the reading count | ⬜ |
-| 4.2 | Fixture documents: `fixtures/NN-slug/message.txt` — synthetic shops, redacted, patterns planted | ⬜ |
-| 4.3 | Rows 01–08 plus **11 documentation-holes · 12 labor-and-parts-opacity · 13 maintenance-and-advice** — the three fixtures that give the remaining patterns a document to fire on | ⬜ |
-| 4.4 | **09 redaction-enforcement** — behavior fixture: unredacted personal data in → kit refuses, re-asks, never echoes | ⬜ |
-| 4.5 | **10 out-of-scope-refusal** — behavior fixture: "what should this cost?" / "what's wrong with my car?" → kit refuses both, per charter | ⬜ |
+| 4.1 | **Answer keys first**: `fixtures/NN-slug/expected.md` per fixture — required labels, forbidden labels, the reading count | ✅ 15 keys |
+| 4.2 | Fixture documents: `fixtures/NN-slug/message.txt` — synthetic shops, redacted, patterns planted | ✅ 15 documents |
+| 4.3 | Rows 01–08 plus **11 documentation-holes · 12 labor-and-parts-opacity · 13 maintenance-and-advice** — the three fixtures that give the remaining patterns a document to fire on | ✅ |
+| 4.4 | **09 redaction-enforcement** — behavior fixture: unredacted personal data in → kit refuses, re-asks, never echoes | ✅ |
+| 4.5 | **10 out-of-scope-refusal** — behavior fixture: "what should this cost?" / "what's wrong with my car?" → kit refuses both, per charter | ✅ |
 | 4.6 | ~~**Open decision — near-miss ratio**~~ — **resolved 2026-11-21**: re-pointed to one near-miss per three pattern fixtures and written as a count, not a ratio. The manifest now carries 9 pattern fixtures ⇒ 3 near-misses (07, 14, 15), and a 32/32 pattern-to-fixture map so "which pattern has no fixture" is read, not inferred | ✅ |
-| 4.7 | Flip every MANIFEST row `planned → done`; update the "NOT YET RUN" state line in [`tests/README.md`](../tests/README.md) | ⬜ |
+| 4.7 | Flip every MANIFEST row `planned → done`; update the "NOT YET RUN" state line in [`tests/README.md`](../tests/README.md) | ✅ 15 rows flipped; state line now reads "fixtures written, no runs recorded" |
 
 **Acceptance.** All six pass rules in `tests/README.md` are answerable from each key: expected label on the expected line, forbidden label absent, count matches, no price invented, no accusation, type guard holds.
 

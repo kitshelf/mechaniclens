@@ -1,0 +1,16 @@
+[SYNTHETIC FIXTURE 05 — fictional shop, fictional customer. No real document or personal data.]
+
+Halcyon Auto (fictional)
+ESTIMATE  ·  2026-11-08
+
+ 1  Ignition coil, cylinder 3, #IC-3312 ..........................   84.00
+ 2  Spark plugs, set of 4 ........................................   64.00
+ 3  Labor — replace coil and spark plugs, book time 1.0 hr @ 145.00/hr ..  145.00
+ 4  Cabin air filter, recommended while the vehicle is here ......   48.00
+ 5  Labor — cabin air filter install, 0.3 hr @ 145.00/hr .........   43.50
+ 6  Shop supplies ................................................   12.50
+ 7  Sales tax 7.25% ..............................................   28.78
+    TOTAL ........................................................  425.78
+
+What the customer says:
+"The check engine light is on and it stumbles when I accelerate. The code reader said cylinder 3 misfire."

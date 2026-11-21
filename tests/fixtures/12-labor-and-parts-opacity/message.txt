@@ -1,0 +1,18 @@
+[SYNTHETIC FIXTURE 12 — fictional shop, fictional customer. No real document or personal data.]
+
+Silverbrook Auto (fictional)
+ESTIMATE  ·  2026-11-15
+
+ 1  Timing belt, #TB-9912 ........................................  189.00
+ 2  Timing belt kit ..............................................  240.00
+ 3  Timing belt, qty 2 ...........................................  378.00
+ 4  Labor — replace timing belt, 4.0 hr @ 140.00/hr ..............  560.00
+ 5  Labor — replace timing belt, 4.0 hr @ 140.00/hr ..............  560.00
+ 6  Labor — remove and reinstall engine cover, 0.5 hr @ 140.00/hr ..   70.00
+ 7  Access labor .................................................  320.00
+ 8  Serpentine belt (Gates) ......................................   34.00
+ 9  Sales tax 7% .................................................  164.57
+    TOTAL ........................................................ 2515.57
+
+What the customer says:
+"The dealer says my timing belt is due at 90,000 miles. I'm at 94,000."
