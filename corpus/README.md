@@ -48,6 +48,12 @@ Some datasets ship as parquet. Convert those to text on fetch (`convert.py` writ
 python3 corpus/convert.py <dataset-id>
 ```
 
+**Citation check.** [`verify.py`](verify.py) re-measures the pattern library's citations against the vendored data — the published counts and the estimate vocabulary — so the citation rule ("a dataset is cited only for text it verifiably contains") is enforced by a command, not trusted from prose. Read-only; run it after any rubric change and record the pass in [`TUNING.md`](TUNING.md):
+
+```sh
+python3 corpus/verify.py
+```
+
 ## The learn-from protocol
 
 1. **Sample** the US/Canada side of a corpus — complaints, DTCs, maintenance schedules, home-repair Q&A.
