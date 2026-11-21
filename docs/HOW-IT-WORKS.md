@@ -35,13 +35,7 @@ The user describes what the car is doing. The kit asks: does the quoted work mat
 
 ### Step 4 — Label pass
 
-Each line gets exactly one label, from [`../shared/labels.md`](../shared/labels.md):
-
-| Label | Fires when | Never means |
-|---|---|---|
-| **Standard** | the line is a normal part of an estimate and its wording is clear | not "fairly priced," not "approved" |
-| **Check** | common, but something is unstated or worth confirming | not "wrong" — the document just doesn't answer |
-| **Question this** | the wording, placement, or combination warrants a specific question before approval | not "fraud" — the line needs an answer |
+Each line gets exactly one label. The three labels, their definitions, and the reading format live once in [`../shared/labels.md`](../shared/labels.md); this file does not restate them. Three rules decide the call: `Question this` is the ceiling and never means fraud, a pattern that almost fits is a **Check**, and a clean estimate comes back mostly **Standard** — padding the list is a calibration failure.
 
 Every non-Standard label quotes the line verbatim and names the pattern from [`../estimate/rubrics/patterns-estimate.md`](../estimate/rubrics/patterns-estimate.md) — 32 patterns across six families: **fees** (F1–F7), **labor** (L1–L6), **parts** (P1–P7), **scope** (S1–S5), **documentation** (D1–D6), and **machine-directed text** (M-1). A pattern fires only when the document's own wording supports it, and only after its *not-a-pattern-when* condition is checked. A pattern that almost fits is a **Check**, not a **Question this**.
 
@@ -74,7 +68,7 @@ A report in a fixed template ([`../estimate/SPINE.md`](../estimate/SPINE.md) §O
 
 ## Where the judgment comes from
 
-The rubric's patterns are seeded from the kit's corpus — 54 US/Canada datasets, ~1.43M records of complaints, recalls, diagnostic codes, maintenance schedules, permits, and licensing data ([`../corpus/README.md`](../corpus/README.md)) — and must each earn their place with a source, a calibration line, and a fixture that exercises them ([`../corpus/TUNING.md`](../corpus/TUNING.md)). The fixtures and answer keys in [`../tests/`](../tests/README.md) are the spec: a pattern that no fixture exercises does not ship.
+The rubric's patterns are seeded from the kit's corpus — 54 US/Canada datasets, 1,272,956 records of complaints, recalls, diagnostic codes, maintenance schedules, permits, and licensing data ([`../corpus/README.md`](../corpus/README.md)) — and must each earn their place with a source, a calibration line, and a fixture that exercises them ([`../corpus/TUNING.md`](../corpus/TUNING.md)). The fixtures and answer keys in [`../tests/`](../tests/README.md) are the spec: a pattern that no fixture exercises does not ship.
 
 ## Local model floor
 
