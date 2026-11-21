@@ -16,7 +16,7 @@ Who it is for: anyone holding a repair estimate they are about to approve or dec
 | `rubrics/patterns-estimate.md` | The estimate pattern library and question scripts |
 | `examples/` | Worked examples, when written |
 
-Shared material: `../shared/labels.md`, `../shared/document-types.md`, `../shared/redaction.md`, `../shared/after-repair.md`, `../shared/local-models.md`.
+Shared material: `../shared/labels.md`, `../shared/anatomy.md`, `../shared/document-types.md`, `../shared/redaction.md`, `../shared/after-repair.md`, `../shared/local-models.md`.
 
 ## How to use it
 

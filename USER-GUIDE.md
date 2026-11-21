@@ -52,3 +52,4 @@ The kit runs offline. It never fetches, clicks, opens, or transmits anything. Yo
 - [The charter](WHAT-THIS-IS.md) — what the kit is and is not
 - [The workflow](estimate/README.md) — how the decode runs
 - [The labels](shared/labels.md) — the full label definitions
+- [The line vocabulary](shared/anatomy.md) — every term the report uses for a line, defined once

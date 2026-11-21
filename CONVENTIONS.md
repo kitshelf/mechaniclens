@@ -18,7 +18,7 @@ mechaniclens/
 │                        harness pointers, thin, never copies
 ├── .agents/skills/      skill-discovery pointer
 ├── docs/                the PRD: why, what, CUJs, and learnings
-├── shared/              material used across the kit (labels, document types, redaction, local models, after-repair)
+├── shared/              material used across the kit (labels, anatomy, document types, redaction, local models, after-repair)
 ├── estimate/            the estimate workflow and the pattern rubric
 ├── tests/               fixtures + manifest + runner protocol + recorded runs
 ├── corpus/              the learn-from research library (no datasets vendored yet)

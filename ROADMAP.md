@@ -11,7 +11,7 @@ The repair-estimate workflow, end to end.
 - **Foundation** — charter, conventions, shared DNA, PRD (`docs/prd/`), agent and harness pointers. *(structure in place)*
 - **The estimate workflow** — `estimate/`: redact → anatomy → symptom check → label → question script → decision → after-repair. `SPINE.md` compiles the whole kit into one paste. *(skeleton in place)*
 - **The pattern library** — `estimate/rubrics/patterns-estimate.md`: the estimate-pattern library, one file for the repair estimate. Every pattern carries a *not-a-pattern-when* calibration line, a source, a "Verified as of" date, and a good-answer guide. *(calibrated 2026-11-21, re-measured with `corpus/verify.py`; 32 patterns — 12 still brief-sourced and awaiting fixtures: F-5, F-7, L-3, L-5, P-1, P-3, P-6, S-5, D-2, D-3, D-5, M-1)*
-- **Shared material** — the three labels, the document types, the redaction pass, the local-model guidance, and the after-repair branch. *(skeleton in place)*
+- **Shared material** — the three labels, the line vocabulary, the document types, the redaction pass, the local-model guidance, and the after-repair branch. *(skeleton in place)*
 - **Tests** — 8 synthetic estimates with expected keys, written before the runs: scope mismatch, folded diagnostic fee, fee stacking, duplicate parts, "while we're in there" add-ons, invoice-versus-estimate, a near-miss clean estimate, and an injection document. *(planned; none written yet)*
 - **Worked examples** — the catch and the not-catch: one estimate with a planted pattern, one clean estimate that must not be over-labeled. *(planned)*
 - **User guide** — the ninety-second walkthrough for a non-technical reader, with the redaction sample. *(stub)*

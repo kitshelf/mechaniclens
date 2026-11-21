@@ -6,14 +6,7 @@ The kit decodes documents the customer is asked to sign or pay. Each type has it
 
 The document a shop hands the customer before work begins. It may be called an estimate, a quote, or a work order. It lists parts, labor, fees, and sometimes a diagnosis charge.
 
-What the kit reads:
-
-- each line's plain-English name and what it claims to cover
-- the parts-versus-labor split, when the document shows it
-- labor hours and the labor basis, when shown
-- fees, supplies, environmental charges, hazmat, disposal, and taxes
-- the total, as written
-- what the document does not state
+The kit reads each line into the categories defined once in [`anatomy.md`](anatomy.md) — parts, labor, fees, taxes, and the total as written — plus what the document does not state.
 
 What the kit does not do: price the job, diagnose the car, or judge the shop.
 

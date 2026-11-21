@@ -11,9 +11,9 @@ The build plan for MechanicLens v0.1.0, decomposed into work packages with sub-t
 | WP | Package | Status | Blocked by |
 |---|---|---|---|
 | 0 | Foundation scaffold | ✅ committed & pushed | — |
-| 1 | Corpus | ✅ on disk · 🔶 **uncommitted** | your go |
+| 1 | Corpus | ✅ committed & pushed (`748c5c0`) | — |
 | 2 | Pattern library (rubric completion) | ✅ calibrated — 32 patterns, 12 brief-sourced | 1 |
-| 3 | Estimate-anatomy glossary | ⬜ | — (independent) |
+| 3 | Estimate-anatomy glossary | ✅ `shared/anatomy.md` | — |
 | 4 | Fixtures + answer keys | ⬜ manifest only | 2 |
 | 5 | Worked examples | ⬜ README placeholder | 4 |
 | 6 | Recorded runs | ⬜ none | 4 |
@@ -33,13 +33,13 @@ The build plan for MechanicLens v0.1.0, decomposed into work packages with sub-t
 | 0.3 | Harness pointers: `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`, `.cursor/`, `.github/` | ✅ |
 | 0.4 | PRD complete: [`prd/01-why.md`](prd/01-why.md), `02-what.md`, `03-cujs.md` | ✅ |
 | 0.5 | Workflow skeleton: [`../estimate/`](../estimate/README.md) `00-principles.md`, `01-estimate/estimate.md`, `SPINE.md`, `START.md`, `AGENTS.md` | ✅ |
-| 0.6 | Shared material: [`../shared/`](../shared/README.md) `labels.md`, `document-types.md`, `redaction.md`, `local-models.md`, `after-repair.md` | ✅ |
+| 0.6 | Shared material: [`../shared/`](../shared/README.md) `labels.md`, `anatomy.md`, `document-types.md`, `redaction.md`, `local-models.md`, `after-repair.md` | ✅ |
 | 0.7 | Roadmap: v0.1.0 scope + freeze, v0.2.0 / v0.3.0 one-liners, deferred + non-goals | ✅ |
 | 0.8 | Sync fixes: **M-1** injection marker added to the rubric (30 patterns at that commit; 32 after the 2026-11-21 revisit), charter #2 reword, canonical `Reading:` line | ✅ |
 
 ---
 
-## WP-1 — Corpus — ✅ DONE on disk · 🔶 UNCOMMITTED
+## WP-1 — Corpus — ✅ DONE (committed `748c5c0`, pushed)
 
 | # | Item | Status |
 |---|---|---|
@@ -49,9 +49,11 @@ The build plan for MechanicLens v0.1.0, decomposed into work packages with sub-t
 | 1.4 | Tooling: [`fetch.py`](../corpus/fetch.py) (text files only, provenance card kept) + [`convert.py`](../corpus/convert.py) (parquet → `.json` + `.md`, index artifacts dropped) | ✅ |
 | 1.5 | Corpus docs: [`README.md`](../corpus/README.md), [`MANIFEST.md`](../corpus/MANIFEST.md) (per-dataset provenance + removal + rejection records), [`TUNING.md`](../corpus/TUNING.md) | ✅ |
 | 1.6 | Verify pass: zero non-text files on disk; counts reconciled (index 930 / vendored 54; README lane table matches the recount) | ✅ |
-| 1.7 | **Commit + push the corpus batch** (54 dataset dirs, index, docs, root-README corpus section) | 🔶 **awaiting your go** |
+| 1.7 | **Commit + push the corpus batch** (54 dataset dirs, index, docs, root-README corpus section) | ✅ `748c5c0`, verified on `origin/main` |
 
 **Acceptance.** `git status` clean on `corpus/` and the corpus section of the root README pushed; manifest counts match disk.
+
+**Open:** two commits that touch `corpus/` are local and **not pushed** — `66ad28b` (the citation check `corpus/verify.py`) and `b6537e8` (the rubric revisit). Neither is the WP-1 batch; both await your go.
 
 ---
 
@@ -63,40 +65,44 @@ The build plan for MechanicLens v0.1.0, decomposed into work packages with sub-t
 |---|---|---|
 | 2.1 | **Source per pattern** — each pattern cites the corpus dataset (e.g. S-2 ← OEM maintenance schedules, F-6 ← abandoned-vehicle timelines) or fixture that seeds it, per the grounding rule | ✅ 32/32 (20 corpus-sourced, 12 brief) |
 | 2.2 | **"Verified as of" date per pattern** — dated so drift is detectable; re-verification is a v0.3.0 roadmap item, the first dating happens here | ✅ 2026-11-21 |
-| 2.3 | **Good-answer guide per pattern** — "what a good answer sounds like," one per pattern, so a question's answer is checkable against the paper | ✅ 30/30 |
-| 2.4 | *Not-a-pattern-when* calibration line | ✅ all 30 written |
+| 2.3 | **Good-answer guide per pattern** — "what a good answer sounds like," one per pattern, so a question's answer is checkable against the paper | ✅ 32/32 |
+| 2.4 | *Not-a-pattern-when* calibration line | ✅ all 32 written |
 | 2.5 | Flip the header status line from "draft" to calibrated | ✅ |
 
 **Acceptance.** No pattern lacks source + date + good-answer guide; every fixture's planted pattern (WP-4) cross-references its rubric ID.
 
 ---
 
-## WP-3 — Estimate-anatomy glossary — ⬜ NOT STARTED
+## WP-3 — Estimate-anatomy glossary — ✅ DONE (2026-11-21)
 
-Step 2 of [`estimate.md`](../estimate/01-estimate/estimate.md) maps the document inline; the standalone plain-English glossary does not exist yet.
+[`../shared/anatomy.md`](../shared/anatomy.md) defines every term the report uses for a line, once: the document's own structure, parts (name, number, quantity, unit price, OEM/aftermarket/remanufactured/salvage, core charge, kit, markup), labor (operation, hours, book time, actual time, rate, flat rate, diagnosis, remove-and-reinstall, overlapping, add-on), fees (diagnostic, shop supplies, environmental, hazmat, disposal, administrative, document, storage, "misc"), tax and the fee base, paperwork (validity date, authorization line, written and verbal authorization, TSB), and the missing-field markers.
 
-| # | Item |
-|---|---|
-| 3.1 | Name every line category: parts (name / number / quantity / unit price), labor (operation / hours / rate), fees (diagnostic, shop supplies, environmental, hazmat, disposal, administrative, storage), taxes, total-as-written |
-| 3.2 | Decide the home: extend `estimate.md` Step 2 or a `shared/anatomy.md` — one owner, no parallel copy |
-| 3.3 | Cross-link from `USER-GUIDE.md`, [`HOW-IT-WORKS.md`](HOW-IT-WORKS.md) Step 2, and `document-types.md` |
+| # | Item | Status |
+|---|---|---|
+| 3.1 | Name every line category — parts (name / number / quantity / unit price), labor (operation / hours / rate), fees (diagnostic, shop supplies, environmental, hazmat, disposal, administrative, storage), taxes, total-as-written | ✅ 60 terms, grouped in seven sections |
+| 3.2 | Decide the home: extend `estimate.md` Step 2 or a `shared/anatomy.md` — one owner, no parallel copy | ✅ `shared/anatomy.md` — see the decision below |
+| 3.3 | Cross-link from `USER-GUIDE.md`, [`HOW-IT-WORKS.md`](HOW-IT-WORKS.md) Step 2, and `document-types.md` | ✅ all three, plus `SPINE.md`, `shared/README.md`, `CONVENTIONS.md` |
+
+**3.2 decision.** `shared/anatomy.md`, not `estimate.md` Step 2. The vocabulary has more than one consumer already inside `shared/`: `document-types.md` names what each document contains, and `after-repair.md` compares parts, labor, fees, taxes, and total across two documents. Hanging the definitions off `estimate/01-estimate/estimate.md` would have made two `shared/` files point up into one workflow step — the layering inversion `CONVENTIONS.md` §Shared exists to prevent. The step file now carries the instruction and points here; it does not restate a definition.
+
+**No-parallel-copy work done in this package.** `document-types.md` lost its duplicated "what the kit reads" bullet list, `HOW-IT-WORKS.md` Step 2 lost its inline category enumeration, and `estimate.md` Step 2 lost its inline term list. All three now point at the one glossary. `SPINE.md` carries the compact term list (quick mode must work from the spine alone) and points at the full definitions.
 
 **Acceptance.** Every term used in a label or a question appears in the glossary; nothing is defined twice in two places.
 
 ---
 
-## WP-4 — Fixtures + answer keys — ⬜ NOT STARTED (manifest written)
+## WP-4 — Fixtures + answer keys — ⬜ NOT STARTED (manifest rewritten 2026-11-21)
 
-The golden list is [`../tests/MANIFEST.md`](../tests/MANIFEST.md): 8 fixture rows + coverage targets that require 2 more. **Answer keys first** — kitshelf convention.
+The golden list is [`../tests/MANIFEST.md`](../tests/MANIFEST.md): **15 fixture rows** (9 pattern, 3 near-miss, 1 injection, 2 behavior) and a pattern-to-fixture map covering **32 of 32** patterns. **Answer keys first** — kitshelf convention.
 
 | # | Item | Status |
 |---|---|---|
 | 4.1 | **Answer keys first**: `fixtures/NN-slug/expected.md` per fixture — required labels, forbidden labels, the reading count | ⬜ |
 | 4.2 | Fixture documents: `fixtures/NN-slug/message.txt` — synthetic shops, redacted, patterns planted | ⬜ |
-| 4.3 | Rows 01–08: scope-mismatch · folded-diagnostic · fee-stack · duplicate-parts · while-were-in-there · invoice-differs · clean-estimate (near-miss) · injection-document | ⬜ |
+| 4.3 | Rows 01–08 plus **11 documentation-holes · 12 labor-and-parts-opacity · 13 maintenance-and-advice** — the three fixtures that give the remaining patterns a document to fire on | ⬜ |
 | 4.4 | **09 redaction-enforcement** — behavior fixture: unredacted personal data in → kit refuses, re-asks, never echoes | ⬜ |
 | 4.5 | **10 out-of-scope-refusal** — behavior fixture: "what should this cost?" / "what's wrong with my car?" → kit refuses both, per charter | ⬜ |
-| 4.6 | **Open decision — near-miss ratio**: the manifest targets *1 near-miss per 2 pattern fixtures*; 6 pattern fixtures ⇒ 3 near-misses; only 07 exists. Either write 2 more near-miss fixtures or re-point the target | ⬜ |
+| 4.6 | ~~**Open decision — near-miss ratio**~~ — **resolved 2026-11-21**: re-pointed to one near-miss per three pattern fixtures and written as a count, not a ratio. The manifest now carries 9 pattern fixtures ⇒ 3 near-misses (07, 14, 15), and a 32/32 pattern-to-fixture map so "which pattern has no fixture" is read, not inferred | ✅ |
 | 4.7 | Flip every MANIFEST row `planned → done`; update the "NOT YET RUN" state line in [`tests/README.md`](../tests/README.md) | ⬜ |
 
 **Acceptance.** All six pass rules in `tests/README.md` are answerable from each key: expected label on the expected line, forbidden label absent, count matches, no price invented, no accusation, type guard holds.

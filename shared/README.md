@@ -5,6 +5,7 @@ Material two or more workflows need lives here. One owner per file; no parallel 
 | File | What it owns |
 |---|---|
 | [`labels.md`](labels.md) | The three line labels and the reading format |
+| [`anatomy.md`](anatomy.md) | The line vocabulary — every term the report uses, defined once |
 | [`document-types.md`](document-types.md) | The document types the kit decodes and what changes between them |
 | [`redaction.md`](redaction.md) | The redaction pass for repair documents |
 | [`local-models.md`](local-models.md) | Running the kit offline on a local model |

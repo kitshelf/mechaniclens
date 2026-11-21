@@ -20,14 +20,7 @@ Before reading, confirm the document has no personal identifiers: name, address,
 
 ### Step 2 — Anatomy
 
-Map the document. Name each line's plain-English category:
-
-- **Parts** — part name, number, quantity, unit price, total
-- **Labor** — operation, hours, rate, total
-- **Fees** — diagnostic, shop supplies, environmental, hazmat, disposal, administrative
-- **Taxes** — rate and base, when shown
-- **Total** — as written
-- **Missing fields** — what the document does not state
+Map the document. Name each line's plain-English category — parts, labor, fees, taxes, and the total as written — and say what each line claims to cover. Every term the anatomy pass and the question script use (part number, book time, fee base, core charge, TSB, and the rest) is defined once in [`../../shared/anatomy.md`](../../shared/anatomy.md); do not restate the definitions here.
 
 State the document type and the total as written. Do not compute a new total or compare it to a market price.
 

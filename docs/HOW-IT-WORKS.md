@@ -27,7 +27,7 @@ Why first: an estimate carries identity. A decoding tool that collects identitie
 
 ### Step 2 — Anatomy
 
-The kit maps the document into plain English categories — parts (name, number, quantity, unit price), labor (operation, hours, rate), fees (diagnostic, shop supplies, environmental, hazmat, disposal, administrative), taxes, and the total as written. Each line gets a plain-English name and a note on what it claims to cover. What the document does *not* state is named as `[NOT SHOWN]` — a blank is a fact, not a gap to be filled by guessing ([`../estimate/01-estimate/estimate.md`](../estimate/01-estimate/estimate.md) Step 2).
+The kit maps each line into the categories defined once in [`../shared/anatomy.md`](../shared/anatomy.md) — parts, labor, fees, taxes, and the total as written. Each line gets a plain-English name and a note on what it claims to cover. What the document does *not* state is named as `[NOT SHOWN]` — a blank is a fact, not a gap to be filled by guessing ([`../estimate/01-estimate/estimate.md`](../estimate/01-estimate/estimate.md) Step 2).
 
 ### Step 3 — Symptom check
 
