@@ -22,13 +22,15 @@ US/Canada only. Grouped by area; the full per-dataset table (id, license, rows, 
 
 | Area | Datasets | Records | What it covers |
 |---|---|---|---|
-| Auto — diagnostics & repair procedures | 4 | ~17k | OBD-II codes, DTCs, repair procedures, replacement parts, OEM maintenance schedules |
-| Auto — complaints & recalls | 7 | ~1.1M | NHTSA complaints, recalls, owner reports, CPSC consumer recalls |
-| Auto — shops, liens, insurance, parts | 6 | ~82k | body-shop directory, mechanic liens, insurance minimums, abandoned-vehicle rules, discontinued-part mapping |
-| Home — inside the house | 8 | ~11k | plumbing, HVAC, appliance, electrical, water quality, septic |
-| Home — outside the house | 12 | ~24k | roofing, siding, gutters, exterior market data, permits, foundation, deck, fence, land clearing |
-| Home — contractor & licensing | 7 | ~22k | contractor directories, license thresholds, licensing stats |
-| Home — repair cost registers | 10 | ~1k | chimney, well, foundation, retaining wall, insulation, bulkhead, water, septic |
+| Auto — diagnostics & repair procedures | 4 | 17,532 | OBD-II codes, DTCs, repair procedures, replacement parts, OEM maintenance schedules |
+| Auto — complaints & recalls | 9 | 333,679 | NHTSA complaints, recalls, owner reports, CPSC consumer recalls |
+| Auto — shops, liens, insurance, parts | 6 | 81,322 | body-shop directory, mechanic liens, insurance minimums, abandoned-vehicle rules, discontinued-part mapping |
+| Home — inside the house | 8 | 9,419 | plumbing, HVAC, appliance, electrical, water quality, septic |
+| Home — outside the house | 16 | 808,310 | roofing, siding, gutters, exterior market data, permits, foundation, deck, fence, land clearing |
+| Home — contractor & licensing | 7 | 22,076 | contractor directories, license thresholds, licensing stats |
+| Home — repair cost registers | 4 | 618 | chimney, well, foundation, retaining wall, insulation, bulkhead, water, septic |
+
+**Totals: 54 datasets · 1,272,956 records · ~205 MB on disk.** Counts are the `Rows` column of [`MANIFEST.md`](MANIFEST.md) summed, not estimated; re-total it from the manifest if either changes.
 
 The auto lane is deep on **symptoms and diagnostics** (what breaks, what codes fire, what owners complain about); the home lane is deep on **trades, licensing, permits, and cost indices**. Neither lane contains actual repair *estimates* or *invoices* at scale — that gap is why the kit's fixtures are synthetic.
 

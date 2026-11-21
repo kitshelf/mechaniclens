@@ -71,7 +71,7 @@ Three documents, one owner each:
 
 ## Step 6 — Verify
 
-After all fetches: a filesystem pass confirmed **zero non-text files** in `corpus/`, and a counting pass summed ~**1.43 million records across 54 datasets** (~230 MB). Row counts per dataset are recorded in the manifest.
+After all fetches: a filesystem pass confirmed **zero non-text files** in `corpus/`, and a counting pass summed **1,272,956 records across 54 datasets** (~205 MB on disk; the `Rows` column of the manifest, re-summed 2026-11-21). Row counts per dataset are recorded in the manifest.
 
 ---
 

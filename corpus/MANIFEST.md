@@ -119,8 +119,8 @@ Grouped by area. The 13 original datasets are listed first; the 41 added in the 
 |---|---|
 | **Indexed (whole HF surface)** | 930 datasets — [`INDEX.md`](INDEX.md) / [`index.json`](index.json) |
 | Vendored datasets | 54 |
-| Vendored records | ~1,451,000 |
-| Vendored on-disk size | ~230 MB |
+| Vendored records | 1,272,956 — the sum of the `Rows` column above, counted 2026-11-21 |
+| Vendored on-disk size | ~205 MB — `du -sh corpus`, 2026-11-21 |
 | File types vendored | text only: `.csv`, `.json`, `.jsonl`, `.md` (+ converted parquet) |
 | Vendored license range | Apache-2.0, MIT, CC-BY-4.0, CC0-1.0, ODbL, source-terms-cited — all redistributable with attribution |
 

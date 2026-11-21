@@ -45,7 +45,7 @@ The build plan for MechanicLens v0.1.0, decomposed into work packages with sub-t
 |---|---|---|
 | 1.1 | Rules fixed before any download: text-only, US/Canada only, redistributable-only | ✅ |
 | 1.2 | Sweep + index: **930 datasets** in [`../corpus/index.json`](../corpus/index.json) / [`INDEX.md`](../corpus/INDEX.md) | ✅ |
-| 1.3 | **54 US/CA datasets vendored**, ~**1.43M records**, ~205 MB — India + Australia sets removed, removals recorded in the manifest | ✅ |
+| 1.3 | **54 US/CA datasets vendored**, **1,272,956 records**, **~205 MB** — India + Australia sets removed, removals recorded in the manifest; totals summed from the manifest's `Rows` column | ✅ |
 | 1.4 | Tooling: [`fetch.py`](../corpus/fetch.py) (text files only, provenance card kept) + [`convert.py`](../corpus/convert.py) (parquet → `.json` + `.md`, index artifacts dropped) | ✅ |
 | 1.5 | Corpus docs: [`README.md`](../corpus/README.md), [`MANIFEST.md`](../corpus/MANIFEST.md) (per-dataset provenance + removal + rejection records), [`TUNING.md`](../corpus/TUNING.md) | ✅ |
 | 1.6 | Verify pass: zero non-text files on disk; counts reconciled (index 930 / vendored 54; README lane table matches the recount) | ✅ |
@@ -156,7 +156,7 @@ The golden list is [`../tests/MANIFEST.md`](../tests/MANIFEST.md): **15 fixture 
 | 8.2 | [`../CHANGELOG.md`](../CHANGELOG.md): move the Unreleased block under a dated `## [0.1.0] 2026-MM-DD` |
 | 8.3 | [`../ROADMAP.md`](../ROADMAP.md): v0.1.0 rows → shipped statuses; run the "done when" check honestly against the fixture gauntlet |
 | 8.4 | Tag `v0.1.0`, push, GitHub release |
-| 8.5 | **dev.to article** — source material is in this folder: [`HOW-BUILT.md`](HOW-BUILT.md) (the corpus build), [`HOW-IT-WORKS.md`](HOW-IT-WORKS.md) (the machine), [`learnings/01-corpus.md`](learnings/01-corpus.md) (L1–L8) |
+| 8.5 | **dev.to article** — source material is in this folder: [`HOW-BUILT.md`](HOW-BUILT.md) (the corpus build), [`HOW-IT-WORKS.md`](HOW-IT-WORKS.md) (the machine), [`learnings/01-corpus.md`](learnings/01-corpus.md) (L1–L14, grouped by area of work) |
 
 **Acceptance.** Tag exists, changelog dated, roadmap accurate, article drafted from the docs — no claim of "tested" anywhere the recorded runs (WP-6) do not support.
 

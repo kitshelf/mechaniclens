@@ -59,7 +59,7 @@ Every tuning pass is recorded here: the counts, the calibration findings, the ca
 
 **Tool:** [`verify.py`](verify.py) — the citation check, added this pass (commit `66ad28b`). Section A re-measures the rubric's published counts; Section B hunts estimate vocabulary across all 54 vendored datasets. Every number below is the tool's output.
 
-**Corpus:** 54 US/Canada datasets, ~1.45M records.
+**Corpus:** 54 US/Canada datasets, 1,272,956 records (summed from the manifest's `Rows` column).
 
 ### Grading changes
 
