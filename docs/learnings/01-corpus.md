@@ -81,3 +81,33 @@ Upstream records: [`../../corpus/README.md`](../../corpus/README.md) · [`../../
 **Evidence.** The index was rebuilt twice; the vendored-count mismatch is visible in the build log ([`../HOW-BUILT.md`](../HOW-BUILT.md) Steps 1 and 6).
 
 **Change.** The rule from ScamCheck is carried into this kit's conventions: a rubric change requires a spine change in the same breath ([`../../CONTRIBUTING.md`](../../CONTRIBUTING.md) §Changing a rubric), and the corpus method ends with a verify step that recounts what is actually on disk.
+
+---
+
+## L9 · The rubric's axis is line anatomy, not domain — home is a document type, not a subcategory
+
+**Learning.** The question "should the pattern library split into auto / home / other rubrics?" was weighed on 2026-11-21 and answered no. A rubric's categories come from the document's own line anatomy — fees, labor, parts, scope, documentation, machine-directed text — because the decoder reads lines, not trades. A domain split would fork each pattern into per-domain copies (an auto F-1 and a home F-1), the parallel-copy drift the one-owner rule exists to prevent. Domain coverage enters one level up, at the document type: one rubric file per type, built when a real document appears — the path the invoice pack (v0.2.0) and the body-shop/insurance estimates (deferred) already follow. The corpus settled the timing as much as the charter did: the home lane cannot ground a home rubric yet, so a split today would ship patterns that cannot earn a source.
+
+**Evidence.** L5 — the home lane clusters on jurisdiction and market, not repair vocabulary; [`../../corpus/TUNING.md`](../../corpus/TUNING.md) §Gaps — no US/Canada estimate or invoice corpus in either lane; §Candidate patterns — the home candidates H-04 "per square" and H-05 "per linear foot" are recorded and parked, not rubricized; the citation review in [`../../estimate/rubrics/patterns-estimate.md`](../../estimate/rubrics/patterns-estimate.md) — the home lane's one fee-level citation attempt, a garbage-disposal appliance read as a waste-disposal fee, did not hold and was downgraded to brief; [`../../CONVENTIONS.md`](../../CONVENTIONS.md) — one owner per file, no parallel copies, and §Building a new document type step 1: document types are built when a real one appears, never for completeness; [`../../shared/document-types.md`](../../shared/document-types.md) — the type guard: an unsupported document type is named as unsupported and offered a general anatomy pass, not decoded with the wrong rubric.
+
+**Change.** The estimate rubric stays one file organized by line anatomy; no domain subcategories. A home-repair (contractor) estimate is parked in [`../../ROADMAP.md`](../../ROADMAP.md) §Candidate/deferred with its trigger — a real home estimate from a real user — and enters, if ever, as its own document type under the CONVENTIONS sequence: charter lines in `shared/document-types.md`, its own rubric file, fixtures including a near-miss, ROADMAP listing. The home candidates stay in the tuning log until then.
+
+---
+
+## L10 · A published count is a claim — the measurement must be a command
+
+**Learning.** The first calibration published S-1 (symptom mismatch) as "176 of 1,000 rows carry the symptom vocabulary." Re-measured with a defined search — the five families noise, rattle, pull, shake, grind, case-insensitive, across all columns — the count is 163. Nothing was wrong with the dataset; the number was prose. It carried no definition of the vocabulary and no command behind it, so no one could re-check it, including us. This is L8's drift class applied to numbers: a count embedded in prose drifts exactly like a compiled file, and a citation that cannot be re-measured is indistinguishable from an invented one.
+
+**Evidence.** `corpus/verify.py` section A output, 2026-11-21: claritystorm `sample_1000.csv` — 1,000 rows, 163 matches. The corrected source line in [`../../estimate/rubrics/patterns-estimate.md`](../../estimate/rubrics/patterns-estimate.md) (S-1). The tool is committed kit tooling (commit `66ad28b`), documented in [`../../corpus/README.md`](../../corpus/README.md) §Citation check; the correction is recorded in [`../../corpus/TUNING.md`](../../corpus/TUNING.md) pass 2.
+
+**Change.** Every count in every pattern's source line is now the tool's output, and the rubric's *Using the library* rule 7 requires running `python3 corpus/verify.py` after any rubric change and recording the pass in the tuning log. The tool lives in the repo beside `fetch.py` and `convert.py` — verification tooling that is not checked in is verification that did not happen.
+
+---
+
+## L11 · "No corpus source" usually means not yet searched — and thin evidence is fine when it wears its count
+
+**Learning.** Before the revisit, 16 patterns were graded brief, most on a bare "design brief. No corpus source." The vocabulary hunt split that label into two different truths. Four sources had been sitting in the corpus unsearched: `cost_metadata.json` had said "hours only, no labor rate" (L-2) all along, 80 of 449 part rows name a kit (P-4), and the recall remedies carry the regulated disposal practice the fee patterns name (F-3, F-4). The rest gained a stated negative check — what was searched and what was found — so "brief" became an auditable state instead of a shrug. The upgrade does not reverse the earlier downgrade of recall-data citations: the downgraded claims said the dataset held fee complaints (it does not); the upgraded claims say it holds hazardous-waste procedure language (105 rows, and it does). The claim must match the text, not stretch it. And thin evidence can ground a pattern when it is labeled with its own count: P-7 core charge rests on one narrative of 12,534; D-6 per TSB on 3 of 1,063.
+
+**Evidence.** [`../../corpus/TUNING.md`](../../corpus/TUNING.md) pass 2 — the grading table (F-3, F-4, L-2, P-4 brief → adjacent; P-7 and D-6 entered; S-1 corrected; P-2 precision fix) and the negative-check list (zero administrative-fee vocabulary corpus-wide; zero verbal-authorization language; "misc" only as home cost-register shorthand; the corpus's only "unauthorized" text is recall hazard language). Every number is `corpus/verify.py` output.
+
+**Change.** Every brief-sourced pattern in the estimate rubric now names its negative check, and the source-strength definition says the corpus has been searched. Final grading: 32 patterns — 4 direct · 16 adjacent · 12 brief. The 12 brief patterns now differ from the corpus-sourced ones by evidence, not by effort.

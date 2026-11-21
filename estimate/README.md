@@ -26,4 +26,4 @@ Shared material: `../shared/labels.md`, `../shared/document-types.md`, `../share
 
 ## Status
 
-Scaffold. The workflow is written; the pattern library is calibrated (30 patterns, 3 still brief-sourced) and the fixtures are planned. See `../ROADMAP.md`.
+Scaffold. The workflow is written; the pattern library is calibrated (32 patterns, 12 still brief-sourced) and the fixtures are planned. See `../ROADMAP.md`.

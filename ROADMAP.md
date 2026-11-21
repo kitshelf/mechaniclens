@@ -10,7 +10,7 @@ The repair-estimate workflow, end to end.
 
 - **Foundation** — charter, conventions, shared DNA, PRD (`docs/prd/`), agent and harness pointers. *(structure in place)*
 - **The estimate workflow** — `estimate/`: redact → anatomy → symptom check → label → question script → decision → after-repair. `SPINE.md` compiles the whole kit into one paste. *(skeleton in place)*
-- **The pattern library** — `estimate/rubrics/patterns-estimate.md`: the estimate-pattern library, one file for the repair estimate. Every pattern carries a *not-a-pattern-when* calibration line, a source, a "Verified as of" date, and a good-answer guide. *(calibrated 2026-11-21; three patterns still brief-sourced and awaiting fixtures: L-3, D-3, M-1)*
+- **The pattern library** — `estimate/rubrics/patterns-estimate.md`: the estimate-pattern library, one file for the repair estimate. Every pattern carries a *not-a-pattern-when* calibration line, a source, a "Verified as of" date, and a good-answer guide. *(calibrated 2026-11-21, re-measured with `corpus/verify.py`; 32 patterns — 12 still brief-sourced and awaiting fixtures: F-5, F-7, L-3, L-5, P-1, P-3, P-6, S-5, D-2, D-3, D-5, M-1)*
 - **Shared material** — the three labels, the document types, the redaction pass, the local-model guidance, and the after-repair branch. *(skeleton in place)*
 - **Tests** — 8 synthetic estimates with expected keys, written before the runs: scope mismatch, folded diagnostic fee, fee stacking, duplicate parts, "while we're in there" add-ons, invoice-versus-estimate, a near-miss clean estimate, and an injection document. *(planned; none written yet)*
 - **Worked examples** — the catch and the not-catch: one estimate with a planted pattern, one clean estimate that must not be over-labeled. *(planned)*
@@ -42,6 +42,7 @@ The repair-estimate workflow, end to end.
 | Item | Why it waits |
 |---|---|
 | Body-shop and insurance estimates | A different document type with insurer-written language and supplement rules; needs its own pattern library and fixtures. Build only when a real document appears. |
+| Home-repair (contractor) estimates | A different document type — trades, permits, licensing, and unit-basis language ("per square", "per linear foot"). The corpus's home lane is jurisdiction- and market-shaped, not repair vocabulary ([learnings L5](docs/learnings/01-corpus.md)), so it cannot ground a home rubric yet. Build only when a real home estimate appears, per the CONVENTIONS sequence; candidates H-04 and H-05 stay parked in the tuning log. |
 | Dealership vs. independent comparison | A price comparison in disguise; the charter bans prices. Parked unless the framing stays purely documentary. |
 | Repair-shop review layer | The charter refuses accusations and ratings. Permanently out of scope. |
 

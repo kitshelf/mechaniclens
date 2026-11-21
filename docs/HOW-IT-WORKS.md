@@ -43,7 +43,7 @@ Each line gets exactly one label, from [`../shared/labels.md`](../shared/labels.
 | **Check** | common, but something is unstated or worth confirming | not "wrong" — the document just doesn't answer |
 | **Question this** | the wording, placement, or combination warrants a specific question before approval | not "fraud" — the line needs an answer |
 
-Every non-Standard label quotes the line verbatim and names the pattern from [`../estimate/rubrics/patterns-estimate.md`](../estimate/rubrics/patterns-estimate.md) — 30 patterns across six families: **fees** (F1–F7), **labor** (L1–L6), **parts** (P1–P6), **scope** (S1–S5), **documentation** (D1–D5), and **machine-directed text** (M-1). A pattern fires only when the document's own wording supports it, and only after its *not-a-pattern-when* condition is checked. A pattern that almost fits is a **Check**, not a **Question this**.
+Every non-Standard label quotes the line verbatim and names the pattern from [`../estimate/rubrics/patterns-estimate.md`](../estimate/rubrics/patterns-estimate.md) — 32 patterns across six families: **fees** (F1–F7), **labor** (L1–L6), **parts** (P1–P7), **scope** (S1–S5), **documentation** (D1–D6), and **machine-directed text** (M-1). A pattern fires only when the document's own wording supports it, and only after its *not-a-pattern-when* condition is checked. A pattern that almost fits is a **Check**, not a **Question this**.
 
 The reading is a count — `Reading: Standard N · Check N · Question this N` — never a score, percentage, or probability.
 
