@@ -18,7 +18,9 @@ Every learning here cites its artifact — a file, a fixture, a recorded run, a 
 
 | Doc | What it captures |
 |---|---|
-| [`01-corpus.md`](01-corpus.md) | The grounded record in five sections of work — **scoping** the corpus (geography, the estimate gap, the home/auto asymmetry), **building** it (text-only, row-level inspection), **learning** from it (safe-side vocabulary, prices as context, the search that turns "no source" into a source), **shaping the kit** (anatomy axis, vocabulary ownership), and **keeping the record honest** (drift, counts, status rows, ratio targets) |
+| [`01-corpus.md`](01-corpus.md) | **Scoping, building, and reading the corpus** — the US/Canada rule, the missing estimate/invoice dataset, the home/auto asymmetry, text-only as doctrine, row-level inspection, the safe side as the stronger teacher, prices as context, and what searching honestly does to a "no source" claim (L1–L7, L10, L11, L15) |
+| [`02-kit-design.md`](02-kit-design.md) | **The shape of the kit** — the rubric's axis is line anatomy not domain, home is a document type rather than a subcategory, one owner per vocabulary, and how far a one-owner rule actually reaches (L9, L14, L16) |
+| [`03-record.md`](03-record.md) | **Keeping the record honest** — derived artifacts drift, a count must be re-derivable, a status row is a claim, and a ratio target moves when its denominator does (L8, L12, L13) |
 
 Companion documents in [`../`](../README.md): [`../HOW-BUILT.md`](../HOW-BUILT.md) (the corpus build, step by step) and [`../HOW-IT-WORKS.md`](../HOW-IT-WORKS.md) (the kit, end to end).
 

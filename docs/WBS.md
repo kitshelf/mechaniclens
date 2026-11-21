@@ -156,7 +156,7 @@ The golden list is [`../tests/MANIFEST.md`](../tests/MANIFEST.md): **15 fixture 
 | 8.2 | [`../CHANGELOG.md`](../CHANGELOG.md): move the Unreleased block under a dated `## [0.1.0] 2026-MM-DD` |
 | 8.3 | [`../ROADMAP.md`](../ROADMAP.md): v0.1.0 rows → shipped statuses; run the "done when" check honestly against the fixture gauntlet |
 | 8.4 | Tag `v0.1.0`, push, GitHub release |
-| 8.5 | **dev.to article** — source material is in this folder: [`HOW-BUILT.md`](HOW-BUILT.md) (the corpus build), [`HOW-IT-WORKS.md`](HOW-IT-WORKS.md) (the machine), [`learnings/01-corpus.md`](learnings/01-corpus.md) (L1–L14, grouped by area of work) |
+| 8.5 | **dev.to article** — source material is in this folder: [`HOW-BUILT.md`](HOW-BUILT.md) (the corpus build), [`HOW-IT-WORKS.md`](HOW-IT-WORKS.md) (the machine), [`learnings/`](learnings/README.md) (L1–L16 across `01-corpus`, `02-kit-design`, `03-record`) |
 
 **Acceptance.** Tag exists, changelog dated, roadmap accurate, article drafted from the docs — no claim of "tested" anywhere the recorded runs (WP-6) do not support.
 
