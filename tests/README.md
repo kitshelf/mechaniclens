@@ -74,6 +74,26 @@ export OPENROUTER_API_KEY=...   # or put it in your shell profile
 python3 tests/run_local.py --provider openrouter --llm openai/gpt-6.2-sol --version latest
 ```
 
+**Three cheap OpenRouter models to test against** (IDs verified against the live catalog; prices USD per million tokens, 2026-11). All three are the "two-paste" quick path a real user gets — no `--mode` flag needed, quick is the default:
+
+```sh
+# GLM Flash (Z-AI) — cheapest, ~$0.04 in / $0.08 out
+# (the leading ~ in the id is a real character — single-quote it so zsh doesn't
+#  expand it as a home directory: '~z-ai/glm-flash-latest', not ~z-ai/...)
+OPENROUTER_API_KEY=... python3 tests/run_local.py \
+  --provider openrouter --llm '~z-ai/glm-flash-latest' --version flash-latest
+
+# Claude Haiku 5.5 (Anthropic) — $0.10 in / $0.50 out
+OPENROUTER_API_KEY=... python3 tests/run_local.py \
+  --provider openrouter --llm anthropic/claude-haiku-5.5 --version haiku-5.5
+
+# GPT-6 Luna (OpenAI) — $0.10 in / $0.50 out
+OPENROUTER_API_KEY=... python3 tests/run_local.py \
+  --provider openrouter --llm openai/gpt-6-luna --version luna
+```
+
+Cost per 15-fixture gauntlet is under ~$0.01 each on the usage the 4B produced (22k prompt + 17k completion tokens total). The leading `~` in `~z-ai/glm-flash-latest` is a real character in the OpenRouter id (it marks a routed variant) — **single-quote it** so zsh doesn't expand it as a home directory. Each run writes to `tests/results/openrouter/<llm>__<version>/`. The judge must not be the model under test, so don't reuse a model to grade its own set — pick a different one from this list (or a different provider) when running `validate_results.py`.
+
 **Useful switches:** `--results <dir>` (default `tests/results`) · `--mode quick|full` (quick = `SPINE.md` only, the two-paste path users get; full = the workflow files + rubric) · `--fixtures 07,14,15` or `all` · `--temperature`, `--max-tokens`, `--timeout`, `--runner`.
 
 **What one run saves** — a folder per model, one per fixture, four files per run:

@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-22",
+  "endpoint": "openrouter.ai",
+  "finish_reason": "stop",
+  "fixture": "06-invoice-differs",
+  "max_tokens": 32000,
+  "mode": "quick",
+  "model_reported": "anthropic/claude-haiku-5.5",
+  "model_requested": "anthropic/claude-haiku-5.5",
+  "output_file": "2026-11-22-quick.md",
+  "prompt_file": "2026-11-22-quick.prompt.txt",
+  "provider": "openrouter",
+  "reasoning_content_chars": 0,
+  "response_file": "2026-11-22-quick.response.json",
+  "runner": "deghosal",
+  "system_files": [
+    "estimate/SPINE.md"
+  ],
+  "system_sha256": "e6b363c54b12b89ebf3a3ca88b841e92123bd1bfd15f8cf76459d735c80ac58c",
+  "temperature": 0.0,
+  "usage": {
+    "completion_tokens": 5262,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 3063
+    },
+    "cost": 0.0029608,
+    "cost_details": {
+      "upstream_inference_completions_cost": 0.002631,
+      "upstream_inference_cost": 0.0029608,
+      "upstream_inference_prompt_cost": 0.0003298
+    },
+    "is_byok": false,
+    "prompt_tokens": 3298,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "total_tokens": 8560
+  },
+  "user_file": "tests/fixtures/06-invoice-differs/message.txt",
+  "user_sha256": "7281ba0aa284557633f00ce1df5bbec7fee5d3b94170dada21362990a4a583b5",
+  "version": "haiku-5.5"
+}

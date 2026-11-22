@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-22",
+  "endpoint": "openrouter.ai",
+  "finish_reason": "stop",
+  "fixture": "01-scope-mismatch",
+  "max_tokens": 32000,
+  "mode": "quick",
+  "model_reported": "z-ai/glm-5.3-flash",
+  "model_requested": "~z-ai/glm-flash-latest",
+  "output_file": "2026-11-22-quick.md",
+  "prompt_file": "2026-11-22-quick.prompt.txt",
+  "provider": "openrouter",
+  "reasoning_content_chars": 0,
+  "response_file": "2026-11-22-quick.response.json",
+  "runner": "deghosal",
+  "system_files": [
+    "estimate/SPINE.md"
+  ],
+  "system_sha256": "1d86d55f014104af4a9af755536ba47e9fab409e50da84874704f992fcdfc3ae",
+  "temperature": 0.0,
+  "usage": {
+    "completion_tokens": 7850,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 6766
+    },
+    "cost": 0.002942116,
+    "cost_details": {
+      "upstream_inference_completions_cost": 0.0027475,
+      "upstream_inference_cost": 0.002942116,
+      "upstream_inference_prompt_cost": 0.000194616
+    },
+    "is_byok": false,
+    "prompt_tokens": 1802,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "total_tokens": 9652
+  },
+  "user_file": "tests/fixtures/01-scope-mismatch/message.txt",
+  "user_sha256": "d5d403559f818064d78d3f95677d0cc6672b96b42c40cfc8da384ea944d7ea76",
+  "version": "flash-latest"
+}

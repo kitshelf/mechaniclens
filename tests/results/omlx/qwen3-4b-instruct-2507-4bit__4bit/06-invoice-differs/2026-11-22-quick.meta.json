@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-22",
+  "endpoint": "127.0.0.1:8000",
+  "finish_reason": "stop",
+  "fixture": "06-invoice-differs",
+  "max_tokens": 2400,
+  "mode": "quick",
+  "model_reported": "Qwen3-4B-Instruct-2507-4bit",
+  "model_requested": "Qwen3-4B-Instruct-2507-4bit",
+  "output_file": "2026-11-22-quick.md",
+  "prompt_file": "2026-11-22-quick.prompt.txt",
+  "provider": "omlx",
+  "response_file": "2026-11-22-quick.response.json",
+  "runner": "deghosal",
+  "system_files": [
+    "estimate/SPINE.md"
+  ],
+  "system_sha256": "97fa19d962a80507518d0a1748318f3b9d8deaf381261c77f034cdc1a43496c9",
+  "temperature": 0.0,
+  "usage": {
+    "completion_tokens": 1279,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "generation_duration": 29.15,
+    "generation_tokens_per_second": 43.88,
+    "input_tokens": 1623,
+    "output_tokens": 1279,
+    "prompt_eval_duration": 0.27,
+    "prompt_tokens": 1623,
+    "prompt_tokens_details": {
+      "cached_tokens": 1536
+    },
+    "prompt_tokens_per_second": 317.63,
+    "time_to_first_token": 0.27,
+    "total_time": 29.42,
+    "total_tokens": 2902
+  },
+  "user_file": "tests/fixtures/06-invoice-differs/message.txt",
+  "user_sha256": "7281ba0aa284557633f00ce1df5bbec7fee5d3b94170dada21362990a4a583b5",
+  "version": "4bit"
+}

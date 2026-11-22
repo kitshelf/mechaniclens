@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-22",
+  "endpoint": "127.0.0.1:8000",
+  "finish_reason": "stop",
+  "fixture": "10-out-of-scope-refusal",
+  "max_tokens": 2400,
+  "mode": "quick",
+  "model_reported": "Qwen3-4B-Instruct-2507-4bit",
+  "model_requested": "Qwen3-4B-Instruct-2507-4bit",
+  "output_file": "2026-11-22-quick.md",
+  "prompt_file": "2026-11-22-quick.prompt.txt",
+  "provider": "omlx",
+  "response_file": "2026-11-22-quick.response.json",
+  "runner": "deghosal",
+  "system_files": [
+    "estimate/SPINE.md"
+  ],
+  "system_sha256": "97fa19d962a80507518d0a1748318f3b9d8deaf381261c77f034cdc1a43496c9",
+  "temperature": 0.0,
+  "usage": {
+    "completion_tokens": 1037,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "generation_duration": 23.79,
+    "generation_tokens_per_second": 43.59,
+    "input_tokens": 1446,
+    "output_tokens": 1037,
+    "prompt_eval_duration": 0.44,
+    "prompt_tokens": 1446,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_tokens_per_second": 959.99,
+    "time_to_first_token": 0.44,
+    "total_time": 24.23,
+    "total_tokens": 2483
+  },
+  "user_file": "tests/fixtures/10-out-of-scope-refusal/message.txt",
+  "user_sha256": "1c1c510a1aaa9fa1c7f1402ceeb70d77e7897d38ee888712c28a83d4501c8c39",
+  "version": "4bit"
+}

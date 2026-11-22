@@ -121,40 +121,45 @@ The golden list is [`../tests/MANIFEST.md`](../tests/MANIFEST.md): **15 fixture 
 
 ---
 
-## WP-6 — Recorded runs — 🔶 PARTIAL (5 of 15 hosted runs recorded, all author runs)
+## WP-6 — Recorded runs — ✅ DONE (2026-11-22)
+
+Two hosted models ran the full 15-fixture gauntlet against the fixed kit. Local and z-ai were dropped (too slow). The runner, validator, and five kit fixes (L35–L43) were built during this work package.
 
 | # | Item | Status |
 |---|---|---|
-| 6.1 | Run the protocol per [`tests/README.md`](../tests/README.md): paste `SPINE.md` → paste `message.txt` → compare to `expected.md` | 🔶 5 of 15 |
-| 6.2 | One hosted-model run per fixture, recorded | 🔶 5 of 15 — fixtures 01–05, each run by the key's author (see [learning L22](learnings/04-fixtures.md)) |
-| 6.3 | One local-model run per fixture (oMLX / Ollama / LM Studio), with honest under-detection notes per [`../shared/local-models.md`](../shared/local-models.md) | ⬜ |
-| 6.4 | File each as `results/<fixture>/<date>-<model>.md`; then remove the "NOT YET RUN" claim | 🔶 5 filed; the state line in `tests/README.md` now counts runs honestly |
+| 6.1 | Run the protocol per [`tests/README.md`](../tests/README.md): paste `SPINE.md` → paste `message.txt` → compare to `expected.md` | ✅ 15/15 on both Haiku and Luna |
+| 6.2 | One hosted-model run per fixture, recorded | ✅ Haiku 15/15 (73/92 labels, 5 perfect), Luna 15/15 (74/92 labels, 6 perfect) — see [`claude-haiku-5-5__validation.md`](../docs/learnings/claude-haiku-5-5__validation.md) and [`gpt-6-luna__validation.md`](../docs/learnings/gpt-6-luna__validation.md) |
+| 6.3 | One local-model run per fixture | ❌ Dropped — local models too slow. `Qwen3-4B-Instruct-2507-4bit` produced 15 pre-fix runs (kept as baseline); `Qwen3-5-4B-4bit` produced 1 post-fix fixture (6/6 correct) before being dropped. See [`qwen3-4b-instruct-2507-4bit__summary.md`](../docs/learnings/qwen3-4b-instruct-2507-4bit__summary.md) for the pre-fix baseline |
+| 6.4 | File each as `results/<fixture>/<date>-<model>.md`; then remove the "NOT YET RUN" claim | ✅ All runs filed under `tests/results/<provider>/<llm>__<version>/`; state line in `tests/README.md` updated |
+| 6.5 | Runner: command-line, provider/llm/version args, key from env, raw response verbatim | ✅ [`tests/run_local.py`](../tests/run_local.py) — documented in [`tests/README.md`](../tests/README.md) |
+| 6.6 | Validator: deterministic per-fixture checks against answer keys | ✅ [`tests/validate_results.py`](../tests/validate_results.py) — flags `spine-drift` on stale runs, handles four table formats |
+| 6.7 | Kit fixes driven by the gauntlet | ✅ Five edits to [`estimate/SPINE.md`](../estimate/SPINE.md) — L35 (Standard default), L36 (Scope→Labels link), L37 (no Approve/Decline), L41/L43 (redaction gate, after-repair branch, P-1 restored). See [`docs/learnings/05-local-models.md`](../docs/learnings/05-local-models.md) L25–L45 |
 
-**Acceptance.** Every fixture has ≥1 dated recorded run; any mismatch is recorded, not retried into silence.
+**Acceptance.** Every fixture has ≥1 dated recorded run; any mismatch is recorded, not retried into silence. ✅ Met — Haiku and Luna both have 15/15 against the fixed kit.
 
 ---
 
-## WP-7 — User guide — 🔶 PARTIAL
+## WP-7 — User guide — ✅ DONE (2026-11-22)
 
-[`../USER-GUIDE.md`](../USER-GUIDE.md) exists and reads complete: walkthrough, labels table, question examples, won't-do list, after-repair, privacy.
+[`../USER-GUIDE.md`](../USER-GUIDE.md) reads complete: walkthrough, labels table, question examples, won't-do list, after-repair, privacy.
 
 | # | Item | Status |
 |---|---|---|
 | 7.1 | Ninety-second walkthrough + labels + won't-do + privacy | ✅ |
-| 7.2 | **Redaction sample** — a before/after paste example; the roadmap calls for it, the file does not have it | ⬜ |
-| 7.3 | Flip the roadmap line "(stub)" → done when 7.2 lands | ⬜ |
+| 7.2 | **Redaction sample** — a before/after paste example | ✅ added to [`../USER-GUIDE.md`](../USER-GUIDE.md) §Privacy — the refused paste and the decodable paste, with what to remove and what to keep |
+| 7.3 | Flip the roadmap line "(stub)" → done | ✅ [`../ROADMAP.md`](../ROADMAP.md) v0.1.0 row now reads done |
 
 ---
 
-## WP-8 — Release + the article — ⬜ NOT STARTED
+## WP-8 — Release + the article — ✅ DONE (2026-11-22)
 
-| # | Item |
-|---|---|
-| 8.1 | Root README: flip the badge + status block "v0.1.0 in development" → shipped (corpus section already written) |
-| 8.2 | [`../CHANGELOG.md`](../CHANGELOG.md): move the Unreleased block under a dated `## [0.1.0] 2026-MM-DD` |
-| 8.3 | [`../ROADMAP.md`](../ROADMAP.md): v0.1.0 rows → shipped statuses; run the "done when" check honestly against the fixture gauntlet |
-| 8.4 | Tag `v0.1.0`, push, GitHub release |
-| 8.5 | **dev.to article** — source material is in this folder: [`HOW-BUILT.md`](HOW-BUILT.md) (the corpus build), [`HOW-IT-WORKS.md`](HOW-IT-WORKS.md) (the machine), [`learnings/`](learnings/README.md) (L1–L24 across `01-corpus`, `02-kit-design`, `03-record`, `04-fixtures`) |
+| # | Item | Status |
+|---|---|---|
+| 8.1 | Root README: flip the badge + status block "v0.1.0 in development" → shipped | ✅ badge and §Status flipped; repair-estimate row now "primary, shipped" |
+| 8.2 | [`../CHANGELOG.md`](../CHANGELOG.md): move the Unreleased block under a dated `## [0.1.0] 2026-MM-DD` | ✅ `## [0.1.0] 2026-11-22`, with the runner, validator, and the two-model testing table |
+| 8.3 | [`../ROADMAP.md`](../ROADMAP.md): v0.1.0 rows → shipped statuses; run the "done when" check honestly | ✅ v0.1.0 §shipped; the "done when" note says the gauntlet half is met and the lobby half is a human check |
+| 8.4 | Tag `v0.1.0`, push, GitHub release | ✅ tag + push; GitHub release from the tag |
+| 8.5 | **dev.to article** | ✅ [`ARTICLE.md`](ARTICLE.md) — written from HOW-BUILT, HOW-IT-WORKS, and the learnings, including the "I blamed the models" correction |
 
 **Acceptance.** Tag exists, changelog dated, roadmap accurate, article drafted from the docs — no claim of "tested" anywhere the recorded runs (WP-6) do not support.
 

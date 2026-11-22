@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![100% Markdown](https://img.shields.io/badge/100%25_Markdown-2ea44f)](#what-it-does)
 [![Privacy](https://img.shields.io/badge/Privacy-local_only,_no_telemetry-8b5cf6)](#what-it-does)
-[![Status: scaffold](https://img.shields.io/badge/status-v0.1.0_in_development-orange.svg)](#status)
+[![Status: shipped](https://img.shields.io/badge/status-v0.1.0_shipped-2ea44f.svg)](#status)
 
 > Paste the repair estimate and your car's symptoms — and read the estimate back before you approve the work.
 > Every line explained, labeled Standard / Check / Question this, with the questions to ask at the counter.
@@ -14,10 +14,11 @@ back to you: quoted, labeled, never invented.
 
 ## Status
 
-**v0.1.0 in development — structure scaffolded, content not yet complete.** The charter, conventions,
-workflow skeleton, shared material, and test plan are in place. The pattern library, fixtures, recorded runs,
-worked examples, and the user guide are being written. Nothing here is a shipped release yet; the roadmap
-tracks what remains.
+**v0.1.0 — shipped.** The repair-estimate workflow is complete end to end: charter, conventions, the 32-pattern
+library, 15 fixtures with answer keys, two worked examples, the user guide, and recorded runs from two hosted
+models across the full gauntlet. The runner and validator are checked in, so anyone can re-run the gauntlet and
+check the numbers. See [`docs/WBS.md`](docs/WBS.md) for the work breakdown and [`docs/learnings/`](docs/learnings/README.md)
+for what the testing actually taught.
 
 ## What it does
 
@@ -52,7 +53,7 @@ The intended run:
 
 | Document | Reads | Status |
 |---|---|---|
-| Repair estimate | parts, labor, fees, taxes, scope, add-ons | **primary, in development** |
+| Repair estimate | parts, labor, fees, taxes, scope, add-ons | **primary, shipped** |
 | Final invoice | what was billed vs. what was signed | planned, v0.2.0 |
 | Body-shop or insurance estimate | insurer-written estimate, supplement language | candidate, not yet scoped |
 

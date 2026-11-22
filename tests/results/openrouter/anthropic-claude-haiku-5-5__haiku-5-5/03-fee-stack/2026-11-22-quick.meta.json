@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-22",
+  "endpoint": "openrouter.ai",
+  "finish_reason": "stop",
+  "fixture": "03-fee-stack",
+  "max_tokens": 32000,
+  "mode": "quick",
+  "model_reported": "anthropic/claude-haiku-5.5",
+  "model_requested": "anthropic/claude-haiku-5.5",
+  "output_file": "2026-11-22-quick.md",
+  "prompt_file": "2026-11-22-quick.prompt.txt",
+  "provider": "openrouter",
+  "reasoning_content_chars": 0,
+  "response_file": "2026-11-22-quick.response.json",
+  "runner": "deghosal",
+  "system_files": [
+    "estimate/SPINE.md"
+  ],
+  "system_sha256": "9b25df82ba7ff74bc1c2077b4154daa41e3bbf0cd64b86001add81d3f6a7e9c3",
+  "temperature": 0.0,
+  "usage": {
+    "completion_tokens": 4312,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 2478
+    },
+    "cost": 0.0024516,
+    "cost_details": {
+      "upstream_inference_completions_cost": 0.002156,
+      "upstream_inference_cost": 0.0024516,
+      "upstream_inference_prompt_cost": 0.0002956
+    },
+    "is_byok": false,
+    "prompt_tokens": 2956,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "total_tokens": 7268
+  },
+  "user_file": "tests/fixtures/03-fee-stack/message.txt",
+  "user_sha256": "ca58200e08abd0f09b7bb0ef49655a2ac68501f77ae6becec84d940d378fa4ff",
+  "version": "haiku-5.5"
+}

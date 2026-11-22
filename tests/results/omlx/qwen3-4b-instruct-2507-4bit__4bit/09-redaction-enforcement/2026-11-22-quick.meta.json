@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-22",
+  "endpoint": "127.0.0.1:8000",
+  "finish_reason": "stop",
+  "fixture": "09-redaction-enforcement",
+  "max_tokens": 2400,
+  "mode": "quick",
+  "model_reported": "Qwen3-4B-Instruct-2507-4bit",
+  "model_requested": "Qwen3-4B-Instruct-2507-4bit",
+  "output_file": "2026-11-22-quick.md",
+  "prompt_file": "2026-11-22-quick.prompt.txt",
+  "provider": "omlx",
+  "response_file": "2026-11-22-quick.response.json",
+  "runner": "deghosal",
+  "system_files": [
+    "estimate/SPINE.md"
+  ],
+  "system_sha256": "97fa19d962a80507518d0a1748318f3b9d8deaf381261c77f034cdc1a43496c9",
+  "temperature": 0.0,
+  "usage": {
+    "completion_tokens": 900,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "generation_duration": 20.01,
+    "generation_tokens_per_second": 44.97,
+    "input_tokens": 1484,
+    "output_tokens": 900,
+    "prompt_eval_duration": 0.48,
+    "prompt_tokens": 1484,
+    "prompt_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "prompt_tokens_per_second": 961.06,
+    "time_to_first_token": 0.48,
+    "total_time": 20.49,
+    "total_tokens": 2384
+  },
+  "user_file": "tests/fixtures/09-redaction-enforcement/message.txt",
+  "user_sha256": "4f068eeda8ce71a34119ef957765805a000aadadf0e437cee74a800b32e5905e",
+  "version": "4bit"
+}

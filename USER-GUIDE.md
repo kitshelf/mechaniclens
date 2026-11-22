@@ -47,6 +47,39 @@ Keep the estimate you signed, the final invoice, and any texts or emails about t
 
 The kit runs offline. It never fetches, clicks, opens, or transmits anything. Your document stays in the chat you chose. If you use a hosted model, the provider's terms apply; a local model avoids that entirely. See [`shared/local-models.md`](shared/local-models.md) for the honest note on small-model limits.
 
+### Redact before you paste
+
+The kit will not decode a document that carries personal data. It stops, names the **types** of identifier it saw, and asks you to paste again with them removed. It never repeats a value back to you.
+
+**Before** — the kit refuses this:
+
+```
+Customer: Marisol Delgado-Ruiz
+Address: 4412 Kestrel Lane, Austin, TX
+Phone: 555-0134
+VIN: 1SYNTHETICVIN0001
+Plate: FIXTURE-1
+
+Wren & Sons Auto
+ 1  Rear brake pads ............ 96.00
+ 2  Labor, 1.2 hr @ 140.00/hr .. 168.00
+```
+
+**After** — the kit decodes this:
+
+```
+Wren & Sons Auto
+ 1  Rear brake pads ............ 96.00
+ 2  Labor, 1.2 hr @ 140.00/hr .. 168.00
+ 3  Shop supplies .............. 10.00
+ 4  Sales tax 7.25% ............ 19.87
+    TOTAL ..................... 293.87
+```
+
+What to remove: your name, street address, phone, email, account or card digits, VIN, and plate. What to keep: the shop name, every line item with its amount, the hours and rate, the fees, and the total. The shop name and the numbers are what the decode reads; the identifiers are not.
+
+If you paste the unredacted version anyway, the kit will refuse and ask again. That is the kit working as designed — the refusal is the privacy promise, not an error.
+
 ## Related
 
 - [The charter](WHAT-THIS-IS.md) — what the kit is and is not

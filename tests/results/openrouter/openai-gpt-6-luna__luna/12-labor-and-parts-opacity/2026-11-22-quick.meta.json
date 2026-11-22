@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-22",
+  "endpoint": "openrouter.ai",
+  "finish_reason": "stop",
+  "fixture": "12-labor-and-parts-opacity",
+  "max_tokens": 32000,
+  "mode": "quick",
+  "model_reported": "openai/gpt-6-luna",
+  "model_requested": "openai/gpt-6-luna",
+  "output_file": "2026-11-22-quick.md",
+  "prompt_file": "2026-11-22-quick.prompt.txt",
+  "provider": "openrouter",
+  "reasoning_content_chars": 0,
+  "response_file": "2026-11-22-quick.response.json",
+  "runner": "deghosal",
+  "system_files": [
+    "estimate/SPINE.md"
+  ],
+  "system_sha256": "d8db5d22fa8dbcafad07256fe27e9ac61dfd81c0d414bf4b227403b538c40fa8",
+  "temperature": 0.0,
+  "usage": {
+    "completion_tokens": 2946,
+    "completion_tokens_details": {
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "reasoning_tokens": 1944
+    },
+    "cost": 0.00152619,
+    "cost_details": {
+      "upstream_inference_completions_cost": 0.001473,
+      "upstream_inference_cost": 0.00152619,
+      "upstream_inference_prompt_cost": 5.319e-05
+    },
+    "is_byok": false,
+    "prompt_tokens": 2141,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 274,
+      "cached_tokens": 1864,
+      "video_tokens": 0
+    },
+    "total_tokens": 5087
+  },
+  "user_file": "tests/fixtures/12-labor-and-parts-opacity/message.txt",
+  "user_sha256": "ec9aaf560ded57fd1002950081b8cc1bdffcdcca1108588cfc2d75329ebb8890",
+  "version": "luna"
+}

@@ -123,8 +123,15 @@ def main():
                     help="quick = SPINE.md + message; full = workflow files + rubric + message (default quick)")
     ap.add_argument("--fixtures", default="all", help='"all", or fixture numbers/ids, e.g. 07,14,15')
     ap.add_argument("--temperature", type=float, default=0.0)
-    ap.add_argument("--max-tokens", type=int, default=2400)
-    ap.add_argument("--timeout", type=int, default=900)
+    ap.add_argument("--max-tokens", type=int, default=32000,
+                    help="output token budget. Reasoning models (Qwen3.5-*) spend tokens in "
+                         "reasoning_content before producing content; 2400 fits a non-reasoning "
+                         "Instruct model but is too small for reasoning + answer. Default 32000 "
+                         "(safe across all oMLX models; the smallest context window is 40960).")
+    ap.add_argument("--timeout", type=int, default=0,
+                    help="socket timeout in seconds; 0 = no timeout (wait indefinitely). "
+                         "Reasoning models at high max_tokens can run for several minutes; "
+                         "default 0 so a long run is not killed mid-answer.")
     ap.add_argument("--runner", default=os.environ.get("USER", "unattributed"),
                     help="who ran it, recorded in the metadata")
     args = ap.parse_args()
@@ -171,10 +178,14 @@ def main():
 
         print(f"\n### {name}")
         try:
-            with urllib.request.urlopen(req, timeout=args.timeout) as r:
+            with urllib.request.urlopen(req, timeout=(args.timeout or None)) as r:
                 raw = r.read()
             payload = json.loads(raw)
-            out = payload["choices"][0]["message"]["content"]
+            choice = payload["choices"][0]
+            message = choice["message"]
+            out = message.get("content")
+            reasoning = message.get("reasoning_content")
+            finish = choice.get("finish_reason")
         except (urllib.error.URLError, KeyError, json.JSONDecodeError) as e:
             failures += 1
             print(f"  ERROR: {e}")
@@ -183,6 +194,40 @@ def main():
         out_dir = os.path.join(run_root, name)
         os.makedirs(out_dir, exist_ok=True)
         base_name = f"{today}-{args.mode}"
+
+        # Reasoning models can spend every token in reasoning_content and return
+        # content=None with finish_reason="length". That is a budget failure,
+        # not a crash. Record it as a failed run (response + meta, no report)
+        # so it is evidenced, not swallowed by a KeyError.
+        if not out:
+            why = "ran out of tokens before producing an answer"
+            if finish == "length":
+                why += f" (finish_reason=length; reasoning_content {len(reasoning or '')} chars)"
+            with open(os.path.join(out_dir, base_name + ".prompt.txt"), "w", encoding="utf-8") as f:
+                f.write(f"<!-- provider {args.provider} · model {args.model} · version {args.version} "
+                        f"· mode {args.mode} · recorded {today} -->\n")
+                f.write("=== SYSTEM ===\n" + system + "\n=== USER ===\n" + user)
+            with open(os.path.join(out_dir, base_name + ".response.json"), "w", encoding="utf-8") as f:
+                f.write(raw.decode("utf-8", errors="replace"))
+            meta = {
+                "provider": args.provider, "fixture": name, "mode": args.mode,
+                "date": today, "runner": args.runner, "endpoint": endpoint_host,
+                "model_requested": args.model, "model_reported": payload.get("model"),
+                "version": args.version, "temperature": args.temperature,
+                "max_tokens": args.max_tokens, "system_files": [p for p, _ in system_parts],
+                "system_sha256": sha(system),
+                "user_file": f"tests/fixtures/{name}/message.txt", "user_sha256": sha(user),
+                "usage": payload.get("usage"), "finish_reason": finish,
+                "reasoning_content_chars": len(reasoning or ""),
+                "status": "no_answer", "reason": why,
+                "output_file": None, "prompt_file": base_name + ".prompt.txt",
+                "response_file": base_name + ".response.json",
+            }
+            with open(os.path.join(out_dir, base_name + ".meta.json"), "w", encoding="utf-8") as f:
+                json.dump(meta, f, indent=2, sort_keys=True)
+            print(f"  NO ANSWER: {why}")
+            print(f"  saved: {out_dir}/{base_name}.{{prompt.txt,response.json,meta.json}} (no .md report)")
+            continue
 
         with open(os.path.join(out_dir, base_name + ".prompt.txt"), "w", encoding="utf-8") as f:
             f.write(f"<!-- provider {args.provider} · model {args.model} · version {args.version} "
@@ -225,6 +270,7 @@ def main():
             "user_sha256": sha(user),
             "usage": payload.get("usage"),
             "finish_reason": payload["choices"][0].get("finish_reason"),
+            "reasoning_content_chars": len(message.get("reasoning_content") or ""),
             "output_file": base_name + ".md",
             "prompt_file": base_name + ".prompt.txt",
             "response_file": base_name + ".response.json",

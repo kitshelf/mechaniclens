@@ -4,20 +4,21 @@ What MechanicLens has shipped and what is planned. Document types are built when
 
 ---
 
-## v0.1.0, in development
+## v0.1.0 — shipped
 
 The repair-estimate workflow, end to end.
 
-- **Foundation** — charter, conventions, shared DNA, PRD (`docs/prd/`), agent and harness pointers. *(structure in place)*
-- **The estimate workflow** — `estimate/`: redact → anatomy → symptom check → label → question script → decision → after-repair. `SPINE.md` compiles the whole kit into one paste. *(skeleton in place)*
-- **The pattern library** — `estimate/rubrics/patterns-estimate.md`: the estimate-pattern library, one file for the repair estimate. Every pattern carries a *not-a-pattern-when* calibration line, a source, a "Verified as of" date, and a good-answer guide. *(calibrated 2026-11-21, re-measured with `corpus/verify.py`; 32 patterns — 12 still brief-sourced and awaiting fixtures: F-5, F-7, L-3, L-5, P-1, P-3, P-6, S-5, D-2, D-3, D-5, M-1)*
-- **Shared material** — the three labels, the line vocabulary, the document types, the redaction pass, the local-model guidance, and the after-repair branch. *(skeleton in place)*
-- **Tests** — 8 synthetic estimates with expected keys, written before the runs: scope mismatch, folded diagnostic fee, fee stacking, duplicate parts, "while we're in there" add-ons, invoice-versus-estimate, a near-miss clean estimate, and an injection document. *(planned; none written yet)*
+- **Foundation** — charter, conventions, shared DNA, PRD (`docs/prd/`), agent and harness pointers. *(done)*
+- **The estimate workflow** — `estimate/`: redact → anatomy → symptom check → label → question script → decision → after-repair. `SPINE.md` compiles the whole kit into one paste. *(done)*
+- **The pattern library** — `estimate/rubrics/patterns-estimate.md`: the estimate-pattern library, one file for the repair estimate. Every pattern carries a *not-a-pattern-when* calibration line, a source, a "Verified as of" date, and a good-answer guide. *(calibrated 2026-11-21, re-measured with `corpus/verify.py`; 32 patterns, all 32 exercised by the fixture gauntlet — 4 direct, 16 adjacent, 12 brief)*
+- **Shared material** — the three labels, the line vocabulary, the document types, the redaction pass, the local-model guidance, and the after-repair branch. *(done)*
+- **Tests** — 15 synthetic fixtures with answer keys, written before the runs: pattern fixtures (scope mismatch, folded diagnostic fee, fee stacking, duplicate parts, "while we're in there" add-ons, invoice-versus-estimate, documentation holes, labor-and-parts opacity, maintenance-and-advice), three near-miss clean documents, an injection document, and two behavior fixtures (redaction enforcement, out-of-scope refusal). *(done; `tests/verify_fixtures.py` checks coverage)*
+- **Recorded runs** — two hosted models ran the full gauntlet against the fixed kit: `anthropic/claude-haiku-5.5` (73/92 labels correct, 5 perfect fixtures) and `openai/gpt-6-luna` (74/92, 6 perfect). Runner and validator checked in; captures under `tests/results/`. Local models and z-ai were tested and dropped (too slow). *(done)*
 - **Worked examples** — the catch and the not-catch: one estimate with a planted pattern, one clean estimate that must not be over-labeled. *(written: `estimate/examples/01-the-catch.md`, `02-the-not-catch.md`)*
-- **User guide** — the ninety-second walkthrough for a non-technical reader, with the redaction sample. *(stub)*
-- **Release** — tag `v0.1.0`, GitHub release, README status flip, `CHANGELOG.md` entry, and the dev.to article. *(pending)*
+- **User guide** — the ninety-second walkthrough for a non-technical reader, with the redaction sample. *(done)*
+- **Release** — tag `v0.1.0`, GitHub release, README status flip, `CHANGELOG.md` entry, and the dev.to article. *(done)*
 
-**v0.1.0 is done when** a user decodes a real estimate in a lobby, asks two questions from the kit, and verifies one answer on the spot — and the fixture gauntlet passes with a near-miss that stays clean.
+**v0.1.0 is done when** a user decodes a real estimate in a lobby, asks two questions from the kit, and verifies one answer on the spot — and the fixture gauntlet passes with a near-miss that stays clean. *(The gauntlet half is met: Luna's three near-miss fixtures all come back all-Standard, and Haiku's clean-maintenance fixture does too. The lobby half is a human check that no test can substitute for.)*
 
 **Scope freeze.** After this list, v0.1.0 takes no new scope; new ideas go to Deferred below.
 
