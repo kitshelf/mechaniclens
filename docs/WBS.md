@@ -12,13 +12,13 @@ The build plan for MechanicLens v0.1.0, decomposed into work packages with sub-t
 |---|---|---|---|
 | 0 | Foundation scaffold | ✅ committed & pushed | — |
 | 1 | Corpus | ✅ committed & pushed (`748c5c0`) | — |
-| 2 | Pattern library (rubric completion) | ✅ calibrated — 32 patterns, 12 brief-sourced | 1 |
+| 2 | Pattern library (rubric completion) | ✅ calibrated — 32 patterns, all exercised by fixtures | 1 |
 | 3 | Estimate-anatomy glossary | ✅ `shared/anatomy.md` | — |
 | 4 | Fixtures + answer keys | ✅ 15 fixtures + keys, internally checked | — |
 | 5 | Worked examples | ✅ the catch + the not-catch | — |
-| 6 | Recorded runs | 🔶 5/15 hosted (author runs) | 4 |
-| 7 | User guide completion | 🔶 redaction sample open | — |
-| 8 | Release + article | ⬜ | 2–7 |
+| 6 | Recorded runs | ✅ Haiku 15/15, Luna 15/15 against the fixed kit | 4 |
+| 7 | User guide completion | ✅ redaction sample added | — |
+| 8 | Release + article | ✅ v0.1.0 tagged, released, article written | 2–7 |
 
 **Dependency chain:** commit WP-1 → WP-2 (sources/dates/guides) → WP-4 (fixtures exercise sourced patterns) → WP-5 + WP-6 → WP-8. WP-3 and WP-7 can land anywhere after WP-1.
 
