@@ -11,6 +11,8 @@ Every entry cites its artifact — a file, a count, a command. Nothing here is a
 | L17 | An answer key's reading is derived, not authored | Building the fixture gauntlet |
 | L18 | A line-label table cannot carry the document-level patterns | Building the fixture gauntlet |
 | L19 | A behavior fixture is not a document fixture with the labels taken out | Building the fixture gauntlet |
+| L20 | A green consistency check says the fixture agrees with its key, not that the key is right | Building the fixture gauntlet |
+| L21 | A fixture plants every pattern its wording supports, not only the one intended | Building the fixture gauntlet |
 
 ## Building the fixture gauntlet
 
@@ -37,3 +39,19 @@ Every entry cites its artifact — a file, a count, a command. Nothing here is a
 **Evidence.** [`../../tests/fixtures/09-redaction-enforcement/expected.md`](../../tests/fixtures/09-redaction-enforcement/expected.md) — "No reading is produced" and five required steps, with "a count appearing is a failure"; [`../../tests/fixtures/10-out-of-scope-refusal/expected.md`](../../tests/fixtures/10-out-of-scope-refusal/expected.md) — three refusals stated as required behavior, reading conditional on a decode request. Both against the six pass rules in [`../../tests/README.md`](../../tests/README.md), which assume a labeled document.
 
 **Change.** The pass rules are read as per-type, and `tests/README.md` names the four fixture types with what each one's key must answer. A behavior key states required steps and says plainly whether a reading exists; "no output" is never a pass.
+
+### L20 · A green consistency check says the fixture agrees with its key, not that the key is right
+
+**Learning.** `tests/verify_fixtures.py` went green while three fixtures were still wrong. It checks that the count equals the numbered lines, that the key labels exactly those lines, and that the arithmetic holds — all statements about a fixture agreeing with its own key. None of them can tell whether the key is *right*, because the key is the only source of truth the checker has. Three defects survived a clean run: fixture 12 carried two lines naming the same part while the key forbade the label its wording earned; fixture 13 bundled a "required" service line above the items it contained; fixture 02 offered two overlapping diagnostic charges and asked for **Check** on both. Each would have failed a correct decode. Consistency is automatable; correctness needs the document read the way a decoder reads it — pattern by pattern, on the wording.
+
+**Evidence.** [`../../tests/verify_fixtures.py`](../../tests/verify_fixtures.py) output "all 15 fixtures consistent" against the three fixtures as then written; the corrections are in commit `386bcfd` — `12` line 2/3 renamed to idler kit and tensioner, `13` restructured to eight independent lines, `02` line 2 changed from harness verification to a road test so it no longer overlaps the diagnostic fee.
+
+**Change.** The checker keeps its job (counts, labeled lines, arithmetic) and the audit is added beside it: read every document against the rubric and ask what a decoder would actually label, then compare with the key. A green checker is the floor, never the sign-off.
+
+### L21 · A fixture plants every pattern its wording supports, not only the one intended
+
+**Learning.** A fixture is designed around one target pattern, but a decoder applies the whole library to whatever is on the page. Wording written for one pattern routinely satisfies another: in fixture 12 the second "timing belt" line was written to plant **P-3** (quantity) and simultaneously planted **P-2** (duplicate parts), so the key forbade **Question this** on a line where it was the correct label. In fixture 13 a "30,000-mile service — required" line was written for **S-2** and, sitting above the oil and filter items it contained, planted **S-3** (deferred maintenance bundled) on both. The key then failed any run that read the document correctly — a fixture that punishes accuracy teaches the model to be wrong.
+
+**Evidence.** [`../../tests/fixtures/12-labor-and-parts-opacity/message.txt`](../../tests/fixtures/12-labor-and-parts-opacity/message.txt) — line 3 was "Timing belt, qty 2" under line 1 "Timing belt, #TB-9912"; [`../../tests/fixtures/13-maintenance-and-advice/message.txt`](../../tests/fixtures/13-maintenance-and-advice/message.txt) — line 1 was "30,000-mile service — required" above separate oil and cabin-filter lines. Both corrected in `386bcfd`.
+
+**Change.** Before a key is written, every line is walked against the rubric to list **all** the patterns its wording supports. Each is then either intended and keyed, or the wording is changed until it is not supported — a forbidden label is only legitimate when the document's own words do not earn it.
