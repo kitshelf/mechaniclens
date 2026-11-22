@@ -11,6 +11,8 @@ Every entry cites its artifact — a file, a dataset, a count, a command. Nothin
 | L8 | A compiled artifact drifts — keep the index, the manifest, and the spine in one breath | Keeping the record honest |
 | L12 | A status row is a claim — check it against git, not against memory | Keeping the record honest |
 | L13 | A ratio target silently re-defines itself when its denominator moves | Keeping the record honest |
+| L23 | A record can be true when written and false an hour later — the falsifier is usually the next commit | Keeping the record honest |
+| L24 | The file that defines a format can break it | Keeping the record honest |
 
 ## Keeping the record honest
 
@@ -37,3 +39,19 @@ Every entry cites its artifact — a file, a dataset, a count, a command. Nothin
 **Evidence.** [`../../tests/MANIFEST.md`](../../tests/MANIFEST.md) §Coverage targets ("At least one near-miss for every two pattern fixtures") against its golden list (6 pattern fixtures, 1 near-miss); [`../WBS.md`](../WBS.md) item 4.6, which records the arithmetic (6 pattern ⇒ 3 near-misses, only 07 exists) as an unresolved decision after the library reached 32 patterns.
 
 **Change.** The rule: a near-miss target is written as a count derived from the pattern fixture count in the same file, so the two move together or the discrepancy is visible on the page; and coverage is recorded as an explicit pattern-to-fixture map, so "which pattern still has no fixture" is answered by reading the manifest rather than by trusting the ratio. The correction itself is carried by WP-4 item 4.6, which is open.
+
+### L23 · A record can be true when written and false an hour later — the falsifier is usually the next commit
+
+**Learning.** WP-0 through WP-4 each passed their own acceptance when written. An end-of-session review still found seven statements in checked-in files that had since become false, and none came from carelessness at authoring time: the WP-1 note "two commits are local and **not pushed**" was accurate until the push twenty minutes later; the glossary's "seven sections" was an eyeballed count against a file with eight; WBS 8.5's "L1–L16" was right before L17–L22 existed; the changelog's "8 planned fixtures. No fixture or run exists yet" was true at scaffold time and never revisited when fifteen fixtures and five runs landed; and WBS 6.3 listed "Ollama / LM Studio" because that phrasing was copied from habit rather than read out of `shared/local-models.md`, which also names oMLX. Every one was a true-at-the-time claim. Records do not decay on their own — the next commit decays them, and the next commit is written by the same person who is sure the record is fine.
+
+**Evidence.** `docs/WBS.md` WP-1 open note against the pushed commits; [`../../shared/anatomy.md`](../../shared/anatomy.md) — eight `##` sections against the WBS's "seven"; `docs/WBS.md` 8.5 "L1–L16" against the learnings reaching L24; [`../../CHANGELOG.md`](../../CHANGELOG.md) Unreleased — "8 planned fixtures. No fixture or run exists yet"; WBS 6.3 against [`../../shared/local-models.md`](../../shared/local-models.md).
+
+**Change.** After any change, the kit is searched for statements that describe the changed artifact — counts, section counts, "not yet", "no *X* exists", "Open:", and tool lists — and they are fixed in the same commit. A record review runs at each WP boundary, not only at release.
+
+### L24 · The file that defines a format can break it
+
+**Learning.** `tests/README.md` is the authority for what a fixture contains, how an answer key is shaped, how the reading is counted, and what the six pass rules are. On the same pass it carried the same path table twice — once headed "What a fixture contains", once headed "Structure" — said "The kit has no code to run" while the repository shipped `tests/verify_fixtures.py` and `corpus/verify.py`, and described the key format without the document-level findings section the keys actually carry. A spec file is read as the authority, so its errors are inherited as expectations rather than discovered as bugs. L14 established the one-owner rule and L16 said a rule does not travel to its neighbour; this is the third sighting, and the first inside the document that states the rule.
+
+**Evidence.** [`../../tests/README.md`](../../tests/README.md) — duplicated path tables, the "no code to run" line, and the key-format paragraph; the scripts at [`../../tests/verify_fixtures.py`](../../tests/verify_fixtures.py) and [`../../corpus/verify.py`](../../corpus/verify.py).
+
+**Change.** A spec file is reviewed against the artifacts it describes in the same pass that changes them — the duplication check applies to the spec itself, and a "the kit has no code" style absolute is checked against the repository before it is written.

@@ -53,7 +53,7 @@ The build plan for MechanicLens v0.1.0, decomposed into work packages with sub-t
 
 **Acceptance.** `git status` clean on `corpus/` and the corpus section of the root README pushed; manifest counts match disk.
 
-**Open:** two commits that touch `corpus/` are local and **not pushed** — `66ad28b` (the citation check `corpus/verify.py`) and `b6537e8` (the rubric revisit). Neither is the WP-1 batch; both await your go.
+**Later corpus commits.** `66ad28b` (the citation check `corpus/verify.py`) and `b6537e8` (the rubric revisit) are on `origin/main` as well — nothing under `corpus/` is unpushed.
 
 ---
 
@@ -79,7 +79,7 @@ The build plan for MechanicLens v0.1.0, decomposed into work packages with sub-t
 
 | # | Item | Status |
 |---|---|---|
-| 3.1 | Name every line category — parts (name / number / quantity / unit price), labor (operation / hours / rate), fees (diagnostic, shop supplies, environmental, hazmat, disposal, administrative, storage), taxes, total-as-written | ✅ 60 terms, grouped in seven sections |
+| 3.1 | Name every line category — parts (name / number / quantity / unit price), labor (operation / hours / rate), fees (diagnostic, shop supplies, environmental, hazmat, disposal, administrative, storage), taxes, total-as-written | ✅ 60 terms in eight sections |
 | 3.2 | Decide the home: extend `estimate.md` Step 2 or a `shared/anatomy.md` — one owner, no parallel copy | ✅ `shared/anatomy.md` — see the decision below |
 | 3.3 | Cross-link from `USER-GUIDE.md`, [`HOW-IT-WORKS.md`](HOW-IT-WORKS.md) Step 2, and `document-types.md` | ✅ all three, plus `SPINE.md`, `shared/README.md`, `CONVENTIONS.md` |
 
@@ -129,7 +129,7 @@ The golden list is [`../tests/MANIFEST.md`](../tests/MANIFEST.md): **15 fixture 
 |---|---|---|
 | 6.1 | Run the protocol per [`tests/README.md`](../tests/README.md): paste `SPINE.md` → paste `message.txt` → compare to `expected.md` | 🔶 5 of 15 |
 | 6.2 | One hosted-model run per fixture, recorded | 🔶 5 of 15 — fixtures 01–05, each run by the key's author (see [learning L22](learnings/04-fixtures.md)) |
-| 6.3 | One local-model run per fixture (Ollama / LM Studio), with honest under-detection notes per [`../shared/local-models.md`](../shared/local-models.md) | ⬜ |
+| 6.3 | One local-model run per fixture (oMLX / Ollama / LM Studio), with honest under-detection notes per [`../shared/local-models.md`](../shared/local-models.md) | ⬜ |
 | 6.4 | File each as `results/<fixture>/<date>-<model>.md`; then remove the "NOT YET RUN" claim | 🔶 5 filed; the state line in `tests/README.md` now counts runs honestly |
 
 **Acceptance.** Every fixture has ≥1 dated recorded run; any mismatch is recorded, not retried into silence.
@@ -156,7 +156,7 @@ The golden list is [`../tests/MANIFEST.md`](../tests/MANIFEST.md): **15 fixture 
 | 8.2 | [`../CHANGELOG.md`](../CHANGELOG.md): move the Unreleased block under a dated `## [0.1.0] 2026-MM-DD` |
 | 8.3 | [`../ROADMAP.md`](../ROADMAP.md): v0.1.0 rows → shipped statuses; run the "done when" check honestly against the fixture gauntlet |
 | 8.4 | Tag `v0.1.0`, push, GitHub release |
-| 8.5 | **dev.to article** — source material is in this folder: [`HOW-BUILT.md`](HOW-BUILT.md) (the corpus build), [`HOW-IT-WORKS.md`](HOW-IT-WORKS.md) (the machine), [`learnings/`](learnings/README.md) (L1–L16 across `01-corpus`, `02-kit-design`, `03-record`) |
+| 8.5 | **dev.to article** — source material is in this folder: [`HOW-BUILT.md`](HOW-BUILT.md) (the corpus build), [`HOW-IT-WORKS.md`](HOW-IT-WORKS.md) (the machine), [`learnings/`](learnings/README.md) (L1–L24 across `01-corpus`, `02-kit-design`, `03-record`, `04-fixtures`) |
 
 **Acceptance.** Tag exists, changelog dated, roadmap accurate, article drafted from the docs — no claim of "tested" anywhere the recorded runs (WP-6) do not support.
 
