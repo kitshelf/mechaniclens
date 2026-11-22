@@ -15,7 +15,7 @@ The build plan for MechanicLens v0.1.0, decomposed into work packages with sub-t
 | 2 | Pattern library (rubric completion) | ✅ calibrated — 32 patterns, 12 brief-sourced | 1 |
 | 3 | Estimate-anatomy glossary | ✅ `shared/anatomy.md` | — |
 | 4 | Fixtures + answer keys | ✅ 15 fixtures + keys, internally checked | — |
-| 5 | Worked examples | ⬜ README placeholder | 4 |
+| 5 | Worked examples | ✅ the catch + the not-catch | — |
 | 6 | Recorded runs | 🔶 5/15 hosted (author runs) | 4 |
 | 7 | User guide completion | 🔶 redaction sample open | — |
 | 8 | Release + article | ⬜ | 2–7 |
@@ -109,15 +109,13 @@ The golden list is [`../tests/MANIFEST.md`](../tests/MANIFEST.md): **15 fixture 
 
 ---
 
-## WP-5 — Worked examples — ⬜ NOT STARTED (README placeholder only)
+## WP-5 — Worked examples — ✅ DONE (2026-11-22)
 
-[`../estimate/examples/`](../estimate/examples/README.md) is empty of examples.
-
-| # | Item |
-|---|---|
-| 5.1 | **The catch** — a decode where a pattern fires: full report (anatomy, labels, question script, decision) shown honestly |
-| 5.2 | **The not-catch** — a near-miss where a pattern *almost* fits and correctly stays Standard/Check — the calibration proof |
-| 5.3 | Source material: reuse fixture 01 (catch) and 07 (not-catch) from WP-4, or author fresh — consistent with the fixtures either way |
+| # | Item | Status |
+|---|---|---|
+| 5.1 | **The catch** — a decode where a pattern fires: full report (anatomy, labels, question script, decision) shown honestly | ✅ [`01-the-catch.md`](../estimate/examples/01-the-catch.md) — fixture 01, reading 1/2/3 |
+| 5.2 | **The not-catch** — a near-miss where a pattern *almost* fits and correctly stays Standard/Check — the calibration proof | ✅ [`02-the-not-catch.md`](../estimate/examples/02-the-not-catch.md) — fixture 07, reading 5/0/0, with the "why nothing fired" table |
+| 5.3 | Source material: reuse fixture 01 (catch) and 07 (not-catch) from WP-4, or author fresh — consistent with the fixtures either way | ✅ both reuse the fixtures and cite their keys |
 
 **Acceptance.** A reader who has never run the kit can follow both examples end to end and see why the near-miss stays clean.
 
