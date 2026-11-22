@@ -2,7 +2,7 @@
 
 ## The artifact
 
-A Markdown-only kit. Paste the spine into any chat, then paste the estimate and the symptom story. The kit returns a reading, labels, questions, and a decision checklist. No install, no account, no network.
+A Markdown-only kit. Paste the spine into any chat, then paste the estimate and the symptom story. The kit returns a reading, labels, questions, and a close (documentation habit, no verdict). No install, no account, no network.
 
 ## The seven passes
 

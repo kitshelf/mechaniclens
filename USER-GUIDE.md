@@ -4,11 +4,10 @@ MechanicLens reads a repair estimate back to you before you approve the work. It
 
 ## The ninety-second walkthrough
 
-1. **Open any AI chat.** A hosted chat or a local model both work. A local model keeps the whole run on your machine.
+1. **Open any AI chat.** MechanicLens runs on any hosted chat model — Claude Haiku 5.5 and GPT-6 Luna are the two tested with v0.1.0, both under $0.01 per decode.
 2. **Paste the kit.** Use [`estimate/SPINE.md`](estimate/SPINE.md) — the whole kit in one file.
-3. **Redact first.** Remove your name, address, phone, VIN or plate, and any policy numbers. Keep the line items, the amounts, and the symptom story, because those are what the decode needs.
-4. **Paste the estimate and the symptom.** Type or paste the estimate's lines, then one or two sentences about what the car is doing.
-5. **Read the report.** You get the anatomy, a label per line, the question script, and a decision checklist.
+3. **Paste the estimate and the symptom.** Type or paste the estimate's lines, then one or two sentences about what the car is doing. Include the line items, the amounts, and the symptom story — those are what the decode needs. If personal identifiers are in the paste, the kit will stop and ask for a redacted re-paste; you do not have to pre-redact.
+4. **Read the report.** You get the anatomy, a label per line, and the question script. The kit hands over the questions and stops — it does not approve, decline, or recommend.
 
 ## What the labels mean
 

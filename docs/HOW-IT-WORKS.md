@@ -47,7 +47,7 @@ Three to six questions, in priority order, each polite, specific, referring to t
 
 ### Step 6 — Decision
 
-A rubric, not a recommendation: approve as written; approve with questions answered first; decline and get a second opinion; authorize diagnosis only. The kit names what each choice requires the user to know. It never chooses. The documentation habit rides along: photograph the estimate, note what was promised, keep the paperwork chain.
+This pass is a close, not a verdict. The kit does **not** approve, decline, recommend, or suggest a second opinion — the charter forbids it, and the kit's wording now forbids it outright. It hands over the question script and stops; the user decides. The documentation habit rides along: photograph the estimate, note what was promised, keep the paperwork chain.
 
 ### Step 7 — After-repair (conditional)
 

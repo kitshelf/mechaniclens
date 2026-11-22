@@ -11,7 +11,8 @@ Reads a repair estimate, or a final invoice, and returns:
 - a symptom-versus-scope check
 - one label per line: **Standard · Check · Question this**
 - a short question script for the counter
-- a decision checklist and an after-repair comparison when both documents exist
+- a close (documentation habit, no verdict — the kit does not approve, decline, or recommend)
+- an after-repair comparison when both documents exist
 
 ## Rules
 

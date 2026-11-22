@@ -1,6 +1,10 @@
 # Running MechanicLens on a local model
 
-The kit is Markdown. It runs in any chat, including a local model that never touches the network. This matters when the estimate carries your name, address, or VIN.
+The kit is Markdown and runs in any chat. Local models were tested during v0.1.0 and **dropped as too slow to be usable** — a 4B Instruct took ~21 s per fixture and labeled weakly; a reasoning 4B spent its entire token budget thinking and never answered. Both findings are recorded in [`docs/learnings/05-local-models.md`](../docs/learnings/05-local-models.md) (L25–L34).
+
+The kit itself runs anywhere a long paste is accepted. What does not work today is the *local* path being practical: the models that fit on a laptop are too small to label well, and the ones that label well take too long. Use a hosted model (Claude Haiku 5.5 or GPT-6 Luna, both under $0.01 per decode) until faster local hardware or smaller capable models change this.
+
+The rest of this file documents the local path for anyone who wants to try it anyway or who has faster hardware than was tested.
 
 ## Which runtimes work
 

@@ -28,8 +28,7 @@ supplies" at a percentage of labor. A diagnostic fee that folds into the repair 
 billed at book time rather than actual time. Parts markup tiers. None of this is secret; all of it is opaque
 to someone standing in a lobby before work.
 
-MechanicLens reads the estimate in any AI chat — including a fully local model, so nothing you paste leaves
-your machine — and returns each line in plain English, a fixed label per line (**Standard / Check / Question
+MechanicLens reads the estimate in any AI chat and returns each line in plain English, a fixed label per line (**Standard / Check / Question
 this**), and a short question script for the counter. It does not quote prices, diagnose the car, accuse the
 shop, or replace your judgment. The full list of refusals and the reasoning behind each is the
 [charter](WHAT-THIS-IS.md).
@@ -44,10 +43,10 @@ git clone https://github.com/kitshelf/mechaniclens.git
 
 The intended run:
 
-1. Open any AI chat — a local model works fully offline.
+1. Open any AI chat. Claude Haiku 5.5 and GPT-6 Luna are the two models tested with v0.1.0, both under $0.01 per decode. Local runtimes are not fast enough to be usable today — see [`shared/local-models.md`](shared/local-models.md).
 2. Paste the kit's spine — [`estimate/SPINE.md`](estimate/SPINE.md), the whole kit in one file.
-3. Redact — strip your name, address, phone, VIN or plate, and policy numbers (the kit prompts first).
-4. Paste the estimate lines and the symptom story. Get the decode, the labels, and the question script.
+3. Paste the estimate lines and the symptom story. The kit enforces redaction: if personal identifiers are in the paste, it stops and asks for a redacted re-paste. You do not have to pre-redact.
+4. Read the decode, the labels, and the question script. The kit hands over the questions and stops — it does not approve, decline, or recommend.
 
 ## What it covers
 

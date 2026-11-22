@@ -6,7 +6,7 @@ Draft. Each journey names the scenario, the kit's behavior, what "done" looks li
 
 **Scenario:** A person holds a $900 estimate in a shop lobby and has minutes to approve it.
 
-**Behavior:** The kit runs the seven passes. It returns the anatomy, the labels, three to six questions, and the decision checklist. It does not price the job.
+**Behavior:** The kit runs the seven passes. It returns the anatomy, the labels, three to six questions, and a close (documentation habit, no verdict). It does not price the job.
 
 **Done:** The person understands each line and has at least one question whose answer they can verify on the spot.
 
@@ -46,7 +46,7 @@ Draft. Each journey names the scenario, the kit's behavior, what "done" looks li
 
 **Scenario:** The person is unsure and wants a second opinion.
 
-**Behavior:** The kit hands over the decision rubric and the documentation habit: photograph the estimate, keep the questions and answers, note what was promised.
+**Behavior:** The kit hands over the questions and the documentation habit: photograph the estimate, keep the questions and answers, note what was promised. It does not approve, decline, or recommend a second opinion — the user decides.
 
 **Done:** The person leaves with the estimate and a short list of questions for the second shop.
 
