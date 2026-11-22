@@ -13,7 +13,7 @@
 | # | Line as written | Label | Pattern | Why |
 |---|---|---|---|---|
 | 1 | Diagnostic scan and pin-test, ABS system | **Check** | F-1 | A separate diagnostic charge, and the estimate does not say whether it is credited if the repair is approved. |
-| 2 | Diagnosis labor — verify wiring harness | **Check** | L-4 | Diagnosis billed as labor in addition to line 1; the estimate does not say whether it is folded into the repair or billed twice. |
+| 2 | Diagnosis labor — road test and verify repair, 0.5 hr @ 145.00/hr | **Check** | L-4 | Diagnosis billed as labor alongside the diagnostic fee; the document does not say whether either is credited or already inside the repair. |
 | 3 | ABS wheel speed sensor, front left, #WSS-2214 | **Standard** | — | A part with a number; normal line. |
 | 4 | Labor — replace front wheel speed sensor, book time 0.8 hr @ 145.00/hr | **Standard** | — | Basis, hours, and rate all stated; consistent with the part line. |
 | 5 | Shop supplies | **Check** | F-2 | Flat amount, contents and cap not stated. |

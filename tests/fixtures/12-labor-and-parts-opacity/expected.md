@@ -13,8 +13,8 @@
 | # | Line as written | Label | Pattern | Why |
 |---|---|---|---|---|
 | 1 | Timing belt, #TB-9912 | **Check** | P-1 | Price shown with no indication of OEM, aftermarket, remanufactured, or salvage. |
-| 2 | Timing belt kit | **Question this** | P-4 | An assembly priced as one line with no contents listed. |
-| 3 | Timing belt, qty 2 | **Check** | P-3 | A four-cylinder engine takes one belt; the quantity is not explained. |
+| 2 | Idler pulley kit | **Question this** | P-4 | An assembly priced as one line with no contents listed. |
+| 3 | Timing belt tensioner, qty 2 | **Check** | P-3 | A four-cylinder engine uses one tensioner; the quantity is not explained. |
 | 4 | Labor — replace timing belt, 4.0 hr | **Check** | L-1 | Hours shown with no statement of book time or actual time. |
 | 5 | Labor — replace timing belt, 4.0 hr | **Question this** | L-3 | A second labor line for the same operation; the hours appear to cover the same work. |
 | 6 | Labor — remove and reinstall engine cover, 0.5 hr | **Check** | L-6 | A separate R&R charge that may already sit inside the main operation's hours. |

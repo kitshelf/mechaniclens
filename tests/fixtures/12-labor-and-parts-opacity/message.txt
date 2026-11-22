@@ -4,8 +4,8 @@ Silverbrook Auto (fictional)
 ESTIMATE  ·  2026-11-15
 
  1  Timing belt, #TB-9912 ........................................  189.00
- 2  Timing belt kit ..............................................  240.00
- 3  Timing belt, qty 2 ...........................................  378.00
+ 2  Idler pulley kit .............................................  240.00
+ 3  Timing belt tensioner, qty 2 .................................  378.00
  4  Labor — replace timing belt, 4.0 hr @ 140.00/hr ..............  560.00
  5  Labor — replace timing belt, 4.0 hr @ 140.00/hr ..............  560.00
  6  Labor — remove and reinstall engine cover, 0.5 hr @ 140.00/hr ..   70.00
