@@ -12,7 +12,7 @@ MechanicLens is tested like software. A prompt system without fixtures is a gues
 | `fixtures/NN-slug/expected.md` | The answer key: the reading, the required label per line, document-level findings, forbidden labels, and the pass-rule checklist. |
 | `MANIFEST.md` | The golden list: fixture, type, planted pattern, expected reading, status, and the pattern-to-fixture map. |
 | `verify_fixtures.py` | Consistency check: reading counts, labeled lines, arithmetic, and behavior-key structure. Read-only. |
-| `results/` | Dated records of real runs, one per fixture. |
+| `results/` | Dated records of real runs, one folder per model, then one per fixture. |
 
 ## Answer-key format
 
