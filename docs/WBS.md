@@ -16,7 +16,7 @@ The build plan for MechanicLens v0.1.0, decomposed into work packages with sub-t
 | 3 | Estimate-anatomy glossary | ✅ `shared/anatomy.md` | — |
 | 4 | Fixtures + answer keys | ✅ 15 fixtures + keys, internally checked | — |
 | 5 | Worked examples | ⬜ README placeholder | 4 |
-| 6 | Recorded runs | ⬜ none | 4 |
+| 6 | Recorded runs | 🔶 5/15 hosted (author runs) | 4 |
 | 7 | User guide completion | 🔶 redaction sample open | — |
 | 8 | Release + article | ⬜ | 2–7 |
 
@@ -123,14 +123,14 @@ The golden list is [`../tests/MANIFEST.md`](../tests/MANIFEST.md): **15 fixture 
 
 ---
 
-## WP-6 — Recorded runs — ⬜ NOT STARTED
+## WP-6 — Recorded runs — 🔶 PARTIAL (5 of 15 hosted runs recorded, all author runs)
 
-| # | Item |
-|---|---|
-| 6.1 | Run the protocol per [`tests/README.md`](../tests/README.md): paste `SPINE.md` → paste `message.txt` → compare to `expected.md` |
-| 6.2 | One hosted-model run per fixture, recorded |
-| 6.3 | One local-model run per fixture (Ollama / LM Studio), with honest under-detection notes per [`../shared/local-models.md`](../shared/local-models.md) |
-| 6.4 | File each as `results/<fixture>/<date>-<model>.md`; then remove the "NOT YET RUN" claim |
+| # | Item | Status |
+|---|---|---|
+| 6.1 | Run the protocol per [`tests/README.md`](../tests/README.md): paste `SPINE.md` → paste `message.txt` → compare to `expected.md` | 🔶 5 of 15 |
+| 6.2 | One hosted-model run per fixture, recorded | 🔶 5 of 15 — fixtures 01–05, each run by the key's author (see [learning L22](learnings/04-fixtures.md)) |
+| 6.3 | One local-model run per fixture (Ollama / LM Studio), with honest under-detection notes per [`../shared/local-models.md`](../shared/local-models.md) | ⬜ |
+| 6.4 | File each as `results/<fixture>/<date>-<model>.md`; then remove the "NOT YET RUN" claim | 🔶 5 filed; the state line in `tests/README.md` now counts runs honestly |
 
 **Acceptance.** Every fixture has ≥1 dated recorded run; any mismatch is recorded, not retried into silence.
 

@@ -2,7 +2,7 @@
 
 MechanicLens is tested like software. A prompt system without fixtures is a guess.
 
-**State: fixtures written, no runs recorded.** All 15 fixtures and their answer keys exist, and the manifest marks every row `done`. **No model run has been recorded yet** — the kit is not yet tested. Recorded runs are WP-6. Do not claim the kit is tested until those runs exist.
+**State: 5 of 15 fixtures have a recorded run — hosted author runs only (fixtures 01–05).** All 15 fixtures and answer keys exist; the manifest marks every row `done`. A recorded run by the agent that authored the fixture and the key is a satisfiability check, not a validation — it proves the key is legible and the fixture decodable as designed, and nothing more. WP-6 stays open: each fixture still needs a hosted run (6.2) and a local-model run (6.3), and the kit needs at least one run by a model that did not author it. Do not claim the kit is tested until those exist.
 
 ## What a fixture contains
 
