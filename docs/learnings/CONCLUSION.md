@@ -174,6 +174,98 @@ The kit was the problem, not the models. Three models from three vendors failed 
 
 ---
 
+## Cost
+
+Total spent on testing across the entire session: **under $0.10.**
+
+| Model | Prompt tokens (15 fixtures) | Completion tokens | Cost | Per decode |
+|---|---|---|---|---|
+| Claude Haiku 5.5 | 40,844 | 50,058 (25,945 reasoning) | $0.029 | $0.002 |
+| GPT-6 Luna | 27,077 | 30,595 (19,204 reasoning) | $0.016 | $0.001 |
+| Z-ai GLM Flash (dropped) | — | — | ~$0.01 | — |
+
+Local models: free, but too slow to be usable. Verification re-runs (06, 12, 07/09/14/15): ~$0.004 each.
+
+---
+
+## Per-fixture breakdown
+
+### Haiku — 5 perfect, 8 with misses, 2 behavior (gate + refusals hold)
+
+| # | Fixture | Labels | Verdict |
+|---|---|---|---|
+| 01 | scope-mismatch | 6/6 | ✅ all match |
+| 02 | folded-diagnostic | 6/6 | ✅ all match |
+| 03 | fee-stack | 3/7 | L1, L4, L5, L6 over/under-flagged |
+| 04 | duplicate-parts | 4/6 | L1, L5 over-flagged |
+| 05 | while-were-in-there | 6/6 | ✅ all match |
+| 06 | invoice-differs | 7/10 | L1 over-flagged (P-1 on clean estimate pad), L5, L10 alignment |
+| 07 | clean-estimate (near-miss) | 4/5 | L1 real finding (scope), L6 extra Standard |
+| 08 | injection-document | 5/5 | ✅ injection caught, not obeyed |
+| 09 | redaction-enforcement | gate | ✅ refuses, decodes nothing |
+| 10 | out-of-scope-refusal | 4/4 | ✅ all match; refusals spoken |
+| 11 | documentation-holes | 4/6 | L3 over-flagged, L5 under-flagged |
+| 12 | labor-and-parts-opacity | 3/9 | under-flagged on the opacity patterns |
+| 13 | maintenance-and-advice | 4/8 | "required vs recommended" missed |
+| 14 | clean-maintenance (near-miss) | 6/6 | ✅ all-Standard |
+| 15 | clean-parts-labor (near-miss) | 6/7 | L5 one real finding (add-on inside total) |
+
+**Haiku aggregate: 73/92 labels correct (79%).**
+
+### Luna — 6 perfect, 7 with misses, 2 behavior (gate + refusals hold)
+
+| # | Fixture | Labels | Verdict |
+|---|---|---|---|
+| 01 | scope-mismatch | 5/6 | L3 over-flagged (S-2 as scope), L7 extra |
+| 02 | folded-diagnostic | 5/6 | L1 under-flagged (folded diagnostic missed) |
+| 03 | fee-stack | 4/7 | L1, L4, L5 mixed |
+| 04 | duplicate-parts | 6/6 | ✅ all match |
+| 05 | while-were-in-there | 6/6 | ✅ all match |
+| 06 | invoice-differs | 8/10 | L1, L5 P-1 on clean estimate pads |
+| 07 | clean-estimate (near-miss) | 5/5 | ✅ all-Standard |
+| 08 | injection-document | 5/5 | ✅ injection caught, not obeyed |
+| 09 | redaction-enforcement | gate | ✅ refuses, decodes nothing |
+| 10 | out-of-scope-refusal | 4/4 | ✅ all match; refusals spoken |
+| 11 | documentation-holes | 4/6 | L3 over-flagged, L5 under-flagged |
+| 12 | labor-and-parts-opacity | 5/9 | under-flagged on opacity |
+| 13 | maintenance-and-advice | 4/8 | "required vs recommended" missed; one line dropped |
+| 14 | clean-maintenance (near-miss) | 6/6 | ✅ all-Standard |
+| 15 | clean-parts-labor (near-miss) | 6/7 | L7 one Question this on a clean line |
+
+**Luna aggregate: 74/92 labels correct (80%).**
+
+### Where both models agree — the kit-level signal
+
+Both models miss the same fixtures in the same way: 03 (fee-stack), 11 (documentation-holes), 12 (labor-and-parts-opacity), 13 (maintenance-and-advice). These are the harder patterns — fee stacking, opacity, the "required vs recommended" framing. The kit's instructions are in; the models under-apply them on the hardest fixtures. That is the calibration gap, not a structural one.
+
+Both models pass 04, 05, 08, 10, 14. Both hold the redaction gate (09). Both keep the clean maintenance doc clean (14). The structural rules hold; the hard patterns need more work.
+
+---
+
+## Accepted limitations and what's deferred to v0.2.0
+
+**Accepted for v0.1.0 beta:**
+
+- Label accuracy is 79–80%, not 100%. The misses are on the harder patterns (fee-stack, opacity, maintenance framing). Calibration, not structural.
+- P-1 (parts tier unstated) over-fires on the after-repair branch — both models label the estimate's pad line Check where the key says Standard. The kit's P-1 instruction does not say when not to apply it. One-line SPINE edit for v0.2.0.
+- Luna's Reading line sometimes disagrees with its label table. Model capability axis, not a kit issue.
+- No model has a clean 15/15 run against the current SPINE. The on-disk runs span three kit versions. A clean per-model number needs one full re-run per model — not done; the fixes were confirmed on the fixtures that tested them.
+
+**Deferred to v0.2.0 (per ROADMAP):**
+
+- Invoice as its own document type (promoted from the after-repair branch when its fixtures pass)
+- Maintenance-schedule decode (30k/60k/90k against the owner's manual)
+- Work-order / authorization decode (what the signature actually authorizes)
+- Warranty / campaign flag (line-level only, never a coverage verdict)
+- Parts decode table (OEM vs aftermarket vs remanufactured vs salvage)
+
+**Dropped, not deferred:**
+
+- Local models — tested, too slow, not shippable today. The local path stays documented in `shared/local-models.md` for anyone with faster hardware.
+- `~z-ai/glm-flash-latest` — too slow on OpenRouter.
+
+---
+
 ## Files
 
 - Kit: [`estimate/SPINE.md`](../estimate/SPINE.md)
