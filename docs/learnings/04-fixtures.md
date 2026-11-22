@@ -13,6 +13,7 @@ Every entry cites its artifact — a file, a count, a command. Nothing here is a
 | L19 | A behavior fixture is not a document fixture with the labels taken out | Building the fixture gauntlet |
 | L20 | A green consistency check says the fixture agrees with its key, not that the key is right | Building the fixture gauntlet |
 | L21 | A fixture plants every pattern its wording supports, not only the one intended | Building the fixture gauntlet |
+| L22 | A run by the key's author is a satisfiability check, not a validation | Recording the runs |
 
 ## Building the fixture gauntlet
 
@@ -55,3 +56,13 @@ Every entry cites its artifact — a file, a count, a command. Nothing here is a
 **Evidence.** [`../../tests/fixtures/12-labor-and-parts-opacity/message.txt`](../../tests/fixtures/12-labor-and-parts-opacity/message.txt) — line 3 was "Timing belt, qty 2" under line 1 "Timing belt, #TB-9912"; [`../../tests/fixtures/13-maintenance-and-advice/message.txt`](../../tests/fixtures/13-maintenance-and-advice/message.txt) — line 1 was "30,000-mile service — required" above separate oil and cabin-filter lines. Both corrected in `386bcfd`.
 
 **Change.** Before a key is written, every line is walked against the rubric to list **all** the patterns its wording supports. Each is then either intended and keyed, or the wording is changed until it is not supported — a forbidden label is only legitimate when the document's own words do not earn it.
+
+## Recording the runs
+
+### L22 · A run by the key's author is a satisfiability check, not a validation
+
+**Learning.** The first WP-6 runs were recorded by the same agent that wrote the fixtures and the keys. All five passed — and that result is worth almost nothing, because it was almost guaranteed. The author knows which label each line was written to earn, so the run shows the key is legible and the fixture decodable as designed: a satisfiability check. What it cannot show is whether the key is *right*, because a shared blind spot sits on both sides of the comparison — the same misreading that wrote the key grades the run. A tester who wrote the question sheet can catch a broken question; they cannot catch a wrong answer key that matches their own misreading. Validation needs a reader that did not write the kit: another model in a fresh session, or a local model, run against the key as written.
+
+**Evidence.** [`../../tests/results/`](../../tests/results/) — `2026-11-22-hosted.md` for fixtures 01–05, every one carrying the line "Run by the same agent that authored this key (WP-4)"; all five PASS. [`../WBS.md`](../WBS.md) items 6.2 and 6.3 still open; [`../../tests/README.md`](../../tests/README.md) state line counts 5 of 15 hosted author runs.
+
+**Change.** Every run record states who ran it and whether the runner wrote the key. WP-6 stays open until each fixture has a hosted run and a local-model run, and at least one run comes from a model that did not author the kit. The `tests/README.md` state line counts runs by type instead of flipping to "tested" on author passes.
