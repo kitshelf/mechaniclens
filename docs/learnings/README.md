@@ -2,6 +2,8 @@
 
 The grounded record of what development, corpus research, and model testing actually taught — and what changed in the product as a result. Learnings are appended, never rewritten: a superseded learning is marked, not deleted.
 
+**Start here for the release verdict:** [`CONCLUSION.md`](CONCLUSION.md) — the v0.1.0 field-test report (BLUF, per-fixture breakdown, cost, what worked, what didn't, charter consistency check). It is the single source for the article.
+
 ## The grounding rule
 
 Every learning here cites its artifact — a file, a fixture, a recorded run, a corpus count. Nothing is asserted from memory. If the evidence is not in the kit, it is not a learning; it is an opinion, and it does not belong here.

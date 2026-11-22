@@ -8,6 +8,7 @@ Design and product notes for MechanicLens. The kit's own files are the product; 
 | [`HOW-BUILT.md`](HOW-BUILT.md) | How the corpus was built, step by step — sweep, filter, fetch, convert, record, verify |
 | [`HOW-IT-WORKS.md`](HOW-IT-WORKS.md) | How MechanicLens actually works — paste to report, both modes, every step and its governing file |
 | [`prd/`](prd/README.md) | The product requirements: why, what, critical user journeys |
+| [`learnings/CONCLUSION.md`](learnings/CONCLUSION.md) | The v0.1.0 field-test report and release verdict — BLUF, per-fixture breakdown, cost, what worked, what didn't, charter consistency check. The single source for the article |
 | [`learnings/`](learnings/README.md) | What development and corpus research taught, grounded in artifacts |
 
 The charter at [`../WHAT-THIS-IS.md`](../WHAT-THIS-IS.md) overrides everything here.

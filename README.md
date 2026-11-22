@@ -17,7 +17,7 @@ back to you: quoted, labeled, never invented.
 **v0.1.0 — shipped.** The repair-estimate workflow is complete end to end: charter, conventions, the 32-pattern
 library, 15 fixtures with answer keys, two worked examples, the user guide, and recorded runs from two hosted
 models across the full gauntlet. The runner and validator are checked in, so anyone can re-run the gauntlet and
-check the numbers. See [`docs/WBS.md`](docs/WBS.md) for the work breakdown and [`docs/learnings/`](docs/learnings/README.md)
+check the numbers. See [`docs/WBS.md`](docs/WBS.md) for the work breakdown, [`docs/learnings/CONCLUSION.md`](docs/learnings/CONCLUSION.md) for the v0.1.0 field-test report and release verdict, and [`docs/learnings/`](docs/learnings/README.md)
 for what the testing actually taught.
 
 ## What it does
