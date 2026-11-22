@@ -57,6 +57,38 @@ Check consistency after adding or editing a fixture:
 python3 tests/verify_fixtures.py
 ```
 
+## Running the gauntlet against a model
+
+The runner is [`run_local.py`](run_local.py). Run it from the kit root. It pastes the kit as the system message and one fixture's `message.txt` as the user message, then saves the whole exchange.
+
+**Local (oMLX on `127.0.0.1:8000`) — no key needed:**
+
+```sh
+python3 tests/run_local.py --provider omlx --llm Qwen3.5-9B-MLX-4bit --version 4bit
+```
+
+**Hosted (OpenRouter) — key from the environment, never a flag:**
+
+```sh
+export OPENROUTER_API_KEY=...   # or put it in your shell profile
+python3 tests/run_local.py --provider openrouter --llm openai/gpt-6.2-sol --version latest
+```
+
+**Useful switches:** `--results <dir>` (default `tests/results`) · `--mode quick|full` (quick = `SPINE.md` only, the two-paste path users get; full = the workflow files + rubric) · `--fixtures 07,14,15` or `all` · `--temperature`, `--max-tokens`, `--timeout`, `--runner`.
+
+**What one run saves** — a folder per model, one per fixture, four files per run:
+
+| File | Holds |
+|---|---|
+| `<date>-<mode>.md` | the model's report + `## Run` block + an authored `## Self-assessment` |
+| `<date>-<mode>.prompt.txt` | the exact input sent (`=== SYSTEM ===` / `=== USER ===`) |
+| `<date>-<mode>.response.json` | the model's **raw response, verbatim, unedited** |
+| `<date>-<mode>.meta.json` | provider, model requested + reported, version, input hashes, settings, usage |
+
+Layout: `tests/results/<provider>/<llm>__<version>/<fixture>/`. If the key env var is missing for a hosted provider, the runner refuses rather than half-runs.
+
+**After a run:** author the `## Self-assessment` in each `.md` by reading the report against that fixture's `expected.md` — the runner does not and cannot judge; a generated "PASS" is not evidence. Then update the state line above and WP-6 in `docs/WBS.md`.
+
 ## Provenance
 
 Every fixture is synthetic: fictional shops, fictional customers, planted patterns. No real person's estimate or personal data. The manifest says so per fixture.
