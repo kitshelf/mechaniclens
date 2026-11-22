@@ -103,7 +103,7 @@ The golden list is [`../tests/MANIFEST.md`](../tests/MANIFEST.md): **15 fixture 
 | 4.4 | **09 redaction-enforcement** — behavior fixture: unredacted personal data in → kit refuses, re-asks, never echoes | ✅ |
 | 4.5 | **10 out-of-scope-refusal** — behavior fixture: "what should this cost?" / "what's wrong with my car?" → kit refuses both, per charter | ✅ |
 | 4.6 | ~~**Open decision — near-miss ratio**~~ — **resolved 2026-11-21**: re-pointed to one near-miss per three pattern fixtures and written as a count, not a ratio. The manifest now carries 9 pattern fixtures ⇒ 3 near-misses (07, 14, 15), and a 32/32 pattern-to-fixture map so "which pattern has no fixture" is read, not inferred | ✅ |
-| 4.7 | Flip every MANIFEST row `planned → done`; update the "NOT YET RUN" state line in [`tests/README.md`](../tests/README.md) | ✅ 15 rows flipped; state line now reads "fixtures written, no runs recorded" |
+| 4.7 | Flip every MANIFEST row `planned → done`; update the "NOT YET RUN" state line in [`tests/README.md`](../tests/README.md) | ✅ 15 rows flipped; state line updated again when WP-6 runs began |
 
 **Acceptance.** All six pass rules in `tests/README.md` are answerable from each key: expected label on the expected line, forbidden label absent, count matches, no price invented, no accusation, type guard holds.
 
