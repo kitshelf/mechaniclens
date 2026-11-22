@@ -34,7 +34,22 @@ for d in DIRS:
 
     m = re.search(r"Standard (\d+) · Check (\d+) · Question this (\d+)", exp)
     if not m:
-        print(f"{name}: behavior fixture, no reading — skipped")
+        # Behavior fixture: no single reading, but required-behavior steps and a
+        # forbidden set are mandatory. A refusal-only key may carry no label rows;
+        # a decode-conditional key may label only lines the document has.
+        if "## Required behavior" not in exp:
+            fails.append(f"{name}: behavior key has no Required behavior section")
+        if "## Forbidden" not in exp:
+            fails.append(f"{name}: behavior key has no Forbidden section")
+        nums = [int(n) for n in re.findall(r"(?m)^\s*(\d+)\s{2,}", msg)]
+        if re.search(r"(?m)^## Required labels", exp):
+            key_rows = [int(x) for x in re.findall(r"(?m)^\|\s*(\d+)\s*\|", exp)]
+            for k in key_rows:
+                if k not in nums:
+                    fails.append(f"{name}: decode key labels line {k}, document has {nums}")
+        elif "## Required labels" in exp:
+            fails.append(f"{name}: refusal-only key carries a Required labels section")
+        print(f"{name}: behavior fixture — structure checked")
         continue
     s, c, q = map(int, m.groups())
     declared = s + c + q
