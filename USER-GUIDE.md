@@ -1,6 +1,20 @@
 # User guide
 
+> **Version:** v0.1.0 · [PyPI](https://pypi.org/project/mechaniclens/) (`pip install mechaniclens`) · [Release notes](https://github.com/kitshelf/mechaniclens/releases/tag/v0.1.0) · [Changelog](CHANGELOG.md)
+
 MechanicLens reads a repair estimate back to you before you approve the work. It explains each line in plain English, labels the lines **Standard / Check / Question this**, and gives you a short question script for the counter. It never tells you what the job should cost.
+
+## Getting the kit
+
+Either install it:
+
+```sh
+pip install mechaniclens
+mechaniclens --spine        # print the one-paste kit
+mechaniclens --copy ./kit   # or copy the whole kit tree out
+```
+
+Or clone the repo: `git clone https://github.com/kitshelf/mechaniclens.git`. The kit is Markdown either way — nothing runs, nothing phones home.
 
 ## The ninety-second walkthrough
 
@@ -85,3 +99,6 @@ If you paste the unredacted version anyway, the kit will refuse and ask again. T
 - [The workflow](estimate/README.md) — how the decode runs
 - [The labels](shared/labels.md) — the full label definitions
 - [The line vocabulary](shared/anatomy.md) — every term the report uses for a line, defined once
+- [Release v0.1.0](https://github.com/kitshelf/mechaniclens/releases/tag/v0.1.0) — what shipped, the test numbers, the changelog
+- [PyPI package](https://pypi.org/project/mechaniclens/) — `pip install mechaniclens`
+- [The field-test report](docs/learnings/CONCLUSION.md) — how the kit was tested and what the two models scored

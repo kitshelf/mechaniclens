@@ -1,0 +1,4 @@
+include PKG-README.md
+include LICENSE
+recursive-include mechaniclens/kit *
+recursive-include scripts *.py

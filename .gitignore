@@ -10,3 +10,9 @@ my-files/*
 .obsidian/
 .idea/
 .vscode/
+
+# Python packaging — build output and the generated kit copy (built from the repo)
+dist/
+build/
+*.egg-info/
+mechaniclens/kit/

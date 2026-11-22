@@ -3,6 +3,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![100% Markdown](https://img.shields.io/badge/100%25_Markdown-2ea44f)](#what-it-does)
 [![Privacy](https://img.shields.io/badge/Privacy-local_only,_no_telemetry-8b5cf6)](#what-it-does)
+[![PyPI](https://img.shields.io/pypi/v/mechaniclens?label=pypi)](https://pypi.org/project/mechaniclens/)
+[![Release](https://img.shields.io/github/v/release/kitshelf/mechaniclens?label=release)](https://github.com/kitshelf/mechaniclens/releases/latest)
 [![Status: shipped](https://img.shields.io/badge/status-v0.1.0_shipped-2ea44f.svg)](#status)
 
 > Paste the repair estimate and your car's symptoms — and read the estimate back before you approve the work.
@@ -20,6 +22,8 @@ models across the full gauntlet. The runner and validator are checked in, so any
 check the numbers. See [`docs/WBS.md`](docs/WBS.md) for the work breakdown, [`docs/learnings/CONCLUSION.md`](docs/learnings/CONCLUSION.md) for the v0.1.0 field-test report and release verdict, and [`docs/learnings/`](docs/learnings/README.md)
 for what the testing actually taught.
 
+**Release:** [`v0.1.0`](https://github.com/kitshelf/mechaniclens/releases/tag/v0.1.0) · tag [`v0.1.0`](https://github.com/kitshelf/mechaniclens/tree/v0.1.0) · [`CHANGELOG`](CHANGELOG.md) · [`PyPI`](https://pypi.org/project/mechaniclens/) (`pip install mechaniclens`). Pin to the tag for a stable copy: `git clone --branch v0.1.0 https://github.com/kitshelf/mechaniclens.git`.
+
 ## What it does
 
 A repair estimate is a trust document. The customer's only real defenses are understanding what each line
@@ -35,16 +39,26 @@ shop, or replace your judgment. The full list of refusals and the reasoning behi
 
 ## How you run it
 
-Nothing to install — the kit is Markdown. Clone or download, then paste:
+Two ways to get the kit — pip or git.
+
+**pip** (gets the kit files plus a small CLI):
+
+```sh
+pip install mechaniclens
+mechaniclens --spine        # print the one-paste kit
+mechaniclens --copy ./kit   # or copy the whole kit tree out
+```
+
+**git** (the whole repo, including tests and the field-test report):
 
 ```sh
 git clone https://github.com/kitshelf/mechaniclens.git
 ```
 
-The intended run:
+Either way, the run is the same:
 
 1. Open any AI chat. Claude Haiku 5.5 and GPT-6 Luna are the two models tested with v0.1.0, both under $0.01 per decode. Local runtimes are not fast enough to be usable today — see [`shared/local-models.md`](shared/local-models.md).
-2. Paste the kit's spine — [`estimate/SPINE.md`](estimate/SPINE.md), the whole kit in one file.
+2. Paste the kit's spine — `estimate/SPINE.md`, the whole kit in one file. (`mechaniclens --spine` prints it.)
 3. Paste the estimate lines and the symptom story. The kit enforces redaction: if personal identifiers are in the paste, it stops and asks for a redacted re-paste. You do not have to pre-redact.
 4. Read the decode, the labels, and the question script. The kit hands over the questions and stops — it does not approve, decline, or recommend.
 

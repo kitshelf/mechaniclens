@@ -1,6 +1,9 @@
 # Changelog
 
 All notable changes to MechanicLens. Dates are ISO; the format follows Keep a Changelog.
+This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+**Current release:** [v0.1.0](https://github.com/kitshelf/mechaniclens/releases/tag/v0.1.0) · [PyPI](https://pypi.org/project/mechaniclens/) (`pip install mechaniclens`)
 
 ## [0.1.0] 2026-11-22
 

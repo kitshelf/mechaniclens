@@ -26,4 +26,4 @@ Shared material: `../shared/labels.md`, `../shared/anatomy.md`, `../shared/docum
 
 ## Status
 
-Scaffold. The workflow is written; the pattern library is calibrated (32 patterns, 12 still brief-sourced) and the fixtures are planned. See `../ROADMAP.md`.
+**Shipped in v0.1.0.** The workflow is written, the pattern library is calibrated (32 patterns, all exercised by the fixtures), and the 15 fixtures with answer keys are in place. Two hosted models ran the full gauntlet against this kit — see [`../docs/learnings/CONCLUSION.md`](../docs/learnings/CONCLUSION.md). Release: [`v0.1.0`](https://github.com/kitshelf/mechaniclens/releases/tag/v0.1.0) · [`PyPI`](https://pypi.org/project/mechaniclens/) (`pip install mechaniclens`).

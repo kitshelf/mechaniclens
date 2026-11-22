@@ -9,7 +9,7 @@
 
 ## BLUF / TLDR
 
-The kit is **release ready**. Five structural bugs were found by the fixture gauntlet, all five fixed in `estimate/SPINE.md`, all five confirmed closed on two independent hosted models. The harness — runner, validator, fixtures, keys — was never the problem and is shippable. Local models did not work (too slow); two hosted models did, at under $0.01 per decode. Ship v0.1.0.
+The kit is **release ready**. Five structural bugs were found by the fixture gauntlet, all five fixed in `estimate/SPINE.md`, all five confirmed closed on two independent hosted models. The harness — runner, validator, fixtures, keys — was never the problem and is shippable. Local models did not work (too slow); two hosted models did, at under $0.01 per decode. Shipped as v0.1.0 — tagged, released on GitHub, and published to PyPI as [`mechaniclens`](https://pypi.org/project/mechaniclens/).
 
 The headline numbers, post-fix:
 
@@ -280,3 +280,17 @@ Both models pass 04, 05, 08, 10, 14. Both hold the redaction gate (09). Both kee
 - Roadmap: [`ROADMAP.md`](../ROADMAP.md)
 - Changelog: [`CHANGELOG.md`](../CHANGELOG.md)
 - Article draft: [`docs/ARTICLE.md`](../docs/ARTICLE.md)
+
+---
+
+## Distribution
+
+| Channel | Where | What you get |
+|---|---|---|
+| Git repo | https://github.com/kitshelf/mechaniclens | The whole thing — kit, tests, fixtures, field-test report |
+| Release tag | [`v0.1.0`](https://github.com/kitshelf/mechaniclens/releases/tag/v0.1.0) | A stable pinned copy |
+| PyPI | [`mechaniclens`](https://pypi.org/project/mechaniclens/) | The kit as data (21 Markdown files) + a CLI: `pip install mechaniclens`, then `mechaniclens --spine` or `--copy ./kit` |
+
+The PyPI package ships the kit, not a runtime. It has no dependencies, makes no network calls, and runs no model — it locates and copies the Markdown. `scripts/sync_kit.py` copies the kit from the repo into the package at build time, so the repo stays the single source of truth; `mechaniclens/kit/` is git-ignored to prevent drift.
+
+**Not published:** the gauntlet tooling (`tests/run_local.py`, `tests/validate_results.py`). It runs from the repo root with relative paths and is not packaged. If it should ship, that is a separate `mechaniclens-tools` package.

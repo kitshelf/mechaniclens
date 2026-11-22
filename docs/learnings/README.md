@@ -4,6 +4,8 @@ The grounded record of what development, corpus research, and model testing actu
 
 **Start here for the release verdict:** [`CONCLUSION.md`](CONCLUSION.md) — the v0.1.0 field-test report (BLUF, per-fixture breakdown, cost, what worked, what didn't, charter consistency check). It is the single source for the article.
 
+**Release:** [v0.1.0](https://github.com/kitshelf/mechaniclens/releases/tag/v0.1.0) · [PyPI](https://pypi.org/project/mechaniclens/) (`pip install mechaniclens`)
+
 ## The grounding rule
 
 Every learning here cites its artifact — a file, a fixture, a recorded run, a corpus count. Nothing is asserted from memory. If the evidence is not in the kit, it is not a learning; it is an opinion, and it does not belong here.
